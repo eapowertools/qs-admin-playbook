@@ -1,8 +1,7 @@
 /* update font */
 
-html *:not(code > span) {
-    /*    font-size: 1em !important;
-   color: #000 !important; */
+html * {
+/* html *:not(code > span) { */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
