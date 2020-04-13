@@ -1,0 +1,18 @@
+{
+    "name": "remove_tagged_private_sheets",
+    "version": "1.0.0",
+    "description": "This script removes private sheets with a specific tag.",
+    "main": "remove_tagged_private_sheets.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jesse Paris",
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+        "enigma.js": "^2.6.3",
+        "ws": "^7.2.3",
+        "bufferutil": "^4.0.1",
+        "utf-8-validate": "^5.0.2"
+    }
+}

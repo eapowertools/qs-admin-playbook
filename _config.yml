@@ -1,0 +1,23 @@
+remote_theme: pmarsceill/just-the-docs@v0.2.7-r
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+logo: "/assets/images/AdminPlaybook3.png"
+url: "https://adminplaybook.qlik-poc.com"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'highlight'
+aux_links:
+  "Diagnostic Toolkit":
+    - "//diagnostictoolkit.qlik-poc.com"
+  "EA Powertools":
+    - "//github.com/eapowertools"
+  "Qlik Help":
+    - "//help.qlik.com"
+assets:
+  - "*"
