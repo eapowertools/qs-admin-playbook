@@ -1,7 +1,7 @@
 /* update font */
 
 html * {
-/* html *:not(code > span) { */
+    /* html *:not(code > span) { */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -32,10 +32,26 @@ html * {
     opacity: 0.8;
 }
 
+
 /* override button color for code copying icon */
-.snippet > .btn > i {
+
+.snippet>.btn>i {
     color: #212529;
 }
+
+.highlight>pre {
+    background-color: #27292e !important;
+    color: #F8F8F8;
+}
+
+.highlight>pre>code {
+    background-color: #27292e !important;
+}
+
+.language-plaintext * {
+    color: #F8F8F8;
+}
+
 
 /* add borders and hover effects on all images under the .page class */
 
@@ -236,23 +252,23 @@ body {
     opacity: 1
 }
 
+
 /* adjust clippy icon */
 
 .clippy {
     width: 20px;
 }
 
+
 /* Code formatting override */
 
 pre code {
     font-size: 13px important!;
-    background-color: #27292e !important;
 }
 
 code {
     line-height: 1.4 !important;
     font-family: 'Ubuntu Mono', monospace !important;
-    background-color: #27292e !important;
 }
 
 code,
@@ -262,16 +278,13 @@ samp {
     font-size: .95em !important;
 }
 
-pre.highlight, figure.highlight {
-    background-color: #27292e !important;
-}
 
 /* .highlight .nf {
     color: #e6c07b !important;
 } */
 
 .highlight .kr {
-    color: #859900 !important;
+    color: #c678dd !important;
 }
 
 .highlight .o {
@@ -280,4 +293,12 @@ pre.highlight, figure.highlight {
 
 .highlight .nt {
     color: #839496 !important;
+}
+
+.highlight .nx {
+    color: #e6c07b !important;
+}
+
+.highlight .na {
+    color: #e6c07b !important;
 }
