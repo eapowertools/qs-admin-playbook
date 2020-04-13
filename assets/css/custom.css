@@ -1,0 +1,284 @@
+/* update font */
+
+html *:not(code > span) {
+    /*    font-size: 1em !important;
+   color: #000 !important; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Playbook filter selectors */
+
+.playbookFilter {
+    margin: 10px;
+    float: left;
+    display: inline;
+}
+
+
+/* buttons for production, development, and all */
+
+.dev {
+    background-color: #17a2b8;
+    opacity: 0.8;
+}
+
+.prod {
+    background-color: #007bff;
+    opacity: 0.8;
+}
+
+.all {
+    background-color: #eb7734;
+    opacity: 0.8;
+}
+
+/* override button color for code copying icon */
+.snippet > .btn > i {
+    color: #212529;
+}
+
+/* add borders and hover effects on all images under the .page class */
+
+.page img {
+    border-radius: 2px;
+    display: block;
+    margin-bottom: .3rem;
+}
+
+.page img {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+
+.page img:hover {
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -ms-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    -o-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+/* .main-content */
+
+@media (min-width: 44.4444444444rem) {
+    .main-content-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+        overflow-y: scroll
+    }
+}
+
+@media (min-width: 44.4444444444rem) {
+    .main-content {
+        position: relative;
+        margin-left: 248px
+    }
+}
+
+@media (min-width: 59.1111111111rem) {
+    .main-content {
+        margin-left: 375px;
+        max-width: 4000px;
+    }
+}
+
+
+/* sidebar */
+
+@media (min-width: 44.4444444444rem) {
+    .side-bar {
+        flex-wrap: nowrap;
+        position: absolute;
+        width: 248px;
+        height: 100%;
+        flex-direction: column;
+        border-right: 1px solid #eeebee;
+        align-items: flex-end
+    }
+}
+
+@media (min-width: 59.1111111111rem) {
+    .side-bar {
+        width: 375px;
+    }
+}
+
+
+/* navbar */
+
+@media (min-width: 59.1111111111rem) {
+    .navigation,
+    .site-header,
+    .site-footer {
+        width: 325px !important;
+    }
+}
+
+
+/* limit page content width */
+
+.page-content {
+    max-width: 1050px;
+}
+
+
+/* adjust navbar font size */
+
+@media (min-width: 25rem) and (min-width: 40rem) {
+    .navigation-list-item {
+        font-size: 15px !important;
+    }
+}
+
+
+/* adjust navbar spacing */
+
+.navigation-list-link {
+    display: block;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+}
+
+
+/* table font */
+
+@media (min-width: 25rem) {
+    th,
+    td {
+        font-size: 15px !important;
+    }
+}
+
+
+/* body line height */
+
+body {
+    line-height: 1.6;
+}
+
+
+/* page content line height */
+
+.page-content {
+    line-height: 1.6;
+}
+
+
+/* Index page font sizes */
+
+.indexPageTitle {
+    font-size: calc(20px + (40 - 20) * ((100vw - 300px) / (1600 - 300))) !important;
+    line-height: calc(1.6em + (1.8 - 1.5) * ((100vw - 300px)/(1600 - 300))) !important;
+    margin-bottom: 2px !important;
+}
+
+.indexPageSubtitle {
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    line-height: calc(1.6em + (1.8 - 1.5) * ((100vw - 300px)/(1600 - 300))) !important;
+    margin-bottom: 2px !important;
+}
+
+
+/* playbook table line height */
+
+#playbook {
+    line-height: 1.2 !important;
+}
+
+
+/* code tooltip copy buttons */
+
+.clippy {
+    margin-top: -3px;
+    position: relative;
+    top: 3px
+}
+
+.btn[disabled] .clippy {
+    opacity: .3
+}
+
+.snippet {
+    position: relative;
+    overflow: visible;
+    line-height: 20px;
+    background-color: #272b34;
+}
+
+.snippet .btn {
+    -webkit-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+    padding: 2px 6px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 30px;
+}
+
+.snippet:hover .btn,
+.snippet .btn:focus {
+    opacity: 1
+}
+
+/* adjust clippy icon */
+
+.clippy {
+    width: 20px;
+}
+
+/* Code formatting override */
+
+pre code {
+    font-size: 13px important!;
+    background-color: #27292e !important;
+}
+
+code {
+    line-height: 1.4 !important;
+    font-family: 'Ubuntu Mono', monospace !important;
+    background-color: #27292e !important;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-size: .95em !important;
+}
+
+pre.highlight, figure.highlight {
+    background-color: #27292e !important;
+}
+
+/* .highlight .nf {
+    color: #e6c07b !important;
+} */
+
+.highlight .kr {
+    color: #859900 !important;
+}
+
+.highlight .o {
+    color: #839496 !important;
+}
+
+.highlight .nt {
+    color: #839496 !important;
+}
