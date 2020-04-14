@@ -86,7 +86,7 @@ Click the **info** icon next to the user to bring up a pop-up set of additional 
 
 [![Optimize_Audit_License_Allocations_QMC_Users_Info.png](images/Optimize_Audit_License_Allocations_QMC_Users_Info.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/licensing/images/Optimize_Audit_License_Allocations_QMC_Users_Info.png)
 
-When a user directory connector is used, typically a group (IE AD Group, or SAML parameter) will be presented for additional information.
+When a user directory connector is used, typically a group (IE AD Group) will be presented for additional information.
 
 Depending on what is found out about the user the follow-up action is either simply  allocate the single user , or update the licence **allocation rules** from the **License Management** section of the **QMC*.
 
