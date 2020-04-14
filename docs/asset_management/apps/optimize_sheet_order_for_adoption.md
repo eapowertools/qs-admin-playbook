@@ -71,9 +71,9 @@ If the **Operations Monitor** is not up-to-date, please refer to the [Operations
 
 -------------------------
 
-## Select Applications with a Higher or Lower Quantity of Sessions
+## Select Applications with a High and Low Number of Sessions
 
-Before analyzing the sheet usage data, it is a good practice to select specific applications to analyze. It is recommended that one starts with the top five applications with the highest quantity of sessions.
+Before analyzing the sheet usage data, it is a good practice to select specific applications to analyze. It is recommended that the Qlik administrator starts with the top five applications with the highest number of sessions.
 
 Open up the **Operations Monitor** application, inside of **Monitoring Apps** stream.
 
