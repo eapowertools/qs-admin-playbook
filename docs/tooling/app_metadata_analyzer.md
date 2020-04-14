@@ -5,7 +5,7 @@ nav_order: 1
 parent: Tooling Appendix
 ---
 
-# App Metadata Analyzer <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+# App Metadata Analyzer
 {:.no_toc}
 
 <span class="label dev">development</span><span class="label prod">production</span>
@@ -61,7 +61,7 @@ For a demo video and information on the benefits of the application, see: [Analy
 
 -------------------------
 
-## Where to get it <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+## Where to get it
 
 The application can be found under **_%ProgramData%\Qlik\Sense\Repository\DefaultApps_** and is titled _App Metadata Analyzer.qvf_. This however might not be the most recent version of the app, as there have been bug fixes since. The most recent version of the app can be found at [Qlik Community - Sense App Metadata Analyzer](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-App-Metadata-Analyzer/gpm-p/1592163), and can be used from June 2018 and beyond.
 

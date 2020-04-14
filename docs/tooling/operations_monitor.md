@@ -5,7 +5,7 @@ nav_order: 6
 parent: Tooling Appendix
 ---
 
-# Operations Monitor <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+# Operations Monitor
 {:.no_toc}
 
 <span class="label dev">development</span><span class="label prod">production</span>

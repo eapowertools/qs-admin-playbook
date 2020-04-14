@@ -5,7 +5,7 @@ nav_order: 9
 parent: Tooling Appendix
 ---
 
-# Reloads Monitor <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+# Reloads Monitor
 {:.no_toc}
 
 <span class="label dev">development</span><span class="label prod">production</span>
@@ -26,7 +26,7 @@ The Reloads Monitor loads and presents log data about reloads. Reload data is co
 
 -------------------------
 
-## Where to get it <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+## Where to get it
 
 The application can be found under **_%ProgramData%\Qlik\Sense\Repository\DefaultApps_** and is titled _Reloads_Monitor.qvf_. This however might not be the most recent version of the app, as there have been bug fixes since. The most recent version of the app can be found at [Qlik Community - Sense: Sessions Monitor, Reloads Monitor, Log Monitor](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-Sessions-Monitor-Reloads-Monitor-Log-Monitor/gpm-p/1578597), and can be used from April 2018 and beyond.
 
