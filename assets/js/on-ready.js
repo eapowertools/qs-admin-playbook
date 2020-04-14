@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // establish select pickers and add tooltips
+    // establish select pickers
     $('.selectpicker').selectpicker({
         liveSearch: true
     }).on('loaded.bs.select', function(e) {
@@ -12,18 +12,17 @@ $(document).ready(function() {
 
         $lis.each(function(i) {
 
-            // get the description from the option
-            var tooltip_description = $el.find('option').eq(i).attr('description');
+            // get the title from the option
+            var tooltip_title = $el.find('option').eq(i).attr('title');
 
             $(this).tooltip({
-                'description': tooltip_description,
+                'title': tooltip_title,
                 'placement': 'top'
             });
 
         });
 
     });
-
 
     // get full playbook table
     var playbookFullTable = document.getElementById('playbook');
