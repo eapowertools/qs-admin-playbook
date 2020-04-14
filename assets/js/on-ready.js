@@ -9,15 +9,18 @@ $(document).ready(function() {
         // the list items with the options
         var $lis = $el.data('selectpicker').$element[0].options;
 
+        var z = 0;
         for (let i of $lis) {
 
             // get the title from the option
             var tooltip_title = i.title;
 
-            $(this).tooltip({
+            $(this)[0].options[z].tooltip({
                 'title': tooltip_title,
                 'placement': 'top'
             });
+
+            z++;
 
         }
 
