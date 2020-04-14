@@ -270,7 +270,9 @@ For a demo video and information on the benefits of the application, see: [Analy
 
 ## Where to get it
 
-The application can be found under **_%ProgramData%\Qlik\Sense\Repository\DefaultApps_** and is titled _App Metadata Analyzer.qvf_. This however might not be the most recent version of the app, as there have been bug fixes since. The most recent version of the app can be found at [Qlik Community - Sense App Metadata Analyzer](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-App-Metadata-Analyzer/gpm-p/1592163), and can be used from June 2018 and beyond.
+The application can be found in `%ProgramData%\Qlik\Sense\Repository\DefaultApps` on the Qlik Sense Enterprise Server and is titled _App Metadata Analyzer.qvf_ (**Note** Qlik Sense Enterprise September 2019 or newer versions). It is however encouraged to download the latest copy of the app from [Qlik Community - Sense App Metadata Analyzer](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-App-Metadata-Analyzer/gpm-p/1592163) to receive the latest updates and bug fixes.
+
+Either copy of the app can be implemented on a Qlik Sense Enterprise site which is June 2018 or newer.
 
 -------------------------
 
@@ -288,7 +290,7 @@ The application can be found under **_%ProgramData%\Qlik\Sense\Repository\Defaul
 
 ## Documentation
 
-[App Metadata Analyzer - Qlik Help](https://help.qlik.com/en-US/sense-admin/November2019/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Monitoring_QSEoW/app-metadata-analyzer-app.htm)
+[App Metadata Analyzer - Qlik Help](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Monitoring_QSEoW/app-metadata-analyzer-app.htm)
 
 **Tags**
 
