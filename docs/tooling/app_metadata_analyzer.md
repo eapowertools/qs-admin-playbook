@@ -5142,9 +5142,8 @@ Data from this endpoint is derived as part of the app reload process, and theref
     ],
     "has_section_access": false
 }
-  ```
- {:.snippet}
-  
+
+```  
 </details>
 
 -------------------------
