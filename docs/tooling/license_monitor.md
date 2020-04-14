@@ -5,7 +5,7 @@ nav_order: 5
 parent: Tooling Appendix
 ---
 
-# License Monitor <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i>
+# License Monitor
 {:.no_toc}
 
 <span class="label dev">development</span><span class="label prod">production</span>

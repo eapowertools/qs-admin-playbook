@@ -20,7 +20,7 @@ parent: Tooling Appendix
 
 -------------------------
 
-## About <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
+## About
 
 The Qlik Sense QVD Monitor is a Qlik application that reads metadata from QVD files to provide analysis on their sizes, columns and growth over time. The sources for this application are the data connection folders that are supplied in the load script. A similar application has been available for QlikView for many years, but it has now been ported to Qlik Sense in this form. 
 
