@@ -306,7 +306,7 @@ samp {
 
 /*///////////////Right Tooltip w/ Left Arrow////////////////*/
 
-[title] {
+title {
     visibility: hidden;
     width: 150px;
     height: 50px;
@@ -322,7 +322,7 @@ samp {
     left: 110%;
 }
 
-[title]::after {
+title::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -333,6 +333,6 @@ samp {
     border-color: transparent black transparent transparent;
 }
 
-[title]:hover {
+title:hover {
     visibility: visible;
 }
