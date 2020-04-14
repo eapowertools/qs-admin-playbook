@@ -9,7 +9,7 @@ $(document).ready(function() {
         // the list items with the options
         var $lis = $el.data('selectpicker').$element[0].options;
 
-        $lis.each(function(i) {
+        for (let i of $lis) {
 
             // get the title from the option
             var tooltip_title = i.title;
@@ -19,7 +19,7 @@ $(document).ready(function() {
                 'placement': 'top'
             });
 
-        });
+        }
 
     });
 
