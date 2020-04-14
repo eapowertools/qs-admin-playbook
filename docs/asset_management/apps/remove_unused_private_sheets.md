@@ -109,8 +109,8 @@ It is highly suggested to have a corporate policy in place for unused private sh
 **Example Policy**
 
 - Unused sheets will be purged after > 180 days, run at the start of each business quarter.
-- An email blast will go out to all Qlik users two weeks prior to the start of the quarter, letting them know that in order retain their assets, they must ensure that they have been accessed. The simple way to do this is with a non-customized blast, however if NPrinting is available to the corporation, NPrinting could customize the emails to include the specific sheets that would be expiring sent to each specific individual.
-- A reminder email will go out one week following.
+- An email will go out to all Qlik users two weeks prior to the start of the quarter, letting them know that in order retain their assets, they must ensure that they have been accessed during the next two weeks. The simplest way to do this is is with a generic email to all Qlik users, however if Qlik NPrinting is available to the corporation, NPrinting could be used to customize the emails to include the specific sheets that would be expiring sent to each specific individual.
+- A reminder email be sent one week following the initial email.
 
 **A Warning**
 
