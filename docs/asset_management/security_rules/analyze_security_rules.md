@@ -114,9 +114,9 @@ To ensure security rule quality, the following areas are things to look out for 
 
 ## Security Rule Performance
 
-The following guidelines can be used to aid optimization efforts if required.
+The following guidelines can be used to aid optimization efforts if required:
 
-> Be as specific as possible: More filtered results will perform better.
+- Be as specific as possible--more filtered results will perform better (the lower the grain, the better).
 
 |   Resource Filter                          |  Explanation                                                        |   Efficieny               |
 | ------------------------------------------ | ------------------------------------------------------------------- | ------------------------- |
@@ -126,25 +126,25 @@ The following guidelines can be used to aid optimization efforts if required.
 | `App_d1309075-86e8-4784-a9fd-2658ab47018e` | Access the app with the ID `d1309075-86e8-4784-a9fd-2658ab47018e`   | More efficient than above |
 
 
-> Use only the required **Context**
+- Use only the required **Context**
 
-Security rules have context options of **Hub**, **QMC**, or **Both**. Be as specific as possible.
+    - Security rules have context options of **Hub**, **QMC**, or **Both**. Be as specific as possible.
 
-> Avoid traversing several object reference boundaries
+- Avoid traversing several object reference boundaries
 
-An example of this would be `user.@customproperty=resource.app.stream.@customproperty`. In this example the user's custom property is compared to the resource (the thing) which belongs to an app which belongs in a stream which has a custom property.
+    - An example of this would be `user.@customproperty=resource.app.stream.@customproperty`. In this example the user's custom property is compared to the resource (the thing) which belongs to an app which belongs in a stream which has a custom property.
 
-> Minimize the number of custom property values.
+- Minimize the number of custom property values.
 
-Custom properties with 100s of values are expensive to process
+    - Custom properties with 100s of values are expensive to process
 
-> Order of execution matters.
+- Order of execution matters.
 
-For example `resource.app.stream.owner.@a = "b" or user.name = "user1"`. In this example, all owners of stream need to be evaluated for a custom property and only then is the user's name evaluated. Put the more exclusionary clauses to the rule first. Example: `(user.group="rare" and user.group="common")`. This minimizes the number of users who need to evaluate the 2nd clause.
+    - For example `resource.app.stream.owner.@a = "b" or user.name = "user1"`. In this example, all owners of stream need to be evaluated for a custom property and only then is the user's name evaluated. Put the more exclusionary clauses to the rule first. Example: `(user.group="rare" and user.group="common")`. This minimizes the number of users who need to evaluate the 2nd clause.
 
-> Avoid use of `HasPrivilege`
+- Avoid use of `HasPrivilege`
 
-Example: `App.Stream.HasPrivilege("read")`. This function requires additional rule engine to evaluate the read permission check on the App's Stream.
+    - Example: `App.Stream.HasPrivilege("read")`. This function requires additional rule engine to evaluate the read permission check on the App's Stream.
 
 ## QMC - Security Rules
 
