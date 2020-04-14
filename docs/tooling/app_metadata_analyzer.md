@@ -5144,6 +5144,7 @@ Data from this endpoint is derived as part of the app reload process, and theref
 }
 
 ```  
+{:.snippet}
 </details>
 
 -------------------------
