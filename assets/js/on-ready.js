@@ -1,6 +1,7 @@
 $(document).ready(function() {
     // establish select pickers
-    $('.selectpicker').selectpicker().on('loaded.bs.select', function(e) {
+
+    $('#categoryFilter').selectpicker().on('loaded.bs.select', function(e) {
 
         // save the element
         var $el = $(this);
