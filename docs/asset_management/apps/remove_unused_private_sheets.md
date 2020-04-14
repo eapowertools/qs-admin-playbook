@@ -26,7 +26,7 @@ Benefits:
 {:.no_toc}
 In environments where self-service is enabled, i.e. users have the ability to create their own private sheets on published applications, with a high number of users, the number of private sheets can ultimately grow very large. The goal of this section is to illustrate how to put policies/practices in place to consistently keep the number of private sheets under control--allowing for a tidy/more performant site.
 
-**Note that "Public" and "Community" sheets should be handled a bit differently--please refer to:** [Notification of Unused Base/Community Sheets](notification_unused_sheets.md).
+**Note:** that "Base" and "Community" sheets should be handled a bit differently--please refer to [Flag Unused Base/Community Sheets](flag_unused_base_community_sheets.md).
 
 ## Table of Contents
 {:.no_toc}
