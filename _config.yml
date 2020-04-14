@@ -9,6 +9,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  parse_block_html: true
   syntax_highlighter_opts:
     default_lang: html
     css_class: 'highlight'
