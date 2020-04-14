@@ -106,7 +106,7 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 
 **When possible, one should always remove community sheets manually, leaving that responsibility to the owner of the applications. That being said, if there are potentially thousands of community sheets that need to be removed, and this is the first time the organization is starting this management process, it is possible to programmatically remove these assets. This would generally be a one-time operation, as it is suggested to do this process monthly, which should be able to be maintained incrementally.**
 
-The script below will tag any community sheets with the tag _'UnusedCommunitySheet'_. It expects a csv file as an input, where the name of the column with the **Sheet Id** is specified.
+The script below will tag any community sheets with the tag _'UnusedCommunitySheet'_. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the _Sheet Usage_ table in the **Sheet Usage** sheet of the Operations Monitor.
 
 The below script assumes that the desired **Tag** has already been created, e.g. `UnusedCommunitySheet`.
 
