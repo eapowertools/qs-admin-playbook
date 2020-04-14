@@ -84,15 +84,42 @@ In this example, Andrew has **Read** and **Publish** access to the `Monitoring A
 
 ## qs-security-audit <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i> <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-The approach above is fundamentally a manual one and is ideal for ad-hoc scenarios where the Qlik administrator needs to quickly survey who has access to what in their Qlik site, for example after changing a security rule. An alternative one is to do a bulk query programmatically then load the output into a Qlik App. For this approach we will need a script to bulk extract the audit information.
+The approach above is fundamentally a manual one and is ideal for ad-hoc scenarios where the Qlik administrator needs to quickly survey who has access to what in their Qlik site, for example after changing a security rule. An alternative method is to do a bulk query programmatically then load the output into a Qlik App. For this approach we will need a script to bulk extract the audit information.
+
+**_Note that if the Qlik environment is large, this script can take some time to run and can be quite heavy. It is suggested that auditing is kept to the minimum of what is required (i.e., if only data connection audits are needed, set the application and stream variables to $false). Additionally, it is advised to run this script off-hours where possible._**
+
+The below script snippet requires the [Qlik CLI](../tooling/qlik_cli.md).
 
 ```powershell
+# Script to audit user access to: apps, streams, and data connections
+# The script will dump the extracts into the ArchivedLogs folder
+
+################
+## Parameters ##
+################
+
+# Assumes default credentials are used for the Qlik CLI Connection
+
+# machine name
+$computerName = '<machine-name>'
+# leave empty if windows auth is on default VP
+$virtualProxyPrefix = '/default'
+# audit streams? $true or $false
 $auditStreams = $true
+# audit apps? $true or $false
 $auditApps = $true
+# audit data connections? $true or $false
 $auditDataConnections = $true
 
+################
+##### Main #####
+################
 
-Connect-Qlik
+# set the computer name for the Qlik connection call
+$computerNameFull = ($computerName + $virtualProxyPrefix).ToString()
+
+# connect to Qlik
+Connect-Qlik -ComputerName $computerNameFull -UseDefaultCredentials -TrustAllCerts
 
 # Get the Archived Logs folder
 $rootFolder = (Get-QlikServiceCluster -full).settings.sharedPersistenceProperties.archivedLogsRootFolder
@@ -134,7 +161,7 @@ $user | Export-Csv -path "$($rootFolder)\qs-security-audit-csv\users.csv" -NoTyp
 ```
 {:.snippet}
 
-From there we can use [this Qlik App](https://doesnotexistyet.com)...
+After exporting the audit data, it can be loaded into [this Qlik Application](https://doesnotexistyet.com) for analysis.
 
 **Tags**
 
