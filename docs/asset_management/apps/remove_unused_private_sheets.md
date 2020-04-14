@@ -288,7 +288,7 @@ _Note that if it is attempted to use the QRS API to remove sheets instead of the
 2. Edit the following mandatory variables in `remove_tagged_private_sheets.js`
  - `host`
  - `TAG_TO_SEARCH_FOR`
-3. Refer to the following page regarding NPM configuration, which is required to run the script. In short, if the script is being run on a server with Qlik Sense Enterprise running on it, the instance of NodeJS that is installed with Qlik can be leveraged with little effort: [NPM Configuration](../../../helper/npm.md)
+3. Refer to the following page regarding NPM configuration, which is required to run the script. In short, if the script is being run on a server with Qlik Sense Enterprise running on it, the instance of NodeJS that is installed with Qlik can be leveraged with little effort: [NPM Configuration](../../helper/npm.md)
 4. Ensure both `npm` and `node` are in the _Path_. Refer to step 2 above.
 5. Open a cmd prompt, and navigate to the folder from step 1.
 6. Enter `npm install`
