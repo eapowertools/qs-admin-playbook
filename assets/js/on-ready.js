@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // establish select pickers
-    $('.selectpicker').selectpicker({
+    $('#categoryFilter').selectpicker({
         liveSearch: true
     }).on('loaded.bs.select', function(e) {
 
