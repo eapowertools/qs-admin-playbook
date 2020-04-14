@@ -43,11 +43,11 @@ Please refer to the [License Monitor](../../tooling/license_monitor.md) page for
 
 Navigate to the **Monitoring apps** stream and open up the **License Monitor** application.
 
-[![capacity_planning_licenses_1.png](images/capacity_planning_licenses_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_1.png)
+[![capacity_planning_licenses_1.png](images/capacity_planning_licenses_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_1.png)
 
 First and foremost, it is essential to confirm that the **License Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
 
-[![capacity_planning_licenses_0.png](images/capacity_planning_licenses_0.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_0.png)
+[![capacity_planning_licenses_0.png](images/capacity_planning_licenses_0.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_0.png)
 
 If the application is not operational [this support article](https://support.qlik.com/articles/000024083) is a great place to start.
 
@@ -55,11 +55,11 @@ If the application is not operational [this support article](https://support.qli
 
 Select the _Usage Snapshot_ sheet.
 
-[![capacity_planning_licenses_11.png](images/capacity_planning_licenses_11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_11.png)
+[![capacity_planning_licenses_11.png](images/capacity_planning_licenses_11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_11.png)
 
 The four metrics listed in the _Goals_ section can all be found in this object
 
-[![capacity_planning_licenses_10.png](images/capacity_planning_licenses_10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_10.png)
+[![capacity_planning_licenses_10.png](images/capacity_planning_licenses_10.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_10.png)
 
 ## Example Takeaway
 

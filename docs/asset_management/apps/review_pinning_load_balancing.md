@@ -47,7 +47,7 @@ This guide will cover two specific scenarios (2 and 3) from above and link to co
 
 Inside of Qlik Sense Enterprise there is a feature which allows for the administrator to customize the distribution of **apps** in their site across Qlik **Engines**. This feature uses Load Balancing Rules to define the conditions under which Qlik apps should be available on a Qlik Engine. The net effect of this feature is that the administrator has the capability to isolate or segregate Qlik apps based on the needs of their site. An example of this can be illustrated like so:
 
-[![load_balancing-1.png](images/load_balancing-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-1.png)
+[![load_balancing-1.png](images/load_balancing-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-1.png)
 
 In this example the administrator has pinned apps 1 & 2 to the Consume 1 node and apps 3-5 on the Consume 2 node. Apps 1-5 are likewise available to both back-end scheduler nodes.
 
@@ -69,19 +69,19 @@ The [App Metadata Analyzer](../tooling/app_metadata_analyzer.md) can be helpful 
 
 * Create the custom property **NodeType** for apps and nodes with the value option of `Dedicated`.
 
-[![load_balancing-2.png](images/load_balancing-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-2.png)
+[![load_balancing-2.png](images/load_balancing-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-2.png)
 
 * Apply the `Dedicated` value to the node which host the large Qlik apps.
 
-[![load_balancing-3.png](images/load_balancing-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-3.png)
+[![load_balancing-3.png](images/load_balancing-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-3.png)
 
 * Apply the `Dedicated` value to the large Qlik app(s) which will be isolated. Repeat this process for all apps which are to be isolated.
 
-[![load_balancing-4.png](images/load_balancing-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-4.png)
+[![load_balancing-4.png](images/load_balancing-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-4.png)
 
 **Hint**: The Column Selector can enable **NodeType** custom property in the apps section of the QMC to be able to filter on all the apps with the `Dedicated` custom property value assigned.
 
-[![load_balancing-5.png](images/load_balancing-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-5.png)
+[![load_balancing-5.png](images/load_balancing-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-5.png)
 
 * In the **Load balancing rules** section of the QMC, disable the default rule `ResourcesOnNonCentralNodes`. This default rule load balances all apps which are not in the Monitoring Apps stream to all RIM nodes. If there are other customized load balancing rules which are enabled, consider disabling those if they are not integral to your Qlik site.
 
@@ -94,23 +94,23 @@ The [App Metadata Analyzer](../tooling/app_metadata_analyzer.md) can be helpful 
   * **Context**: Both in hub and QMC
 * A Preview will display the effect of the load balancing rule. **Note** It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.
 
-[![load_balancing-6.png](images/load_balancing-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-6.png)
+[![load_balancing-6.png](images/load_balancing-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-6.png)
 
 ### Validation
 
 * Ensure that the Virtual Proxy that will be used by the end users includes both the "Dedicated" node(s) as well as the non-dedicated node(s).
 
-[![load_balancing-7.png](images/load_balancing-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-7.png)
+[![load_balancing-7.png](images/load_balancing-7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-7.png)
 
 * As a user who would be expected to see one of the apps which have been pinned to the Dedicated Node(s), open the Hub.
 
-[![load_balancing-8.png](images/load_balancing-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-8.png)
+[![load_balancing-8.png](images/load_balancing-8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-8.png)
 
 * Open the app:
   * Create a new sheet
   * Add a KPI Visualization Object with the Measure of `=ComputerName()` which is used to display the Engine which is opening the Qlik app
 
-[![load_balancing-9.png](images/load_balancing-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-9.png)
+[![load_balancing-9.png](images/load_balancing-9.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-9.png)
 
 ## Scenario 3 - Segregation of apps by line of business (streams)
 
@@ -120,15 +120,15 @@ In the previous scenario, the Qlik administrator isolated specific Qlik apps to 
 
 * Create the custom property **StreamLevelNode** for streams and nodes with the value options of `Operations` & `Sales`.
 
-[![load_balancing-10.png](images/load_balancing-10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-10.png)
+[![load_balancing-10.png](images/load_balancing-10.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-10.png)
 
 * Apply the `Operations` value to the node which will host that group's apps. Do the same for the `Sales` value.
 
-[![load_balancing-11.png](images/load_balancing-11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-11.png)
+[![load_balancing-11.png](images/load_balancing-11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-11.png)
 
 * Apply the `Operations` value to the Operations stream and `Sales` to the Sales stream.
 
-[![load_balancing-12.png](images/load_balancing-12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-12.png)
+[![load_balancing-12.png](images/load_balancing-12.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-12.png)
 
 * In the **Load balancing rules** section of the QMC, disable the default rule `ResourcesOnNonCentralNodes`. This default rule load balances all apps which are not in the Monitoring Apps stream to all RIM nodes. If there are other customized load balancing rules which are enabled, consider disabling those if they are not integral to your Qlik site.
 
@@ -141,23 +141,23 @@ In the previous scenario, the Qlik administrator isolated specific Qlik apps to 
   * **Context**: Both in hub and QMC
 * A Preview will display the effect of the load balancing rule. **Note** It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.
 
-[![load_balancing-13.png](images/load_balancing-13.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-13.png)
+[![load_balancing-13.png](images/load_balancing-13.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-13.png)
 
 ### Validation
 
 * Ensure that the Virtual Proxy that will be used by the end users includes all RIM nodes. **Note** In this example, apps are only load balanced across two RIM nodes. In another, more robust environment, the administrator will likely want to include at least one additional Engine in order to ensure availability of apps which are not members of the streams which have been isolated.
 
-[![load_balancing-14.png](images/load_balancing-14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-14.png)
+[![load_balancing-14.png](images/load_balancing-14.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-14.png)
 
 * As a user who would be expected to see one of the streams who apps are pinned to an isolated node, open the Hub.
 
-[![load_balancing-15.png](images/load_balancing-15.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-15.png)
+[![load_balancing-15.png](images/load_balancing-15.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-15.png)
 
 * Open the app:
   * Create a new sheet
   * Add a KPI Visualization Object with the Measure of `=ComputerName()` which is used to display the Engine which is opening the Qlik app
 
-[![load_balancing-16.png](images/load_balancing-16.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-16.png)
+[![load_balancing-16.png](images/load_balancing-16.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/images/load_balancing-16.png)
 
 **Tags**
 

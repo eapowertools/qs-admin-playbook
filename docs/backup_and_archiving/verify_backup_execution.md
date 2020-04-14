@@ -45,11 +45,11 @@ With Qlik Sense Enterprise on Windows there are three core components (and an ad
 
 The persistent content used by the site includes things like apps, extensions, and images used in application thumbnails. These are the core elements of a Qlik site. In a disaster, an administrator can use these flattened assets to rebuild a Qlik site from scratch. These pieces of content are stored in the **Service Cluster** for the site. To confirm this location in the QMC go to the **Service Cluster** section.
 
-[![verify-1.png](images/verify-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/backup_and_archiving/images/verify-1.png)
+[![verify-1.png](images/verify-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/backup_and_archiving/images/verify-1.png)
 
 Note the **Root folder**.
 
-[![verify-2.png](images/verify-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/backup_and_archiving/images/verify-2.png)
+[![verify-2.png](images/verify-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/backup_and_archiving/images/verify-2.png)
 
 ### PostgreSQL
 

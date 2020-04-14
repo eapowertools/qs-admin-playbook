@@ -55,23 +55,23 @@ Log Details | Lists servers in the cluster and provides details about license us
 
 ## Screenshots
 
-[![qs_license_monitor_01.png](images/qs_license_monitor_01.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_01.png)
+[![qs_license_monitor_01.png](images/qs_license_monitor_01.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_01.png)
 
-[![qs_license_monitor_02.png](images/qs_license_monitor_02.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_02.png)
+[![qs_license_monitor_02.png](images/qs_license_monitor_02.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_02.png)
 
-[![qs_license_monitor_03.png](images/qs_license_monitor_03.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_03.png)
+[![qs_license_monitor_03.png](images/qs_license_monitor_03.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_03.png)
 
-[![qs_license_monitor_04.png](images/qs_license_monitor_04.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_04.png)
+[![qs_license_monitor_04.png](images/qs_license_monitor_04.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_04.png)
 
-[![qs_license_monitor_05.png](images/qs_license_monitor_05.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_05.png)
+[![qs_license_monitor_05.png](images/qs_license_monitor_05.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_05.png)
 
-[![qs_license_monitor_06.png](images/qs_license_monitor_06.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_06.png)
+[![qs_license_monitor_06.png](images/qs_license_monitor_06.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_06.png)
 
-[![qs_license_monitor_07.png](images/qs_license_monitor_07.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_07.png)
+[![qs_license_monitor_07.png](images/qs_license_monitor_07.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_07.png)
 
-[![qs_license_monitor_08.png](images/qs_license_monitor_08.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_08.png)
+[![qs_license_monitor_08.png](images/qs_license_monitor_08.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_08.png)
 
-[![qs_license_monitor_09.png](images/qs_license_monitor_09.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_09.png)
+[![qs_license_monitor_09.png](images/qs_license_monitor_09.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_license_monitor_09.png)
 
 -------------------------
 

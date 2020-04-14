@@ -52,7 +52,7 @@ As of the February 2019 release, the **Audit Activity Log** capability is now en
 
 This logging must be enabled on _every engine_ that the information is desired from, and is turned on by default on supporting releases.
 
-[![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
+[![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
 
 -------------------------
 
@@ -64,7 +64,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
-[![ops_monitor_operational.png](images/ops_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/ops_monitor_operational.png)
+[![ops_monitor_operational.png](images/ops_monitor_operational.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/ops_monitor_operational.png)
 
 If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
@@ -74,19 +74,19 @@ If the **Operations Monitor** is not up-to-date, please refer to the [Operations
 
 This usage information is then surfaced inside of the **Operations Monitor** on the **Sheet Usage** sheet.
 
-[![notification_unused_sheets_native_2.png](images/notification_unused_sheets_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_2.png)
+[![notification_unused_sheets_native_2.png](images/notification_unused_sheets_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_2.png)
 
 As an example, we'll select the Telemetry Dashboard application on one of our rarely used internal servers, and we can see that the _App Profiling_ base sheet hasn't been accessed in, actually almost exactly one year.
 
-[![notification_unused_sheets_native_3.png](images/notification_unused_sheets_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_3.png)
+[![notification_unused_sheets_native_3.png](images/notification_unused_sheets_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_3.png)
 
 It is suggested that the administrator would add the **App Owner** field to the **Sheet Usage** table, as this table already contains the relevant information needed to report on usage, and the owner field is need to know who to contact.
 
-[![notification_unused_sheets_native_4.png](images/notification_unused_sheets_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_4.png)
+[![notification_unused_sheets_native_4.png](images/notification_unused_sheets_native_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_4.png)
 
 As far as the time range for sheets that are unused (or minimally used), it is suggested to select the _'> 90 days'_ value from the **Latest Activity Range** field -- though this range is ultimately up to the organization.
 
-[![notification_unused_sheets_native_5.png](images/notification_unused_sheets_native_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_5.png)
+[![notification_unused_sheets_native_5.png](images/notification_unused_sheets_native_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_5.png)
 
 -------------------------
 

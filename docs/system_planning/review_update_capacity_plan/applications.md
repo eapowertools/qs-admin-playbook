@@ -45,11 +45,11 @@ Please refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.
 
 Navigate to the **Monitoring apps** stream and open up the **Operations Monitor** application.
 
-[![capacity_planning_users_1.png](images/capacity_planning_users_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_1.png)
+[![capacity_planning_users_1.png](images/capacity_planning_users_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_1.png)
 
 First and foremost, it is essential to confirm that the **Operations Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
 
-[![capacity_planning_users_2.png](images/capacity_planning_licenses_0.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_0.png)
+[![capacity_planning_users_2.png](images/capacity_planning_licenses_0.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_licenses_0.png)
 
 If the application is not operational [this support article](https://support.qlik.com/articles/000024083) is a great place to start.
 
@@ -57,11 +57,11 @@ If the application is not operational [this support article](https://support.qli
 
 Select the _Session Overview_ sheet.
 
-[![capacity_planning_users_11.png](images/capacity_planning_users_11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_11.png)
+[![capacity_planning_users_11.png](images/capacity_planning_users_11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_11.png)
 
 Select the last three months (assuming this exercise is executed quarterly) by selecting the **Month** field in the _User and App Count Trend_ chart.
 
-[![capacity_planning_applications_1.png](images/capacity_planning_applications_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_1.png)
+[![capacity_planning_applications_1.png](images/capacity_planning_applications_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_1.png)
 
 Record the top applications by usage in the _Top 50 Apps_ chart.
 
@@ -69,11 +69,11 @@ Record the top applications by usage in the _Top 50 Apps_ chart.
 
 For the next exercise, the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) is required. Confirm that it is setup, and then navigate to the _Dashboard_ sheet.
 
-[![capacity_planning_applications_3.png](images/capacity_planning_applications_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_3.png)
+[![capacity_planning_applications_3.png](images/capacity_planning_applications_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_3.png)
 
 Find the intersection of the highly used applications from the **Operations Monitor** with applications with high base RAM footprints. In the below, an application that is consistently leveraged has been selected that has a base RAM footprint of ~64 GB RAM. This application has ~600 M records.
 
-[![capacity_planning_applications_4.png](images/capacity_planning_applications_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_4.png)
+[![capacity_planning_applications_4.png](images/capacity_planning_applications_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_4.png)
 
 Two steps need to occur here:
 
@@ -83,11 +83,11 @@ Two steps need to occur here:
 
 Step 1 can quickly be validated by navigating to the _App Availability_ sheet, while that application remains selected.
 
-[![capacity_planning_system_5.png](images/capacity_planning_system_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_system_5.png)
+[![capacity_planning_system_5.png](images/capacity_planning_system_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_system_5.png)
 
 Here, it can easily be seen that out of the three available engine nodes, the application is available on all of them.
 
-[![capacity_planning_applications_5.png](images/capacity_planning_applications_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_5.png)
+[![capacity_planning_applications_5.png](images/capacity_planning_applications_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_5.png)
 
 ## ODAG / NPrinting / InsightBot
 
@@ -95,9 +95,9 @@ Is [ODAG](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Dat
 
 It is best to simply ask the business if unaware, and one can check if ODAG is _able_ to be run by navigating to the QMC and selecting _On-demand apps service_, and then viewing whether _Enable on-demand app service_ is toggled on or off.
 
-[![capacity_planning_applications_6.png](images/capacity_planning_applications_6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_6.png)
+[![capacity_planning_applications_6.png](images/capacity_planning_applications_6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_6.png)
 
-[![capacity_planning_applications_7.png](images/capacity_planning_applications_7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_7.png)
+[![capacity_planning_applications_7.png](images/capacity_planning_applications_7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_applications_7.png)
 
 Is [Qlik NPrinting](https://help.qlik.com/en-US/nprinting/Content/NPrinting/Introduction/Introduction.htm) or [Qlik InsightBot](https://help.qlik.com/en-US/insight-bot/Content/QlikInsightBot/Home.htm) on the horizon or in play?
 

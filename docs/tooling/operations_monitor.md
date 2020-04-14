@@ -61,29 +61,29 @@ Sheet       | Content |
 
 ## Screenshots
 
-[![qs_ops_monitor_01.png](images/qs_ops_monitor_01.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_01.png)
+[![qs_ops_monitor_01.png](images/qs_ops_monitor_01.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_01.png)
 
-[![qs_ops_monitor_02.png](images/qs_ops_monitor_02.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_02.png)
+[![qs_ops_monitor_02.png](images/qs_ops_monitor_02.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_02.png)
 
-[![qs_ops_monitor_03.png](images/qs_ops_monitor_03.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_03.png)
+[![qs_ops_monitor_03.png](images/qs_ops_monitor_03.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_03.png)
 
-[![qs_ops_monitor_04.png](images/qs_ops_monitor_04.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_04.png)
+[![qs_ops_monitor_04.png](images/qs_ops_monitor_04.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_04.png)
 
-[![qs_ops_monitor_05.png](images/qs_ops_monitor_05.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_05.png)
+[![qs_ops_monitor_05.png](images/qs_ops_monitor_05.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_05.png)
 
-[![qs_ops_monitor_06.png](images/qs_ops_monitor_06.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_06.png)
+[![qs_ops_monitor_06.png](images/qs_ops_monitor_06.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_06.png)
 
-[![qs_ops_monitor_07.png](images/qs_ops_monitor_07.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_07.png)
+[![qs_ops_monitor_07.png](images/qs_ops_monitor_07.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_07.png)
 
-[![qs_ops_monitor_08.png](images/qs_ops_monitor_08.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_08.png)
+[![qs_ops_monitor_08.png](images/qs_ops_monitor_08.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_08.png)
 
-[![qs_ops_monitor_09.png](images/qs_ops_monitor_09.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_09.png)
+[![qs_ops_monitor_09.png](images/qs_ops_monitor_09.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_09.png)
 
-[![qs_ops_monitor_10.png](images/qs_ops_monitor_10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_10.png)
+[![qs_ops_monitor_10.png](images/qs_ops_monitor_10.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_10.png)
 
-[![qs_ops_monitor_11.png](images/qs_ops_monitor_11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_11.png)
+[![qs_ops_monitor_11.png](images/qs_ops_monitor_11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_11.png)
 
-[![qs_ops_monitor_12.png](images/qs_ops_monitor_12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_12.png)
+[![qs_ops_monitor_12.png](images/qs_ops_monitor_12.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs_ops_monitor_12.png)
 
 -------------------------
 

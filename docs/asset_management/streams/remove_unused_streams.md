@@ -39,19 +39,19 @@ There are several reasons why empty streams may be present in a Qlik environment
 
 In the QMC, select **Streams**:
 
-[![remove_unused_stream_01.png](images/remove_unused_stream_01.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_01.png)
+[![remove_unused_stream_01.png](images/remove_unused_stream_01.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_01.png)
 
 To view all applications that were published to a specific stream, select the stream name and enter into edit mode.
 
-[![remove_unused_stream_02.png](images/remove_unused_stream_02.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_02.png)
+[![remove_unused_stream_02.png](images/remove_unused_stream_02.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_02.png)
 
 In **Edit** mode, select the **Apps** tab.
 
-[![remove_unused_stream_03.png](images/remove_unused_stream_03.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_03.png)
+[![remove_unused_stream_03.png](images/remove_unused_stream_03.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_03.png)
 
 Applications that were published to this stream will now be visible.
 
-[![remove_unused_stream_04.png](images/remove_unused_stream_04.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_04.png)
+[![remove_unused_stream_04.png](images/remove_unused_stream_04.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/streams/images/remove_unused_stream_04.png)
 
 This process should be repeated for each **Stream** to find unused streams.
 

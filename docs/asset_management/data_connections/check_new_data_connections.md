@@ -37,19 +37,19 @@ Checking for new data connections on a regular basis is one of the ways to help 
 
 In the QMC, select **Data Connections**:
 
-[![check_new_data_connections_native_1.png](images/check_new_data_connections_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_1.png)
+[![check_new_data_connections_native_1.png](images/check_new_data_connections_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_1.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **Connection String**, **Type**, and **Created** columns.
 
-[![check_new_data_connections_native_2.png](images/check_new_data_connections_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_2.png)
+[![check_new_data_connections_native_2.png](images/check_new_data_connections_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_2.png)
 
 Now select the filter icon for the **Created** column, and then select the filter of **Last seven days**, or the desired range.
 
-[![check_new_data_connections_native_3.png](images/check_new_data_connections_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_3.png)
+[![check_new_data_connections_native_3.png](images/check_new_data_connections_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_3.png)
 
 Lastly, review the resulting table and view any new data connections.
 
-[![check_new_data_connections_native_4.png](images/check_new_data_connections_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_4.png)
+[![check_new_data_connections_native_4.png](images/check_new_data_connections_native_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/check_new_data_connections_native_4.png)
 
 -------------------------
 

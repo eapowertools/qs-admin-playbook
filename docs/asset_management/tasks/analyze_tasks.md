@@ -47,47 +47,47 @@ As outlined on [Optimize Batch Window](../system_planning/optimize_batch_window.
 
 To determine whether apps have duplicative reload tasks, open the Operations Monitor app and Duplicate the **Task Details Sheet**.
 
-[![analyze_tasks-1.png](images/analyze_tasks-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-1.png)
+[![analyze_tasks-1.png](images/analyze_tasks-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-1.png)
 
 Give the new sheet a descriptive name. For example `Task Details (Duplicates)`.
 
-[![analyze_tasks-2.png](images/analyze_tasks-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-2.png)
+[![analyze_tasks-2.png](images/analyze_tasks-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-2.png)
 
 Remove both tables as we will build a custom table for our needs.
 
-[![analyze_tasks-3.png](images/analyze_tasks-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-3.png)
+[![analyze_tasks-3.png](images/analyze_tasks-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-3.png)
 
 Drag in a table visualization object and add the dimension `Task App Name`.
 
-[![analyze_tasks-4.png](images/analyze_tasks-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-4.png)
+[![analyze_tasks-4.png](images/analyze_tasks-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-4.png)
 
 Add a measure.
 
-[![analyze_tasks-5.png](images/analyze_tasks-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-5.png)
+[![analyze_tasks-5.png](images/analyze_tasks-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-5.png)
 
 Select the measure `Task Name` and chose the aggregation of `Count()`.
 
-[![analyze_tasks-6.png](images/analyze_tasks-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-6.png)
+[![analyze_tasks-6.png](images/analyze_tasks-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-6.png)
 
 Change the label of the measure to a meaningful label like **# of Tasks**.
 
-[![analyze_tasks-7.png](images/analyze_tasks-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-7.png)
+[![analyze_tasks-7.png](images/analyze_tasks-7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-7.png)
 
 Move the **# of Tasks** to be sorted first.
 
-[![analyze_tasks-8.png](images/analyze_tasks-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-8.png)
+[![analyze_tasks-8.png](images/analyze_tasks-8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-8.png)
 
 Edit the dimension and remove null values.
 
-[![analyze_tasks-9.png](images/analyze_tasks-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-9.png)
+[![analyze_tasks-9.png](images/analyze_tasks-9.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-9.png)
 
 The completed table should look similar to this and will signal what apps have duplicative reload tasks.
 
-[![analyze_tasks-10.png](images/analyze_tasks-10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-10.png)
+[![analyze_tasks-10.png](images/analyze_tasks-10.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-10.png)
 
 Taking the example of the app named `5k Random Data`, navigate to the QMC > Apps, go into the App's record and navigate to the **Tasks** section. This will show the tasks associated with a given app.
 
-[![analyze_tasks-11.png](images/analyze_tasks-11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-11.png)
+[![analyze_tasks-11.png](images/analyze_tasks-11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-11.png)
 
 There may be use cases for apps to have multiple tasks (e.g. run every day at 6AM and Noon) but review the duplicates and follow up with the app owner as to whether the currently configured duplicates have business value or are legacy tasks which can be removed.
 
@@ -99,11 +99,11 @@ As outlined on [Optimize Batch Window](../system_planning/optimize_batch_window.
 
 For this activity, navigate to the **Task Details** sheet of the Operations Monitor.
 
-[![analyze_tasks-12.png](images/analyze_tasks-12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-12.png)
+[![analyze_tasks-12.png](images/analyze_tasks-12.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-12.png)
 
 In the Reload Summary Statistics table, sort by Failure Rate.
 
-[![analyze_tasks-15.png](images/analyze_tasks-15.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-15.png)
+[![analyze_tasks-15.png](images/analyze_tasks-15.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-15.png)
 
 **Action**
 
@@ -117,11 +117,11 @@ In the Reload Summary Statistics table, sort by Failure Rate.
 
 To aid in this analysis, in the Reload Details table, select the Reload Status of Failed.
 
-[![analyze_tasks-13.png](images/analyze_tasks-13.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-13.png)
+[![analyze_tasks-13.png](images/analyze_tasks-13.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-13.png)
 
 In the Reload Details table, granular details of the tasks that have failed will allow the Qlik administrator to see correlations.
 
-[![analyze_tasks-14.png](images/analyze_tasks-14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-14.png)
+[![analyze_tasks-14.png](images/analyze_tasks-14.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/analyze_tasks-14.png)
 
 **Tags**
 

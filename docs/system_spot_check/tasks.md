@@ -36,19 +36,19 @@ The goal for this spot-check is to be aware of any task failures which have occu
 
 In the QMC, select **Tasks**:
 
-[![check_tasks-1.png](images/check_tasks-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-1.png)
+[![check_tasks-1.png](images/check_tasks-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-1.png)
 
 For smaller deployments, a simple sorting of the **Last execution** column can be done to focus on recently executed tasks:
 
-[![check_tasks-2.png](images/check_tasks-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-2.png)
+[![check_tasks-2.png](images/check_tasks-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-2.png)
 
 For deployments with a great number of reload tasks, further filtering can be done using the filter option in the **Last execution** column to provide greater specificity:
 
-[![check_tasks-3.png](images/check_tasks-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-3.png)
+[![check_tasks-3.png](images/check_tasks-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-3.png)
 
 To do a cursory exploration of the task failure, select the **i** icon to bring up an informational modal for the reload task:
 
-[![check_tasks-4.png](images/check_tasks-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-4.png)
+[![check_tasks-4.png](images/check_tasks-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-4.png)
 
  * **Note** : Reload tasks have two primary components:
    * (a) : Initiation of the reload task from the Qlik Repository Service to the Qlik Scheduler Service which determines an available Qlik Engine to execute the reload task.

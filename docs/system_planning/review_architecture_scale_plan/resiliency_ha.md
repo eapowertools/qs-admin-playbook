@@ -40,7 +40,7 @@ When speaking about resiliency and high availability within the context of Qlik 
     - The file share must be resilient
   - Requires 2+ Qlik nodes with all services enabled, with 1+ nominated as failover candidates
   
-[![architecture-6.png](images/architecture-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-6.png)
+[![architecture-6.png](images/architecture-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-6.png)
 
 For information regarding the persistence layer (repository database and file share), please refer to [Persistence](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Persistence.htm).
 

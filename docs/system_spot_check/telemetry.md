@@ -45,7 +45,7 @@ The Qlik Sense Telemetry Dashboard is a project created and maintained by the En
 
 Open the Qlik Sense Telemetry Dashboard application and navigate to the **Details** sheet. Inside this sheet, drill to the most recent day (since this task is a daily task), select the relevant **Request Filters**, and drill to the **Process Time** values which broach the threshold that you are interested in. Example:
 
-[![telemetry-1.gif](images/telemetry-1.gif)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/telemetry-1.gif)
+[![telemetry-1.gif](images/telemetry-1.gif)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/telemetry-1.gif)
 
 For this example, we are interested in Visualization objects, App Open Events, and Reloads which have taken more than 30 seconds.
 

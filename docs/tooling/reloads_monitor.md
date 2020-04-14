@@ -44,15 +44,15 @@ Once you open the Reloads Monitor application in your Work area of the Hub, foll
 
 ## Screenshots
 
-[![reloads_monitor_01](images/reloads_monitor_01.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_01.png)
+[![reloads_monitor_01](images/reloads_monitor_01.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_01.png)
 
-[![reloads_monitor_01](images/reloads_monitor_02.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_02.png)
+[![reloads_monitor_01](images/reloads_monitor_02.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_02.png)
 
-[![reloads_monitor_01](images/reloads_monitor_03.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_03.png)
+[![reloads_monitor_01](images/reloads_monitor_03.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_03.png)
 
-[![reloads_monitor_01](images/reloads_monitor_04.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_04.png)
+[![reloads_monitor_01](images/reloads_monitor_04.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_04.png)
 
-[![reloads_monitor_01](images/reloads_monitor_05.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_05.png)
+[![reloads_monitor_01](images/reloads_monitor_05.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/reloads_monitor_05.png)
 
 -------------------------
 

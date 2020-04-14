@@ -69,13 +69,13 @@ The application can be found under **_%ProgramData%\Qlik\Sense\Repository\Defaul
 
 ## Screenshots
 
-[![sense_app_metadata_analyzer_dashboard.png](images/sense_app_metadata_analyzer_dashboard.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_dashboard.png)
+[![sense_app_metadata_analyzer_dashboard.png](images/sense_app_metadata_analyzer_dashboard.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_dashboard.png)
 
-[![sense_app_metadata_analyzer_threshold.png](images/sense_app_metadata_analyzer_threshold.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_threshold.png)
+[![sense_app_metadata_analyzer_threshold.png](images/sense_app_metadata_analyzer_threshold.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_threshold.png)
 
-[![sense_app_metadata_analyzer_app_analysis.png](images/sense_app_metadata_analyzer_app_analysis.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_analysis.png)
+[![sense_app_metadata_analyzer_app_analysis.png](images/sense_app_metadata_analyzer_app_analysis.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_analysis.png)
 
-[![sense_app_metadata_analyzer_app_availability.png](images/sense_app_metadata_analyzer_app_availability.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_availability.png)
+[![sense_app_metadata_analyzer_app_availability.png](images/sense_app_metadata_analyzer_app_availability.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_availability.png)
 
 -------------------------
 

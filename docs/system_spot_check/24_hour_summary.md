@@ -36,7 +36,7 @@ The goal for this spot-check is use the [Operations Monitor](../tooling/operatio
 
 Open the Operations Monitor application and navigate to the **24-Hour Summary** sheet:
 
-[![24hour-1.png](images/24hour-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/24hour-1.png)
+[![24hour-1.png](images/24hour-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_spot_check/images/24hour-1.png)
 
 On this sheet, there are 6 distinct KPIs and 1 table which are of note. For the KPIs the administrator can click on the relevant KPI to drill into a detailed sheet should the need arise.
 

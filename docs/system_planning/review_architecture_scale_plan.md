@@ -111,17 +111,17 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 **Growth Environment**
 
-[![architecture-10.png](images/architecture-10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-10.png)
+[![architecture-10.png](images/architecture-10.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/architecture-10.png)
 
 **Enterprise Environment**
 
-[![architecture-11.png](images/architecture-11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-11.png)
+[![architecture-11.png](images/architecture-11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/architecture-11.png)
 
 ### AWS Diagram Example
 
 **Enterprise Environment**
 
-[![architecture-8.png](images/architecture-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-8.png)
+[![architecture-8.png](images/architecture-8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/architecture-8.png)
 
 \* Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include VPCs, AZs, SGs, Network ACLs, all the better -- however it goes beyond the basics of this exercise.
 
@@ -133,7 +133,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 **Enterprise Environment**
 
-[![architecture-9.png](images/architecture-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-9.png)
+[![architecture-9.png](images/architecture-9.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/architecture-9.png)
 
 \* Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include Virtual Networks, Subnets, Resource Groups, etc, all the better -- however it goes beyond the basics of this exercise.
 

@@ -65,7 +65,7 @@ Prior to upgrading a Qlik site, the Qlik administrator should review available d
 - **help.qlik.com**: Access [help.qlik.com](https://help.qlik.com) to review the "What's New" section for the targeted release _as well as_ all incremental releases to document the expected new features which may be relevant to the organization's users. For example, the [Qlik Sense November 2019 release](https://help.qlik.com/en-US/sense/November2019/Content/Sense_Helpsites/WhatsNew/What-is-new-Nov2019.htm) includes improved accumulation options in bar charts, line charts, combo charts, and tables. Document the new features for review by the organization's developers for inclusion in their Qlik apps.
 - **Qlik Support's Knowledge Base**: Access the [Qlik Support Portal](https://support.qlik.com/) to search for known issues in the target release of Qlik Sense Enterprise. While it is uncommon for a major issue to be found in a release of Qlik Sense Enterprise, it can occur. The administrator should do a survey of articles provided by Qlik Support to stay abreast of any issues which might be encountered upon their organization's upgrade.
 
-[![upgrade-1.png](images/upgrade-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/upgrade-1.png)
+[![upgrade-1.png](images/upgrade-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/upgrade-1.png)
 
 
 - **Qlik Community**: Access [Qlik Community](https://community.qlik.com/) with special attention to [Qlik Support's Support Updates Blog](https://community.qlik.com/t5/Qlik-Support-Updates-Blog/bg-p/qlik-support-updates-blog) to review notices which may impact the organization's upgrade process.

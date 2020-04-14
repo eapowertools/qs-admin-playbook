@@ -40,33 +40,33 @@ Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) pa
 
 Navigate to the **Monitoring apps** stream and open up the **Operations Monitor** application.
 
-[![capacity_planning_users_1.png](images/capacity_planning_users_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_1.png)
+[![capacity_planning_users_1.png](images/capacity_planning_users_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_1.png)
 
 First and foremost, it is essential to confirm that the **Operations Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
 
-[![capacity_planning_users_2.png](images/capacity_planning_users_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_2.png)
+[![capacity_planning_users_2.png](images/capacity_planning_users_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_2.png)
 
 ### Gather Metrics
 
 Select the _Session Overview_ sheet.
 
-[![capacity_planning_users_11.png](images/capacity_planning_users_11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_11.png)
+[![capacity_planning_users_11.png](images/capacity_planning_users_11.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_11.png)
 
 Now, assuming this capacity plan exercise is in fact being executed quarterly, select the last three months of session data. This can easily be achieved by selecting the target months in the _User and App Count Trend_ chart in the bottom right. The _Latest Activity Measure_ field that always has one selected does not apply to this area, and only applies to sheet usage--so it can be ignored.
 
-[![capacity_planning_users_12.png](images/capacity_planning_users_12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_12.png)
+[![capacity_planning_users_12.png](images/capacity_planning_users_12.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_12.png)
 
 While remaining on this sheet, take note of the _Max Concurrent Users_ KPI. This is the _Peak Concurrency_ KPI mentioned above, and is critical to help plan for growth from an architecture perspective.
 
-[![capacity_planning_users_14.png](images/capacity_planning_users_14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_14.png)
+[![capacity_planning_users_14.png](images/capacity_planning_users_14.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_14.png)
 
 Following, select the _Session Details_ sheet.
 
-[![capacity_planning_users_3.png](images/capacity_planning_users_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_3.png)
+[![capacity_planning_users_3.png](images/capacity_planning_users_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_3.png)
 
 Next, be sure to review the _App Session Summary_ object as well as the _User Session Summary_ objects as they display valuable information, such as how many individual sessions users have had, and against what applications. These are very useful metrics both for overall user usage and adoption, and will impact the [Applications](applications.md) section of the capacity plan.
 
-[![capacity_planning_users_4.png](images/capacity_planning_users_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_4.png)
+[![capacity_planning_users_4.png](images/capacity_planning_users_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_4.png)
 
 That being said, two additional metrics that are not available by default on the sheet should be added:
 
@@ -77,19 +77,19 @@ These two metrics will help to identify and bucket how many active and semi-acti
 
 To add these two metrics, start by duplicating the sheet.
 
-[![capacity_planning_users_5.png](images/capacity_planning_users_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_5.png)
+[![capacity_planning_users_5.png](images/capacity_planning_users_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_5.png)
 
 Following, find space for two KPI objects. For example, shrink down the _User Session Summary_ table, and insert two KPI objects above it.
 
-[![capacity_planning_users_6.png](images/capacity_planning_users_6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_6.png)
+[![capacity_planning_users_6.png](images/capacity_planning_users_6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_6.png)
 
 Next, select the first KPI and add the measure:
 
 `Count({<[User Name]={"=Sum([Session Count])>0"}>}DISTINCT [User Name])`
 
-[![capacity_planning_users_7.png](images/capacity_planning_users_7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_7.png)
+[![capacity_planning_users_7.png](images/capacity_planning_users_7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_7.png)
 
-[![capacity_planning_users_8.png](images/capacity_planning_users_8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_8.png)
+[![capacity_planning_users_8.png](images/capacity_planning_users_8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_8.png)
 
 Name this KPI: _Active Users: 1+ Sessions_
 
@@ -99,7 +99,7 @@ Next, repeat the process above for adding the following expression to the second
 
 Name this KPI: _Active Users: 5+ Sessions_
 
-[![capacity_planning_users_9.png](images/capacity_planning_users_9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_9.png)
+[![capacity_planning_users_9.png](images/capacity_planning_users_9.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_users_9.png)
 
 ## Example Takeaway
 
