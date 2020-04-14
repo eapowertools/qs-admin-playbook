@@ -71,17 +71,17 @@ Removing unused connections makes general administration easier, as there is les
 
 ## Screenshots
 
-[![qs-data-connection-analyzer-2.png](images/qs-data-connection-analyzer-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-2.png)
+[![qs-data-connection-analyzer-2.png](images/qs-data-connection-analyzer-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-2.png)
 
-[![qs-data-connection-analyzer-3.png](images/qs-data-connection-analyzer-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-3.png)
+[![qs-data-connection-analyzer-3.png](images/qs-data-connection-analyzer-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-3.png)
 
-[![qs-data-connection-analyzer-4.png](images/qs-data-connection-analyzer-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-4.png)
+[![qs-data-connection-analyzer-4.png](images/qs-data-connection-analyzer-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-4.png)
 
-[![qs-data-connection-analyzer-5.png](images/qs-data-connection-analyzer-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-5.png)
+[![qs-data-connection-analyzer-5.png](images/qs-data-connection-analyzer-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-5.png)
 
-[![qs-data-connection-analyzer-6.png](images/qs-data-connection-analyzer-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-6.png)
+[![qs-data-connection-analyzer-6.png](images/qs-data-connection-analyzer-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-6.png)
 
-[![qs-data-connection-analyzer-7.png](images/qs-data-connection-analyzer-7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-7.png)
+[![qs-data-connection-analyzer-7.png](images/qs-data-connection-analyzer-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/qs-data-connection-analyzer-7.png)
 
 -------------------------
 
