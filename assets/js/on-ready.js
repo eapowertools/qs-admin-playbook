@@ -4,12 +4,8 @@ $(document).ready(function() {
         liveSearch: true
     }).on('loaded.bs.select', function(e) {
 
-        // console.log('bs.select loaded event');
-
         // save the element
         var $el = $(this);
-
-        // console.log( $el.data('selectpicker') );
 
         // the list items with the options
         var $lis = $el.data('selectpicker').$lis;
