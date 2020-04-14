@@ -35,11 +35,11 @@ This activity will center around auditing what assets (e.g. apps, streams, data 
 
 To audit access using the QMC, navigate to the `Audit` section of the QMC.
 
-[![user_access-1.png](images/user_access-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-1.png)
+[![user_access-1.png](images/user_access-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-1.png)
 
 The available options are displayed across the top pane of the Audit section.
 
-[![user_access-2.png](images/user_access-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-2.png)
+[![user_access-2.png](images/user_access-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-2.png)
 
 1. **Target Resource**: The Qlik thing you are auditing. Examples include: Streams, Apps, etc.
 2. **(Optional) Filtering of 1**: In this section you can filter to a subset of the type of thing selected for 1.
@@ -48,7 +48,7 @@ The available options are displayed across the top pane of the Audit section.
 
 The resulting audit will highlight whether the user(s) have access to the Qlik thing(s).
 
-[![user_access-3.png](images/user_access-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-3.png)
+[![user_access-3.png](images/user_access-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-3.png)
 
 From [the documentation](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/audit-overview.htm), we can interpret the colors used in the audit:
 
@@ -58,28 +58,28 @@ From [the documentation](https://help.qlik.com/en-US/sense-admin/Subsystems/Depl
 
 In this example, Andrew has **Read** and **Publish** access to the `Monitoring Apps` stream. By selecting the cell for the action that we are interested in, we can see what rule(s) are providing access.
 
-[![user_access-4.png](images/user_access-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-4.png)
+[![user_access-4.png](images/user_access-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-4.png)
 
-[![user_access-5.png](images/user_access-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-5.png)
+[![user_access-5.png](images/user_access-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-5.png)
 
 ### Tips
 
 - Be sure to set an appropriate context. Security rules can be applied to the QMC, Hub, or Both. The default value for this is Both which will result in showing access if the user has access to the asset _either_ in the QMC and/or Hub. If this is the intended audit, then the default choice is acceptable. But for most use cases, the administrator will want to be specific about the context.
 
-[![user_access-6.png](images/user_access-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-6.png)
+[![user_access-6.png](images/user_access-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-6.png)
 
 - (1) : In the Upper right hand corner the administrator can select **Privileges to audit** which will allow the administrator to select which security rule actions they are auditing.
 - (2) : The list of available Privileges changes as the administrator changes the `Target Resource` since the types of action(s) which can be applied to a Qlik entity inside of a security rule varies. For example, the Export Data action is applied at the App level. That action neither exists nor makes sense at the Stream level since Streams do not contain data.
 
-[![user_access-7.png](images/user_access-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-7.png)
+[![user_access-7.png](images/user_access-7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-7.png)
 
 - The administrator can audit Security, Load Balancing, or License rules using the Audit interface.
 
-[![user_access-8.png](images/user_access-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-8.png)
+[![user_access-8.png](images/user_access-8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-8.png)
 
 - If using Session Attributes ([example](https://community.qlik.com/t5/Qlik-Design-Blog/User-Environment-What-Session-Attributes-in-Qlik-Sense/ba-p/1476590)), the administrator can _simulate_ the effect should the attribute be present. Since session attributes are not stored by Qlik Sense Enterprise, the administrator will need to type / paste in the values here.
 
-[![user_access-9.png](images/user_access-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/audit/images/user_access-9.png)
+[![user_access-9.png](images/user_access-9.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/audit/images/user_access-9.png)
 
 
 ## qs-security-audit <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i> <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>

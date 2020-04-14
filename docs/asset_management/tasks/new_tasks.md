@@ -37,19 +37,19 @@ Checking for new tasks regularly helps not only to curate what is necessary (cad
 
 In the QMC, select **Tasks**:
 
-[![check_tasks_native_1.png](images/check_tasks_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1.png)
+[![check_tasks_native_1.png](images/check_tasks_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **Created** column.
 
-[![check_tasks_native_2.png](images/check_tasks_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_2.png)
+[![check_tasks_native_2.png](images/check_tasks_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_2.png)
 
 Now select the filter icon for the **Created** column, and then select the filter of **Last seven days**, or the desired range.
 
-[![check_tasks_native_3.png](images/check_tasks_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_3.png)
+[![check_tasks_native_3.png](images/check_tasks_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_3.png)
 
 Lastly, review the resulting table and view any new tasks.
 
-[![check_tasks_native_4.png](images/check_tasks_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_4.png)
+[![check_tasks_native_4.png](images/check_tasks_native_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_4.png)
 
 -------------------------
 
@@ -57,29 +57,29 @@ Lastly, review the resulting table and view any new tasks.
 
 Open up the Hub and navigate to **Monitoring apps** stream. Select the **Operations Monitor** application.
 
-[![check_tasks_native_1_1.png](images/check_tasks_native_1_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_1.png)
+[![check_tasks_native_1_1.png](images/check_tasks_native_1_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_1.png)
 
 From the **App overview** page, select the **Task Details** sheet.
 
-[![check_tasks_native_1_2.png](images/check_tasks_native_1_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_2.png)
+[![check_tasks_native_1_2.png](images/check_tasks_native_1_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_2.png)
 
 Select **Duplicate**, as wa column will be added that isn't currently in a table.
 
-[![check_tasks_native_1_3.png](images/check_tasks_native_1_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_3.png)
+[![check_tasks_native_1_3.png](images/check_tasks_native_1_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_3.png)
 
 In **Edit** mode, select the **Reload Summary Statistics** table and shrink it to allow for more real estate, as another table will be added.
 
 Drag in a new table object, and add the dimension of **Task Name**.
 
-[![check_tasks_native_1_4.png](images/check_tasks_native_1_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_4.png)
+[![check_tasks_native_1_4.png](images/check_tasks_native_1_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_4.png)
 
 Next, the **Task Created** dimension needs to be added to that table. Note that reloads from the Hub and manual reloads will not show a created date.
 
-[![check_tasks_native_1_5.png](images/check_tasks_native_1_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_5.png)
+[![check_tasks_native_1_5.png](images/check_tasks_native_1_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_5.png)
 
 It is now possible to sort by the **Task Created** column to view new tasks.
 
-[![check_tasks_native_1_6.png](images/check_tasks_native_1_6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_6.png)
+[![check_tasks_native_1_6.png](images/check_tasks_native_1_6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_6.png)
 
 For deeper analysis into tasks, refer to [Analyze Tasks](analyze_tasks.md)
 

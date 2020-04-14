@@ -43,37 +43,37 @@ Some of the outcomes:
 
 In the QMC, select **Custom Properties**:
 
-[![check_new_custom_properties_native_1.png](images/check_new_custom_properties_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_1.png)
+[![check_new_custom_properties_native_1.png](images/check_new_custom_properties_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_1.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **Created**, **Last modified**, and **Modified by** columns.
 
-[![check_new_custom_properties_native_2.png](images/check_new_custom_properties_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_2.png)
+[![check_new_custom_properties_native_2.png](images/check_new_custom_properties_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_2.png)
 
 Now select the filter icon for the **Created** column, and then select the filter of **Last seven days**, or the desired range.
 
-[![check_new_custom_properties_native_3.png](images/check_new_custom_properties_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_3.png)
+[![check_new_custom_properties_native_3.png](images/check_new_custom_properties_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_3.png)
 
 Take the time to review the results and potentially reach out to their creators if they are brand new custom properties. Ensure that the same steps above are followed to filter on **Last modified** as well.
 
 Next, it is encouraged to select the custom property and view its values and its applicable resources.
 
-[![check_new_custom_properties_native_4.png](images/check_new_custom_properties_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_4.png)
+[![check_new_custom_properties_native_4.png](images/check_new_custom_properties_native_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_4.png)
 
 Lastly, it is simple to check if the custom property is being used in any security rules. Navigate to the **Security Rules** section in the QMC.
 
-[![check_new_custom_properties_native_sec.png](images/check_new_custom_properties_native_sec.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_sec.png)
+[![check_new_custom_properties_native_sec.png](images/check_new_custom_properties_native_sec.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_sec.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **Conditions** column.
 
-[![check_new_custom_properties_native_5.png](images/check_new_custom_properties_native_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_5.png)
+[![check_new_custom_properties_native_5.png](images/check_new_custom_properties_native_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_5.png)
 
 Now select the filter icon for the **Conditions** column, and then enter the name of the custom property, prepended by the **@** symbol, which denotes the use of a custom property in a security rule, e.g. _@Department_.
 
-[![check_new_custom_properties_native_6.png](images/check_new_custom_properties_native_6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_6.png)
+[![check_new_custom_properties_native_6.png](images/check_new_custom_properties_native_6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_6.png)
 
 If any security rules are using this rule, they will be visible, so the rule can then be explored to confirm whether it is enabled or disabled.
 
-[![check_new_custom_properties_native_7.png](images/check_new_custom_properties_native_7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_7.png)
+[![check_new_custom_properties_native_7.png](images/check_new_custom_properties_native_7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/custom_properties/images/check_new_custom_properties_native_7.png)
 
 -------------------------
 

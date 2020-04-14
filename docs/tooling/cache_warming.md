@@ -21,7 +21,7 @@ parent: Tooling Appendix
 ## About
 Cache Warming in Qlik Sense Enterprise refers to programmatically opening Qlik applications so that the base application is preloaded into RAM before users attempt to open the application. When users open and interact with a Qlik application, there are three types of caching which occur. This can be visualized using this example:
 
-[![cache_warming-1.png](images/cache_warming-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/cache_warming-1.png)
+[![cache_warming-1.png](images/cache_warming-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/cache_warming-1.png)
 
 (taken from [Qlik Engine Technical Brief](https://www.qlik.com/us/-/media/files/resource-library/global-us/direct/datasheets/ds-technical-brief-qlik-associative-engine-memory-management-cpu-en.pdf))
 
@@ -39,7 +39,7 @@ For many deployments of Qlik Sense Enterprise, an administrator may want to redu
 
 The Qlik Engine is configured to retain the **Base App** RAM for a period of time. By default this time period is 28,800 seconds (or 8 hours) but can be configured in the QMC > Engines > Edit > Apps > `App cache time (seconds)`:
 
-[![cache_warming-2.png](images/cache_warming-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/cache_warming-2.png)
+[![cache_warming-2.png](images/cache_warming-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/tooling/images/cache_warming-2.png)
 
 This means that the administrator needs to plan to execute a cache warming frequency that is aware of this configuration. Practically the two options are:
 

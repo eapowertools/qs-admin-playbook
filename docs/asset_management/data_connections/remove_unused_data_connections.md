@@ -86,12 +86,12 @@ There are two sheets that should be focused on within that application:
   - This sheet illustrates connections that were at one point active, but sometime over the last 90 days, they have fallen inactive--meaning, there are currently no applications that leverage them. This variable is configurable in the load script, and should be set according to corporate policy.
   `SET vNumDaysForUsedDataConnectionToBeConsideredUnused = 90;`
   
-  [![unused_data_connections_native_1.png](images/unused_data_connections_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_1.png)
+  [![unused_data_connections_native_1.png](images/unused_data_connections_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_1.png)
 
 - _Unused Connection Analysis_
   - This sheet shows connections that have been used, by the only apps that ever used them have been deleted, as well as connections that have never been used.
 
-  [![unused_data_connections_native_2.png](images/unused_data_connections_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_2.png)
+  [![unused_data_connections_native_2.png](images/unused_data_connections_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_2.png)
 
 -------------------------
 
@@ -113,7 +113,7 @@ An example of "Quarantining" a data connection can be done by following these st
 	
 These name change ensures that the data connection cannot be read in an application's script by the scheduler, and owner change confirms that the original owner of the user can no longer read the connection via the default security rule `OwnerRead`, and the security rule modifications ensure that the users cannot read the data connections by some other custom data connection rules if they have a value in the `QuarantinedDataConnection` custom property.
 
-[![unused_data_connections_native_3.png](images/unused_data_connections_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_3.png)
+[![unused_data_connections_native_3.png](images/unused_data_connections_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_3.png)
 
 ### Priority
 

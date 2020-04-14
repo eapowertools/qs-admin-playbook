@@ -37,19 +37,19 @@ The goal for this monthly activity is to review the available disk space on the 
 
 In the QMC, select **Data Connections**.
 
-[![storage-1.png](images/storage-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-1.png)
+[![storage-1.png](images/storage-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-1.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **Connection String** and **Type** columns. To make the resulting table a bit more manageable, optionally deselect the **Tags** column.
 
-[![storage-2.png](images/storage-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-2.png)
+[![storage-2.png](images/storage-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-2.png)
 
 Now select the filter icon for the **Type** column and then filter on `folder`.
 
-[![storage-3.png](images/storage-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-3.png)
+[![storage-3.png](images/storage-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-3.png)
 
 At this stage sort by **Connection String** so that the groupings are visible for paths that are used for data sources.
 
-[![storage-4.png](images/storage-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-4.png)
+[![storage-4.png](images/storage-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-4.png)
 
 **Note**: If this is a multi-node Qlik Sense site then the presence of local paths (`C:\`, `D:\`) is concerning. Refer to [Analyzing Data Connections](..\asset_management\data_connections\analyze_data_connections.html) for guidance on converting these to UNC share paths.
 
@@ -57,7 +57,7 @@ At this stage sort by **Connection String** so that the groupings are visible fo
 
 With the distinct locations that are used for data connections, go to the **Service Cluster** section in the QMC.
 
-[![storage-5.png](images/storage-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-5.png)
+[![storage-5.png](images/storage-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-5.png)
 
 Add this location to the running list from the previous section on Data Connections.
 
@@ -65,7 +65,7 @@ Add this location to the running list from the previous section on Data Connecti
 
 Go to the **Nodes** section in the QMC.
 
-[![storage-6.png](images/storage-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-6.png)
+[![storage-6.png](images/storage-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/storage-6.png)
 
 Add to the list the server names for each member of the Qlik Sense Enterprise cluster.
 

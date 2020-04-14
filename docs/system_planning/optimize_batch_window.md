@@ -34,7 +34,7 @@ This page leverages the **Reloads Monitor**. Please refer to the [Reloads Monito
 
 Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Reloads Monitor** application. Confirm that the application's data is up-to-date.
 
-[![reloads_monitor_operational.png](images/reloads_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/reloads_monitor_operational.png)
+[![reloads_monitor_operational.png](images/reloads_monitor_operational.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/reloads_monitor_operational.png)
 
 If the **Reloads Monitor** is not up-to-date, please refer to the [Reloads Monitor Documentation](../../tooling/reloads_monitor.md#documentation) for configuration details and troubleshooting steps.
 
@@ -44,15 +44,15 @@ If the **Reloads Monitor** is not up-to-date, please refer to the [Reloads Monit
 
 Navigate to the **Monitoring Apps** stream and open up the **Reloads Monitor**.
 
-[![batch_window_1.png](images/batch_window_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/batch_window_1.png)
+[![batch_window_1.png](images/batch_window_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/batch_window_1.png)
 
 Navigate to the _Task Planning_ sheet.
 
-[![screenshot - Task Planning Sheet.png](images/screenshot - Task Planning Sheet.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/screenshot - Task Planning Sheet.png)
+[![screenshot - Task Planning Sheet.png](images/screenshot - Task Planning Sheet.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/screenshot - Task Planning Sheet.png)
 
 Make selections to narrow the scope of the batch window to the appropriate days of the week and hours of the day. In the example below,  Monday - Friday is selected between the hours of 3-6 am. Ensure that the appropriate selections are made to encompass the organization's batch window.
 
-[![Screenshot - heatmap.png](images/Screenshot - heatmap.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/Screenshot - heatmap.png)
+[![Screenshot - heatmap.png](images/Screenshot - heatmap.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/Screenshot - heatmap.png)
 
 The 6 am hour is highlighted across all 5 days, and demonstrates a very high level of activity compared to the other hours in this batch window example.  This could indicate the opportunity to move some of those reload tasks into the hours prior to 6am, to spread out the processing more evenly. 
 
@@ -66,15 +66,15 @@ When configuring tasks, ensure that the maximum number of concurrent reloads for
 
 Navigate to the QMC, and select _Schedulers_.
 
-[![batch_window_2.png](images/batch_window_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/batch_window_2.png)
+[![batch_window_2.png](images/batch_window_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/batch_window_2.png)
 
 For each active _Scheduler_, double-click or select **Edit**.
 
-[![batch_window_3.png](images/batch_window_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/batch_window_3.png)
+[![batch_window_3.png](images/batch_window_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/batch_window_3.png)
 
 Select _Advanced_ from the _Properties_ pane, and notice the **Max concurrent reloads** option. This option can be set to a maximum of _n-2_, where 'n' is the number of cores on the machine (one dedicated to the OS, and the other dedicated to the Repository). In this example, there are 6 cores available on this scheduler, so that allows for a maximum of 4 concurrent reloads.
 
-[![batch_window_4.png](images/batch_window_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/batch_window_4.png)
+[![batch_window_4.png](images/batch_window_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/batch_window_4.png)
 
 #### Task Chaining
 

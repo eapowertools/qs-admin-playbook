@@ -36,19 +36,19 @@ While the idea of simply checking for new applications seems relatively trivial 
 
 In the QMC, select **Apps**:
 
-[![check_new_apps_native_1.png](images/check_new_apps_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_1.png)
+[![check_new_apps_native_1.png](images/check_new_apps_native_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_1.png)
 
 In the upper right hand side of the screen, select the **Column selector**, and then select the **File size (MB)** and **Created** columns. To make the resulting table a bit more manageable, optionally deselect additional columns like **Version** and **Tags**.
 
-[![check_new_apps_native_2.png](images/check_new_apps_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2.png)
+[![check_new_apps_native_2.png](images/check_new_apps_native_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2.png)
 
 Now select the filter icon for the **Created** column, and then select the filter of **Last seven days**, or the desired range.
 
-[![check_new_apps_native_3.png](images/check_new_apps_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_3.png)
+[![check_new_apps_native_3.png](images/check_new_apps_native_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_3.png)
 
 Lastly, one can review the resulting table and view any new apps, noting their file sizes. If any are particularly large, it might be worthwhile to follow-up with the owner of the application, and possibly do further analysis in with the App Metadata Analyzer.
 
-[![check_new_apps_native_4.png](images/check_new_apps_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_4.png)
+[![check_new_apps_native_4.png](images/check_new_apps_native_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_4.png)
 
 -------------------------
 
@@ -60,7 +60,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
-[![ops_monitor_operational.png](images/ops_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/ops_monitor_operational.png)
+[![ops_monitor_operational.png](images/ops_monitor_operational.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/ops_monitor_operational.png)
 
 If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
@@ -70,23 +70,23 @@ If the **Operations Monitor** is not up-to-date, please refer to the [Operations
 
 Open up the Hub and navigate to the **Monitoring apps** stream. Select the **Operations Monitor** application.
 
-[![check_new_apps_native_2_1.png](images/check_new_apps_native_2_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_1.png)
+[![check_new_apps_native_2_1.png](images/check_new_apps_native_2_1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_1.png)
 
 From the **App overview** page, select the **Apps** sheet.
 
-[![check_new_apps_native_2_2.png](images/check_new_apps_native_2_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_2.png)
+[![check_new_apps_native_2_2.png](images/check_new_apps_native_2_2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_2.png)
 
 Select **Duplicate**, as a column will be added that isn't currently in a table.
 
-[![check_new_apps_native_2_3.png](images/check_new_apps_native_2_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_3.png)
+[![check_new_apps_native_2_3.png](images/check_new_apps_native_2_3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_3.png)
 
 In **Edit** mode, select the **App Details** table, and add the **App Created Date** field.
 
-[![check_new_apps_native_2_4.png](images/check_new_apps_native_2_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_4.png)
+[![check_new_apps_native_2_4.png](images/check_new_apps_native_2_4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_4.png)
 
 It is now possible to sort by that column to view new apps. In addition, feel free to add the **App File Size** field as well to filter by large applications only.
 
-[![check_new_apps_native_2_5.png](images/check_new_apps_native_2_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_5.png)
+[![check_new_apps_native_2_5.png](images/check_new_apps_native_2_5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/apps/images/check_new_apps_native_2_5.png)
 
 -------------------------
 

@@ -43,7 +43,7 @@ The following techniques can be used to expedite recovery processes for a Qlik s
 
 By using a DNS aliases, the organization can abstract from individual server names and IP addresses. This allows for a more dynamic recovery process. Consider two architectures
 
-[![disaster-1.png](images/disaster-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/disaster-1.png)
+[![disaster-1.png](images/disaster-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/system_planning/images/disaster-1.png)
 
 The architecture on the left uses static server names for routing whereas the architecture on the right uses DNS alias for both front and back-end servers. Deployments which use DNS aliases will have quicker recovery processes, all else being equal.
 
