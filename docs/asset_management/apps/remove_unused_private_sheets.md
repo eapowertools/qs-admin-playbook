@@ -104,7 +104,7 @@ In this scenario, the _App Usage_ sheet has not been used in over one month but 
 
 ### Retention Policy
 
-It is highly suggested to have a corporate policy in place for unused private sheet retention. As the number of these sheets can grow very large and it can become quite difficult to manage manually, an automatic approach is suggested. In order to employee such a practice though, there must be notifications in place and the users must be able to act to retain their assets.
+It is highly suggested to have a corporate policy in place for unused private sheet retention. As the number of these sheets can grow very large and it can become quite difficult to manage manually, an automatic approach is suggested. In order to implement this style of  policy, there should be notifications in place so that users are informed that action is needed to retain important assets.
 
 **Example Policy**
 
