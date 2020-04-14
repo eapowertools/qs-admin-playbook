@@ -15,7 +15,7 @@ $(document).ready(function() {
             // get the title from the option
             var tooltip_title = i.title;
 
-            $('#bs-select-1-' + z).prop("title", tooltip_title);
+            $el.data('selectpicker').selectpicker.main.elements[z].title = tooltip_title
 
             z++;
 
@@ -37,6 +37,10 @@ $(document).ready(function() {
     }
 
     var playbookSelections = [];
+
+    $(document).ready(function() {
+        $('.selectpicker').selectpicker({});
+    })
 
     $('#categoryFilter').on('change', function() {
         playbookFilterSelections = $('#categoryFilter').val();
