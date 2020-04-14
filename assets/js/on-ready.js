@@ -1,19 +1,17 @@
 $(document).ready(function() {
     // establish select pickers
-    $('.selectpicker').selectpicker({
-        liveSearch: true
-    }).on('loaded.bs.select', function(e) {
+    $('.selectpicker').selectpicker().on('loaded.bs.select', function(e) {
 
         // save the element
         var $el = $(this);
 
         // the list items with the options
-        var $lis = $el.data('selectpicker').$lis;
+        var $lis = $el.data('selectpicker').$element[0].options;
 
         $lis.each(function(i) {
 
             // get the title from the option
-            var tooltip_title = $el.find('option').eq(i).attr('title');
+            var tooltip_title = i.title;
 
             $(this).tooltip({
                 'title': tooltip_title,
