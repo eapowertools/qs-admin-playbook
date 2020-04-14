@@ -49,9 +49,9 @@ This activity should not be attempted for every application, and should be prior
 
 ## Audit Activity Log
 
-As of the February 2019 release, the **Audit Activity Log** capability is now enabled, which allows for the tracking of who is accessing what sheets in applications. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
+As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-This logging must be enabled on _every engine_ that the information is desired from, and is turned on by default on supporting releases.
+Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. **Note:** This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s). 
 
 [![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
 
