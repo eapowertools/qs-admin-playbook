@@ -38,15 +38,15 @@ The goal of this activity is to be aware of new extensions which have been impor
 
 In the QMC, select **Extensions**.
 
-[![extensions-1.png](images/extensions-1.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-1.png)
+[![extensions-1.png](images/extensions-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-1.png)
 
 In the upper right hand side of the screen, select the **Column selector** and then select the  **Created** column. To make the resulting table a bit more manageable, feel free to deselect the **Tags** column.
 
-[![extensions-2.png](images/extensions-2.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-2.png)
+[![extensions-2.png](images/extensions-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-2.png)
 
 Now sort by the **Created** column to see recently added extensions.
 
-[![extensions-3.png](images/extensions-3.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-3.png)
+[![extensions-3.png](images/extensions-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-3.png)
 
 Given this overview of new extensions is rather minimal, a pre-built tool ([Qlik Sense Extension Usage Dashboard](https://github.com/eapowertools/qs-extension-usage-dashboard)) has been developed by the Enterprise Architecture team to help administrators provide more insight into what applications are _using_ extensions and _where_. This will be covered next.
 
@@ -58,11 +58,11 @@ The [Qlik Sense Extension Usage Dashboard](https://github.com/eapowertools/qs-ex
 
 On the **KPIs** sheet in the upper right hand corner, the app will count the number of instances where a Qlik application is using an extension which has since become part of a Qlik Sense bundle.
 
-[![extensions-4.png](images/extensions-4.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-4.png)
+[![extensions-4.png](images/extensions-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-4.png)
 
 Take the below as an example.
 
-[![extensions-5.png](images/extensions-5.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-5.png)
+[![extensions-5.png](images/extensions-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-5.png)
 
 In this example an app named **Uses Deprecated Extensions** uses an extension named `barsPlus` on the sheet named **Bar Chart Sheet**. This extension can be replaced by the extension named `qlik-barplus-chart` and this app now will receive full support from Qlik should issues arise.
 
@@ -72,15 +72,15 @@ Administrators should monitor this metric and communicate with the application's
 
 On the **KPIs** sheet in the bottom left KPI, the secondary measure is the count of extensions which exist on the Qlik server and which are _not_ used in a Qlik app.
 
-[![extensions-6.png](images/extensions-6.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-6.png)
+[![extensions-6.png](images/extensions-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-6.png)
 
 For a list of which extensions are not used, the administrator can do so in the **Extension Overview** sheet.
 
-[![extensions-7.png](images/extensions-7.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-7.png)
+[![extensions-7.png](images/extensions-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-7.png)
 
 As extensions are listed on this section of the **Extension Usage Dashboard**, the administrator should contact the owner of the extension whether the extension is needed. To take an example, for the extension `foo` which is unused, the administrator would filter on the name (`foo`) in the QMC to see who the owner of the extension is.
 
-[![extensions-8.png](images/extensions-8.png)](https://raw.githubusercontent.com/qs-admin-guide/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-8.png)
+[![extensions-8.png](images/extensions-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/extensions/images/extensions-8.png)
 
 At this point, it is apparent that the extension was created on October 24th 2019 by the user named `xxx`. A good guideline here is if an extension has been in a Qlik site for over a three months without being used then the owner needs to justify why the extension needs to exist. Without a cogent explanation for the use case for the extension, there is arguably little need for it to exist in its current state. The owner (or administrator) can easily export the extension for potential use later then delete the extension.
 

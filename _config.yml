@@ -4,7 +4,7 @@ plugins:
 relative_links:
   enabled: true
 logo: "/assets/images/AdminPlaybook3.png"
-url: "https://adminplaybook-dev.qlik-poc.com"
+url: "https://adminplaybook.qlik-poc.com"
 markdown: kramdown
 highlighter: rouge
 kramdown:
