@@ -113,8 +113,9 @@ The below script assumes that the desired **Tag** has already been created, e.g.
 ### Script to Tag Unused Community Sheets
 
 ```powershell
-# Function to tag community sheet ids from excel and tag them
+#Requires -Modules ImportExcel
 # Assumes the ImportExcel module: `Install-Module -Name ImportExcel`
+# Function to tag community sheet ids from excel and tag them
 # Assumes tag exists, such as 'UnusedCommunitySheet'
 # GUID validation code referenced from: https://pscustomobject.github.io/powershell/functions/PowerShell-Validate-Guid-copy/
 
@@ -132,7 +133,7 @@ $virtualProxyPrefix = '/default'
 # fully qualified path to excel file with sheet ids
 $inputXlsxPath = '<absolute file path>/<filename>.xlsx'
 # column number of sheet id column in Excel file
-$sheetIdColumnNumber = '1'
+$sheetIdColumnNumber = '9'
 # the desired name of the tag to tag sheets with - it must exist in the QRS
 $tagName = 'UnusedCommunitySheet'
 # directory for the output file
