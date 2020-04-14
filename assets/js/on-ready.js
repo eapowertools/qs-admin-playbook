@@ -2,27 +2,28 @@ $(document).ready(function() {
     // establish select pickers
     $('.selectpicker').selectpicker({
         liveSearch: true
-    }).on('loaded.bs.select', function(e) {
-
-        // save the element
-        var $el = $(this);
-
-        // the list items with the options
-        var $lis = $el.data('selectpicker').$lis;
-
-        $lis.each(function(i) {
-
-            // get the title from the option
-            var tooltip_title = $el.find('option').eq(i).attr('title');
-
-            $(this).tooltip({
-                'title': tooltip_title,
-                'placement': 'top'
-            });
-
-        });
-
     });
+    // .on('loaded.bs.select', function(e) {
+
+    //     // save the element
+    //     var $el = $(this);
+
+    //     // the list items with the options
+    //     var $lis = $el.data('selectpicker').$lis;
+
+    //     $lis.each(function(i) {
+
+    //         // get the title from the option
+    //         var tooltip_title = $el.find('option').eq(i).attr('title');
+
+    //         $(this).tooltip({
+    //             'title': tooltip_title,
+    //             'placement': 'top'
+    //         });
+
+    //     });
+
+    // });
 
     // get full playbook table
     var playbookFullTable = document.getElementById('playbook');
