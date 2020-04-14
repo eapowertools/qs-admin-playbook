@@ -1,118 +1,95 @@
-$(document).ready(function() {
-    // establish select pickers
-    $('.selectpicker').selectpicker({
-        liveSearch: true
-    });
-    // .on('loaded.bs.select', function(e) {
+$(document).ready(function () {
+  // establish select pickers
+  $('.selectpicker').selectpicker();
+  
+  // get full playbook table
+  var playbookFullTable = document.getElementById('playbook');
 
-    //     // save the element
-    //     var $el = $(this);
+  // columns in playbook table
+  var playbookTableColumns = playbookFullTable.rows[0].cells.length;
 
-    //     // the list items with the options
-    //     var $lis = $el.data('selectpicker').$lis;
+  // get all column names
+  var columnNames = []
+  for (let i = 0; i < playbookTableColumns; i++) {
+      var cellHTMLValue = $(playbookFullTable.rows[0].cells[i]).html();
+      columnNames.push(cellHTMLValue)
+  }
 
-    //     $lis.each(function(i) {
+  var playbookSelections = [];
 
-    //         // get the title from the option
-    //         var tooltip_title = $el.find('option').eq(i).attr('title');
+  $(document).ready(function() {
+      $('.selectpicker').selectpicker({});
+  })
 
-    //         $(this).tooltip({
-    //             'title': tooltip_title,
-    //             'placement': 'top'
-    //         });
+  $('#categoryFilter').on('change', function() {
+      playbookFilterSelections = $('#categoryFilter').val();
+      reRenderPlaybook();
+  });
 
-    //     });
+  function reRenderPlaybook() {
+      // get all cells that match and build them into an array of column value arrays
+      var newFilteredPlaybookEntries = []
+      var rowIndex = 0;
+      for (let i = 0; i < playbookTableColumns; i++) {
+          rowIndex = 0;
+          columnFilteredEntries = []
+          Array.from(playbookFullTable.rows).forEach(function() {
+              if (rowIndex > 0) {
+                  var cellHTMLValue = $(playbookFullTable.rows[rowIndex].cells[i]).html();
+                  var cellLinkValue = $(playbookFullTable.rows[rowIndex].cells[i]).html().split('docs/').pop().split('/')[0];
+                  if (playbookFilterSelections.length >= 1 && playbookFilterSelections.includes(cellLinkValue)) {
+                      columnFilteredEntries.push(cellHTMLValue)
+                  } else if (playbookFilterSelections.length == 0) {
+                      columnFilteredEntries.push(cellHTMLValue)
+                  }
+              }
+              rowIndex++;
+          });
+          newFilteredPlaybookEntries.push(columnFilteredEntries)
+      }
 
-    // });
+      // get max number or rows in any column of new table
+      var newPlaybookMaxRows = 0;
+      for (var i = 0; i < newFilteredPlaybookEntries.length; i++) {
+          if (newFilteredPlaybookEntries[i].length > newPlaybookMaxRows) {
+              newPlaybookMaxRows = newFilteredPlaybookEntries[i].length;
+          }
+      }
 
-    // get full playbook table
-    var playbookFullTable = document.getElementById('playbook');
+      // build new table HTML
+      var newPlaybookTableHTML = '<div class="table-wrapper"><table id="playbook"><thead><tr>';
 
-    // columns in playbook table
-    var playbookTableColumns = playbookFullTable.rows[0].cells.length;
+      // build columns
+      $.each(columnNames, function(i, val) {
+          newPlaybookTableHTML += '<th>' + val + '</th>';
+      });
 
-    // get all column names
-    var columnNames = []
-    for (let i = 0; i < playbookTableColumns; i++) {
-        var cellHTMLValue = $(playbookFullTable.rows[0].cells[i]).html();
-        columnNames.push(cellHTMLValue)
-    }
+      newPlaybookTableHTML += '</tr></thead><tbody>';
 
-    var playbookSelections = [];
+      // for the total number of rows in the new table
+      for (let i = 0; i < newPlaybookMaxRows; i++) {
+          newPlaybookTableHTML += '<tr>';
+          // for each column, pick the cell from the current row and add it if not null
+          $.each(newFilteredPlaybookEntries, function(z, entry) {
+              if ((i > 0 && entry[i] != undefined) || (i == 0 && entry[i] != undefined)) {
+                  newPlaybookTableHTML += '<td>' + entry[i] + '</td>';
+              } else {
+                  newPlaybookTableHTML += '<td>' + '' + '</td>';
+              }
+          });
 
-    $(document).ready(function() {
-        $('.selectpicker').selectpicker({});
-    })
+          newPlaybookTableHTML += '</tr>';
+      }
 
-    $('#categoryFilter').on('change', function() {
-        playbookFilterSelections = $('#categoryFilter').val();
-        reRenderPlaybook();
-    });
+      newPlaybookTableHTML += '</tr></tbody></table>';
 
-    function reRenderPlaybook() {
-        // get all cells that match and build them into an array of column value arrays
-        var newFilteredPlaybookEntries = []
-        var rowIndex = 0;
-        for (let i = 0; i < playbookTableColumns; i++) {
-            rowIndex = 0;
-            columnFilteredEntries = []
-            Array.from(playbookFullTable.rows).forEach(function() {
-                if (rowIndex > 0) {
-                    var cellHTMLValue = $(playbookFullTable.rows[rowIndex].cells[i]).html();
-                    var cellLinkValue = $(playbookFullTable.rows[rowIndex].cells[i]).html().split('docs/').pop().split('/')[0];
-                    if (playbookFilterSelections.length >= 1 && playbookFilterSelections.includes(cellLinkValue)) {
-                        columnFilteredEntries.push(cellHTMLValue)
-                    } else if (playbookFilterSelections.length == 0) {
-                        columnFilteredEntries.push(cellHTMLValue)
-                    }
-                }
-                rowIndex++;
-            });
-            newFilteredPlaybookEntries.push(columnFilteredEntries)
-        }
+      // remove the old playbook table
+      $('#playbook').parent().remove();
 
-        // get max number or rows in any column of new table
-        var newPlaybookMaxRows = 0;
-        for (var i = 0; i < newFilteredPlaybookEntries.length; i++) {
-            if (newFilteredPlaybookEntries[i].length > newPlaybookMaxRows) {
-                newPlaybookMaxRows = newFilteredPlaybookEntries[i].length;
-            }
-        }
+      // insert the new playbook table
+      $("#main-content").append($.parseHTML(newPlaybookTableHTML));
 
-        // build new table HTML
-        var newPlaybookTableHTML = '<div class="table-wrapper"><table id="playbook"><thead><tr>';
-
-        // build columns
-        $.each(columnNames, function(i, val) {
-            newPlaybookTableHTML += '<th>' + val + '</th>';
-        });
-
-        newPlaybookTableHTML += '</tr></thead><tbody>';
-
-        // for the total number of rows in the new table
-        for (let i = 0; i < newPlaybookMaxRows; i++) {
-            newPlaybookTableHTML += '<tr>';
-            // for each column, pick the cell from the current row and add it if not null
-            $.each(newFilteredPlaybookEntries, function(z, entry) {
-                if ((i > 0 && entry[i] != undefined) || (i == 0 && entry[i] != undefined)) {
-                    newPlaybookTableHTML += '<td>' + entry[i] + '</td>';
-                } else {
-                    newPlaybookTableHTML += '<td>' + '' + '</td>';
-                }
-            });
-
-            newPlaybookTableHTML += '</tr>';
-        }
-
-        newPlaybookTableHTML += '</tr></tbody></table>';
-
-        // remove the old playbook table
-        $('#playbook').parent().remove();
-
-        // insert the new playbook table
-        $("#main-content").append($.parseHTML(newPlaybookTableHTML));
-
-        return;
-    }
-
+      return;
+  }  
+  
 });
