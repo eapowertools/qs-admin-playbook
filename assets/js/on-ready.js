@@ -15,10 +15,7 @@ $(document).ready(function() {
             // get the title from the option
             var tooltip_title = i.title;
 
-            $(this)[0].options[z].tooltip({
-                'title': tooltip_title,
-                'placement': 'top'
-            });
+            $('#bs-select-1-' + z).attr("title", tooltip_title);
 
             z++;
 
