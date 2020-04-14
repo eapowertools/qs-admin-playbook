@@ -193,9 +193,9 @@ $inputXlsxPath = '<fully qualified directory>\<filename>.xlsx'
 $dataConnectionIdColumnNumber = '12'
 # name of the custom property to put on unused data connections--if it doesn't exist it will be created
 $customPropertyName = 'QuarantinedDataConnection'
-# 1 for true and 0 for false
+# 1 for true and 0 for false -- changes the owner to sa_repository
 $changeOwner = 1
-# 1 for true and 0 for false
+# 1 for true and 0 for false -- prefixes the name with 'QUARANTINED - ' 
 $changeName = 1
 # directory for the output file
 $outFilePath = 'C:\'
