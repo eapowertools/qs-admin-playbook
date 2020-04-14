@@ -63,7 +63,7 @@ In this scenario the administrator wishes to create an ad-hoc development node w
 
 In this scenario, the Qlik administrator is intending to isolate specific, larger Qlik apps to a dedicated node in the cluster. This scenario can be ideal in situations where a site hosts a few, select large Qlik apps with the remaining apps in the site's portfolio being of modest size. This isolation allows the site to not attempt to evenly distribute the load for these select apps which will cause duplicative RAM use across the nodes in the cluster. Duplication for smaller apps may be ideal for resiliency purposes but the site may not have the compute capacity to have resiliency for these larger Qlik apps or the administrator would like to ensure a more predictable user experience by re-using the cache on a single Engine (or 2+ for resiliency).
 
-The [App Metadata Analyzer](../tooling/app_metadata_analyzer.md) can be helpful in determing whether there are abnormally large apps in your Qlik Sense site.
+The [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) can be helpful in determing whether there are abnormally large apps in your Qlik Sense site.
 
 ### Configuration Walk-Through
 
