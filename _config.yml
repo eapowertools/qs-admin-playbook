@@ -22,3 +22,5 @@ aux_links:
     - "//help.qlik.com"
 assets:
   - "*"
+# Google Analytics Tracking (optional)
+ga_tracking: UA-163736805-1
