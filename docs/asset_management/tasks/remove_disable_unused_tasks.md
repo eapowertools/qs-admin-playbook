@@ -9,7 +9,9 @@ nav_order: 3
 # Remove/Disable Unused Tasks
 {:.no_toc}
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

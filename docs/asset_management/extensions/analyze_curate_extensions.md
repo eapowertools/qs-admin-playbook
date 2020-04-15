@@ -9,7 +9,9 @@ nav_order: 1
 # Analyze/Curate Extensions <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 {:.no_toc}
 
-<span class="label all">all</span>
+**Cadence** <span class="label cadence">Quarterly</span>
+
+**Sites** <span class="label all">all</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

@@ -8,7 +8,9 @@ parent: System Planning
 # Optimize Batch Window
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Quarterly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                  | Initial   | Recurring  |
 |---------------------------------------------------------|-----------|------------|

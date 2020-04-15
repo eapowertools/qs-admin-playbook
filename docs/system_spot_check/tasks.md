@@ -8,7 +8,10 @@ nav_order: 1
 # Spot-Check: Tasks
 {:.no_toc}
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Daily</span>
+
+**Sites** <span class="label prod">production</span>
+
 
 |                                  		                    | Initial | Recurring  |
 |---------------------------------------------------------|---------|------------|

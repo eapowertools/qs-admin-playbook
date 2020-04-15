@@ -8,7 +8,9 @@ parent: Audit
 # Review Data Exports <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i> 
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

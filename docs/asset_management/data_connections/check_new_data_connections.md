@@ -9,7 +9,9 @@ nav_order: 2
 # Check for New Data Connections <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
 {:.no_toc}
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Weekly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                  | Initial | Recurring |
 |---------------------------------------------------------|---------|-----------|

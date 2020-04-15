@@ -8,7 +8,9 @@ nav_order: 1
 
 # Review/Optimize QVDs  <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-<span class="label dev">development</span><span class="label prod">production</span>
+**Cadence** <span class="label cadence">Quarterly</span>
+
+**Sites** <span class="label dev">development</span><span class="label prod">production</span>
 
 |                                  		                    | Initial  | Recurring  |
 |---------------------------------------------------------|----------|------------|

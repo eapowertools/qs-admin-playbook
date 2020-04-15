@@ -8,7 +8,10 @@ nav_order: 2
 # Spot-Check: Node Health <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
 {:.no_toc}
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Daily</span>
+
+**Sites** <span class="label prod">production</span>
+
 
 |                                  		                    | Initial | Recurring  |
 |---------------------------------------------------------|---------|------------|
