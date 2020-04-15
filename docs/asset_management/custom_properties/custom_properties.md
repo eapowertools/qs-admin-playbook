@@ -81,7 +81,7 @@ If any security rules are using this rule, they will be visible, so the rule can
 
 The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 
-The script will bring back any custom properties that have been created or modified within the las x days. The script will then store the output into a desired location in either csv or json format.
+The script will bring back any custom properties that have been created or modified within the last x days. The script will then store the output into a desired location in either csv or json format.
 
 ### Script
 ```powershell

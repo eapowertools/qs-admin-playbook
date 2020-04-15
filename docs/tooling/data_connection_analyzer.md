@@ -61,7 +61,7 @@ Removing unused connections makes general administration easier, as there is les
 
 **Where are data connections being used?**
 
-- Let's say a data source is being transformed and will be moved from one database to location. The first question one might ask is, "What applications are using that connection, so we can re-route it to the new db and make adjustments to the load scripts?". This historically has not been easy to answer. This application allows one to select that connection and visualize apps that are using it.
+- Let's say a data source is being transformed and will be moved from one database to another location. The first question one might ask is, "What applications are using that connection, so we can re-route it to the new db and make adjustments to the load scripts?". This historically has not been easy to answer. This application allows one to select that connection and visualize apps that are using it.
 
 **Via what mechanism are data connections being used?**
 

@@ -12,7 +12,7 @@ parent: System Planning
 
 |                                  		                    | Initial    | Recurring  |
 |---------------------------------------------------------|----------- |------------|
-| <i class="far fa-clock fa-sm"></i> **Estimated Time**   | 120 min    | 40 min     |
+| <i class="far fa-clock fa-sm"></i> **Estimated Time**   | 2 hrs      | 40 min     |
 
 Benefits:
 
