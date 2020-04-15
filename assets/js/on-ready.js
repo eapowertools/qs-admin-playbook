@@ -1,28 +1,4 @@
 $(document).ready(function() {
-    // establish select pickers
-
-    // $('#categoryFilter').selectpicker().on('loaded.bs.select', function(e) {
-
-    //     // save the element
-    //     var $el = $(this);
-
-    //     // the list items with the options
-    //     var $lis = $el.data('selectpicker').$element[0].options;
-
-    //     var z = 0;
-    //     for (let i of $lis) {
-
-    //         // get the title from the option
-    //         var tooltip_title = i.title;
-
-    //         $el.data('selectpicker').selectpicker.main.elements[z].title = tooltip_title
-
-    //         z++;
-
-    //     }
-
-    // });
-
     // get full playbook table
     var playbookFullTable = document.getElementById('playbook');
 
@@ -42,8 +18,9 @@ $(document).ready(function() {
         $('.selectpicker').selectpicker({});
     })
 
-    $('#categoryFilter').on('change', function() {
-        playbookFilterSelections = $('#categoryFilter').val();
+    $('.selectpicker').on('change', function() {
+        categoryFilterSelections = $('#categoryFilter').val();
+        toolingFilterSelections = $('#toolingFilter').val();
         reRenderPlaybook();
     });
 
@@ -56,11 +33,32 @@ $(document).ready(function() {
             columnFilteredEntries = []
             Array.from(playbookFullTable.rows).forEach(function() {
                 if (rowIndex > 0) {
+                    try {
+                        var classList = Array.from($(playbookFullTable.rows[rowIndex].cells[i])[0].firstElementChild.classList);
+                    } catch (err) {
+                        var classList = [];
+                    }
                     var cellHTMLValue = $(playbookFullTable.rows[rowIndex].cells[i]).html();
-                    var cellLinkValue = $(playbookFullTable.rows[rowIndex].cells[i]).html().split('docs/').pop().split('/')[0];
-                    if (playbookFilterSelections.length >= 1 && playbookFilterSelections.includes(cellLinkValue)) {
-                        columnFilteredEntries.push(cellHTMLValue)
-                    } else if (playbookFilterSelections.length == 0) {
+                    var categoryIntersection = categoryFilterSelections.filter(element => classList.includes(element));
+                    var toolingIntersection = toolingFilterSelections.filter(element => classList.includes(element));
+
+
+                    // if there is a selection in the category filter and the class of the cell matches
+                    if (categoryFilterSelections.length >= 1 && categoryIntersection.length >= 1) {
+                        // if there is a selection in the tooling filter and the class of the cell matches
+                        if (toolingFilterSelections.length >= 1 && toolingIntersection.length >= 1 && categoryIntersection.length >= 1) {
+                            columnFilteredEntries.push(cellHTMLValue);
+                        }
+                        // if there aren't any selections in the tooling filter
+                        else if (toolingFilterSelections.length == 0) {
+                            columnFilteredEntries.push(cellHTMLValue);
+                        }
+                    }
+                    // if there is no selection in the category filter and a selection in the tooling filter and the class of the cell matches
+                    else if (categoryFilterSelections.length == 0 && toolingFilterSelections.length >= 1 && toolingIntersection.length >= 1) {
+                        columnFilteredEntries.push(cellHTMLValue);
+                        // if there aren't any selections in the category or tooling filters
+                    } else if (categoryFilterSelections.length == 0 && toolingFilterSelections.length == 0) {
                         columnFilteredEntries.push(cellHTMLValue)
                     }
                 }

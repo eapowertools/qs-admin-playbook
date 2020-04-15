@@ -5,7 +5,7 @@
 <p>Select a single or multiple categories from the dropdown to filter down the table to a subset of sections, or simply explore all possible categories.</p>
 <div id="playbookFilters">
     <div>
-        <button type="button" class="btn btn-light playbookFilter" onclick="$('#categoryFilter').val('').trigger('change');">Clear</button>
+        <button type="button" class="btn btn-light playbookFilter" onclick="$('.selectpicker').val('').trigger('change');">Clear</button>
     </div>
     <div>
         <select class="selectpicker playbookFilter" id="categoryFilter" multiple title="Select a category...">
@@ -15,6 +15,12 @@
             <option value="licensing">Licensing</option>
             <option value="system_planning">System Planning</option>
             <option value="system_spot_check">System Spot Check</option>
+        </select>
+    </div>
+    <div>
+        <select class="selectpicker playbookFilter" id="toolingFilter" multiple data-max-options="1" title="Native or Tooling...">
+            <option value="native">Native</option>
+            <option value="tooling">Tooling Required</option>
         </select>
     </div>
 </div>
