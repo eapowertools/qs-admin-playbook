@@ -9,7 +9,9 @@ parent: System Planning
 # Review Architecture/Scale Plan
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Yearly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                    | Initial     | Recurring  |
 |-----------------------------------------------------------|-------------|------------|
@@ -125,7 +127,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 \* Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include VPCs, AZs, SGs, Network ACLs, all the better -- however it goes beyond the basics of this exercise.
 
-\* SMB file share – either FSx (requires domain) or EBS storage on EC2 instance.
+\* SMB file share - either FSx (requires domain) or EBS storage on EC2 instance.
 
 \* One could also leverage the _Growth Environment_ in AWS, with both the repository database and fileshare on an AWS EC2 instance.
 

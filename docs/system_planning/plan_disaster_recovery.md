@@ -8,7 +8,9 @@ parent: System Planning
 # Plan Disaster Recovery
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Yearly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                  | Initial   | Recurring  |
 |---------------------------------------------------------|-----------|------------|

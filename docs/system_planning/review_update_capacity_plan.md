@@ -9,7 +9,9 @@ parent: System Planning
 # Review/Update Capacity Plan
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Quarterly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

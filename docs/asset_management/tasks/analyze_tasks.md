@@ -9,7 +9,9 @@ nav_order: 1
 # Analyze Tasks
 {:.no_toc}
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Weekly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

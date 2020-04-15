@@ -9,7 +9,9 @@ nav_order: 4
 # Flag Unused Base/Community Sheets <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
 {:.no_toc}
 
-<span class="label prod">production w/ self-service</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Sites** <span class="label prod">production w/ self-service</span>
 
 |                                  		                    | Initial    | Recurring |
 |---------------------------------------------------------|------------|-----------|

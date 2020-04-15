@@ -8,7 +8,9 @@ parent: Licensing
 # License Maintenance
 {:.no_toc}
 
-<span class="label all">all</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Sites** <span class="label all">all</span>
 
 |                                  		                  | Initial | Recurring |
 |---------------------------------------------------------|---------|-----------|

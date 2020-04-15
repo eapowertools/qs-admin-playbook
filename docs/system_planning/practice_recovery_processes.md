@@ -8,7 +8,9 @@ parent: System Planning
 # Practice Recovery Processes
 {: .no_toc }
 
-<span class="label prod">production</span>
+**Cadence** <span class="label cadence">Yearly</span>
+
+**Sites** <span class="label prod">production</span>
 
 |                                  		                    | Initial    | Recurring  |
 |---------------------------------------------------------|----------- |------------|

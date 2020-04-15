@@ -8,7 +8,9 @@ parent: Backup & Archiving
 # Archive Old Archived Logs <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 {: .no_toc }
 
-<span class="label all">all</span>
+**Cadence** <span class="label cadence">Quarterly</span>
+
+**Sites** <span class="label all">all</span>
 
 |                                  		                      | Initial    | Recurring   |
 |-----------------------------------------------------------|------------|-------------|

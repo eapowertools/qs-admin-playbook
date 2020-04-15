@@ -8,7 +8,9 @@ parent: Licensing
 # Review License Allocations
 {:.no_toc}
 
-<span class="label all">all</span>
+**Cadence** <span class="label cadence">Weekly</span>
+
+**Sites** <span class="label all">all</span>
 
 |                                  		                  | Initial | Recurring |
 |---------------------------------------------------------|---------|-----------|

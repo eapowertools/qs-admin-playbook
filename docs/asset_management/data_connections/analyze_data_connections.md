@@ -9,7 +9,9 @@ nav_order: 1
 # Analyze Data Connections <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 {:.no_toc}
 
-<span class="label dev">development</span><span class="label prod">production</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Sites** <span class="label dev">development</span><span class="label prod">production</span>
 
 |                                  		                    | Initial                            | Recurring  |
 |---------------------------------------------------------|------------------------------------|------------|

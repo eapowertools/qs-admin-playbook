@@ -8,7 +8,9 @@ parent: System Planning
 # Plan/Review Upgrade Strategy
 {: .no_toc }
 
-<span class="label all">all</span>
+**Cadence** <span class="label cadence">Yearly</span>
+
+**Sites** <span class="label all">all</span>
 
 |                                  		                  | Initial | Recurring |
 |---------------------------------------------------------|---------|-----------|
