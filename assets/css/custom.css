@@ -10,7 +10,6 @@ html * {
 
 .playbookFilter {
     margin: 10px;
-    float: left;
     display: inline;
 }
 
@@ -29,6 +28,11 @@ html * {
 
 .all {
     background-color: #eb7734;
+    opacity: 0.8;
+}
+
+.cadence {
+    background-color: #f9f9f9;
     opacity: 0.8;
 }
 
