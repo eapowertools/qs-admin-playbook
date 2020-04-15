@@ -79,13 +79,13 @@ Pros and cons of the [Data Connection Analyzer](../../tooling/data_connection_an
 
 ## Unused Data Connections <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-To capture unused data connections, either of the two options from the **Data Connection Usage** section above may be employeed. _If using the `lineage` option, the resulting connections will need to be mapped back to the existing connections in the QRS. Please note the issue with that endpoint and Folder type connections, documented above._
+To capture unused data connections, either of the two options from the **Data Connection Usage** section above may be employed. _If using the `lineage` option, the resulting connections will need to be mapped back to the existing connections in the QRS. Please note the issue with that endpoint and Folder type connections, documented above._
 
-In this section, we will use the [Data Connection Analyzer](../../tooling/data_connection_analyzer.md).
+In this section, the [Data Connection Analyzer](../../tooling/data_connection_analyzer.md) will be leveraged.
 
 There are two sheets that should be focused on within that application:
 - _Used Connections That Have Not Been Used Within 90 Days_
-  - This sheet illustrates connections that were at one point active, but sometime over the last 90 days, they have fallen inactive--meaning, there are currently no applications that leverage them. This variable is configurable in the load script, and should be set according to corporate policy.
+  - This sheet illustrates connections that were at one point active, but have not been leveraged within the last 90 days. Meaning, there are currently no applications that leverage them, though these applications may still exist if they are reloaded at a cadence >90 days. This variable is configurable in the load script, and should be set according to corporate policy.
   `SET vNumDaysForUsedDataConnectionToBeConsideredUnused = 90;`
   
   [![unused_data_connections_native_1.png](images/unused_data_connections_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_1.png)
@@ -113,7 +113,7 @@ An example of "Quarantining" a data connection can be done by following these st
 
 4. Modify any existing customized security rules on data connections, leveraging the `QuarantinedDataConnection` custom property to negate them. For example, `((user.group="YourGroup"))` becomes `((user.group="YourGroup" and resource.@QuarantinedDataConnection.Empty()))`.
 	
-These name change ensures that the data connection cannot be read in an application's script by the scheduler, and owner change confirms that the original owner of the user can no longer read the connection via the default security rule `OwnerRead`, and the security rule modifications ensure that the users cannot read the data connections by some other custom data connection rules if they have a value in the `QuarantinedDataConnection` custom property.
+These name change ensures that the data connection cannot be read in an application's script by the scheduler, and the owner change confirms that the original owner of the user can no longer read the connection via the default security rule `OwnerRead`, and the security rule modifications ensure that the users cannot read the data connections by some other custom data connection rules if they have a value in the `QuarantinedDataConnection` custom property.
 
 [![unused_data_connections_native_3.png](images/unused_data_connections_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/unused_data_connections_native_3.png)
 

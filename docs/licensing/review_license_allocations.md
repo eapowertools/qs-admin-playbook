@@ -34,7 +34,7 @@ The goal of this activity is to evaluate license growth and needs using the buil
 
 ## License Monitor
 
-This page leverages the **License Monitor**. Please refer to the [License Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **License Monitor**. Please refer to the [License Monitor](../tooling/operations_monitor.md) page for an overview and relevant documentation links.
 
 ### Confirm License Monitor is Operational
 
@@ -42,7 +42,7 @@ Navigate to the **Monitoring apps** and select the _Details_ button (info icon) 
 
 [![license_monitor_operational.png](images/license_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/licensing/images/license_monitor_operational.png)
 
-If the **License Monitor** is not up-to-date, please refer to the [License Monitor Documentation](../../tooling/license_monitor.md#documentation) for configuration details and troubleshooting steps.
+If the **License Monitor** is not up-to-date, please refer to the [License Monitor Documentation](../tooling/license_monitor.md#documentation) for configuration details and troubleshooting steps.
 
 -------------------------
 
@@ -80,7 +80,7 @@ Edit the _User Timeline_ Chart by selecting it and deleting the **Access Type** 
 
 With **Access Type** removed, open the _Measures_ pane and select _Add Trend_ under the **User Accessing Apps** measure. 
 
-**_Note that this feature was introduced in the _February 2020_ release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm). If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463) using functions like `linest_m()` and `linest_b()` functions._**
+**_Note that this feature was introduced in the February 2020 release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm). If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463) using functions like `linest_m()` and `linest_b()` functions._**
 
 [![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/licensing/images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png)
 

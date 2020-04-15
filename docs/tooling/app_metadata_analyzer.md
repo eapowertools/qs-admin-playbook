@@ -32,7 +32,7 @@ As of the Qlik Sense June 2018 release, a new application level metadata endpoin
 
 `http(s)://<server>/api/v1/apps/<GUID>/data/metadata`
  
-where <server> is your Qlik Sense Enterprise server and <GUID> is the application ID. Note that the application does not need to be lifted into RAM for the metadata to be accessed.
+where `<server>` is your Qlik Sense Enterprise server and `<GUID>` is the application ID. Note that the application does not need to be lifted into RAM for the metadata to be accessed.
 
 Data from this endpoint is derived as part of the app reload process, and therefore does not include any object or expression related metadata. 
 
@@ -278,13 +278,13 @@ Either copy of the app can be implemented on a Qlik Sense Enterprise site which 
 
 ## Screenshots
 
-[![sense_app_metadata_analyzer_dashboard.png](images/sense_app_metadata_analyzer_dashboard.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_dashboard.png)
+[![sense_app_metadata_analyzer_dashboard.png](images/sense_app_metadata_analyzer_dashboard.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/sense_app_metadata_analyzer_dashboard.png)
 
-[![sense_app_metadata_analyzer_threshold.png](images/sense_app_metadata_analyzer_threshold.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_threshold.png)
+[![sense_app_metadata_analyzer_threshold.png](images/sense_app_metadata_analyzer_threshold.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/sense_app_metadata_analyzer_threshold.png)
 
-[![sense_app_metadata_analyzer_app_analysis.png](images/sense_app_metadata_analyzer_app_analysis.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_analysis.png)
+[![sense_app_metadata_analyzer_app_analysis.png](images/sense_app_metadata_analyzer_app_analysis.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/sense_app_metadata_analyzer_app_analysis.png)
 
-[![sense_app_metadata_analyzer_app_availability.png](images/sense_app_metadata_analyzer_app_availability.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/sense_app_metadata_analyzer_app_availability.png)
+[![sense_app_metadata_analyzer_app_availability.png](images/sense_app_metadata_analyzer_app_availability.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/sense_app_metadata_analyzer_app_availability.png)
 
 -------------------------
 

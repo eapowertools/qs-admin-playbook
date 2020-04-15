@@ -10,6 +10,7 @@ html * {
 
 .playbookFilter {
     margin: 10px;
+    float: left;
     display: inline;
 }
 
