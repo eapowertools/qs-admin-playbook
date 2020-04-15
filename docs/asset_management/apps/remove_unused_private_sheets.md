@@ -3,7 +3,7 @@ layout: default
 title: Remove Unused Private Sheets
 parent: Apps
 grand_parent: Asset Management
-nav_order: 8
+nav_order: 7
 ---
 
 # Remove Unused Private Sheets <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
