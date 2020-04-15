@@ -11,7 +11,7 @@ nav_order: 3
 
 **Cadence** <span class="label cadence">Monthly</span>
 
-**Environments** <span class="label dev">development</span><span class="label prod">production</span>
+**Sites** <span class="label dev">development</span><span class="label prod">production</span>
 
 |                                  		          | Initial   | Recurring  |
 |---------------------------------------------------------|-----------|------------|
