@@ -33,6 +33,23 @@ The goal of this activity is to keep up with general license maintenance, specif
 
 * TOC
 {:toc}
+
+-------------------------
+
+-------------------------
+
+## License Monitor
+
+This page leverages the **License Monitor**. Please refer to the [License Monitor](../tooling/license_monitor.md) page for an overview and relevant documentation links.
+
+### Confirm License Monitor is Operational
+
+Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **License Monitor** application. Confirm that the application's data is up-to-date.
+
+[![license_monitor_operational.png](images/license_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/licensing/images/license_monitor_operational.png)
+
+If the **License Monitor** is not up-to-date, please refer to the [License Monitor Documentation](../tooling/license_monitor.md#documentation) for configuration details and troubleshooting steps.
+
 -------------------------
 
 
