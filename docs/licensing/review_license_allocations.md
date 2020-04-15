@@ -30,11 +30,12 @@ The goal of this activity is to evaluate license growth and needs using the buil
 
 * TOC
 {:toc}
+
 -------------------------
 
 ## License Monitor
 
-This page leverages the **License Monitor**. Please refer to the [License Monitor](../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **License Monitor**. Please refer to the [License Monitor](../tooling/license_monitor.md) page for an overview and relevant documentation links.
 
 ### Confirm License Monitor is Operational
 
