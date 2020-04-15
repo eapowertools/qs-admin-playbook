@@ -1,27 +1,27 @@
 $(document).ready(function() {
     // establish select pickers
 
-    $('#categoryFilter').selectpicker().on('loaded.bs.select', function(e) {
+    // $('#categoryFilter').selectpicker().on('loaded.bs.select', function(e) {
 
-        // save the element
-        var $el = $(this);
+    //     // save the element
+    //     var $el = $(this);
 
-        // the list items with the options
-        var $lis = $el.data('selectpicker').$element[0].options;
+    //     // the list items with the options
+    //     var $lis = $el.data('selectpicker').$element[0].options;
 
-        var z = 0;
-        for (let i of $lis) {
+    //     var z = 0;
+    //     for (let i of $lis) {
 
-            // get the title from the option
-            var tooltip_title = i.title;
+    //         // get the title from the option
+    //         var tooltip_title = i.title;
 
-            $el.data('selectpicker').selectpicker.main.elements[z].title = tooltip_title
+    //         $el.data('selectpicker').selectpicker.main.elements[z].title = tooltip_title
 
-            z++;
+    //         z++;
 
-        }
+    //     }
 
-    });
+    // });
 
     // get full playbook table
     var playbookFullTable = document.getElementById('playbook');
