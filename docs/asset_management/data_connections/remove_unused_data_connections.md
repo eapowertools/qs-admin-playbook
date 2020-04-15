@@ -9,7 +9,9 @@ nav_order: 3
 # Remove Unused Data Connections <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i> <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
 {:.no_toc}
 
-<span class="label dev">development</span><span class="label prod">production</span>
+**Cadence** <span class="label cadence">Monthly</span>
+
+**Environments** <span class="label dev">development</span><span class="label prod">production</span>
 
 |                                  		          | Initial   | Recurring  |
 |---------------------------------------------------------|-----------|------------|
