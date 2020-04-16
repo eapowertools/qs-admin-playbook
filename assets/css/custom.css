@@ -15,6 +15,24 @@ html * {
 }
 
 
+/* green white gray for filters */
+
+.dark-gray {
+    background-color: #A9A9A9 !important;
+    color: #ffffff !important;
+}
+
+.light-gray {
+    background-color: #DDDDDD !important;
+    color: #595959 !important;
+}
+
+.green {
+    background-color: #009845 !important;
+    color: #ffffff !important;
+}
+
+
 /* buttons for production, development, and all */
 
 .dev {

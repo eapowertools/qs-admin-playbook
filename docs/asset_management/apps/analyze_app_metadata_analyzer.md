@@ -9,7 +9,7 @@ nav_order: 2
 # Analyze App Metadata Analyzer
 {:.no_toc}
 
-**Cadence** <span class="label cadence">Quarterly</span>
+**Cadence** <span class="label cadence">Weekly</span>
 
 **Sites** <span class="label dev">development</span><span class="label prod">production</span>
 
