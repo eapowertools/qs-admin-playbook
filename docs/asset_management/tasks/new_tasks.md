@@ -65,7 +65,7 @@ From the **App overview** page, select the **Task Details** sheet.
 
 [![check_tasks_native_1_2.png](images/check_tasks_native_1_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_2.png)
 
-Select **Duplicate**, as wa column will be added that isn't currently in a table.
+Select **Duplicate**, as we will add a column that isn't currently in a table.
 
 [![check_tasks_native_1_3.png](images/check_tasks_native_1_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/tasks/images/check_tasks_native_1_3.png)
 
