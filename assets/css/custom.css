@@ -325,3 +325,9 @@ samp {
 .highlight .na {
     color: #e6c07b !important;
 }
+
+/* remove list element margins for drop downs */
+
+.dropdown-menu > li {
+    margin: 0 !important;   
+}
