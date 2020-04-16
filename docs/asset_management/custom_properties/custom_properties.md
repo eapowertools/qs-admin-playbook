@@ -34,6 +34,8 @@ Some of the outcomes:
   - Regulate the amount of custom property value options, as there can be performance impacts if there are many.
   - Identify whether individual custom properties are being leveraged for security rules or for management/automation purposes.
 
+**Note**: This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.
+
 ## Table of Contents
 {:.no_toc}
 
