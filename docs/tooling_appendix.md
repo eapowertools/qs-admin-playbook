@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: no_toc_layout
 title: Tooling Appendix
 has_children: true
 nav_order: 7
