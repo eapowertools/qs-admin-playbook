@@ -207,7 +207,7 @@ $(document).ready(function() {
                     var darkGrayCheck = false;
                     for (var i in categoryFilterSelections) {
                         for (var z in categoryMap) {
-                            if (categoryFilterSelections == categoryMap[z][0]) {
+                            if (categoryFilterSelections[i] == categoryMap[z][0]) {
                                 if (categoryMap[z][1].includes($(elem).val())) {
                                     var darkGrayCheck = true + darkGrayCheck;
                                 }
@@ -231,7 +231,7 @@ $(document).ready(function() {
                     else if (categoryFilterSelections.length >= 1 && toolingFilterSelections.length >= 1) {
                         for (var i in categoryFilterSelections) {
                             for (var z in categoryMap) {
-                                if (categoryFilterSelections == categoryMap[z][0]) {
+                                if (categoryFilterSelections[i] == categoryMap[z][0]) {
                                     if (categoryMap[z][1].includes($(elem).val())) {
                                         $(elem).removeClass('dark-gray');
                                         $(elem).removeClass('green');
@@ -292,7 +292,7 @@ $(document).ready(function() {
                     var darkGrayCheck = false;
                     for (var i in toolingFilterSelections) {
                         for (var z in toolingMap) {
-                            if (toolingFilterSelections == toolingMap[z][0]) {
+                            if (toolingFilterSelections[i] == toolingMap[z][0]) {
                                 if (toolingMap[z][1].includes($(elem).val())) {
                                     var darkGrayCheck = true + darkGrayCheck;
                                 }
@@ -314,7 +314,7 @@ $(document).ready(function() {
                     else if (toolingFilterSelections.length >= 1 && categoryFilterSelections.length >= 1) {
                         for (var i in toolingFilterSelections) {
                             for (var z in toolingMap) {
-                                if (toolingFilterSelections == toolingMap[z][0]) {
+                                if (toolingFilterSelections[i] == toolingMap[z][0]) {
                                     if (toolingMap[z][1].includes($(elem).val())) {
                                         $(elem).removeClass('dark-gray');
                                         $(elem).removeClass('green');
