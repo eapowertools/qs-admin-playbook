@@ -5,7 +5,7 @@ parent: System Spot Check
 nav_order: 2
 ---
 
-# Spot-Check: Node Health <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>*
+# Spot-Check: Node Health
 {:.no_toc}
 
 **Cadence** <span class="label cadence">Daily</span>
@@ -64,48 +64,6 @@ Inside of the **Nodes** section select the **i** icon to bring up an information
 [![nodes-4.png](images/nodes-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/nodes-4.png)
 
 This section will detail the uptime of each enabled service. Services with unexpected uptimes (e.g. the **engine** and **proxy** services in this example) should be investigated.
-
--------------------------
-
-## Service Start / Stop scripts <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
-
-The below batch scripts start and stop Qlik Sense Enterprise services. Further customization using alternative languages (e.g. PowerShell) or capability of starting / stopping services on remove servers can be done by the administrator.
-
-### Stop Services Script
-```batch
-@ECHO OFF
-net stop "Qlik Sense Engine Service"
-net stop "Qlik Sense Printing Service"
-net stop "Qlik Sense Proxy Service"
-net stop "Qlik Sense Scheduler Service"
-net stop "Qlik Sense Repository Service"
-net stop "Qlik Sense Service Dispatcher"
-net stop "Qlik Logging Service"
-net stop "Qlik Sense Repository Database"
-```
-{:.snippet}
-
-### Start Services Script
-```batch
-@ECHO OFF
-@ECHO OFF
-net start "Qlik Sense Repository Database"
-TIMEOUT 2
-net start "Qlik Logging Service"
-TIMEOUT 2
-net start "Qlik Sense Service Dispatcher"
-TIMEOUT 10
-net start "Qlik Sense Repository Service"
-TIMEOUT 2
-net start "Qlik Sense Engine Service"
-TIMEOUT 2
-net start "Qlik Sense Printing Service"
-TIMEOUT 2
-net start "Qlik Sense Proxy Service"
-TIMEOUT 2
-net start "Qlik Sense Scheduler Service"
-```
-{:.snippet}
 
 **Tags**
 
