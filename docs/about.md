@@ -23,7 +23,7 @@ The cadence of the activities shown on the Playbook itself are common, yet they 
 
 Give that the Playbook doesn't currently support customization via the web interface, a Qlik Application has been created that can load in a csv of the Playbook's itinerary, and can be customized within Qlik--linking live back to the site.
 
-Stay tuned for the link, as it has not yet been committed to GitHub.
+Find the Playbook qvf and associated xlsx [here](https://github.com/eapowertools/qs-admin-playbook/tree/master/attachments/custom_app).
 
 ## Icons Used Throughout the Site
 
