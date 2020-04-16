@@ -26,6 +26,4 @@ This section is intended to provide a high-level overview of the tools that the 
 | [Qlik CLI](./tooling/qlik_cli.html)                                    | PowerShell library to automation                               | Automation          | 3rd Party           | PowerShell      | [Github](https://github.com/ahaydon/Qlik-Cli)                          | Adam Haydon, Qlik                             |
 | [Cache Warming](./tooling/cache_warming.md)                            | Programmatic tools to cache Qlik apps                          | Performance         | 3rd Party           | Application     | Various (see article)                                                  | Various                                       |
 
-------
-
 {: .no_toc }
