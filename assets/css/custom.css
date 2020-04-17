@@ -45,6 +45,7 @@ html * {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1rem;
+    font-size: 15px;
 }
 
 /* green white gray for filters */
