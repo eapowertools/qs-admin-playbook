@@ -23,7 +23,7 @@ The _Qlik Sense Admin Playbook_ is designed and intended to be a repository of b
 {::options parse_block_html="true" /}
 <div class="card">
 <div class="card-header-support">
-<i class="fas fa-hands-helping fa-sm"></i> Note
+<i class="fas fa-hands-helping fa-sm"></i> Site Support
 </div>
 <div class="card-body">
 <p>If there are requests for additional enhancements of the site, including additional documentation or coverage, or if something isn't working as expected, please log an issue on GitHub [here](https://github.com/eapowertools/qs-admin-playbook/issues).</p>
