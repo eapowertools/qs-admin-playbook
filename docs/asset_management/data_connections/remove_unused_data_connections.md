@@ -56,10 +56,6 @@ Pros and cons of the `lineage` option:
 | Includes INLINE and AUTOGENERATE loads                              | Does not include any history -- only most recent reload                                                                                                                                 |
 |                                                                     | Does not offer insight what user used them when                                                                                                                                         |
 |                                                                     | Does not offer insight into how many times they were used                                                                                                                               |
-|                                                                     |                                                                                                                                                                                         |
-|                                                                     |                                                                                                                                                                                         |
-|                                                                     |                                                                                                                                                                                         |
-|                                                                     |                                                                                                                                                                                         |
 
 Pros and cons of the [Data Connection Analyzer](../../tooling/data_connection_analyzer.md) option:
 
@@ -71,9 +67,7 @@ Pros and cons of the [Data Connection Analyzer](../../tooling/data_connection_an
 | Tracks what users used what connections when                                   |                                                                                                |
 | Tracks how many time data connections have been run                            |                                                                                                |
 | Tracks the source of the reload: Hub, Scheduler, or ODAG (api)                 |                                                                                                |
-|                                                                                |                                                                                                |
-|                                                                                |                                                                                                |
-|                                                                                |                                                                                                |
+
 
 -------------------------
 
