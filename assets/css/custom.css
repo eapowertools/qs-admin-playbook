@@ -46,6 +46,9 @@ html * {
     min-height: 1px;
     padding: 1rem;
     font-size: 15px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
 }
 
 /* green white gray for filters */
