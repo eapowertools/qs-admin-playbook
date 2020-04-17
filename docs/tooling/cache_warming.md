@@ -61,7 +61,7 @@ In order to cache warm a Qlik app, the administrator needs to run a process whic
 
 ### CacheInitializer <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-The [`CacheInitializer`](https://github.com/jparis/CacheInitializer) is a project initially developed by a Product Manager at Qlik, but has since been taken on by the America's Presales Enterprise Architecture team. It is a project built in C# using the .NET SDK to:
+The [`CacheInitializer`](https://github.com/eapowertools/CacheInitializer/) is a project initially developed by a Product Manager at Qlik, but has since been taken on by the America's Presales Enterprise Architecture team. It is a project built in C# using the .NET SDK to:
 
 1. open apps
 2. (optionally) pre-cache the visualizations on the app's sheets
