@@ -54,7 +54,7 @@ Given this overview of new extensions is rather minimal, a pre-built tool ([Qlik
 
 ## Extension Usage Dashboard <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-The [Qlik Sense Extension Usage Dashboard](https://github.com/eapowertools/qs-extension-usage-dashboard)), covered in this guide [here](../../tooling/extension_usage_dashboard.md), allows administrators to drill into granular metadata on extensions in their environment. The goal of this exercise is to take a look at high level KPIs which an administrator should monitor and take action on.
+The [Qlik Sense Extension Usage Dashboard](https://github.com/eapowertools/qs-extension-usage-dashboard), covered in this guide [here](../../tooling/extension_usage_dashboard.md), allows administrators to drill into granular metadata on extensions in their environment. The goal of this exercise is to take a look at high level KPIs which an administrator should monitor and take action on.
 
 ### Migratable Extensions
 
