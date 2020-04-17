@@ -26,7 +26,7 @@ Benefits:
 
 ## Goal
 {:.no_toc}
-The goal for this spot-check is to be aware of any task failures which have occurred. Unexpected task failures should be restarted insofar as this is possible due to resource availability on the Qlik Sense Enterprise server(s) as well as the constraints placed data sourced. For example, bulk queries against a Production database during the business day may be against policy / best practices for a given organization. While this administrative task is _not_ intended to be a deep dive, investigation into the causes of task failures for (a) critical tasks / task chains and/or (b) repeated failures is encouraged. Further guidance on this investigation can be found elsewhere in this guide (INSERT LINKS).
+The goal for this spot-check is to be aware of any task failures which have occurred. Unexpected task failures should be restarted insofar as this is possible due to resource availability on the Qlik Sense Enterprise server(s) as well as the constraints placed data sourced. For example, bulk queries against a Production database during the business day may be against policy / best practices for a given organization. While this administrative task is _not_ intended to be a deep dive, investigation into the causes of task failures for (a) critical tasks / task chains and/or (b) repeated failures is encouraged.
 
 ## Table of Contents
 {:.no_toc}
@@ -60,6 +60,10 @@ To do a cursory exploration of the task failure, select the **i** icon to bring 
 From the above screen-shot, the presence of the **Download script** log (step 3) indicates that the flow has successfully reached step (b). Therefore, the failure was due to the logic specified in the application's load script. If step 3 is not available, this typically signals that the process failed on step (a). Further investigation of the trace in the informational modal will be needed. If no obvious clues are present, a deeper investigation of the Qlik Sense logs would be required.
 
 Once the administrator is satisfied at a cursory understanding of what reload tasks have failed recently as well as a proximate root cause, they can proceed to the action. At this point, a general understanding of the Qlik deployment will be required. For many environments, restarting the task is acceptable. But as outlined in the **Goal** section, some environments may be resource constrained on the Qlik server side or the data source side such that an intra-day reload is not recommended. The administrator is encouraged to use their best judgment on the appropriate step.
+
+## Monitoring Qlik Reload Task Efficacy
+
+TODO
 
 **Tags**
 
