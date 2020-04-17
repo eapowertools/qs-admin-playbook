@@ -32,7 +32,8 @@ There are three primary goals:
   - Keep "Community" sheets under control. In large environments where self-service is enabled, both private (personal sheets on a published application), and community sheets can grow rapidly out of control -- especially if the application's base sheets doesn't offer what the end-user is looking for, causing them to create their own sheets.
   - Finding out "why" users are not using certain base sheets and/or why they are creating and publishing many community sheets, as that content could potentially be made part of the standardized application.
 
-** Note that "Private" sheets should be handled a bit differently--please refer to: [Remove Unused Private Sheets](remove_unused_private_sheets.md)
+**Note**: "Private" sheets should be handled a bit differently--please refer to: [Remove Unused Private Sheets](remove_unused_private_sheets.md)
+{:.notebox}
 
 ## Table of Contents
 {:.no_toc}
@@ -52,7 +53,10 @@ There are three primary goals:
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. **Note:** This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s). 
+Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. 
+
+**Note:** This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s).
+{:.notebox}
 
 [![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
 
@@ -104,9 +108,11 @@ In addition to the above, it is entirely possible that users aren't leveraging s
 
 The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 
-**Base sheets should never be removed programmatically.**
+**Note:** Base sheets should never be removed programmatically.
+{:.notebox}
 
-**When possible, one should always remove community sheets manually, leaving that responsibility to the owner of the applications. That being said, if there are potentially thousands of community sheets that need to be removed, and this is the first time the organization is starting this management process, it is possible to programmatically remove these assets. This would generally be a one-time operation, as it is suggested to do this process monthly, which should be able to be maintained incrementally.**
+**Note:** When possible, one should always remove community sheets manually, leaving that responsibility to the owner of the applications. That being said, if there are potentially thousands of community sheets that need to be removed, and this is the first time the organization is starting this management process, it is possible to programmatically remove these assets. This would generally be a one-time operation, as it is suggested to do this process monthly, which should be able to be maintained incrementally.
+{:.notebox}
 
 The script below will tag any community sheets with the tag _'UnusedCommunitySheet'_. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the _Sheet Usage_ table in the **Sheet Usage** sheet of the Operations Monitor.
 
