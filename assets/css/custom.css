@@ -21,6 +21,7 @@ html * {
     background-color: #f0ad4e;
     border-bottom: 1px solid rgba(0,0,0,.125);
     font-weight: bold;
+    height: 37px;
 }
 
 .card {
@@ -37,6 +38,13 @@ html * {
     border-radius: .25rem;
     margin-bottom: 1rem;
     max-width: 800px;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
 }
 
 /* green white gray for filters */
