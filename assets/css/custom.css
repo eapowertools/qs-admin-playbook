@@ -16,7 +16,7 @@ html * {
 
 /* note boxes */
 .card-header {
-    padding: .3em 1.25rem;
+    padding: .3em 1rem;
     margin-bottom: 0;
     background-color: #f0ad4e;
     border-bottom: 1px solid rgba(0,0,0,.125);
