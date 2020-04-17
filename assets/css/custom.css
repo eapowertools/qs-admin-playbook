@@ -14,6 +14,30 @@ html * {
     display: inline;
 }
 
+/* note boxes */
+.card-header {
+    padding: .3em 1.25rem;
+    margin-bottom: 0;
+    background-color: #f0ad4e;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-weight: bold;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    max-width: 800px;
+}
 
 /* green white gray for filters */
 
