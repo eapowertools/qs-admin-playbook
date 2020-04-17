@@ -26,6 +26,24 @@ html * {
     height: 37px;
 }
 
+.card-header-warning {
+    padding: .3em .75rem;
+    margin-bottom: 0;
+    background-color: #d9534f;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    font-weight: bold;
+    height: 37px;
+}
+
+.card-header-support {
+    padding: .3em .75rem;
+    margin-bottom: 0;
+    background-color: #5bc0de;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    font-weight: bold;
+    height: 37px;
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
