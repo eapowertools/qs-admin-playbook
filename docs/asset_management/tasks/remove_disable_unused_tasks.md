@@ -71,7 +71,7 @@ The goal is to remove all unnecessary tasks from the site. This will make the si
         - Contact the **Owner** of the application for which the task is associated with, as well as potentially the **Modified by** user of the task, who is more than likely the user who disabled the task. This information can all be found in the QMC.
   
     - **Suggested Policy**
-        - Any task with no Next Execution Date with a Last Modified Date older than 90 days can be deleted without prior validation.
+        - Any task with no **Next execution** with a **Last modified date** older than 90 days can be deleted without prior validation.
 
 **Tags**
 
