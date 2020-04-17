@@ -55,7 +55,15 @@ In this example the administrator has pinned apps 1 & 2 to the Consume 1 node an
 
 While the scenarios which will be covered in this guide will focus on isolation of apps from the vantage of end users, the same principles can be applied to reload tasks. When a task is started, any node which has a Scheduler and Engine which has an app load balanced to it is eligable to execute this reload. 
 
-* **Note**: Qlik Sense Enterprise has a default and unmodifiable rule named `ResourcesOnCentralNode` which means that the Central node will need to have all Qlik apps available on it. This rule cannot be modified due to architectural assumptions in the design of Qlik Sense Enterprise. For example, that apps which need to be migrated will be migrated by the Central node's Engine. Practically this means that when attempting to segregate / isolate apps using load balancing rules, the Central node's Engine should not be configured as a Load Balancing Engine for any Virtual Proxy. Otherwise applications may be opened by the Central node's Engine.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Qlik Sense Enterprise has a default and unmodifiable rule named `ResourcesOnCentralNode` which means that the Central node will need to have all Qlik apps available on it. This rule cannot be modified due to architectural assumptions in the design of Qlik Sense Enterprise. For example, that apps which need to be migrated will be migrated by the Central node's Engine. Practically this means that when attempting to segregate / isolate apps using load balancing rules, the Central node's Engine should not be configured as a Load Balancing Engine for any Virtual Proxy. Otherwise applications may be opened by the Central node's Engine.</p>
+</div>
+</div>
 
 ## Scenario 1 - Isolation of Production from Development
 
@@ -94,7 +102,17 @@ The [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) can be helpf
   * **Actions**: Load balancing
   * **Conditions**: `((node.@NodeType=resource.@NodeType) or (node.@NodeType.Empty() and resource.@NodeType.Empty()))`
   * **Context**: Both in hub and QMC
-* A Preview will display the effect of the load balancing rule. **Note** It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.
+* A Preview will display the effect of the load balancing rule.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.</p>
+</div>
+</div>
 
 [![load_balancing-6.png](images/load_balancing-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-6.png)
 
@@ -141,13 +159,33 @@ In the previous scenario, the Qlik administrator isolated specific Qlik apps to 
   * **Actions**: Load balancing
   * **Conditions**: `((node.@StreamLevelNode=resource.stream.@StreamLevelNode) or (node.@StreamLevelNode.Empty() and resource.@StreamLevelNode.Empty()))`
   * **Context**: Both in hub and QMC
-* A Preview will display the effect of the load balancing rule. **Note** It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.
+* A Preview will display the effect of the load balancing rule.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>It may be helpful to select the Transpose button to view the resulting preview in a more consumable format.</p>
+</div>
+</div>
 
 [![load_balancing-13.png](images/load_balancing-13.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-13.png)
 
 ### Validation
 
-* Ensure that the Virtual Proxy that will be used by the end users includes all RIM nodes. **Note** In this example, apps are only load balanced across two RIM nodes. In another, more robust environment, the administrator will likely want to include at least one additional Engine in order to ensure availability of apps which are not members of the streams which have been isolated.
+* Ensure that the Virtual Proxy that will be used by the end users includes all RIM nodes.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>In this example, apps are only load balanced across two RIM nodes. In another, more robust environment, the administrator will likely want to include at least one additional Engine in order to ensure availability of apps which are not members of the streams which have been isolated.</p>
+</div>
+</div>
 
 [![load_balancing-14.png](images/load_balancing-14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/images/load_balancing-14.png)
 

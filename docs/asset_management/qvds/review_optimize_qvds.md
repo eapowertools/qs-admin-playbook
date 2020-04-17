@@ -25,7 +25,17 @@ Benefits:
 
 ## Goal
 
-The goal here is to identify and remedy inefficiencies and overlaps in QVD files, as well as detecting anomalies that could point to reload logic issues or unplanned spikes in growth/capacity. *Note that this exercise does not refer to optimizing QVDs in the traditional sense of optimizing their read-time, but rather optimizing the QVD inventory.*
+The goal here is to identify and remedy inefficiencies and overlaps in QVD files, as well as detecting anomalies that could point to reload logic issues or unplanned spikes in growth/capacity.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This exercise does not refer to optimizing QVDs in the traditional sense of optimizing their read-time, but rather optimizing the QVD inventory.</p>
+</div>
+</div>
 
 ## Prerequisite <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
@@ -58,7 +68,17 @@ Note the overall metrics at the top of the sheet, and ensure that all of the QVD
 
 **Priority 2**
 
-Look for anomalies in the growth rates (pos or neg) of the QVD files. These will be highlighted in red, and the pivot table may need to be expanded in order to see them. *Note: the default thresholds can be modified in the load script.
+Look for anomalies in the growth rates (pos or neg) of the QVD files. These will be highlighted in red, and the pivot table may need to be expanded in order to see them.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>The default thresholds can be modified in the load script.</p>
+</div>
+</div>
 
 [![screenshot - Growth Rate1.png](images/screenshot - Growth Rate1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/qvds/images/screenshot - Growth Rate1.png)
 

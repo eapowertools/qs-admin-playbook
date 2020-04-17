@@ -88,7 +88,15 @@ In this example, Andrew has **Read** and **Publish** access to the `Monitoring A
 
 The approach above is fundamentally a manual one and is ideal for ad-hoc scenarios where the Qlik administrator needs to quickly survey who has access to what in their Qlik site, for example after changing a security rule. An alternative method is to do a bulk query programmatically then load the output into a Qlik App. For this approach we will need a script to bulk extract the audit information.
 
-**_Note that if the Qlik environment is large, this script can take some time to run and can be quite heavy. It is suggested that auditing is kept to the minimum of what is required (i.e., if only data connection audits are needed, set the application and stream variables to $false). Additionally, it is advised to run this script off-hours where possible._**
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Note that if the Qlik environment is large, this script can take some time to run and can be quite heavy. It is suggested that auditing is kept to the minimum of what is required (i.e., if only data connection audits are needed, set the application and stream variables to $false). Additionally, it is advised to run this script off-hours where possible.</p>
+</div>
+</div>
 
 The below script snippet requires the [Qlik CLI](../tooling/qlik_cli.md).
 

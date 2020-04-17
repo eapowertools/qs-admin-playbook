@@ -28,8 +28,16 @@ Benefits:
 {:.no_toc}
 Checking for new tasks regularly helps not only to curate what is necessary (cadence, duplicates, etc), but also encourages reviews of batch windows, task concurrencies, and any other implications against the Qlik schedulers. The above may influence architectural patterns and dictate the need for reload task pinning.
 
-**Note**: This page will outline three methods for accomplishing this activity (using the QMC, using Operations Monitor, and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Operations Monitor approach can be integrated with other activities (i.e. by saving any selections in a bookmark) to decrease overall time spent performing administrative tasks. The Qlik-Cli approach is more appropriate for environments where automation is required.
-{:.notebox}
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This page will outline three methods for accomplishing this activity (using the QMC, using Operations Monitor, and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Operations Monitor approach can be integrated with other activities (i.e. by saving any selections in a bookmark) to decrease overall time spent performing administrative tasks. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+</div>
+</div>
+
 
 ## Table of Contents
 {:.no_toc}

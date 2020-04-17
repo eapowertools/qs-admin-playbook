@@ -53,7 +53,15 @@ At this stage sort by **Connection String** so that the groupings are visible fo
 
 [![storage-4.png](images/storage-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/storage-4.png)
 
-**Note**: If this is a multi-node Qlik Sense site then the presence of local paths (`C:\`, `D:\`) is concerning. Refer to [Analyzing Data Connections](..\asset_management\data_connections\analyze_data_connections.html) for guidance on converting these to UNC share paths.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>If this is a multi-node Qlik Sense site then the presence of local paths (`C:\`, `D:\`) is concerning. Refer to [Analyzing Data Connections](..\asset_management\data_connections\analyze_data_connections.html) for guidance on converting these to UNC share paths.</p>
+</div>
+</div>
 
 ### Storage used for Qlik Sense storage
 

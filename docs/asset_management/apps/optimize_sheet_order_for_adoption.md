@@ -53,7 +53,17 @@ This activity should not be attempted for every application, and should be prior
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. **Note:** This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s). 
+Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s).</p>
+</div>
+</div>
 
 [![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
 

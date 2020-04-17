@@ -14,12 +14,14 @@ html * {
     display: inline;
 }
 
+
 /* note boxes */
+
 .card-header {
     padding: .3em .75rem;
     margin-bottom: 0;
     background-color: #f0ad4e;
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
     font-weight: bold;
     height: 37px;
 }
@@ -34,7 +36,7 @@ html * {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
     margin-bottom: 1rem;
     max-width: 800px;
@@ -46,10 +48,11 @@ html * {
     min-height: 1px;
     padding: 1.25rem;
     font-size: 15px;
-    border-bottom: 1px solid rgba(0,0,0,.125);
-    border-left: 1px solid rgba(0,0,0,.125);
-    border-right: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-left: 1px solid rgba(0, 0, 0, .125);
+    border-right: 1px solid rgba(0, 0, 0, .125);
 }
+
 
 /* green white gray for filters */
 
@@ -362,17 +365,9 @@ samp {
     color: #e6c07b !important;
 }
 
+
 /* remove list element margins for drop downs */
 
-.dropdown-menu > li {
-    margin: 0 !important;   
-}
-
-.notebox {
-    border-radius: 25px;
-    padding: 15px; 
-    border: 3px solid #eb77347a;
-    border-style: dotted;
-    height: auto;
-    width: auto;
+.dropdown-menu>li {
+    margin: 0 !important;
 }

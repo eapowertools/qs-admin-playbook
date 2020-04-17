@@ -109,7 +109,15 @@ An example output from this site could looks like the following:
 |------------------|-------------|--------------------------|--------------------------|
 | 2                | 10          | 7                        | 4                        |
 
-* Note that the _Licenses Allocated Unused_ metric found [here](/licenses.md) is calculated on 30 days, not 90, as the above chart shows. Take this into consideration in the capacity plan.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>The _Licenses Allocated Unused_ metric found [here](/licenses.md) is calculated on 30 days, not 90, as the above chart shows. Take this into consideration in the capacity plan.</p>
+</div>
+</div>
 
 **Tags**
 

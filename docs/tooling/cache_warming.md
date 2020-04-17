@@ -89,8 +89,25 @@ The required parameters are `server` and `app` (specified by Name or ID). The op
 
 The tool will use _Windows_ authentication to open the app as the user who is executing the process. This means that if this tool is used, the administrator should execute it in the context of a dedicated user who both has a license assigned to them and the required permissions to open the app using security rules (and section access if used).
 
-- **Note**: While the parameters have both short and long forms, this guide will use the long forms for consumability purposes.
-- **Note**: This guide will use `--appname` for consumability purposes. It is recommended to use `--appid` to ensure precision of the app being opened.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>While the parameters have both short and long forms, this guide will use the long forms for consumability purposes.</p>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This guide will use `--appname` for consumability purposes. It is recommended to use `--appid` to ensure precision of the app being opened.</p>
+</div>
+</div>
 
 The simplest scenario involves opening a Qlik app on a specified server so that the **Base App** cache is built:
 `CacheInitializer.exe --server https://qliksense.company.com --appname "Operations Monitor"`

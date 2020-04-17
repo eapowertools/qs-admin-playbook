@@ -28,7 +28,15 @@ Benefits:
 {:.no_toc}
 In environments where self-service is enabled, i.e. users have the ability to create their own private sheets on published applications, with a high number of users, the number of private sheets can ultimately grow very large. The goal of this section is to illustrate how to put policies/practices in place to consistently keep the number of private sheets under control--allowing for a tidy/more performant site.
 
-**Note:** that "Base" and "Community" sheets should be handled a bit differently--please refer to [Flag Unused Base/Community Sheets](flag_unused_base_community_sheets.md).
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>"Base" and "Community" sheets should be handled a bit differently--please refer to [Flag Unused Base/Community Sheets](flag_unused_base_community_sheets.md).</p>
+</div>
+</div>
 
 ## Table of Contents
 {:.no_toc}
@@ -48,7 +56,17 @@ In environments where self-service is enabled, i.e. users have the ability to cr
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. **Note:** This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s). 
+Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_.
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s).</p>
+</div>
+</div>
 
 [![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
 
@@ -282,7 +300,15 @@ Once the script has been run above, and a review of the tagging has been confirm
 
 In order to completely remove sheets from both an application and the repository database, the [Qlik Engine JSON API](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm) must be used. To work with this API, the sample script leverages [Enigma.js](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/enigmajs/enigmajs-introduction.htm).
 
-_Note that if it is attempted to use the QRS API to remove sheets instead of the Engine API, only the "pointers" to those sheets will be removed from the repository database--the sheet information itself stored inside of the qvf will not be removed. This is why the Engine API must be leveraged for programmatic deletion, as it purges both._
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>If it is attempted to use the QRS API to remove sheets instead of the Engine API, only the "pointers" to those sheets will be removed from the repository database--the sheet information itself stored inside of the qvf will not be removed. This is why the Engine API must be leveraged for programmatic deletion, as it purges both.</p>
+</div>
+</div>
 
 1. Download the following files from [here](https://github.com/eapowertools/qs-admin-playbook/tree/master/scripts/remove_tagged_private_sheets) and place them in a desired folder.
   - `remove_tagged_private_sheets.js`

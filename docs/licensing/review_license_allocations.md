@@ -81,7 +81,15 @@ Edit the _User Timeline_ Chart by selecting it and deleting the **Access Type** 
 
 With **Access Type** removed, open the _Measures_ pane and select _Add Trend_ under the **User Accessing Apps** measure. 
 
-**_Note that this feature was introduced in the February 2020 release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm). If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463) using functions like `linest_m()` and `linest_b()` functions._**
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This feature was introduced in the February 2020 release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm). If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463) using functions like `linest_m()` and `linest_b()` functions.</p>
+</div>
+</div>
 
 [![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/licensing/images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png)
 

@@ -52,7 +52,7 @@ Open the Qlik Sense Telemetry Dashboard application and navigate to the **Detail
 
 For this example, we are interested in Visualization objects, App Open Events, and Reloads which have taken more than 30 seconds.
 
- * **Note**: The primary Engine calls which are relevant for most users of the Telemetry Dashboard are:
+ * The primary Engine calls which are relevant for most users of the Telemetry Dashboard are:
    * OpenApp : The request to the Engine to open an application. This is the time it takes for the Engine to request the application binary from disk, load it over the network, and un-compress it to RAM.
    * Reloads : How long a reload execution takes. This type of request is less frequently relevant to most organizations. At least for the scope of this task.
    * Visualizations : The request to the Engine to render a visualization, e.g. a table chart.

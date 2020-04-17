@@ -30,7 +30,15 @@ The Reloads Monitor loads and presents log data about reloads. Reload data is co
 
 The application can be found under **_%ProgramData%\Qlik\Sense\Repository\DefaultApps_** and is titled _Reloads_Monitor.qvf_. This however might not be the most recent version of the app, as there have been bug fixes since. The most recent version of the app can be found at [Qlik Community - Sense: Sessions Monitor, Reloads Monitor, Log Monitor](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-Sessions-Monitor-Reloads-Monitor-Log-Monitor/gpm-p/1578597), and can be used from April 2018 and beyond.
 
-> Note: you might be able to use this with Feb 2018, but proceed at own risk.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This might be able to work with Feb 2018, but proceed at own risk.</p>
+</div>
+</div>
 
 -------------------------
 

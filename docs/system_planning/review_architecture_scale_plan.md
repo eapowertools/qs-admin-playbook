@@ -13,7 +13,7 @@ parent: System Planning
 
 **Sites** <span class="label prod">production</span>
 
-|                                  		                    | Initial     | Recurring  |
+|                                  		                      | Initial     | Recurring  |
 |-----------------------------------------------------------|-------------|------------|
 | <i class="far fa-clock fa-sm"></i> **Estimated Time**     | 2-3 hrs     | 1 hr       |
 
@@ -125,11 +125,35 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 [![architecture-8.png](images/architecture-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-8.png)
 
-\* Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include VPCs, AZs, SGs, Network ACLs, all the better -- however it goes beyond the basics of this exercise.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include VPCs, AZs, SGs, Network ACLs, all the better -- however it goes beyond the basics of this exercise.</p>
+</div>
+</div>
 
-\* SMB file share - either FSx (requires domain) or EBS storage on EC2 instance.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>SMB file share - either FSx (requires domain) or EBS storage on EC2 instance.</p>
+</div>
+</div>
 
-\* One could also leverage the _Growth Environment_ in AWS, with both the repository database and fileshare on an AWS EC2 instance.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>One could also leverage the _Growth Environment_ in AWS, with both the repository database and fileshare on an AWS EC2 instance.</p>
+</div>
+</div>
 
 ### Azure Diagram Example
 
@@ -137,11 +161,35 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 [![architecture-9.png](images/architecture-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-9.png)
 
-\* Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include Virtual Networks, Subnets, Resource Groups, etc, all the better -- however it goes beyond the basics of this exercise.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include Virtual Networks, Subnets, Resource Groups, etc, all the better -- however it goes beyond the basics of this exercise.</p>
+</div>
+</div>
 
-\* Azure Files for SMB Storage with Cmdkey or Windows Credential Manager.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Azure Files for SMB Storage with Cmdkey or Windows Credential Manager.</p>
+</div>
+</div>
 
-\* One could also leverage the _Growth Environment_ in Azure, with both the repository database and fileshare on an Azure VM.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>One could also leverage the _Growth Environment_ in Azure, with both the repository database and fileshare on an Azure VM.</p>
+</div>
+</div>
 
 -------------------------
 

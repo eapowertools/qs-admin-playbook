@@ -22,7 +22,15 @@ There are a number of metrics that should be focused on, including the following
 - Intra-day Reloads
 - Batch Window
 
-\* Note that more important than any of the above is the overall end-user experience. If the end-users are complaining about performance issues, even though the above metrics look to be good, it could likely be due to the application itself. Refer to: [Applications](applications.md).
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>Note that more important than any of the above is the overall end-user experience. If the end-users are complaining about performance issues, even though the above metrics look to be good, it could likely be due to the application itself. Refer to: [Applications](applications.md).</p>
+</div>
+</div>
 
 ## Table of Contents
 {:.no_toc}
@@ -82,7 +90,15 @@ To gather this metric, we need to leverage the [App Metadata Analyzer](../../too
 
 In the _Engine Node: Available Apps & Base RAM Footprint_ table, one can view the total base RAM footprint for all applications that are able to be lifted on each individual engine node. 
 
-**Note** - This practice should also be repeated with selecting only the highly-used applications, as it is highly unlikely that _all_ applications will be open in RAM at the same time in production, unless there are only a few applications that are deployed. It is suggested to select only highly used applications, which can be found in the **Operations Monitor** -> _Session Overview_ sheet -> _Top 50 Apps_ chart.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This practice should also be repeated with selecting only the highly-used applications, as it is highly unlikely that _all_ applications will be open in RAM at the same time in production, unless there are only a few applications that are deployed. It is suggested to select only highly used applications, which can be found in the **Operations Monitor** -> _Session Overview_ sheet -> _Top 50 Apps_ chart.</p>
+</div>
+</div>
 
 [![capacity_planning_system_19.png](images/capacity_planning_system_19.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_update_capacity_plan/images/capacity_planning_system_19.png)
 

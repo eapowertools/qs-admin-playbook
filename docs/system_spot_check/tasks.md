@@ -53,7 +53,7 @@ To do a cursory exploration of the task failure, select the **i** icon to bring 
 
 [![check_tasks-4.png](images/check_tasks-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_spot_check/images/check_tasks-4.png)
 
- * **Note** : Reload tasks have two primary components:
+ * Reload tasks have two primary components:
    * (a) : Initiation of the reload task from the Qlik Repository Service to the Qlik Scheduler Service which determines an available Qlik Engine to execute the reload task.
    * (b) : Execution of the application's load script by the Qlik Engine
 

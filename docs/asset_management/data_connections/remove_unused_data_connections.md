@@ -127,8 +127,15 @@ It might not be the worst idea to take a snapshot of all data connections before
 
 ### Scripts to Manage Unused Data Connections <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>
 
-**Note:** It is highly recommended to delete data connections manually, after validating with their respective owners. Please refer to the _Suggestions_ section above. The scripts below show how data connections can be backed up and programmatically flagged. The flagging (adding of a custom property value) allows for the administrator to temporarily "quarantine" the connections pre-removal.
-{:.notebox}
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<pIt is highly recommended to delete data connections manually, after validating with their respective owners. Please refer to the _Suggestions_ section above. The scripts below show how data connections can be backed up and programmatically flagged. The flagging (adding of a custom property value) allows for the administrator to temporarily "quarantine" the connections pre-removal.</p>
+</div>
+</div>
 
 #### Script to Backup All Data Connections
 

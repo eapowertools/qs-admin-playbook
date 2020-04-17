@@ -27,13 +27,15 @@ Benefits:
 {:.no_toc}
 While the idea of simply checking for new applications seems relatively trivial and not particularly actionable, it is a good practice as it only takes a couple of minutes and can increase reaction times to the presence of large applications. This page illustrates three methods of visualizing/gathering that high-level application data on newly created applications, so that the administrator can be aware/potentially report on it.
 
+Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_.
+
 {::options parse_block_html="true" /}
 <div class="card">
 <div class="card-header">
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This page will outline three methods for accomplishing this activity (using the QMC, using Operations Monitor, and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Operations Monitor approach can be integrated with other activities (i.e. by saving any selections in a bookmark) to decrease overall time spent performing administrative tasks. The Qlik-Cli approach is more appropriate for environments where automation is required..</p>
+<p>This is the default setting, but it is encouraged for the Qlik administrator to confirm what is configured for their environment(s).</p>
 </div>
 </div>
 
