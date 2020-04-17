@@ -8,7 +8,7 @@ permalink: docs/about
 # About
 {: .no_toc }
 
-The _Qlik Sense Admin Playbook_ is designed and intended to be a repository of best practices for a Qlik Administrator to reference. It is maintained by the Americas Enterprise Architecture at Qlik. The Playbook covers many activities and exercises that help to maintain a high-performing and easily manageable site.
+The _Qlik Sense Admin Playbook_ is designed and intended to be a repository of best practices for a Qlik Administrator to reference. It is maintained by the Americas Enterprise Architecture team at Qlik. The Playbook covers many activities and exercises that help to maintain a high-performing and easily manageable site.
 
 **Support:** Many of the actions and exercises within these best practices involve third-party tools, and those tools are not directly supported by Qlik. For support for these tools, add an issue to the tool's GitHub page (e.g. the [issues page for the Telemetry Dashboard](https://github.com/eapowertools/qs-telemetry-dashboard/issues)). 
 
