@@ -16,7 +16,7 @@ html * {
 
 /* note boxes */
 .card-header {
-    padding: .3em 1rem;
+    padding: .3em .75rem;
     margin-bottom: 0;
     background-color: #f0ad4e;
     border-bottom: 1px solid rgba(0,0,0,.125);
@@ -44,7 +44,7 @@ html * {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1rem;
+    padding: 1.25rem;
     font-size: 15px;
     border-bottom: 1px solid rgba(0,0,0,.125);
     border-left: 1px solid rgba(0,0,0,.125);
