@@ -29,6 +29,7 @@ Benefits:
 Checking for new data connections on a regular basis is one of the ways to help curb the amount of connections that exist in the environment. It allows for the ability to spot duplicates ahead of time, track what sources are being used, and catch any potential out-of-process additions. For a much deeper analysis of data connections, please refer to the [Data Connection Analyzer](../../tooling/data_connection_analyzer.md).
 
 **Note**: This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.
+{:.notebox}
 
 ## Table of Contents
 {:.no_toc}
