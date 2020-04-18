@@ -29,8 +29,8 @@ const cert = fs.readFileSync(certificatesPath + 'client.pem');
 const key = fs.readFileSync(certificatesPath + 'client_key.pem');
 
 var dateObject = new Date();
-var outputFilePath = "output-" + dateObject.toISOString() + ".csv";
-var logFilePath = "log-" + dateObject.toISOString() + ".txt";
+var outputFilePath = "output-" + dateObject.toISOString().replace(':','') + ".csv";
+var logFilePath = "log-" + dateObject.toISOString().replace(':','') + ".txt";
 
 var defaultHeaders = {
     'X-Qlik-User': userHeader,
