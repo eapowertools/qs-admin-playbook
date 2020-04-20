@@ -236,7 +236,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections?) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
 
 ### Action
 {:.no_toc}
@@ -252,7 +252,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections?) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
 
 [![analyze_data_connections_16.png](images/analyze_data_connections_16.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_16.png)
 
