@@ -52,7 +52,7 @@ This pages leverages the **Data Connection Analyzer** application. For documenta
 
 ## Which connections are no longer used?
 
- **A data connection is found in a script log and exists in the Qlik Sense site, however no associated applications currently exist that at one point had used it.**
+ **A data connection is found in a script log and the data connection exists in the Qlik Sense site, however, the applications which refer to this data connection in their scripts no longer exist.**
  
 ### How-to
 {:.no_toc}
@@ -236,7 +236,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the **What are the most widely used data connections?**, by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections?) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
 
 ### Action
 {:.no_toc}
@@ -252,7 +252,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the **What are the most widely used data connections?**, by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections?) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
 
 [![analyze_data_connections_16.png](images/analyze_data_connections_16.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_16.png)
 
