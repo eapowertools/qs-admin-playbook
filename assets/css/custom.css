@@ -388,6 +388,10 @@ samp {
 
 /* remove list element margins for drop downs */
 
+.dropdown-menu {
+    padding: 0 0 !important;
+}
+
 .dropdown-menu>li {
     margin: 0 !important;
 }
