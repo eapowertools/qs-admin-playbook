@@ -28,6 +28,12 @@ The application is supported by Qlik's Americas Enterprise Architecture team, an
 
 -------------------------
 
+## Analysis
+
+For a walkthrough of all how to answer all of the questions in the section below, please refer to [Analyze Data Connections](../asset_management/data_connections/analyze_data_connections.md).
+
+-------------------------
+
 ## Common Questions & Associated Benefits of the App
 
 **Which connections are no longer used? (A data connection is found in a script log and exists in the Qlik Sense site, however no associated applications currently exist that at one point had used it).**
@@ -50,10 +56,6 @@ Removing unused connections makes general administration easier, as there is les
 **Do we have duplicate data connections?**
 
 - By analyzing the connection strings, one can tackle duplicate connections to the same source data. This eases administration overhead and will ensure that there is reusability/consistency across the platform.
-
-**Who owns what data connections?**
-
-- This is valuable from an access/security perspective to ensure governance of data sources.
 
 **Who is using what data connections?**
 
