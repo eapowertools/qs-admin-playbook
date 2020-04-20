@@ -84,7 +84,7 @@ It is common that users will create data connections to test connectivity, but t
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>If the variable `vNumLogDays` in the load script is set to something like `90`, then the data connection could likely be found in script logs _older_ than 90 days, but the application has just been set to ignore logs older than that--so the KPI showing the number of data connections that have _never been used_ could be misleading in that scenario. If the goal is to get a more accurate read here, ensure that `vNumLogDays` is set to capture all logs, with a value of something like `99999`.
+<p>The Data Connection Analyzer app leverages a variable named `vNumLogDays` in the script to specify how many days worth of logs the app should parse. If this variable is modified from its default value of `9999` then it is possible that the data connection was used but outside of the specified `vNumLogDays` and thus be considered unused by the Data Connection Analyzer. If the goal is to get a more accurate read here, ensure that `vNumLogDays` is set to capture all logs, with a value of `99999`.
   
 If old Archived Logs are being archived (refer to: [Archive Old Archived Logs](../../backup_and_archiving/archive_old_archived_logs.md)) then that needs to be taken into account as well, as those script logs will not be analyzed. Typically, this is perfectly acceptable, as those script logs are usually quite old, and if a connection hasn't been used since then, it is safe to say it is unused and can be removed.</p>
 </div>
