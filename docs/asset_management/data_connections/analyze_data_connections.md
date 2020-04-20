@@ -28,9 +28,9 @@ Benefits:
 
 ## Goal
 {:.no_toc}
-There are numerous goals to managing and curating data connections in a Qlik site -- especially in a development tier, where potentially many, many power users are creating data connections. In essence, the goals is **to run a leaner, more performant, and more easily and holistically governed Qlik Sense site.**
+There are numerous goals to managing and curating data connections in a Qlik site -- especially in a development tier, where potentially many, many power users are creating data connections. In essence, the goal is **to run a leaner, more performant, and more easily and holistically governed Qlik Sense site.**
 
-In this section, there will be a **How-to** and an **Action** section for each of the [commonly asked questions](../../tooling/data_connection_analyzer.md#common-questions--associated-benefits-of-the-app) about data connections.
+In this section, there will be a _How-to_ and an _Action_ section for each of the [commonly asked questions](../../tooling/data_connection_analyzer.md#common-questions--associated-benefits-of-the-app) about data connections.
 
 -------------------------
 
