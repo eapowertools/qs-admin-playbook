@@ -216,9 +216,9 @@ Select a connection, and visualize the what applications utilized it and when--a
 
 In the upper right, one can then select the **Executed By** filter to visualize what users have leveraged the data connection.
 
-  - INTERNAL\sa_scheduler maps to **Task** executions
-  - INTERNAL\sa_api maps to **API (ODAG or otherwise)** executions
-  - User accounts map to **Hub** executions
+  - `INTERNAL\sa_scheduler` maps to **Task** executions
+  - `INTERNAL\sa_api` maps to **API (ODAG or otherwise)** executions
+  - End-user accounts map to **Hub** executions
   
 [![analyze_data_connections_9.png](images/analyze_data_connections_9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_9.png)
 
