@@ -27,6 +27,16 @@ Benefits:
 {:.no_toc}
 While the idea of simply checking for new applications seems relatively trivial and not particularly actionable, it is a good practice as it only takes a couple of minutes and can increase reaction times to the presence of large applications. This page illustrates three methods of visualizing/gathering that high-level application data on newly created applications, so that the administrator can be aware/potentially report on it.
 
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+</div>
+</div>
+
 ## Table of Contents
 {:.no_toc}
 
