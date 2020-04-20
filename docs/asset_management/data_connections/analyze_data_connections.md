@@ -46,7 +46,7 @@ In this section, there will be a _How-to_ and an _Action_ section for each of th
 
 ### Data Connection Analyzer
 
-This pages leverages the **Data Connection Analyzer** application. For documentation, please refer to [Data Connection Analyzer](../../tooling/data_connection_analyzer.md). To understand why this tool is needed for this process, please refer to the [Data Connection Usage](../remove_unused_data_connections.md#data-connection-usage) section of the [Remove Unused Data Connections](../remove_unused_data_connections.md) article.
+This pages leverages the **Data Connection Analyzer** application. For documentation, please refer to [Data Connection Analyzer](../../tooling/data_connection_analyzer.md). To understand why this tool is needed for this process, please refer to the [Data Connection Usage](remove_unused_data_connections.md#data-connection-usage) section of the [Remove Unused Data Connections](remove_unused_data_connections.md) article.
 
 -------------------------
 
@@ -68,7 +68,7 @@ If there are any connections that fall into this category, they will appear in t
 ### Action
 {:.no_toc}
 
-If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](../remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](../remove_unused_data_connections.md) article.
+If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](remove_unused_data_connections.md) article.
 
 -------------------------
  
@@ -104,7 +104,7 @@ If there are any connections that fall into this category, they will appear in t
 ### Action
 {:.no_toc}
 
-If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](../remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](../remove_unused_data_connections.md) article.
+If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](remove_unused_data_connections.md) article.
 
 -------------------------
 
