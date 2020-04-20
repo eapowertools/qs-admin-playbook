@@ -55,6 +55,7 @@ This pages leverages the **Data Connection Analyzer** application. For documenta
  **A data connection is found in a script log and exists in the Qlik Sense site, however no associated applications currently exist that at one point had used it.**
  
 ### How-to
+{:.no_toc}
 
 Navigate to the _Unused Connection Analysis_ sheet.
 
@@ -65,6 +66,7 @@ If there are any connections that fall into this category, they will appear in t
 [![analyze_data_connections_2.png](images/analyze_data_connections_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_2.png)
 
 ### Action
+{:.no_toc}
 
 If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](../remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](../remove_unused_data_connections.md) article.
 
@@ -89,6 +91,7 @@ If old Archived Logs are being archived (refer to: [Archive Old Archived Logs](.
 </div>
 
 ### How-to
+{:.no_toc}
 
 Navigate to the _Unused Connection Analysis_ sheet.
 
@@ -99,6 +102,7 @@ If there are any connections that fall into this category, they will appear in t
 [![analyze_data_connections_3.png](images/analyze_data_connections_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_3.png)
 
 ### Action
+{:.no_toc}
 
 If the data connection **Last Used (Reloaded)** date is over 90 days old (or whatever is the desired age of a connection to be unused organizationlly), contact the owner of the data connection to see if it can be quarantined and then ultimately removed. Please refer to the [Suggested Actions](../remove_unused_data_connections.md#suggested-actions) section of the [Remove Unused Data Connections](../remove_unused_data_connections.md) article.
 
@@ -109,6 +113,7 @@ If the data connection **Last Used (Reloaded)** date is over 90 days old (or wha
 **Let’s say a data source is being transformed and will be moved from one database to another location. The first question one might ask is, “What applications are using that connection, so we can re-route it to the new db and make adjustments to the load scripts?”. This historically has not been easy to answer. This application allows one to select that connection and visualize apps that are using it.**
 
 ### How-to
+{:.no_toc}
 
 Navigate to the _Dashboard_ sheet.
 
@@ -127,6 +132,7 @@ Optionally, select a single application to view all of the data connection depen
 [![analyze_data_connections_14.png](images/analyze_data_connections_14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_14.png)
 
 ### Action
+{:.no_toc}
 
 If a data connection is being deprecated, or re-routed, etc--ensure that the process above of identifying all of the applications that are dependent on that data connection is followed, so that the new connection details can be addressed in each of the application's load scripts.
 
@@ -137,6 +143,7 @@ If a data connection is being deprecated, or re-routed, etc--ensure that the pro
 **By analyzing the connection strings, one can tackle duplicate connections to the same source data. This eases administration overhead and will ensure that there is reusability/consistency across the platform.**
 
 ### How-to
+{:.no_toc}
 
 Navigate to the _Duplicate Analysis_ sheet.
 
@@ -160,6 +167,7 @@ Now, in the following example, the type of **QvOdbcConnectorPackage.exe** has be
 [![analyze_data_connections_12.png](images/analyze_data_connections_12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_12.png)
 
 ### Action
+{:.no_toc}
 
 Connection duplicates should be resolved where possible. Contact the owners of the applications, and audit which applications are using them. Decide which connections should become the primary with the developers, and ensure that they are all moved to that new connection and tested.
 
@@ -170,6 +178,7 @@ Connection duplicates should be resolved where possible. Contact the owners of t
 **By parsing the script logs, one can visualize old data connection names/paths that can help to serve as an audit trail.**
 
 ### How-to
+{:.no_toc}
 
 Navigate to the _Dashboard_ sheet.
 
@@ -180,6 +189,7 @@ Select the value of _True_ next to the _Connections Only Found in Script_ KPI. T
 [![analyze_data_connections_5.png](images/analyze_data_connections_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_5.png)
 
 ### Action
+{:.no_toc}
 
 There is no direct action necessary here, as this exercise is only particularly useful in the context of auditing. Leverage as required.
 
@@ -190,6 +200,7 @@ There is no direct action necessary here, as this exercise is only particularly 
 **Depending on how this application is deployed, whether it be strictly administrative or potentially visible to developers, this metric is important both administratively and socially throughout the organization.**
 
 ### How-to
+{:.no_toc}
 
 Navigate to the _Usage_ sheet.
 
@@ -212,6 +223,7 @@ In the upper right, one can then select the **Executed By** filter to visualize 
 [![analyze_data_connections_9.png](images/analyze_data_connections_9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_9.png)
 
 ### Action
+{:.no_toc}
 
 There is no direct action necessary here. Leverage as required.
 
@@ -222,10 +234,12 @@ There is no direct action necessary here. Leverage as required.
 **While “User A” might own “Data Connection A”, “User B” might also have read access to that data connection. This can of course be visualized through the audit capability of the QMC, however this application will physically reveal who is executing any reloads of those data connections, giving greater visibility and allowing a deeper level of auditing and governance.**
 
 ### How-to
+{:.no_toc}
 
 The process to answer this question is addressed in the **What are the most widely used data connections?**, by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
 
 ### Action
+{:.no_toc}
 
 There is no direct action necessary here. Leverage as required.
 
@@ -236,12 +250,14 @@ There is no direct action necessary here. Leverage as required.
 **The application visualizes what connections are being run as tasks, manually, or in ODAG (or other API) requests. This is crucial in understanding user behavior.**
 
 ### How-to
+{:.no_toc}
 
 The process to answer this question is addressed in the **What are the most widely used data connections?**, by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
 
 [![analyze_data_connections_16.png](images/analyze_data_connections_16.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_16.png)
 
 ### Action
+{:.no_toc}
 
 There is no direct action necessary here. Leverage as required.
 
