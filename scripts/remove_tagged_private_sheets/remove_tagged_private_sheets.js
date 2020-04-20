@@ -55,7 +55,7 @@ var requestParams = {
 function createSession(appId) {
     return enigma.create({
         schema,
-        url: `wss://${host}:${enginePort}/app/engineData`,
+        url: `wss://${host}:${enginePort}/app/${appId}`,
         createSocket: url => new WebSocket(url, {
             ca: ca,
             key: key,
@@ -96,8 +96,9 @@ function removeSheet(doc, appId, sheetList) {
 }
 
 async function doEngineWork(appSheetsDictionary) {
-    var session = createSession();
+    var session = null;
     for (var app in appSheetsDictionary) {
+        session = createSession(app);
         await session.open().then((global) => {
             fs.appendFileSync(logFilePath, "Session opened, connecting to app '" + app + "'.\n");
             return global.openDoc(app, "", "", "", true).then((doc) => {
