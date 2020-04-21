@@ -54,6 +54,8 @@ This pages leverages the **Data Connection Analyzer** application. For documenta
 
  **A data connection is found in a script log and the data connection exists in the Qlik Sense site, however, the applications which refer to this data connection in their scripts no longer exist.**
  
+ It is common for data connections to become deprecated or unused over time. A data source may change from one database to another. Or perhaps the need for the data source no longer exists. By leveraging this app, one can identify which connections _have_ been used inside of Qlik apps but those Qlik apps have been deleted / no new Qlik apps use this data connection.
+ 
 ### How-to
 {:.no_toc}
 
