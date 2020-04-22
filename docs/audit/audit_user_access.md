@@ -31,6 +31,7 @@ This activity will center around auditing what assets (e.g. apps, streams, data 
 
 * TOC
 {:toc}
+
 -------------------------
 
 ## QMC - Audit
