@@ -156,6 +156,10 @@ object {
     color: #F8F8F8;
 }
 
+/* pointer cursor on images */
+img:hover {
+    cursor: pointer;
+}
 
 /* add borders and hover effects on all images under the .page class */
 
