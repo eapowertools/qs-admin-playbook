@@ -74,15 +74,15 @@ Qlik apps can perform well at scale, but a common baseline is a large Qlik app i
 
 In the QMC, navigate to the _Apps_ section.
 
-[![review_cache-1.png](images/review_cache-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-1.png)
+![review_cache-1.png](images/review_cache-1.png)
 
 Using the _Column_ selector, toggle the **File Size (MB)** column.
 
-[![review_cache-2.png](images/review_cache-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-2.png)
+![review_cache-2.png](images/review_cache-2.png)
 
 In the newly constructed table, use the filter on the _Name_ column to filter on the app by its name and inspect the **File Size (MB)** column.
 
-[![review_cache-3.png](images/review_cache-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-3.png)
+![review_cache-3.png](images/review_cache-3.png)
 
 Repeat this process for all popular apps. If the app(s) is large, then a cache warming strategy is appropriate.
 
@@ -94,17 +94,17 @@ Refer to [Cache Warming](../../tooling/app_metadata_analyzer.md) for more guidan
 
 With a configured and reloaded app, open the app in the Hub, and open the _Dashboard_ sheet.
 
-[![review_cache-4.png](images/review_cache-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-4.png)
+![review_cache-4.png](images/review_cache-4.png)
 
 Use the global search section to search for the app(s) by name.
 
-[![review_cache-5.png](images/review_cache-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-5.png)
+![review_cache-5.png](images/review_cache-5.png)
 
-[![review_cache-6.png](images/review_cache-6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-6.png)
+![review_cache-6.png](images/review_cache-6.png)
 
 With the app(s) selected, inspect the _App Memory Footprint (MB)_ table for the app's in-memory size.
 
-[![review_cache-7.png](images/review_cache-7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/review_cache-7.png)
+![review_cache-7.png](images/review_cache-7.png)
 
 ## Scenario (2), Important Apps
 

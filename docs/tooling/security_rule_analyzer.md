@@ -26,7 +26,7 @@ The application is an application supported by the Americas Enterprise Architect
 
 ## Screenshot
 
-[![security_rules_5.png](images/security_rules_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/tooling/images/security_rules_5.png)
+![security_rules_5.png](images/security_rules_5.png)
 
 ## Where to get it
 

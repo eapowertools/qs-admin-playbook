@@ -26,7 +26,7 @@ The goal of this page is to provide example generic production architectures to 
 
 ### Single Node Qlik site
 
-[![architecture-example-1.png](images/architecture-example-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-example-1.png)
+![architecture-example-1.png](images/architecture-example-1.png)
 
 **Features**:
 - Single Qlik Sense node
@@ -35,7 +35,7 @@ This is an incredibly common starting point for Qlik sites. It allows for rapid 
 
 ### Two Server Qlik Site
 
-[![architecture-example-2.png](images/architecture-example-2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-example-2.png)
+![architecture-example-2.png](images/architecture-example-2.png)
 
 **Features**:
 - Segregation of front and back end activities
@@ -44,7 +44,7 @@ This also is an incredibly common starting point for Qlik sites. Likewise is the
 
 ### Three Server Qlik Site
 
-[![architecture-example-3.png](images/architecture-example-3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-example-3.png)
+![architecture-example-3.png](images/architecture-example-3.png)
 
 **Features**:
 - User Resiliency
@@ -54,7 +54,7 @@ This architecture shows horizontal scaling on consume nodes which allows for res
 
 ### Four Server Qlik Site
 
-[![architecture-example-4.png](images/architecture-example-4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-example-4.png)
+![architecture-example-4.png](images/architecture-example-4.png)
 
 **Features**:
 - Horizontal Scaling
@@ -66,7 +66,7 @@ This architecture shows horizontal scaling on both the front and back end nodes 
 
 ### Five Server Qlik Site
 
-[![architecture-example-5.png](images/architecture-example-5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-example-5.png)
+![architecture-example-5.png](images/architecture-example-5.png)
 
 **Features**:
 - Horizontal Scaling

@@ -45,7 +45,7 @@ The goal is to remove all unnecessary tasks from the site. This will make the si
 
 1. _"Manually triggered reload of..."_ tasks. These tasks should always be routinely cleaned out, as they are created to run once and then typically left to live out their long and lonely lives to never be run again. These are "one-off" tasks that are created and triggered by the **Reload now** option under the **Apps** section in the QMC when selecting a single application.
 
-    -  [![remove_unused_tasks_native_1.png](images/remove_unused_tasks_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/remove_unused_tasks_native_1.png)
+    -  ![remove_unused_tasks_native_1.png](images/remove_unused_tasks_native_1.png)
 
     -  **Action**
         - Immediate removal.
@@ -55,7 +55,7 @@ The goal is to remove all unnecessary tasks from the site. This will make the si
 
 2. Disabled tasks.
 
-    - [![remove_unused_tasks_native_3.png](images/remove_unused_tasks_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/remove_unused_tasks_native_3.png)
+    - ![remove_unused_tasks_native_3.png](images/remove_unused_tasks_native_3.png)
 
     - **Action**
         - Contact the **Owner** of the application for which the task is associated with, as well as potentially the **Modified by** user of the task, who is more than likely the user who disabled the task. This information can all be found in the QMC.
@@ -65,7 +65,7 @@ The goal is to remove all unnecessary tasks from the site. This will make the si
 
 3. Active tasks with no **Next execution**
 
-    - [![remove_unused_tasks_native_4.png](images/remove_unused_tasks_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/remove_unused_tasks_native_4.png)
+    - ![remove_unused_tasks_native_4.png](images/remove_unused_tasks_native_4.png)
     
     - **Action**
         - Contact the **Owner** of the application for which the task is associated with, as well as potentially the **Modified by** user of the task, who is more than likely the user who disabled the task. This information can all be found in the QMC.

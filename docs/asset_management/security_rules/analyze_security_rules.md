@@ -152,19 +152,19 @@ The following guidelines can be used to aid optimization efforts if required:
 
 For manually reviewing security rules, start by navigating to the QMC, and then select **Security Rules**.
 
-[![security_rules_1.png](images/security_rules_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/security_rules/images/security_rules_1.png)
+![security_rules_1.png](images/security_rules_1.png)
 
 Click on the _Column selector_, and add the **Conditions** column.
 
-[![security_rules_2.png](images/security_rules_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/security_rules/images/security_rules_2.png)
+![security_rules_2.png](images/security_rules_2.png)
 
 Select the filter on the **Conditions** column, and then search for any of the bad practices, such as `.name`, `.id`, `*`, etc.
 
-[![security_rules_3.png](images/security_rules_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/security_rules/images/security_rules_3.png)
+![security_rules_3.png](images/security_rules_3.png)
 
 As an additional step, filter on the **Disabled** column to _No_ to only view active security rules.
 
-[![security_rules_4.png](images/security_rules_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/security_rules/images/security_rules_4.png)
+![security_rules_4.png](images/security_rules_4.png)
 
 This is of course a very manual process, and might prove to be rather difficult to consume. For an automated process that will sum up all of the flagged bad practices and allow for deeper analysis, please explore the application below.
 
@@ -174,7 +174,7 @@ The **qs-security-rule-analyzer** application is an application supported by the
 
 Download it here: [qs-security-rule-analyzer](https://github.com/eapowertools/qs-security-rule-analyzer/releases)
 
-[![security_rules_5.png](images/security_rules_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/security_rules/images/security_rules_5.png)
+![security_rules_5.png](images/security_rules_5.png)
 
 **Tags**
 

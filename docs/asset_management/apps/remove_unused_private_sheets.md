@@ -68,7 +68,7 @@ Ensure that the **Audit Activity log level** is set to `Basic` for _every engine
 </div>
 </div>
 
-[![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/notification_unused_sheets_native_1.png)
+![notification_unused_sheets_native_1.png](images/notification_unused_sheets_native_1.png)
 
 -------------------------
 
@@ -80,7 +80,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
-[![ops_monitor_operational.png](images/ops_monitor_operational.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/ops_monitor_operational.png)
+![ops_monitor_operational.png](images/ops_monitor_operational.png)
 
 If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
@@ -90,31 +90,31 @@ If the **Operations Monitor** is not up-to-date, please refer to the [Operations
 
 Open up the **Operations Monitor** application, inside of **Monitoring Apps** stream:
 
-[![app_adoption_17.png](images/app_adoption_17.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/app_adoption_17.png) 
+![app_adoption_17.png](images/app_adoption_17.png) 
 
 Navigate to the **Sheet Usage** sheet.
 
-[![unused_private_sheets_native_1.png](images/unused_private_sheets_native_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/unused_private_sheets_native_1.png)
+![unused_private_sheets_native_1.png](images/unused_private_sheets_native_1.png)
 
 Sort by **Unused Private Sheets** descending.
 
-[![unused_private_sheets_native_2.png](images/unused_private_sheets_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/unused_private_sheets_native_2.png)
+![unused_private_sheets_native_2.png](images/unused_private_sheets_native_2.png)
 
 Now ideally, any unused applications should be removed _before_ this sheet pruning activity. This will allow for bulk removal of those private sheets as the _entire_ app has been identified as unused. This example is intended to only remove private sheets from _published_ applications that are _used_. Ensure that [Remove/Quarantine Unused Apps](remove_quarantine_unused_apps.md) has been followed first.
 
 From the **App Stream** column, select _Unpublished_, and then select _Select alternative_ so that all streams are selected (all _published_ applications). Ensure that if a _Quarantine_ stream exists, that it is also deselected -- as there is no need to prune applications that are already marked for potential removal.
 
-[![quarantine_unused_apps_native_2.png](images/quarantine_unused_apps_native_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/quarantine_unused_apps_native_2.png)
+![quarantine_unused_apps_native_2.png](images/quarantine_unused_apps_native_2.png)
 
-[![quarantine_unused_apps_native_3.png](images/quarantine_unused_apps_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/quarantine_unused_apps_native_3.png)
+![quarantine_unused_apps_native_3.png](images/quarantine_unused_apps_native_3.png)
 
 Now on this example server, the **Operations Monitor** application has been selected, and it is visible that there is a single unused prviate sheet. In a real-world environment, there would potentially be many, many more, but as this is taken from a rarely used testing environment, this simple example will suffice.
 
-[![unused_private_sheets_native_3.png](images/unused_private_sheets_native_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/unused_private_sheets_native_3.png)
+![unused_private_sheets_native_3.png](images/unused_private_sheets_native_3.png)
 
 On the **Sheet Usage** table, select _Private Sheet_ under the **Sheet Type** column.
 
-[![unused_private_sheets_native_4.png](images/unused_private_sheets_native_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/apps/images/unused_private_sheets_native_4.png)
+![unused_private_sheets_native_4.png](images/unused_private_sheets_native_4.png)
 
 In this scenario, the _App Usage_ sheet has not been used in over one month but less than two. Ideally, private sheets should only be removed if they have not been used in > 90 days or more, but this needs to be defined by a policy decided internally. Please refer to the **Retention Policy** section below.
 

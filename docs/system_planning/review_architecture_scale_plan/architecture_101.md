@@ -47,7 +47,7 @@ With Qlik Sense Enterprise architecture, a **site** is used to refer to a potent
 
 A **node** refers to a specific server and is often referred to by its purpose, i.e. Engine node.
 
-[![architecture-1.png](images/architecture-1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-1.png)
+![architecture-1.png](images/architecture-1.png)
 
 
 **Tags**

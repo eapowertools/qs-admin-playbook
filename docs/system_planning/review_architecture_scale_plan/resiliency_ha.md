@@ -42,15 +42,15 @@ When speaking about resiliency and high availability within the context of Qlik 
   
 A **User Resilient** site minimally would look like this:
 
-[![architecture-user_resilient.png](images/architecture-user_resilient.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-user_resilient.png)
+![architecture-user_resilient.png](images/architecture-user_resilient.png)
 
 A **Reload Resilient** site minimally would look like this:
 
-[![architecture-reload_resilient.png](images/architecture-reload_resilient.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-reload_resilient.png)
+![architecture-reload_resilient.png](images/architecture-reload_resilient.png)
 
 **Site-wide High Availability** would minimally look like this:
 
-[![architecture-site_resilient.png](images/architecture-site_resilient.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/review_architecture_scale_plan/images/architecture-site_resilient.png)
+![architecture-site_resilient.png](images/architecture-site_resilient.png)
 
 **Tags**
 

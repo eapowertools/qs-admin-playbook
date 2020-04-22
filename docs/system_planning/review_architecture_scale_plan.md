@@ -113,17 +113,17 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 **Growth Environment**
 
-[![architecture-10.png](images/architecture-10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-10.png)
+![architecture-10.png](images/architecture-10.png)
 
 **Enterprise Environment**
 
-[![architecture-11.png](images/architecture-11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-11.png)
+![architecture-11.png](images/architecture-11.png)
 
 ### AWS Diagram Example
 
 **Enterprise Environment**
 
-[![architecture-8.png](images/architecture-8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-8.png)
+![architecture-8.png](images/architecture-8.png)
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -159,7 +159,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 **Enterprise Environment**
 
-[![architecture-9.png](images/architecture-9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/system_planning/images/architecture-9.png)
+![architecture-9.png](images/architecture-9.png)
 
 {::options parse_block_html="true" /}
 <div class="card">

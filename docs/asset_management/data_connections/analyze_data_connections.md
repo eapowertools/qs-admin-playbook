@@ -61,11 +61,11 @@ This pages leverages the **Data Connection Analyzer** application. For documenta
 
 Navigate to the _Unused Connection Analysis_ sheet.
 
-[![analyze_data_connections_1.png](images/analyze_data_connections_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_1.png)
+![analyze_data_connections_1.png](images/analyze_data_connections_1.png)
 
 If there are any connections that fall into this category, they will appear in the _Connections that have been used, but the Apps have since been Deleted: X_ table. In the example here, there are 6. 
 
-[![analyze_data_connections_2.png](images/analyze_data_connections_2.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_2.png)
+![analyze_data_connections_2.png](images/analyze_data_connections_2.png)
 
 ### Action
 {:.no_toc}
@@ -97,11 +97,11 @@ If old Archived Logs are being archived (refer to: [Archive Old Archived Logs](.
 
 Navigate to the _Unused Connection Analysis_ sheet.
 
-[![analyze_data_connections_1.png](images/analyze_data_connections_1.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_1.png)
+![analyze_data_connections_1.png](images/analyze_data_connections_1.png)
 
 If there are any connections that fall into this category, they will appear in the _Connections that have never been used in an App Reload_ table. In the example here, there are 27. 
 
-[![analyze_data_connections_3.png](images/analyze_data_connections_3.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_3.png)
+![analyze_data_connections_3.png](images/analyze_data_connections_3.png)
 
 ### Action
 {:.no_toc}
@@ -119,19 +119,19 @@ If the data connection **Last Used (Reloaded)** date is over 90 days old (or wha
 
 Navigate to the _Dashboard_ sheet.
 
-[![analyze_data_connections_4.png](images/analyze_data_connections_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_4.png)
+![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
 Select _True_ next to the _Connections Used_ KPI to select all used data connections.
 
-[![analyze_data_connections_13.png](images/analyze_data_connections_13.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_13.png)
+![analyze_data_connections_13.png](images/analyze_data_connections_13.png)
 
 Select a single data connection to visualize all of the applications that are dependent on it.
 
-[![analyze_data_connections_15.png](images/analyze_data_connections_15.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_15.png)
+![analyze_data_connections_15.png](images/analyze_data_connections_15.png)
 
 Optionally, select a single application to view all of the data connection dependencies for a specific application.
 
-[![analyze_data_connections_14.png](images/analyze_data_connections_14.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_14.png)
+![analyze_data_connections_14.png](images/analyze_data_connections_14.png)
 
 ### Action
 {:.no_toc}
@@ -149,7 +149,7 @@ If a data connection is being deprecated, or re-routed, etc--ensure that the pro
 
 Navigate to the _Duplicate Analysis_ sheet.
 
-[![analyze_data_connections_10.png](images/analyze_data_connections_10.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_10.png)
+![analyze_data_connections_10.png](images/analyze_data_connections_10.png)
 
 In this example, the type of **Folder** connection has been selected, and it is visible that there are 2 folder connection duplicates. From the below we can tell that:
 
@@ -162,11 +162,11 @@ In this example, the type of **Folder** connection has been selected, and it is 
       
 It is very likely that these folder connections point to different subfolders within.
 
-[![analyze_data_connections_11.png](images/analyze_data_connections_11.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_11.png)
+![analyze_data_connections_11.png](images/analyze_data_connections_11.png)
 
 Now, in the following example, the type of **QvOdbcConnectorPackage.exe** has been selected, and it is visible that there is a single ODBC connection that has a single duplicate. It is also visible that the connection has a different username--which is common across ODBC connections to ensure database security for individual users where passthrough auth is not an option.
 
-[![analyze_data_connections_12.png](images/analyze_data_connections_12.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_12.png)
+![analyze_data_connections_12.png](images/analyze_data_connections_12.png)
 
 ### Action
 {:.no_toc}
@@ -184,11 +184,11 @@ Connection duplicates should be resolved where possible. Contact the owners of t
 
 Navigate to the _Dashboard_ sheet.
 
-[![analyze_data_connections_4.png](images/analyze_data_connections_4.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_4.png)
+![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
 Select the value of _True_ next to the _Connections Only Found in Script_ KPI. The _Connections by Type_ will now show all of the connections that were found in script log files, but were not found in the QRS.
 
-[![analyze_data_connections_5.png](images/analyze_data_connections_5.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_5.png)
+![analyze_data_connections_5.png](images/analyze_data_connections_5.png)
 
 ### Action
 {:.no_toc}
@@ -206,15 +206,15 @@ There is no direct action necessary here, as this exercise is only particularly 
 
 Navigate to the _Usage_ sheet.
 
-[![analyze_data_connections_6.png](images/analyze_data_connections_6.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_6.png)
+![analyze_data_connections_6.png](images/analyze_data_connections_6.png)
 
 Locate the _Connection # Times Used (Script Logs)_ table. This table visualizes the amount of script logs that each connection is found in.
 
-[![analyze_data_connections_7.png](images/analyze_data_connections_7.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_7.png)
+![analyze_data_connections_7.png](images/analyze_data_connections_7.png)
 
 Select a connection, and visualize the what applications utilized it and when--as well as by what execution type (Task, Manual, API).
 
-[![analyze_data_connections_8.png](images/analyze_data_connections_8.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_8.png)
+![analyze_data_connections_8.png](images/analyze_data_connections_8.png)
 
 In the upper right, one can then select the **Executed By** filter to visualize what users have leveraged the data connection.
 
@@ -222,7 +222,7 @@ In the upper right, one can then select the **Executed By** filter to visualize 
   - `INTERNAL\sa_api` maps to **API (ODAG or otherwise)** executions
   - End-user accounts map to **Hub** executions
   
-[![analyze_data_connections_9.png](images/analyze_data_connections_9.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_9.png)
+![analyze_data_connections_9.png](images/analyze_data_connections_9.png)
 
 ### Action
 {:.no_toc}
@@ -256,7 +256,7 @@ There is no direct action necessary here. Leverage as required.
 
 The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
 
-[![analyze_data_connections_16.png](images/analyze_data_connections_16.png)](https://raw.githubusercontent.com/eapowertools/qs-admin-playbook/master/docs/asset_management/data_connections/images/analyze_data_connections_16.png)
+![analyze_data_connections_16.png](images/analyze_data_connections_16.png)
 
 ### Action
 {:.no_toc}
