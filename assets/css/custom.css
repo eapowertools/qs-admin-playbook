@@ -5,6 +5,28 @@ html * {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* image modals */
+
+object {
+    width: auto;
+    max-width: 100%;
+    max-height: 70vh;
+    width: auto\9;
+    /* ie8 */
+}
+
+.modal-body {
+    text-align: center;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: fit-content;
+        max-width: 90%;
+    }
+}
+
 
 /* Playbook filter selectors */
 
