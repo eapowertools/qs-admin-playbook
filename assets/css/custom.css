@@ -157,7 +157,7 @@ object {
 }
 
 /* pointer cursor on images */
-img:hover {
+img:not(#modalImageUrl):hover {
     cursor: pointer;
 }
 
@@ -169,7 +169,7 @@ img:hover {
     margin-bottom: .3rem;
 }
 
-.page img {
+.page img:not(#modalImageUrl) {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -ms-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -182,7 +182,7 @@ img:hover {
     transition: all 0.25s ease-in-out;
 }
 
-.page img:hover {
+.page img:not(#modalImageUrl):hover {
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     -ms-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
