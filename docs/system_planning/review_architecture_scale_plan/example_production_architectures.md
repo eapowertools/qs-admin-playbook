@@ -62,7 +62,7 @@ This architecture shows horizontal scaling on consume nodes which allows for res
 - Reload resiliency
 - Site-wide high availability
 
-This architecture shows horizontal scaling on both the front and back end nodes of Qlik. By segregating PostgreSQL and the persistence layer for Qlik, site-wide high availabiity is possible. This is a common Enterprise archtiecture for multi-department Qlik sites.
+This architecture shows horizontal scaling on both the front and back end nodes of Qlik. By segregating PostgreSQL and the persistence layer for Qlik, site-wide high availability is possible. This is a common Enterprise architecture for multi-department Qlik sites.
 
 ### Five Server Qlik Site
 
