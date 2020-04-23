@@ -178,9 +178,9 @@ Repeat the process for data islands, by selecting _Has Island Table_, and viewin
 
 If the Qlik Sense site has greater than two end-user facing nodes, it is worth considering "pinning" (load balancing) large applications to dedicated engines (2+ for resiliency).
 
-Refer to the [load balancing section](../../system_planning/review_update_capacity_plan/applications.md#app-metadata-analyzer-1){:target="_blank"} of the [Review/Update Capacity Plan](../../system_planning/review_update_capacity_plan.md){:target="_blank"} article, where this process is explained.
+Refer to the [load balancing](../../system_planning/review_update_capacity_plan/applications.md#app-metadata-analyzer-1){:target="_blank"} section of the [Review/Update Capacity Plan](../../system_planning/review_update_capacity_plan.md){:target="_blank"} article, where this process is explained.
 
-For more detail on load balancing of assets and instructions on how to do so, refer to the [Segregation of Larger Qlik Apps](review_pinning_load_balancing.md#scenario-2---segregation-of-larger-qlik-apps){:target="_blank"} of the [Review Pinning/Load Balancing](review_pinning_load_balancing.md){:target="_blank"} article.
+For more detail on load balancing of assets and instructions on how to do so, refer to the [Segregation of Larger Qlik Apps](review_pinning_load_balancing.md#scenario-2---segregation-of-larger-qlik-apps){:target="_blank"} section of the [Review Pinning/Load Balancing](review_pinning_load_balancing.md){:target="_blank"} article.
 
 ## Documentation
 
