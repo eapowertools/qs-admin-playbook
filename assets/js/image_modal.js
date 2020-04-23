@@ -9,7 +9,7 @@ $(function() {
 });
 
 $(function() {
-    $('.tooling-modal').on('click', function() {
+    $('.info-icon-modal').on('click', function() {
         $('#imageModal').find('.modal-body').empty().append(toolingTable);
         $('#imageModal').modal('show');
     });
