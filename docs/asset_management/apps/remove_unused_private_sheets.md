@@ -250,7 +250,6 @@ if($tagsJson) {
 
 			# get the current tags assigned to sheet, if any
 			$currentTags = $sheetObjJson.tags
-			$currentTags
 
 			# for each tag
 			foreach ($tag in $currentTags) {
