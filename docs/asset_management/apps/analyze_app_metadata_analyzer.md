@@ -114,13 +114,13 @@ Prioritize applications that are both large _and_ widely used. Refer to [Analyze
 
 ### Identify Fields for Optimization
 
-For each large app identified above, look for fields that take a large amount of RAM. Refer to the _Field Memory Footprint (MB)_ table. This table illustrates the _Symbol Tables_ (for a good read on Symbol Tables and Data Tables, refer to ![this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369)). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
+For each large app identified above, look for fields that take a large amount of RAM. Refer to the _Field Memory Footprint (MB)_ table. This table illustrates the _Symbol Tables_ (for a good read on Symbol Tables and Data Tables, refer to [this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369)). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
 
 ![ama_5.png](images/ama_5.png)
 
 Can these fields be optimized or potentially removed if unused? For instance, are any of the fields timestamps that could be floored or split apart into multiple fields to reduce cardinality? 
 
-To see if the fields are unused, it is suggested to use Rob Wunderlich's ![App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5). This tool is used to lift a single app into RAM and run analysis on it, then provide a detailed output. It is a great companion tool to the App Metadata Analyzer, as the AMA allows one to spot potential applications that could use optimization, and then the App Analyzer can drill into the low-level details of that application. It also has the ability to optimize the UI of the application as well, which this exercise does not cover.
+To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5). This tool is used to lift a single app into RAM and run analysis on it, then provide a detailed output. It is a great companion tool to the App Metadata Analyzer, as the AMA allows one to spot potential applications that could use optimization, and then the App Analyzer can drill into the low-level details of that application. It also has the ability to optimize the UI of the application as well, which this exercise does not cover.
 
 ### Identify Tables for Optimization
 
@@ -128,7 +128,7 @@ For each large app identified above, look for tables that take a large amount of
 
 ![ama_6.png](images/ama_6.png)
 
-How many fields exist in these tables? Is there are many fields (hundreds for example) in a table, it is likely that the developer is using a `SELECT * FROM` approach, and likely have many fields that aren't used for analysis in the application. This is another prime opportunity to leverage Rob Wunderlich's ![App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5) to remove many fields.
+How many fields exist in these tables? Is there are many fields (hundreds for example) in a table, it is likely that the developer is using a `SELECT * FROM` approach, and likely have many fields that aren't used for analysis in the application. This is another prime opportunity to leverage Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5) to remove many fields.
 
 It is also worth considering the total record count of the tables. Are they at the appropriate level of grain? Is it possible that the table or portions of the table could be aggregated, or could alternative approaches like app segmentation, app chaining, or on-demand app generation be leveraged?
 
@@ -140,11 +140,11 @@ It is also worth considering the total record count of the tables. Are they at t
 <div class="card-body">
 <p>When dealing with very large data volumes, there are many strategies when designing the architecture of your applications. Here are three strategies:
 
-![Segmentation](https://community.qlik.com/t5/Qlik-Design-Blog/Big-Data-with-Qlik-One-method-does-not-fit-all/ba-p/1474484): Segmenting QVDs and QVF's by timeframes or another dimensionality like region. You might have a QVF that views the most recent two years, then another that views years that are further back, and one large QVF that contains all data that is only used when necessary by a small subset of users. Another approach might be to have multiple apps focused on different regions, so that user's do not open an app with data that they are not interested in or have the right to see (data that is not able to be seen via section access still affects memory). With this method, the lighter weight (most recent data) application will be used by most users, saving memory as that is all they will typically need.
+[Segmentation](https://community.qlik.com/t5/Qlik-Design-Blog/Big-Data-with-Qlik-One-method-does-not-fit-all/ba-p/1474484): Segmenting QVDs and QVF's by timeframes or another dimensionality like region. You might have a QVF that views the most recent two years, then another that views years that are further back, and one large QVF that contains all data that is only used when necessary by a small subset of users. Another approach might be to have multiple apps focused on different regions, so that user's do not open an app with data that they are not interested in or have the right to see (data that is not able to be seen via section access still affects memory). With this method, the lighter weight (most recent data) application will be used by most users, saving memory as that is all they will typically need.
 
-![ODAG](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/DataSource/Manage-big-data.htm): ODAG stands for on-demand app generation, and is a method where you have two applications: 1. a shopping cart (aggregated data), 2. an empty template app to display detail. The workflow is such that a user must first make selections in the shopping cart app (this criteria is completely customizable), and once a threshold has been met, a custom LOAD script is then created which then populates the template app with whatever detail was requested.
+[ODAG](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/DataSource/Manage-big-data.htm): ODAG stands for on-demand app generation, and is a method where you have two applications: 1. a shopping cart (aggregated data), 2. an empty template app to display detail. The workflow is such that a user must first make selections in the shopping cart app (this criteria is completely customizable), and once a threshold has been met, a custom LOAD script is then created which then populates the template app with whatever detail was requested.
 
-![Document Chaining](https://community.qlik.com/t5/Qlik-Design-Blog/Big-Data-with-Qlik-One-method-does-not-fit-all/ba-p/1474484): Document chaining is where you have an aggregated application which typically is sufficient to the user, but when the user does need the detail, selections can be passed from the aggregated app to the detail app so that they can view a lower level of granularity. This keeps a low user footprint on the detail app, thereby reducing the memory of everyone loading unnecessary detail. While this is directly available in QlikView, it is supported via the APIs and thereby extensions in Qlik Sense.</p>
+[Document Chaining](https://community.qlik.com/t5/Qlik-Design-Blog/Big-Data-with-Qlik-One-method-does-not-fit-all/ba-p/1474484): Document chaining is where you have an aggregated application which typically is sufficient to the user, but when the user does need the detail, selections can be passed from the aggregated app to the detail app so that they can view a lower level of granularity. This keeps a low user footprint on the detail app, thereby reducing the memory of everyone loading unnecessary detail. While this is directly available in QlikView, it is supported via the APIs and thereby extensions in Qlik Sense.</p>
 </div>
 </div>
 
@@ -166,9 +166,9 @@ On each sheet on the bottom left, there are two tables:
 
 ![ama_8.png](images/ama_8.png)
 
-If there are synthetic keys, the majority of the time, it is a sign of a problem in the data model, and they should be rectified. There are of course scenarios when synthetic keys are harmless, and in fact the most optimal option, but that is typically not the case. For more information, refer to this ![Qlik Design Blog: Synthetic Keys](https://community.qlik.com/t5/Qlik-Design-Blog/Synthetic-Keys/ba-p/1472634) article.
+If there are synthetic keys, the majority of the time, it is a sign of a problem in the data model, and they should be rectified. There are of course scenarios when synthetic keys are harmless, and in fact the most optimal option, but that is typically not the case. For more information, refer to this [Qlik Design Blog: Synthetic Keys](https://community.qlik.com/t5/Qlik-Design-Blog/Synthetic-Keys/ba-p/1472634) article.
 
-If there are data islands, these also should be avoided where possible and should be _attempted_ to be rectified in the model. For more information, refer to ![The Impact of Data Islands on Cache and CPU](https://qlikviewcookbook.com/2015/06/the-impact-of-data-islands-on-cache-and-cpu/), an article by Rob Wunderlich.
+If there are data islands, these also should be avoided where possible and should be _attempted_ to be rectified in the model. For more information, refer to [The Impact of Data Islands on Cache and CPU](https://qlikviewcookbook.com/2015/06/the-impact-of-data-islands-on-cache-and-cpu/), an article by Rob Wunderlich.
 
 ## Review Load Balancing
 
