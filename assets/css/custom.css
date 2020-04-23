@@ -29,7 +29,7 @@ object {
 
 /* tooling info icon pointer on hover */
 /* pointer cursor on images */
-.tooling-modal:hover {
+.info-icon-modal:hover {
     cursor: pointer;
 }
 
