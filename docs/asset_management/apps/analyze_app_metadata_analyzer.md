@@ -15,7 +15,7 @@ nav_order: 2
 
 |                                  		          | Initial | Recurring |
 |---------------------------------------------------------|---------|------------|
-| <i class="far fa-clock fa-sm"></i> **Estimated Time**   | 45 Min  | 10 min     |
+| <i class="far fa-clock fa-sm"></i> **Estimated Time**   | 45 Min  | 15 min     |
 
 Benefits:
 
@@ -168,7 +168,13 @@ On each sheet on the bottom left, there are two tables:
 
 If there are synthetic keys, the majority of the time, it is a sign of a problem in the data model, and they should be rectified. There are of course scenarios when synthetic keys are harmless, and in fact the most optimal option, but that is typically not the case. For more information, refer to this [Qlik Design Blog: Synthetic Keys](https://community.qlik.com/t5/Qlik-Design-Blog/Synthetic-Keys/ba-p/1472634){:target="_blank"} article.
 
+If there are any synthetic keys, select _Has Synthetic Keys_, and then view the applications, tables, and fields that contain them.
+
+![ama_9.png](images/ama_9.png)
+
 If there are data islands, these also should be avoided where possible and should be _attempted_ to be rectified in the model. For more information, refer to [The Impact of Data Islands on Cache and CPU](https://qlikviewcookbook.com/2015/06/the-impact-of-data-islands-on-cache-and-cpu/){:target="_blank"}, an article by Rob Wunderlich.
+
+Repeat the process for data islands, by selecting _Has Island Table_, and viewing the associated apps and island tables.
 
 ## Review Load Balancing
 
