@@ -61,9 +61,19 @@ From the above screen-shot, the presence of the **Download script** log (step 3)
 
 Once the administrator is satisfied at a cursory understanding of what reload tasks have failed recently as well as a proximate root cause, they can proceed to the action. At this point, a general understanding of the Qlik deployment will be required. For many environments, restarting the task is acceptable. But as outlined in the **Goal** section, some environments may be resource constrained on the Qlik server side or the data source side such that an intra-day reload is not recommended. The administrator is encouraged to use their best judgment on the appropriate step.
 
-## Monitoring Qlik Reload Task Efficacy
+## Task Failure Notifications
 
-TODO
+Rather than checking for task failures in the QMC or finding out from developers/end-users, one can explore automated notifications.
+
+There are many ways to achieve this:
+
+  - Qlik Alerting (the suggested solution, as it is built for this purpose)
+  
+  - NPrinting (pixel perfect, highly customizable emails)
+  
+  - SMTP Appender (raw text email) [more information here](https://community.qlik.com/t5/Qlik-Architecture-Deep-Dive-Blog/SMTP-appender/ba-p/1582434)
+  
+More info to come in this section with examples.
 
 **Tags**
 
