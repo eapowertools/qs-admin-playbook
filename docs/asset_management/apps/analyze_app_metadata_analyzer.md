@@ -44,7 +44,7 @@ Leveraging the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) e
 
 ## Demo Video
 
-[![App Metadata Analyzer Demo](images/ama_video_screenshot.png)](https://youtu.be/M6qluodkjWQ "App Metadata Analyzer Demo")
+[![App Metadata Analyzer Demo](images/ama_video_screenshot.png)](https://youtu.be/M6qluodkjWQ "App Metadata Analyzer Demo"){:target="_blank" .no-modal}
 
 ## Documentation
 
