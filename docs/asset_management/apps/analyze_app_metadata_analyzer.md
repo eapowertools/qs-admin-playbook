@@ -145,6 +145,8 @@ It is also worth considering the total record count of the tables. Are they at t
 [**ODAG**](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/DataSource/Manage-big-data.htm){:target="_blank"}: ODAG stands for on-demand app generation, and is a method where you have two applications: 1. a shopping cart (aggregated data), 2. an empty template app to display detail. The workflow is such that a user must first make selections in the shopping cart app (this criteria is completely customizable), and once a threshold has been met, a custom LOAD script is then created which then populates the template app with whatever detail was requested.
 <br><br>
 [**Document Chaining**](https://community.qlik.com/t5/Qlik-Design-Blog/Big-Data-with-Qlik-One-method-does-not-fit-all/ba-p/1474484){:target="_blank"}: Document chaining is where you have an aggregated application which typically is sufficient to the user, but when the user does need the detail, selections can be passed from the aggregated app to the detail app so that they can view a lower level of granularity. This keeps a low user footprint on the detail app, thereby reducing the memory of everyone loading unnecessary detail. While this is directly available in QlikView, it is supported via the APIs and thereby extensions in Qlik Sense.</p>
+<br><br>
+Much more information around optimizing applications and data models can be found on the [Diagnostic Toolkit](https://diagnostictoolkit.qlik-poc.com){:target="_blank"} website.
 </div>
 </div>
 
