@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Verify Backup Execution
+title: Verify/Execute Backups
 nav_order: 2
 parent: Backup & Archiving
 ---
 
-# Verify Backup Execution  <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
+# Verify/Execute Backups  <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 {: .no_toc }
 
 **Cadence** <span class="label cadence">Monthly</span>
