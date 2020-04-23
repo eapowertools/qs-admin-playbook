@@ -48,7 +48,7 @@ Leveraging the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) e
 
 ## Prerequisite
 
-If the **App Metadata Analyzer** has not yet been imported into the site, navigate to the [Where to get it](../../tooling/app_metadata_analyzer.md#where-to-get-it) section of the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) for instructions on where to find the application.
+If the **App Metadata Analyzer** has not yet been imported into the site, navigate to the [Where to get it](../../tooling/app_metadata_analyzer.md#where-to-get-it) section of the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) article for instructions on where to find the application.
 
 ### Confirm the App Metadata Analyzer is Operational
 
@@ -56,7 +56,7 @@ Navigate to the **Monitoring apps** stream (or wherever the **App Metadata Analy
 
 ![ama_1.png](images/ama_1.png)
 
-If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md#documentation) for configuration details and troubleshooting steps.
+If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md#documentation) article for configuration details and troubleshooting steps.
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -114,7 +114,7 @@ Prioritize applications that are both large _and_ widely used. Refer to [Analyze
 
 ### Identify Fields for Optimization
 
-For each large app identified above, look for fields that take a large amount of RAM. Refer to the _Field Memory Footprint (MB)_ table. This table illustrates the _Symbol Tables_ (for a good read on Symbol Tables and Data Tables, refer to [this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"}). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
+For each large app identified above, look for fields that take a large amount of RAM. Refer to the _Field Memory Footprint (MB)_ table. This table illustrates the _Symbol Tables_ (for a good read on Symbol Tables and Data Tables, refer to [this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"} ). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
 
 ![ama_5.png](images/ama_5.png)
 
@@ -161,10 +161,6 @@ Navigate to the _Threshold Analysis_ sheet.
 ![ama_10.png](images/ama_10.png)
 
 On each sheet on the bottom left, there are two tables: 
-
-- _Synthetic Keys_
-
-- _Island Tables_
 
 ![ama_8.png](images/ama_8.png)
 
