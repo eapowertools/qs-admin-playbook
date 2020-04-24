@@ -16,7 +16,10 @@ The _Qlik Sense Admin Playbook_ is designed and intended to be a repository of b
 <i class="fas fa-exclamation-triangle fa-sm"></i> Word of Caution
 </div>
 <div class="card-body">
-<p>The goal of this repository is to outline best practices and reference example work-flows or tooling which can be used. It is not intended that the actions be completed verbatim, as they will need to be interpreted/customized as per the needs of each individual organization. Do not go through any exercise in the Playbook blindly--ensure that each has been thorougly reviewed and tested before they are attempted, as some of the exercises physically remove assets and alter site configuration.</p>
+<p>The goal of this repository is to outline best practices and reference example work-flows or tooling which can be used. It is not intended that the actions be completed verbatim, as they will need to be interpreted/customized as per the needs of each individual organization. Do not go through any exercise in the Playbook blindly--ensure that each has been thorougly reviewed and tested before they are attempted, as some of the exercises physically remove assets and alter site configuration.
+<br><br>
+**The Admin Playbook is not supported by Qlik**, but rather is maintained by Qlik employees.
+</p>
 </div>
 </div>
 
