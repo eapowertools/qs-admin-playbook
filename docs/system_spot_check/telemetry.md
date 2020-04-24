@@ -40,7 +40,7 @@ The goal for this spot-check is use the [Qlik Sense Telemetry Dashboard](../tool
 
 - [Telemetry Dashboard](../tooling/telemetry_dashboard.md)
 
-The Qlik Sense Telemetry Dashboard is a project created and maintained by the Enterprise Architecture team in Qlik’s Americas Presales organization. It leverages additional logging which can be enabled in Qlik Sense Enterprise February 2018 and newer releases of Qlik Sense with some data enrichment with API calls to provide visualization-level performance data for Qlik apps. The goal of the tool is to present this performance data in actionable ways for administrators / developers to have precision when focusing on performance improvements for Qlik apps.
+The Qlik Sense Telemetry Dashboard is a project created and maintained by the Enterprise Architecture team in Qlik's Americas Presales organization. It leverages additional logging which can be enabled in [Qlik Sense Enterprise February 2018 and newer releases of Qlik Sense](https://support.qlik.com/articles/000044757) with some data enrichment with API calls to provide visualization-level performance data for Qlik apps. The goal of the tool is to present this performance data in actionable ways for administrators / developers to have precision when focusing on performance improvements for Qlik apps.
 
 -------------------------
 
@@ -60,8 +60,8 @@ For this example, we are interested in Visualization objects, App Open Events, a
 
 With a narrowed set of interactions, action plans can be constructed. For example:
 
- * App Open : If the threshold is unacceptable given the important of the application, then a cache warming process can be built. Reference [here](../tooling/cache_warming.html) for more specific guidance.
- * Visualization : Use the data from the Telemetry Dashboard like **App**, **Sheet** and **Object Type** + **ObjectID** to reach out to the application's owner and/or maintainer in order for a fix to be implemented. Since the Qlik Sense Telemetry Dashboard does not imply a specific fix, the developer will need to review the application to see what improvements can be made. Potential avenues for fixes: 
+ * App Open : If the threshold is unacceptable given the important of the application, then a cache warming process may be appropriate. Reference our article on Cache Warming [here](../tooling/cache_warming.html) for more specific guidance on techniques.
+ * Visualization : Use the data from the Telemetry Dashboard like **App**, **Sheet** and **Object Type** + **ObjectID** to reach out to the application's owner and/or maintainer in order to focus optimization efforts. Since the Qlik Sense Telemetry Dashboard does not imply a specific fix, the developer will need to review the application to see what improvements can be made. Potential avenues for fixes: 
    * Table / Pivot Table : Use calculation conditions to force drill downs.
    * Other visualizations : Review expressions used. Simplify where possible and/or off-load the calculations to the application's load script to pre-calculate. The [Diagnostic Toolkit](https://diagnostictoolkit.qlik-poc.com/) project can be used for reference.
 
