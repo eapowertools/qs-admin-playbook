@@ -155,6 +155,10 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 
 The script below will tag any private sheets with the tag _'UnusedPrivateSheet'_. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the _Sheet Usage_ table in the **Sheet Usage** sheet of the Operations Monitor.
 
+### Video Walk-Through
+
+[![Private Sheet Remove Demo](images/private_sheets_video_screenshot.png)](https://youtu.be/5NMKxDxAa3Q "Private Sheet Removal Demo"){:target="_blank" .no-modal}
+
 ### Script to Tag Unused Private Sheets
 
 ```powershell
