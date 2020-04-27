@@ -42,10 +42,6 @@ Leveraging the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) e
 {:toc}
 -------------------------
 
-## Demo Video
-
-[![App Metadata Analyzer Demo](images/ama_video_screenshot.png)](https://youtu.be/5NMKxDxAa3Q "Private Sheet Removal Demo"){:target="_blank" .no-modal}
-
 ## Prerequisite
 
 If the **App Metadata Analyzer** has not yet been imported into the site, navigate to the [Where to get it](../../tooling/app_metadata_analyzer.md#where-to-get-it) section of the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) article for instructions on where to find the application.
