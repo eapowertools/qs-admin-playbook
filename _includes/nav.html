@@ -9,8 +9,8 @@
                 {%- for child in children_list -%}
                 <li class="navigation-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
                     {%- if page.url == child.url or page.parent == child.title -%} {%- assign second_level_url = child.url | absolute_url -%} {%- endif -%}
-                    <a href="{{ child.url | absolute_url }}" class="navigation-list-link{% if page.url == child.url %} active{% endif %}">{{ child.title }}</a> {%- if child.has_children -%} {%- assign grand_children_list = site.html_pages | where: "parent",
-                    child.title | sort:"nav_order" -%}
+                    {{ child.title }}</a> {%- if child.has_children -%} {%- assign grand_children_list = site.html_pages | where: "parent", child.title | sort:"nav_order" -%}
+                    <a href="{{ child.url | absolute_url }}" class="navigation-list-link{% if page.url == child.url %} active{% endif %}">
                     <ul class="navigation-list-grandchild-list">
                         {%- for grand_child in grand_children_list -%}
                         <li class="navigation-list-item {% if page.url == grand_child.url %} active{% endif %}">
