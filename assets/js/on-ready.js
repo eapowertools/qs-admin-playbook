@@ -153,24 +153,24 @@ $(document).ready(function() {
             row[1] = newArray;
         });
         
-        // This is the hack for IE
-        if (Check_Version()=='11') {
-          $(".selectpicker").click(function() {
+//         // This is the hack for IE
+//         if (Check_Version()=='11') {
+//           $(".selectpicker").click(function() {
               
-            categoryFilterSelections = $('#categoryFilter').val();
-            toolingFilterSelections = $('#toolingFilter').val();
-
-            reRenderPlaybook();
-          });
-        }
-        
-//         $(".selectpicker").bind($.browser.msie? 'propertychange': 'change', function(e) {
-//             e.preventDefault();
 //             categoryFilterSelections = $('#categoryFilter').val();
 //             toolingFilterSelections = $('#toolingFilter').val();
 
 //             reRenderPlaybook();
-//         }); 
+//           });
+//         }
+        
+        $(".selectpicker").bind(Check_Version()=='11'? 'propertychange': 'change', function(e) {
+            e.preventDefault();
+            categoryFilterSelections = $('#categoryFilter').val();
+            toolingFilterSelections = $('#toolingFilter').val();
+
+            reRenderPlaybook();
+        }); 
 
         // re-render the playbook on change of filters
         $('.selectpicker').on('change', function() {
