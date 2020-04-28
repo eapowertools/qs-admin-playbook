@@ -402,4 +402,18 @@ $(document).ready(function() {
             } catch (e) {}
         })
     })
+
+    $(".navigation-list-child-list").each(function() {
+        try {
+            var context = $(this);
+            children = context.find('li');
+            a = context.prev("a").children();
+            innerText = $(this)[0].parentElement.innerText.replace('&', 'and');
+            innerHTML = $(this)[0].parentElement.innerHTML.replace('&amp;', 'and');
+            childrenRemove = context.find('li > ul').length;
+            count = children.length - childrenRemove;
+            $(this)[0].parentElement.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
+            a.data('cnt', count);
+        } catch (e) {}
+    });
 });
