@@ -98,4 +98,6 @@ The last activity that will be covered is a bit more difficult to operationalize
 
 #extensions
 
+#extension_analyzer
+
 &nbsp;

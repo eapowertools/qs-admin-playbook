@@ -104,4 +104,6 @@ Look for Unpublished applications that have not been used for a long time. Clear
 
 #apps
 
+#operations_monitor
+
 &nbsp;

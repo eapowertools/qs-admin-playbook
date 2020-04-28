@@ -115,4 +115,6 @@ It is important here to recognize how many applications are being used against b
 
 #apps
 
+#operations_monitor
+
 &nbsp;

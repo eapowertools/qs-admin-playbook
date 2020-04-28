@@ -163,4 +163,6 @@ If ($outputFormat.ToLower() -eq 'csv') {
 
 #tasks
 
+#operations_monitor
+
 &nbsp;

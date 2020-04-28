@@ -122,5 +122,7 @@ If app(s) need to be cache warmed, then the Qlik administrator should decide on 
 
 #apps
 
+#cache_warming
+
 &nbsp;
 

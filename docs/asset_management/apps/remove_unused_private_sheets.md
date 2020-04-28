@@ -361,4 +361,6 @@ This process uses NodeJS to interact with the Qlik Engine JSON API. To confirm t
 
 #sheets
 
+#operations_monitor
+
 &nbsp;

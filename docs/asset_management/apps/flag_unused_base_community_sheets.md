@@ -301,4 +301,6 @@ else {
 
 #sheets
 
+#operations_monitor
+
 &nbsp;

@@ -329,4 +329,6 @@ foreach ($dataConnection in $dataConnectionIds) {
 
 #data_connections
 
+#data_connection_analyzer
+
 &nbsp;

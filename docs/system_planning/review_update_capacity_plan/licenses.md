@@ -80,4 +80,6 @@ If the _Usage Snapshot_ above was to be used as an example (obviously this is a 
 
 #users
 
+#license_monitor
+
 &nbsp;

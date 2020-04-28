@@ -135,4 +135,6 @@ The work done to customize the sheet is auto-saved. To make the sheet clear and 
 
 #users
 
+#license_monitor
+
 &nbsp;

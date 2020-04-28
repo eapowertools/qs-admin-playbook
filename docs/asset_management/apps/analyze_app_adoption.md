@@ -190,4 +190,6 @@ View the the completed chart. It is easy to spot when there are many distinct us
 
 #apps
 
+#operations_monitor
+
 &nbsp;

@@ -189,4 +189,6 @@ Make sure to check the **Replace the existing app** box.
 
 #sheets
 
+#operations_monitor
+
 &nbsp;

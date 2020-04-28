@@ -140,4 +140,6 @@ For more information on access rules consult the Qlik Sense help:
 
 #users
 
+#license_monitor
+
 &nbsp;

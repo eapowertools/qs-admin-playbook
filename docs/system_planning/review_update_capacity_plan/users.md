@@ -125,4 +125,6 @@ An example output from this site could looks like the following:
 
 #users
 
+#operations_monitor
+
 &nbsp;

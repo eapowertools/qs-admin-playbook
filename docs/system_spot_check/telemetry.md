@@ -73,4 +73,6 @@ With a narrowed set of interactions, action plans can be constructed. For exampl
 
 #telemetry
 
+#telemetry_dashboard
+
 &nbsp;

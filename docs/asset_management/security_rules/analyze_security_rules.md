@@ -184,4 +184,6 @@ Download it here: [qs-security-rule-analyzer](https://github.com/eapowertools/qs
 
 #security_rules
 
+#security_rule_analyzer
+
 &nbsp;

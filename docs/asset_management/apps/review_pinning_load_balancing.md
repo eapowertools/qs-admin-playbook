@@ -209,4 +209,6 @@ In the previous scenario, the Qlik administrator isolated specific Qlik apps to 
 
 #load_balancing
 
+#app_metadata_analyzer
+
 &nbsp;
