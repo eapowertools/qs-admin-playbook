@@ -510,7 +510,9 @@ $(document).ready(function() {
             try {
                 var itemCount = $(this)[0].childNodes[1].childElementCount;
                 $(this)[0].innerHTML = $(this)[0].innerHTML.replace($(this)[0].innerText, $(this)[0].innerText + ' (' + itemCount + ')');
-            } catch (e) {}
+            } catch (e) {
+            console.log(e);
+            }
         })
     })
 
@@ -531,6 +533,8 @@ $(document).ready(function() {
             }
             $(this)[0].parentElement.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
             a.data('cnt', count);
-        } catch (e) {}
+        } catch (e) {
+            console.log(e);
+        }
     });
 });
