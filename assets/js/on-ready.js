@@ -410,8 +410,11 @@ $(document).ready(function() {
             a = context.prev("a").children();
             innerText = $(this)[0].parentElement.innerText.replace('&', 'and');
             innerHTML = $(this)[0].parentElement.innerHTML.replace('&amp;', 'and');
-            childrenRemove = context.find('li > ul').length;
-            count = children.length - childrenRemove;
+            count = children.length
+            if (innerText != 'System Planning') {
+                childrenRemove = context.find('li > ul').length;
+                count = children.length - childrenRemove;
+            }
             $(this)[0].parentElement.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
             a.data('cnt', count);
         } catch (e) {}
