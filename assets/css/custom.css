@@ -271,16 +271,6 @@ img:not(#modalImageUrl):hover {
     max-width: 1050px;
 }
 
-
-/* adjust navbar font size */
-
-@media (min-width: 25rem) and (min-width: 40rem) {
-    .navigation-list-item {
-        font-size: 15px !important;
-    }
-}
-
-
 /* adjust navbar spacing */
 
 .navigation-list-link {
