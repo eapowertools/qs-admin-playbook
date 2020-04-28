@@ -510,9 +510,7 @@ $(document).ready(function() {
             try {
                 var itemCount = $(this)[0].childNodes[1].childElementCount;
                 $(this)[0].firstChild.innerHTML = $(this)[0].firstChild.innerHTML.replace($(this)[0].firstChild.innerText, $(this)[0].firstChild.innerText + ' (' + itemCount + ')');
-            } catch (e) {
-                console.log(e);
-            }
+            } catch (e) {}
         })
     })
 
@@ -521,8 +519,8 @@ $(document).ready(function() {
             var context = $(this);
             children = context.find('li');
             a = context.prev("a").children();
-            innerText = $(this)[0].parentElement.innerText.replace('&', 'and');
-            innerHTML = $(this)[0].parentElement.innerHTML.replace('&amp;', 'and');
+            innerText = $(this)[0].parentElement.firstChild.innerText.replace('&', 'and');
+            innerHTML = $(this)[0].parentElement.firstChild.innerHTML.replace('&amp;', 'and');
             count = children.length
             if (innerText != 'System Planning') {
                 childrenRemove = context.find('li > ul').length;
@@ -531,10 +529,8 @@ $(document).ready(function() {
                 childrenRemove = context.find('.navigation-list-grandchild-list > .navigation-list-item').length;
                 count = children.length - childrenRemove;
             }
-            $(this)[0].parentElement.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
+            $(this)[0].parentElement.firstChild.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
             a.data('cnt', count);
-        } catch (e) {
-            console.log(e);
-        }
+        } catch (e) {}
     });
 });
