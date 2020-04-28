@@ -414,6 +414,9 @@ $(document).ready(function() {
             if (innerText != 'System Planning') {
                 childrenRemove = context.find('li > ul').length;
                 count = children.length - childrenRemove;
+            } else {
+                childrenRemove = context.find('.navigation-list-grandchild-list > .navigation-list-item').length;
+                count = children.length - childrenRemove;
             }
             $(this)[0].parentElement.innerHTML = innerHTML.replace(innerText, innerText.replace(' and ', ' & ') + ' (' + count + ')');
             a.data('cnt', count);
