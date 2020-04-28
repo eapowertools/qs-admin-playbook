@@ -69,7 +69,7 @@ $(document).ready(function() {
                 .each(function(index, elem) {
                     var category = $(elem).val();
                     if (rawClasses[i].includes(category)) {
-                        let difference = rawClasses[i].filter(function(x) {return ![category].includes(x)});
+                        let difference = rawClasses[i].filter(function(x) { return ![category].includes(x) });
                         for (z in categoryMap) {
                             if (categoryMap[z][0] == category) {
                                 categoryMap[z][1].push(difference);
@@ -81,9 +81,16 @@ $(document).ready(function() {
         }
 
         // get distinct values for each
-        for (var i in categoryMap) {
-            categoryMap[i][1] = [...new Set(categoryMap[i][1].flat())]
-        }
+        categoryMap.forEach(function(row) {
+            row[1] = [].concat.apply([], row[1]);
+            var newArray = [];
+            for (var i = 0; i < row[1].length; i++) {
+                if (newArray.indexOf(row[1][i]) === -1 && row[1][i] !== '') {
+                    newArray.push(row[1][i]);
+                }
+            }
+            row[1] = newArray;
+        });
 
         // get tooling options
         $('#toolingFilter')
@@ -101,7 +108,7 @@ $(document).ready(function() {
                 .each(function(index, elem) {
                     var tooling = $(elem).val();
                     if (rawClasses[i].includes(tooling)) {
-                        let difference = rawClasses[i].filter(function(x) {return ![tooling].includes(x)});
+                        let difference = rawClasses[i].filter(function(x) { return ![tooling].includes(x) });
                         for (z in toolingMap) {
                             if (toolingMap[z][0] == tooling) {
                                 toolingMap[z][1].push(difference);
@@ -113,10 +120,16 @@ $(document).ready(function() {
         }
 
         // get distinct values for each
-        for (var i in toolingMap) {
-            toolingMap[i][1] = [...new Set(toolingMap[i][1].flat())]
-        }
-
+        toolingMap.forEach(function(row) {
+            row[1] = [].concat.apply([], row[1]);
+            var newArray = [];
+            for (var i = 0; i < row[1].length; i++) {
+                if (newArray.indexOf(row[1][i]) === -1 && row[1][i] !== '') {
+                    newArray.push(row[1][i]);
+                }
+            }
+            row[1] = newArray;
+        });
 
         // re-render the playbook on change of filters
         $('.selectpicker').on('change', function() {
@@ -142,8 +155,8 @@ $(document).ready(function() {
                             var classList = [];
                         }
                         var cellHTMLValue = $(playbookFullTable.rows[rowIndex].cells[i]).html();
-                        var categoryIntersection = categoryFilterSelections.filter(function(element) {return classList.includes(element)});
-                        var toolingIntersection = toolingFilterSelections.filter(function(element) {return classList.includes(element)});
+                        var categoryIntersection = categoryFilterSelections.filter(function(element) { return classList.includes(element) });
+                        var toolingIntersection = toolingFilterSelections.filter(function(element) { return classList.includes(element) });
 
                         // if there is a selection in the category filter and the class of the cell matches
                         if (categoryFilterSelections.length >= 1 && categoryIntersection.length >= 1) {
@@ -175,7 +188,13 @@ $(document).ready(function() {
             }
 
             // filter list of entries without
-            var columnFilteredEntriesMapFlat = [...new Set(columnFilteredEntriesMap.flat(1))];
+            columnFilteredEntriesMap = [].concat.apply([], columnFilteredEntriesMap);
+            var columnFilteredEntriesMapFlat = [];
+            for (var i = 0; i < columnFilteredEntriesMap.length; i++) {
+                if (columnFilteredEntriesMapFlat.indexOf(columnFilteredEntriesMap[i]) === -1 && columnFilteredEntriesMap[i] !== '') {
+                    columnFilteredEntriesMapFlat.push(columnFilteredEntriesMap[i]);
+                }
+            }
 
             // green white gray for the tooling filter
             $('#toolingFilter')
