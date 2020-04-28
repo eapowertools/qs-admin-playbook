@@ -69,7 +69,7 @@ $(document).ready(function() {
                 .each(function(index, elem) {
                     var category = $(elem).val();
                     if (rawClasses[i].includes(category)) {
-                        let difference = rawClasses[i].filter(function(x) {![category].includes(x)});
+                        let difference = rawClasses[i].filter(function(x) {return ![category].includes(x)});
                         for (z in categoryMap) {
                             if (categoryMap[z][0] == category) {
                                 categoryMap[z][1].push(difference);
@@ -101,7 +101,7 @@ $(document).ready(function() {
                 .each(function(index, elem) {
                     var tooling = $(elem).val();
                     if (rawClasses[i].includes(tooling)) {
-                        let difference = rawClasses[i].filter(function(x) {![tooling].includes(x)});
+                        let difference = rawClasses[i].filter(function(x) {return ![tooling].includes(x)});
                         for (z in toolingMap) {
                             if (toolingMap[z][0] == tooling) {
                                 toolingMap[z][1].push(difference);
@@ -142,8 +142,8 @@ $(document).ready(function() {
                             var classList = [];
                         }
                         var cellHTMLValue = $(playbookFullTable.rows[rowIndex].cells[i]).html();
-                        var categoryIntersection = categoryFilterSelections.filter(function(element) {classList.includes(element)});
-                        var toolingIntersection = toolingFilterSelections.filter(function(element) {classList.includes(element)});
+                        var categoryIntersection = categoryFilterSelections.filter(function(element) {return classList.includes(element)});
+                        var toolingIntersection = toolingFilterSelections.filter(function(element) {return classList.includes(element)});
 
                         // if there is a selection in the category filter and the class of the cell matches
                         if (categoryFilterSelections.length >= 1 && categoryIntersection.length >= 1) {
