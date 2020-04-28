@@ -134,8 +134,11 @@ $(document).ready(function() {
         // This is the hack for IE
         if ($.browser.msie) {
           $(".selectpicker").click(function() {
-            this.blur();
-            this.focus();
+              
+            categoryFilterSelections = $('#categoryFilter').val();
+            toolingFilterSelections = $('#toolingFilter').val();
+
+            reRenderPlaybook();
           });
         }
         
