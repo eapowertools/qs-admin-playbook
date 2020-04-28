@@ -130,6 +130,22 @@ $(document).ready(function() {
             }
             row[1] = newArray;
         });
+        
+        // This is the hack for IE
+        if ($.browser.msie) {
+          $(".selectpicker").click(function() {
+            this.blur();
+            this.focus();
+          });
+        }
+        
+        $(".selectpicker").bind($.browser.msie? 'propertychange': 'change', function(e) {
+            e.preventDefault();
+            categoryFilterSelections = $('#categoryFilter').val();
+            toolingFilterSelections = $('#toolingFilter').val();
+
+            reRenderPlaybook();
+        }); 
 
         // re-render the playbook on change of filters
         $('.selectpicker').on('change', function() {
