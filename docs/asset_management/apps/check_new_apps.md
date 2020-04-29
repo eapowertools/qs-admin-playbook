@@ -33,7 +33,7 @@ While the idea of simply checking for new applications seems relatively trivial 
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+<p>This page will outline three methods for accomplishing this activity (two using the QMC and another using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
 </div>
 </div>
 
