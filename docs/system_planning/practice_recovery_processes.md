@@ -37,7 +37,7 @@ The steps outlined in this activity are intended to be examples of how to recove
 
 ## Pre-reqs
 
-To successfully, the organization needs to have some mechanism of recovery. This can be as simple as snapshots of VMs or Cloud instances or as complex as a hot mirrored environment. This activty assumes that there is some recovery mechanism in place already.
+To be successful, the organization needs to have some mechanism of recovery. This can be as simple as snapshots of VMs or Cloud instances or as complex as a hot mirrored environment. This activty assumes that there is some recovery mechanism in place already.
 
 ## Steps (Simple)
 
@@ -52,7 +52,7 @@ In this example, we will do a simple recovery of a Qlik site. This would typical
 - Verify:
   - Key apps can be opened (reference [Analyze App Adoption](../asset_management/apps/analyze_app_adoption.md) for guidance)
   - Key reload tasks execute successfully (reference [Analyze Tasks](../asset_management/tasks/analyze_tasks.md) for guidance)
-  - Customized Authentication mechanisms work
+  - Customized authentication mechanisms work
   - Customized integrations work (e.g. portals, automation tasks)
 
 Insofar as the VM retains the same server name, the backup should initialize successfully. If the hostname is changed then refer to [this Qlik Support article](https://support.qlik.com/articles/000014456) for guidance.
@@ -65,8 +65,8 @@ In this example, we will do an advanced recovery from scratch.
 - Start the VM / OS
 - Access Qlik Sense Enterprise QMC / Hub
 - Verify:
-  - Key apps can be opened (reference [Analyze App Adoption](..\asset_management\apps\analyze_app_adoption.md) for guidance)
-  - Key reload tasks execute successfully (reference [Analyze Tasks](..\asset_management\tasks\analyze_tasks.md) for guidance)
+  - Key apps can be opened (reference [Analyze App Adoption](../asset_management/apps/analyze_app_adoption.md) for guidance)
+  - Key reload tasks execute successfully (reference [Analyze Tasks](../asset_management/tasks/analyze_tasks.md) for guidance)
   - Customized Authentication mechanisms work
   - Customized integrations work (e.g. portals, automation tasks)
 
