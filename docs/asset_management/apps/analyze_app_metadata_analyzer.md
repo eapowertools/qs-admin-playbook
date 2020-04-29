@@ -31,7 +31,7 @@ Benefits:
 Leveraging the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) enables the following:
   - Insight into the composition of all data models across an entire Qlik site.
   - Visibility into what apps have synthetic keys, data islands, and circular references.
-  - Understanding of application's base RAM footprints--which allows for sizing/load balancing considerations.
+  - Visibility of base RAM footprints--which allows for sizing/load balancing considerations.
   - Indicators of what fields could be dropped/optimized by clearly displaying their size/proportion of the application.
   - Ability to apply thresholds at the application level such as: total records, total number of fields, total number of tables, disk size, etc -- allowing one to employ gating-like mechanisms to ensure data modeling standards and best practices across the site.
 
@@ -71,7 +71,15 @@ If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Met
 
 ## Set Thresholds
 
-If this is not the first time this activity has been completed, then likely the thresholds do not need to be reset--skip to the next action unless they require modification.
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>If this is not the first time this activity has been completed, then likely the thresholds do not need to be reset. Skip to the next action unless they require modification.</p>
+</div>
+</div>
 
 Navigate to the _Data load editor_ and select the **configuration** tab. On this tab, optional variables can be set to adjust the threshold settings. Ensure that these settings are set to values that the organization _does not want to exceed_. For example, if it is desired to not have a table with more than 100M records, then the `vTableRecordCountThreshold` can be set to `100000000`.
 
@@ -80,6 +88,16 @@ These threshold variables will set dimensional fields so that applications that 
 ![ama_2.png](images/ama_2.png)
 
 ## Establish Goals
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>If this is not the first time this activity has been completed, then likely the goals do not need to be re-established. Skip to the next action unless they require modification.</p>
+</div>
+</div>
 
 This application can be used for many different purposes, depending on the environment it is running in (Dev, Test, Prod, etc). Decide what the overall goals should be with the application for the administrator.
 
@@ -121,7 +139,7 @@ For each large app identified above, look for fields that take a large amount of
 
 Can these fields be optimized or potentially removed if unused? For instance, are any of the fields timestamps that could be floored or split apart into multiple fields to reduce cardinality? 
 
-To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and run analysis on it, then provide a detailed output. It is a great companion tool to the App Metadata Analyzer, as the AMA allows one to spot potential applications that could use optimization, and then the App Analyzer can drill into the low-level details of that application. It also has the ability to optimize the UI of the application as well, which this exercise does not cover.
+To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and analyze it, then provide a detailed output in the form of a Qlik application. It is a great companion tool to the App Metadata Analyzer, as the AMA allows one to spot potential applications that could use optimization, and then the App Analyzer can drill into the low-level details of that application. It has the ability to optimize the UI of the application as well, which this exercise does not cover.
 
 ### Identify Tables for Optimization
 
@@ -129,7 +147,7 @@ For each large app identified above, look for tables that take a large amount of
 
 ![ama_6.png](images/ama_6.png)
 
-How many fields exist in these tables? Is there are many fields (hundreds for example) in a table, it is likely that the developer is using a `SELECT * FROM` approach, and likely have many fields that aren't used for analysis in the application. This is another prime opportunity to leverage Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"} to remove many fields.
+How many fields exist in these tables? If there are many fields (hundreds for example) in a table, it is likely that the developer is using a `SELECT * FROM` approach, and likely have many fields that aren't used for analysis in the application. This is another prime opportunity to leverage Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"} to remove many fields.
 
 It is also worth considering the total record count of the tables. Are they at the appropriate level of grain? Is it possible that the table or portions of the table could be aggregated, or could alternative approaches like app segmentation, app chaining, or on-demand app generation be leveraged?
 
@@ -155,7 +173,7 @@ Together, both of these metrics (Table RAM and Field RAM) add up to the base RAM
 
 ![ama_7.png](images/ama_7.png)
 
-### Identify Presence of Synthetic Keys & Data Islands
+### Identify the Presence of Synthetic Keys & Data Islands
 
 Navigate to the _Threshold Analysis_ sheet.
 
