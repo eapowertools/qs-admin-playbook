@@ -87,7 +87,7 @@ From the HUB select the **Monitoring Apps** Stream and then select the **License
 
 ![Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png](images/Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png)
 
-Select the 'User Detail' sheet
+Select the **User Detail** sheet.
 
 ![Optimize_License_Allocations_HUB_License_Monitor_Open_UserDetail_Sheet.png](images/Optimize_License_Allocations_HUB_License_Monitor_Open_UserDetail_Sheet.png)
 

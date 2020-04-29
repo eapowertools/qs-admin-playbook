@@ -96,7 +96,7 @@ This usage information is then surfaced inside of the **Operations Monitor** on 
 
 ![notification_unused_sheets_native_2.png](images/notification_unused_sheets_native_2.png)
 
-As an example, we'll select the Telemetry Dashboard application on one of our rarely used internal servers, and we can see that the _App Profiling_ base sheet hasn't been accessed in, actually almost exactly one year.
+As an example, we'll select the Telemetry Dashboard application on one of our rarely used internal servers, and we can see that the **App Profiling** base sheet hasn't been accessed in, actually almost exactly one year.
 
 ![notification_unused_sheets_native_3.png](images/notification_unused_sheets_native_3.png)
 
@@ -142,7 +142,7 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 </div>
 </div>
 
-The script below will tag any community sheets with the tag _'UnusedCommunitySheet'_. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the _Sheet Usage_ table in the **Sheet Usage** sheet of the Operations Monitor.
+The script below will tag any community sheets with the tag `UnusedCommunitySheet`. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the **Sheet Usage** table in the **Sheet Usage** sheet of the Operations Monitor.
 
 The below script assumes that the desired **Tag** has already been created, e.g. `UnusedCommunitySheet`.
 

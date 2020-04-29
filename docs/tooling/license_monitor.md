@@ -42,7 +42,7 @@ Sheet | Content
 Overview | Displays an overview of unallocated access versus total access, the available and total analyzer capacity (in minutes), summary data about login and user access sessions over the last 7, 28, and 90 days, changes in the allocation of license tokens over the last 7 days, and license usage over time.
 User Detail | Allows the user to select a time period over which to display user access pass sessions, the number of users starting sessions, and the individual users starting sessions.
 Usage by App | Allows the user to select a time period over which to display the apps for which access passes are being used and the number of tokens consumed by each app.
-Timeline | The _Timeline_ sheet displays token usage over time so administrators can monitor usage and anticipate future token allocation needs.
+Timeline | Displays token usage over time so administrators can monitor usage and anticipate future token allocation needs.
 User Access History | Allows the user to select a time period over which to display user access pass sessions, the number of users starting sessions, and the individual users starting sessions. ```Only valid for token-based license.```
 Login Access History | Allows the user to select a time period over which to display login pass utilization, login access users, and denials of login access. ```Only valid for token-based license.```
 Allocation History | Displays the latest changes and changes over selected times to the allocation of license tokens to login and user access passes.

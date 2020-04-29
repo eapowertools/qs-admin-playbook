@@ -51,7 +51,7 @@ To determine whether apps have duplicative reload tasks, open the Operations Mon
 
 ![analyze_tasks-1.png](images/analyze_tasks-1.png)
 
-Give the new sheet a descriptive name. For example `Task Details (Duplicates)`.
+Give the new sheet a descriptive name. For example **Task Details (Duplicates)**.
 
 ![analyze_tasks-2.png](images/analyze_tasks-2.png)
 
@@ -59,7 +59,7 @@ Remove both tables as we will build a custom table for our needs.
 
 ![analyze_tasks-3.png](images/analyze_tasks-3.png)
 
-Drag in a table visualization object and add the dimension `Task App Name`.
+Drag in a table visualization object and add the dimension **Task App Name**.
 
 ![analyze_tasks-4.png](images/analyze_tasks-4.png)
 
@@ -67,7 +67,7 @@ Add a measure.
 
 ![analyze_tasks-5.png](images/analyze_tasks-5.png)
 
-Select the measure `Task Name` and chose the aggregation of `Count()`.
+Select the measure **Task Name** and chose the aggregation of `Count()`.
 
 ![analyze_tasks-6.png](images/analyze_tasks-6.png)
 
@@ -87,11 +87,11 @@ The completed table should look similar to this and will signal what apps have d
 
 ![analyze_tasks-10.png](images/analyze_tasks-10.png)
 
-Taking the example of the app named `5k Random Data`, navigate to the QMC > Apps, go into the App's record and navigate to the **Tasks** section. This will show the tasks associated with a given app.
+Taking the example of the app named **5k Random Dat**`, navigate to the **QMC > Apps**, go into the **App**'s record and navigate to the **Tasks** section. This will show the tasks associated with a given app.
 
 ![analyze_tasks-11.png](images/analyze_tasks-11.png)
 
-There may be use cases for apps to have multiple tasks (e.g. run every day at 6AM and Noon) but review the duplicates and follow up with the app owner as to whether the currently configured duplicates have business value or are legacy tasks which can be removed.
+There may be use cases for apps to have multiple tasks (e.g. run every day at 6AM and noon) but review the duplicates and follow up with the app owner as to whether the currently configured duplicates have business value or are legacy tasks which can be removed.
 
 ## Optimize Concurrency
 
@@ -99,17 +99,17 @@ As outlined on [Optimize Batch Window](../system_planning/optimize_batch_window.
 
 ## Reduce Task Failures
 
-For this activity, navigate to the **Task Details** sheet of the Operations Monitor.
+For this activity, navigate to the **Task Details** sheet of the **Operations Monitor**.
 
 ![analyze_tasks-12.png](images/analyze_tasks-12.png)
 
-In the Reload Summary Statistics table, sort by Failure Rate.
+In the **Reload Summary Statistics** table, sort by **Failure Rate**.
 
 ![analyze_tasks-15.png](images/analyze_tasks-15.png)
 
 **Action**
 
-- For apps which fail at an extremely high rate. Disable the tasks and alert the app owner. In this example, reload task `Reload of Failure of an App` fails 100% of the time. There is no need to have this task enabled when it always fails to successfully reload.
+- For apps which fail at an extremely high rate. Disable the tasks and alert the app owner. In this example, reload task **Reload of Failure of an App** fails 100% of the time. There is no need to have this task enabled when it always fails to successfully reload.
 
 - For apps which fail at a modest rate, explore further in the **Task Details** sheet as to whether there are patterns (e.g. time of the day) which are correlated. Common patterns which customers face include:
 
@@ -117,11 +117,11 @@ In the Reload Summary Statistics table, sort by Failure Rate.
 - Resource constraint due to a task reloading along side a computationally heavy task
 - Data source unavailability (e.g. due to maintenance)
 
-To aid in this analysis, in the Reload Details table, select the Reload Status of Failed.
+To aid in this analysis, in the **Reload Details table**, select the **Reload Status** of **Failed**.
 
 ![analyze_tasks-13.png](images/analyze_tasks-13.png)
 
-In the Reload Details table, granular details of the tasks that have failed will allow the Qlik administrator to see correlations.
+In the **Reload Details** table, granular details of the tasks that have failed will allow the Qlik administrator to see correlations.
 
 ![analyze_tasks-14.png](images/analyze_tasks-14.png)
 

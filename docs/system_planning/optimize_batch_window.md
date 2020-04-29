@@ -48,7 +48,7 @@ Navigate to the **Monitoring Apps** stream and open up the **Reloads Monitor**.
 
 ![batch_window_1.png](images/batch_window_1.png)
 
-Navigate to the _Task Planning_ sheet.
+Navigate to the **Task Planning** sheet.
 
 ![screenshot - Task Planning Sheet.png](images/screenshot - Task Planning Sheet.png)
 

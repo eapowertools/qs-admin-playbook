@@ -72,15 +72,15 @@ Qlik apps can perform well at scale, but a common baseline is a large Qlik app i
 
 #### QMC (Basic)
 
-In the QMC, navigate to the _Apps_ section.
+In the QMC, navigate to the **Apps** section.
 
 ![review_cache-1.png](images/review_cache-1.png)
 
-Using the _Column_ selector, toggle the **File Size (MB)** column.
+Using the **Column** selector, toggle the **File Size (MB)** column.
 
 ![review_cache-2.png](images/review_cache-2.png)
 
-In the newly constructed table, use the filter on the _Name_ column to filter on the app by its name and inspect the **File Size (MB)** column.
+In the newly constructed table, use the filter on the **Name** column to filter on the app by its name and inspect the **File Size (MB)** column.
 
 ![review_cache-3.png](images/review_cache-3.png)
 
@@ -92,7 +92,7 @@ In the previous section we used the QMC to inspect the application's size on dis
 
 Refer to [Cache Warming](../../tooling/app_metadata_analyzer.md) for more guidance on configuring this app.
 
-With a configured and reloaded app, open the app in the Hub, and open the _Dashboard_ sheet.
+With a configured and reloaded app, open the app in the Hub, and open the **Dashboard** sheet.
 
 ![review_cache-4.png](images/review_cache-4.png)
 
@@ -102,7 +102,7 @@ Use the global search section to search for the app(s) by name.
 
 ![review_cache-6.png](images/review_cache-6.png)
 
-With the app(s) selected, inspect the _App Memory Footprint (MB)_ table for the app's in-memory size.
+With the app(s) selected, inspect the **App Memory Footprint (MB)** table for the app's in-memory size.
 
 ![review_cache-7.png](images/review_cache-7.png)
 

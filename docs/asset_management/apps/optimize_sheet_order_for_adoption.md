@@ -95,7 +95,7 @@ Open the **Session Details** sheet.
 
 ![session_details.png](images/session_details.png)
 
-In the _App Session Summary_ table, sort the **Sessions** column descending.
+In the **App Session Summary** table, sort the **Sessions** column descending.
 
 ![optimize_sheet_order_for_adoption03.png](images/optimize_sheet_order_for_adoption03.png)
 
@@ -124,7 +124,7 @@ To reorder the table by the sheet usage, sort the **Users Accessing Sheets** col
 At this point, it is also an option to export the **Users Accessing Sheets** table and share it with the application owner to optimize the order, as the owner of the application likely knows the content the best.
 
 > **Protip:**
-> It is possible to use Qlik NPrinting to distribute the _Sheet Usage_ table to distribute sheet usage data to application owners.
+> It is possible to use Qlik NPrinting to distribute the **Sheet Usage** table to distribute sheet usage data to application owners.
 
 ![optimize_sheet_order_for_adoption07.png](images/optimize_sheet_order_for_adoption07.png)
 
@@ -142,7 +142,7 @@ This process should be repeated for each of the selected applications.
 
 Before reordering the sheets, it is important to analyze the sheet's logical flow from one to the next combined with the sheet's usage data.
 
-In this example, the _Dashboard_ sheet should remain first, even though it is not the most accessed, so that it doesn't break the application's logical flow. The _Sales Analysis_ and _Inventory_ will be moved.
+In this example, the **Dashboard** sheet should remain first, even though it is not the most accessed, so that it doesn't break the application's logical flow. The _Sales Analysis_ and _Inventory_ will be moved.
 
 
 ![optimize_sheet_order_for_adoption09.png](images/optimize_sheet_order_for_adoption09.png)
@@ -163,7 +163,7 @@ Sheets can be moved by dragging and dropping them to a new position. In this cas
 
 ![optimize_sheet_order_for_adoption13.png](images/optimize_sheet_order_for_adoption13.png)
 
-The _Inventory_ sheet will be shifted to the third position.
+The **Inventory** sheet will be shifted to the third position.
 
 ![optimize_sheet_order_for_adoption14.png](images/optimize_sheet_order_for_adoption14.png)
 

@@ -67,7 +67,7 @@ Navigate to the **Monitoring apps** stream and open up the **Operations Monitor*
 
 ![app_adoption_17.png](images/app_adoption_17.png)
 
-Select the _Session Details_ sheet.
+Select the **Session Details** sheet.
 
 ![app_adoption_19.png](images/app_adoption_19.png)
 
@@ -75,17 +75,17 @@ Next, assuming this process is taking place quarterly, select the latest three f
 
 ![app_adoption_20.png](images/app_adoption_20.png)
 
-Following, sort the **Sessions** column of the _App Session Summary_ table descending to view the applications with the greatest number of sessions.
+Following, sort the **Sessions** column of the **App Session Summary** table descending to view the applications with the greatest number of sessions.
 
 ![app_adoption_21.png](images/app_adoption_21.png)
 
-Now, to see the applications with the greatest number of distinct users, sort the **Users** column descending.
+Now, to see the applications with the greatest number of distinct users, sort the **Users** column **descending**.
 
 ![app_adoption_22.png](images/app_adoption_22.png)
 
 In this case, three of the applications overlap, but notice that one of them was heavily used only by a single user. It is important to recognize and weigh the application's importance by considering both metrics. Is it because the application is only relevant to one person, or is it only known to that person, or is that person not aware of a newer application? These are just some questions one might want to consider asking.
 
-Repeat the same process above for the bottom five applications, by sorting both the **Sessions** and **Users** column _descending_ one by one and recording and then comparing the results.
+Repeat the same process above for the bottom five applications, by sorting both the **Sessions** and **Users** column **descending** one by one and recording and then comparing the results.
 
 ## Application/Session Activity Breakdown
 
@@ -97,11 +97,11 @@ The metrics above are valuable for discerning which applications are used the mo
 
 A new chart can be created to easily visualize session usage and users to answer all of the above questions.
 
-Duplicate the _Session Details_ sheet, and clear some real estate on the dashboard to make room for a new chart object.
+Duplicate the **Session Details** sheet, and clear some real estate on the dashboard to make room for a new chart object.
 
 ![app_adoption_1.png](images/app_adoption_1.png)
 
-Drag and drop the _Mekko chart_ (available as of the **November 2019** release) and select _Add dimension_. Then, select the **Session App Name** field.
+Drag and drop the **Mekko chart** (available as of the **November 2019** release) and select **Add dimension**. Then, select the **Session App Name** field.
 
 ![app_adoption_2.png](images/app_adoption_2.png)
 
@@ -109,19 +109,19 @@ Next, add the second dimension of **UserId**.
 
 ![app_adoption_3.png](images/app_adoption_3.png)
 
-Now, select _Add measure_, and add **Sessions**.
+Now, select **Add measure**, and add **Sessions**.
 
 ![app_adoption_4.png](images/app_adoption_4.png)
 
-In the properties panel, expand the **Session App Name** panel and set the _Limitation_ to _Fixed number_. Next, set the _Top_ to "6". The "6" allows for the top five applications to show, along with the _Others_ faux dimension. Ensure that _Show others_ is toggled on.
+In the properties panel, expand the **Session App Name** panel and set the **Limitation** to **Fixed number**. Next, set the **Top** to `6`. The `6` allows for the top five applications to show, along with the **Others** faux dimension. Ensure that **Show others** is toggled on.
 
 ![app_adoption_5.png](images/app_adoption_5.png)
 
-Following, select the **UserId** dimension, and do the same as above except now set the top to "11".
+Following, select the **UserId** dimension, and do the same as above except now set the **Top** to `11`.
 
 ![app_adoption_6.png](images/app_adoption_6.png)
 
-Navigate down to the sorting section, and expand **Session App Name**. Untoggle the default sorting (Auto), toggle on _Sort by expression_, select _Descending_, and then enter `Sum([Session Count])` as the expression value.
+Navigate down to the sorting section, and expand **Session App Name**. Untoggle the default sorting (Auto), toggle on **Sort by expression**, select **Descending**, and then enter `Sum([Session Count])` as the expression value.
 
 ![app_adoption_7.png](images/app_adoption_7.png)
 
@@ -135,7 +135,7 @@ Ensure that the sort order is:
   2. UserId
   3. Sessions
   
-Next, move down to the _Colors and legend_ section under _Appearance_. Toggle off _Show legend_ to give the chart some exra space.
+Next, move down to the **Colors and legend** section under **Appearance**. Toggle off **Show legend** to give the chart some exra space.
 
 ![app_adoption_9.png](images/app_adoption_9.png)
 
@@ -156,25 +156,25 @@ By clicking in on the top five applications specifically (after noting the highe
 
 After identifying the top five applications, it is important to see in which direction their usage is trending, if any. To do so, a new chart can be created.
 
-First, create some room on the duplicated _Session Details_ sheet. In this case, the details table has been removed, as it is not relevant to this analysis. 
+First, create some room on the duplicated **Session Details** sheet. In this case, the details table has been removed, as it is not relevant to this analysis. 
 
-Select _Combo chart_, and insert it. Then, select the **Date** as the dimension.
+Select the **Combo chart**, and insert it. Then, select the **Date** as the dimension.
 
 ![app_adoption_11.png](images/app_adoption_11.png)
 
-Select _Add measure_, and insert the **Sessions** measure.
+Select **Add measure**, and insert the **Sessions** measure.
 
 ![app_adoption_12.png](images/app_adoption_12.png)
 
-Under _Measures_, select **Sessions**, and change the type to _Line_.
+Under **Measures**, select **Sessions**, and change the type to **Line**.
 
 ![app_adoption_13.png](images/app_adoption_13.png)
 
-While remaining in the editing pane, under _Height_, select _Add_. Next, click the _fx_ button.
+While remaining in the editing pane, under **Height**, select **Add**. Next, click the **fx** button.
 
 ![app_adoption_14.png](images/app_adoption_14.png)
 
-Insert the expression `count({<[Session Count]={1}>} DISTINCT UserId)`. Name the measure "Users", and ensure it is of type _Line_.
+Insert the expression `count({<[Session Count]={1}>} DISTINCT UserId)`. Name the measure **Users**, and ensure it is of type **Line**.
 
 ![app_adoption_15.png](images/app_adoption_15.png)
 

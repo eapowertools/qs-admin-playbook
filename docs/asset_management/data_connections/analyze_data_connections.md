@@ -59,11 +59,11 @@ This pages leverages the **Data Connection Analyzer** application. For documenta
 ### How-to
 {:.no_toc}
 
-Navigate to the _Unused Connection Analysis_ sheet.
+Navigate to the **Unused Connection Analysis** sheet.
 
 ![analyze_data_connections_1.png](images/analyze_data_connections_1.png)
 
-If there are any connections that fall into this category, they will appear in the _Connections that have been used, but the Apps have since been Deleted: X_ table. In the example here, there are 6. 
+If there are any connections that fall into this category, they will appear in the **Connections that have been used, but the Apps have since been Deleted: X** table. In the example here, there are 6. 
 
 ![analyze_data_connections_2.png](images/analyze_data_connections_2.png)
 
@@ -95,11 +95,11 @@ If old Archived Logs are being archived (refer to: [Archive Old Archived Logs](.
 ### How-to
 {:.no_toc}
 
-Navigate to the _Unused Connection Analysis_ sheet.
+Navigate to the **Unused Connection Analysis** sheet.
 
 ![analyze_data_connections_1.png](images/analyze_data_connections_1.png)
 
-If there are any connections that fall into this category, they will appear in the _Connections that have never been used in an App Reload_ table. In the example here, there are 27. 
+If there are any connections that fall into this category, they will appear in the **Connections that have never been used in an App Reload** table. In the example here, there are 27. 
 
 ![analyze_data_connections_3.png](images/analyze_data_connections_3.png)
 
@@ -117,7 +117,7 @@ If the data connection **Last Used (Reloaded)** date is over 90 days old (or wha
 ### How-to
 {:.no_toc}
 
-Navigate to the _Dashboard_ sheet.
+Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
@@ -147,7 +147,7 @@ If a data connection is being deprecated, or re-routed, etc--ensure that the pro
 ### How-to
 {:.no_toc}
 
-Navigate to the _Duplicate Analysis_ sheet.
+Navigate to the **Duplicate Analysis** sheet.
 
 ![analyze_data_connections_10.png](images/analyze_data_connections_10.png)
 
@@ -182,7 +182,7 @@ Connection duplicates should be resolved where possible. Contact the owners of t
 ### How-to
 {:.no_toc}
 
-Navigate to the _Dashboard_ sheet.
+Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
@@ -204,11 +204,11 @@ There is no direct action necessary here, as this exercise is only particularly 
 ### How-to
 {:.no_toc}
 
-Navigate to the _Usage_ sheet.
+Navigate to the **Usage** sheet.
 
 ![analyze_data_connections_6.png](images/analyze_data_connections_6.png)
 
-Locate the _Connection # Times Used (Script Logs)_ table. This table visualizes the amount of script logs that each connection is found in.
+Locate the **Connection # Times Used (Script Logs)** table. This table visualizes the amount of script logs that each connection is found in.
 
 ![analyze_data_connections_7.png](images/analyze_data_connections_7.png)
 
@@ -238,7 +238,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **Executed By** filter.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the **Usage** sheet and filtering on the **Executed By** filter.
 
 ### Action
 {:.no_toc}
@@ -254,7 +254,7 @@ There is no direct action necessary here. Leverage as required.
 ### How-to
 {:.no_toc}
 
-The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the _Usage_ sheet and filtering on the **ExecutionType** filter within the _Count of Data Connections by ExecutionType_ table.
+The process to answer this question is addressed in the [What are the most widely used data connections?](#what-are-the-most-widely-used-data-connections) section above, and can be achieved by navigating to the **Usage** sheet and filtering on the **ExecutionType** filter within the **Count of Data Connections by ExecutionType** table.
 
 ![analyze_data_connections_16.png](images/analyze_data_connections_16.png)
 

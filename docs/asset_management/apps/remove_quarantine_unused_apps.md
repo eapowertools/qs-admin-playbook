@@ -51,11 +51,11 @@ If the **Operations Monitor** is not up-to-date, please refer to the [Operations
 
 ## Process
 
-Open the Operations Monitor App, and select the "Apps" sheet.
+Open the Operations Monitor App, and select the **Apps** sheet.
 
 ![quarantine_unused_apps_native_1.png](images/quarantine_unused_apps_native_1.png)
 
-In the App Details table object, sort by Last Accessed field and scroll to old dates or null dates.
+In the **App Details** table object, sort by **Last Accessed** field and scroll to old dates or null dates.
 
 ![quarantine_unused_apps_native_7.png](images/quarantine_unused_apps_native_7.png)
 

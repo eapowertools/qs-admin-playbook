@@ -65,7 +65,7 @@ Select the **License Monitor** application.
 
 ![Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png](images/Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png)
 
-Select the _Overview_ sheet.
+Select the **Overview** sheet.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview.png)
 
@@ -121,7 +121,7 @@ Repeat for _Professional_. In this sample, the growth line is flat.
 
 In this exercise, it is apparent that 100 analyzer licenses are available. Since the most recent month shows '32' in use, we can expect that licenses will max out in  (100-32)/2.5  or  ~27 months. These are of course estimates without any other variables in play.
 
-The work done to customize the sheet is auto-saved. To make the sheet clear and readily accessible for next time, rename the sheet to _User License Trend_ by clicking in the white space above the app objects as shown by the arrow in the image below, then alter the label to _User License Trend_.
+The work done to customize the sheet is auto-saved. To make the sheet clear and readily accessible for next time, rename the sheet to **User License Trend** by clicking in the white space above the app objects as shown by the arrow in the image below, then alter the label to **User License Trend**.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_UserLicenseTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_UserLicenseTrend.png)
 

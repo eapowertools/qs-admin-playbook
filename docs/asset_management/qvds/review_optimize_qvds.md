@@ -54,7 +54,7 @@ This pages leverages the **Qlik Sense QVD Monitor** application. For documentati
   
 ### Process
 
-Open the **Qlik Sense QVD Monitor** application, and then select the _QVD Details_ sheet.
+Open the **Qlik Sense QVD Monitor** application, and then select the **QVD Details** sheet.
 
 ![optimize_qvds_1.png](images/optimize_qvds_1.png)
 
@@ -62,7 +62,7 @@ Open the **Qlik Sense QVD Monitor** application, and then select the _QVD Detail
 
 **Priority 1**
 
-Note the overall metrics at the top of the sheet, and ensure that all of the QVD folders are reflected in the _QVD Growth Rates_ table.
+Note the overall metrics at the top of the sheet, and ensure that all of the QVD folders are reflected in the **QVD Growth Rates** table.
 
 ![screenshot - Details Overview.png](images/screenshot - Details Overview.png)
 
@@ -82,11 +82,11 @@ Look for anomalies in the growth rates (pos or neg) of the QVD files. These will
 
 ![screenshot - Growth Rate1.png](images/screenshot - Growth Rate1.png)
 
-When the goal is to examine growth by day and any trending of a QVD, display the _QVD Metadata Details_ table at the bottom of the sheet (the first of two objects in the container).
+When the goal is to examine growth by day and any trending of a QVD, display the **QVD Metadata Details** table at the bottom of the sheet (the first of two objects in the container).
 
 ![screenshot - metadata details.png](images/screenshot - metadata details.png)
 
-It is also suggested to view the row count trends of the same QVD in the second object in the container, named _Row Count Trends_.
+It is also suggested to view the row count trends of the same QVD in the second object in the container, named **Row Count Trends**.
 
 ![Screenshot - Rowcount Trends 1.png](images/Screenshot - Rowcount Trends 1.png)
 
@@ -94,11 +94,11 @@ Decisions on whether or not a growth trend is "normal" or "anomalous" are up to 
 
 **Priority 3**
 
-Navigate to the _Search Columns_ sheet in the application.
+Navigate to the **Search Columns** sheet in the application.
 
 ![Screenshot - Search Columns1.png](images/Screenshot - Search Columns1.png)
 
-In the "Column Occurrences" table on the left side of the sheet, a complete list of QVD columns is visible, with the number of occurrences that each column name has across all QVDs. Note that this table only contains the most recent QVD load of all QVDs.
+In the **Column Occurrences** table on the left side of the sheet, a complete list of QVD columns is visible, with the number of occurrences that each column name has across all QVDs. Note that this table only contains the most recent QVD load of all QVDs.
 
 ![screenshot - Column Search 1.png](images/screenshot - Column Search 1.png)
 
@@ -110,11 +110,11 @@ Select a column in this table to filter the main table down, and view the detail
 
 "QVD Overlap" is a term for when _many_ column names from two or more QVDs overlap heavily, say 50% or more. Sometimes this is done by design, for example, having a summary and detail version of the QVD can be great for performance, and having segmented QVDs for large datasets is in fact considered a best practices. However, when it is unintended that QVDs greatly overlap each other or are duplicates of each other, it could imply extra reload work, storage bloat, extra maintenance, and could cause confusion among developers, designers, and users.
 
-Navigate to the _QVD Overlap_ sheet.
+Navigate to the **QVD Overlap** sheet.
 
 ![Screnshot - QVD Overlap.png](images/Screnshot - QVD Overlap.png)
 
-In the _Source → Target Overlap_ table on the right, find and select QVDs that have a large percentage of overlap with other QVDs. 
+In the **Source → Target Overlap** table on the right, find and select QVDs that have a large percentage of overlap with other QVDs. 
 
 ![screenshot - Source-Target Overlap 1.png](images/screenshot - Source-Target Overlap 1.png)
 

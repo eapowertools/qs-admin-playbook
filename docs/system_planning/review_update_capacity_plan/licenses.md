@@ -53,7 +53,7 @@ If the application is not operational [this support article](https://support.qli
 
 ### Gather Metrics
 
-Select the _Usage Snapshot_ sheet.
+Select the **Usage Snapshot** sheet.
 
 ![capacity_planning_licenses_11.png](images/capacity_planning_licenses_11.png)
 

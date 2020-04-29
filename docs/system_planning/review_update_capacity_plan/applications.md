@@ -55,7 +55,7 @@ If the application is not operational [this support article](https://support.qli
 
 ### Gather Top Applications by Usage
 
-Select the _Session Overview_ sheet.
+Select the **Session Overview** sheet.
 
 ![capacity_planning_users_11.png](images/capacity_planning_users_11.png)
 
@@ -67,7 +67,7 @@ Record the top applications by usage in the _Top 50 Apps_ chart.
 
 ## App Metadata Analyzer
 
-For the next exercise, the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) is required. Confirm that it is setup, and then navigate to the _Dashboard_ sheet.
+For the next exercise, the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) is required. Confirm that it is setup, and then navigate to the **Dashboard** sheet.
 
 ![capacity_planning_applications_3.png](images/capacity_planning_applications_3.png)
 
@@ -79,9 +79,9 @@ Two steps need to occur here:
 
 1. If there are mutliple end-user facing engines in the deployment, where is this application currently available? As it is quite large and heavily used, it might not make sense to have it available on all nodes. For example, if there are more than two end-user nodes, it would be worth considering "pinning" this application to a minimum of two nodes for resiliency--allowing the other nodes to not be overloaded, and by increasing the caching of the applications to less nodes, improving response times.
 
-2. Is there an optimization event? It can be noted in the _Field Memory Footprint (MB)_ table that **Field17** consumes ~14 GB RAM. Is that field necessary, can it be optimized? For instance, is it a timestamp that can be floored, or a field that can otherwise be broken apart to reduce cardinality? Other areas of interest include: total number of fields in an application, total number of records in an application and/or table, presence of synthetic keys, presence of data islands, etc. Please refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) for examples and documentation.
+2. Is there an optimization event? It can be noted in the **Field Memory Footprint (MB)** table that **Field17** consumes ~14 GB RAM. Is that field necessary, can it be optimized? For instance, is it a timestamp that can be floored, or a field that can otherwise be broken apart to reduce cardinality? Other areas of interest include: total number of fields in an application, total number of records in an application and/or table, presence of synthetic keys, presence of data islands, etc. Please refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) for examples and documentation.
 
-Step 1 can quickly be validated by navigating to the _App Availability_ sheet, while that application remains selected.
+Step 1 can quickly be validated by navigating to the **App Availability** sheet, while that application remains selected.
 
 ![capacity_planning_system_5.png](images/capacity_planning_system_5.png)
 

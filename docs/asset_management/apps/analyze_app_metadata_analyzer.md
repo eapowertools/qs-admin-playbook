@@ -121,11 +121,11 @@ The purpose of this subsection is to optimize application's data models, priorit
 
 ### Identify applications with large base RAM footprints.
 
-Navigate to the _Dashboard_ sheet.
+Navigate to the **Dashboard** sheet.
 
 ![ama_3.png](images/ama_3.png)
 
-Refer to the _App Memory Footprint (MB)_ table. In this example, there is an application that takes up ~63 GB in RAM.
+Refer to the **App Memory Footprint (MB)** table. In this example, there is an application that takes up ~63 GB in RAM.
 
 ![ama_4.png](images/ama_4.png)
 
@@ -133,7 +133,7 @@ Prioritize applications that are both large _and_ widely used. Refer to [Analyze
 
 ### Identify Fields for Optimization
 
-For each large app identified above, look for fields that take a large amount of RAM. Refer to the _Field Memory Footprint (MB)_ table. This table illustrates the _Symbol Tables_ (for a good read on Symbol Tables and Data Tables, refer to [this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"}). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
+For each large app identified above, look for fields that take a large amount of RAM. Refer to the **Field Memory Footprint (MB)** table. This table illustrates the **Symbol Tables** (for a good read on Symbol Tables and Data Tables, refer to [this article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"}). If the values are large in this table, it typically implies that the field's values are large and non-unique. Take a comment field for example -- long text values with a very high cardinality. It is imporant to ensure fields like this are optimized/necessary for analysis, as they can add weight to applications quickly.
 
 ![ama_5.png](images/ama_5.png)
 
@@ -143,7 +143,7 @@ To see if the fields are unused, it is suggested to use Rob Wunderlich's [App An
 
 ### Identify Tables for Optimization
 
-For each large app identified above, look for tables that take a large amount of RAM. Have a look at the _Table Memory Footprint (MB)_ table, also on the _Dashboard_ sheet. This table illustrates the _Data Tables_ ([article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"}). The more records/columns in a table, the higher the table memory footprint.
+For each large app identified above, look for tables that take a large amount of RAM. Have a look at the **Table Memory Footprint (MB)** table, also on the **Dashboard** sheet. This table illustrates the **Data Tables** ([article on Qlik Community](https://community.qlik.com/t5/Qlik-Design-Blog/Symbol-Tables-and-Bit-Stuffed-Pointers/ba-p/1475369){:target="_blank"}). The more records/columns in a table, the higher the table memory footprint.
 
 ![ama_6.png](images/ama_6.png)
 
@@ -175,7 +175,7 @@ Together, both of these metrics (Table RAM and Field RAM) add up to the base RAM
 
 ### Identify the Presence of Synthetic Keys & Data Islands
 
-Navigate to the _Threshold Analysis_ sheet.
+Navigate to the **Threshold Analysis** sheet.
 
 ![ama_10.png](images/ama_10.png)
 
@@ -191,7 +191,7 @@ If there are any synthetic keys, select _Has Synthetic Keys_, and then view the 
 
 If there are data islands, these also should be avoided where possible and should be _attempted_ to be rectified in the model. For more information, refer to [The Impact of Data Islands on Cache and CPU](https://qlikviewcookbook.com/2015/06/the-impact-of-data-islands-on-cache-and-cpu/){:target="_blank"}, an article by Rob Wunderlich.
 
-Repeat the process for data islands, by selecting _Has Island Table_, and viewing the associated apps and island tables.
+Repeat the process for data islands, by selecting **Has Island Table**, and viewing the associated apps and island tables.
 
 ## Review Load Balancing
 

@@ -58,7 +58,7 @@ First and foremost, it is essential to confirm that the **Operations Monitor** i
 
 ## Gather Metrics
 
-Select the _Performance_ sheet.
+Select the **Performance** sheet.
 
 ![capacity_planning_system_1.png](images/capacity_planning_system_1.png)
 
@@ -84,11 +84,11 @@ As there is no simple way here to show what applications are consuming what perc
 
 \* Of course, this is a best practice from keeping a server from going off the rails, but it is not guaranteed. If there were thousands of users hitting that box at the same time, they would more than likely consume more than the available amount of RAM left over--but in general, it is a good practice if users have been properly distributed across engines.
 
-To gather this metric, we need to leverage the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md). Confirm that it is setup, and then navigate to the _App Availability_ sheet.
+To gather this metric, we need to leverage the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md). Confirm that it is setup, and then navigate to the **App Availability** sheet.
 
 ![capacity_planning_system_5.png](images/capacity_planning_system_5.png)
 
-In the _Engine Node: Available Apps & Base RAM Footprint_ table, one can view the total base RAM footprint for all applications that are able to be lifted on each individual engine node. 
+In the **Engine Node: Available Apps & Base RAM Footprint** table, one can view the total base RAM footprint for all applications that are able to be lifted on each individual engine node. 
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -96,7 +96,7 @@ In the _Engine Node: Available Apps & Base RAM Footprint_ table, one can view th
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This practice should also be repeated with selecting only the highly-used applications, as it is highly unlikely that _all_ applications will be open in RAM at the same time in production, unless there are only a few applications that are deployed. It is suggested to select only highly used applications, which can be found in the **Operations Monitor** -> _Session Overview_ sheet -> _Top 50 Apps_ chart.</p>
+<p>This practice should also be repeated with selecting only the highly-used applications, as it is highly unlikely that _all_ applications will be open in RAM at the same time in production, unless there are only a few applications that are deployed. It is suggested to select only highly used applications, which can be found in the **Operations Monitor** -> **Session Overview** sheet -> **Top 50 Apps** chart.</p>
 </div>
 </div>
 
@@ -114,19 +114,19 @@ It is also valuable to view the distribution of users across the engines, as thi
 
 \* This is of course tackling the issue of performance by adding more hardware, while one will also want to consider simultaneously optimizing their applications. There is no silver bullet.
 
-To create this chart, open up the **Operations Monitor** and create a new sheet. Name it _Max Concurrent Users by Hostname_.
+To create this chart, open up the **Operations Monitor** and create a new sheet. Name it **Max Concurrent Users by Hostname**.
 
 ![capacity_planning_system_7.png](images/capacity_planning_system_7.png)
 
-Drag and drop a _Pivot Table_, then add the **Hostname** field as a dimension.
+Drag and drop a **Pivot Table**, then add the **Hostname** field as a dimension.
 
 ![capacity_planning_system_8.png](images/capacity_planning_system_8.png)
 
-Next, add the _Max Concurrent Users_ metric as the measure.
+Next, add the **Max Concurrent Users** metric as the measure.
 
 ![capacity_planning_system_9.png](images/capacity_planning_system_9.png)
 
-Name the chart _Max Concurrent Users by Hostname_. Following, review the total concurrent users per engine node.
+Name the chart **Max Concurrent Users by Hostname**. Following, review the total concurrent users per engine node.
 
 ![capacity_planning_system_10.png](images/capacity_planning_system_10.png)
 
@@ -134,7 +134,7 @@ Name the chart _Max Concurrent Users by Hostname_. Following, review the total c
 
 The primary goal of this sub-section is to report on the number of intra-day reloads so that they can be examined. The result should be to minimize if not completely decouple intra-day reloads from end-user facing engine nodes. If the environment is smaller and reloads must operate on end-user nodes, that should at a minimum be pushed to the overnight batch window where viable. If there are intra-day reloads for hourly reloading apps or otherwise, ideally, they should be offloaded to a separate scheduler.
 
-While remaining in the **Operations Monitor**, navigate to the _Task Overview_ sheet.
+While remaining in the **Operations Monitor**, navigate to the **Task Overview** sheet.
 
 ![capacity_planning_system_11.png](images/capacity_planning_system_11.png)
 
@@ -146,7 +146,7 @@ In this example, it is visible that there are 354 reloads per day within busines
 
 Now, if all of these reloads are happening on dedicated scheduler nodes and completing successfully without overloading the server(s), then all is well. To view where the reloads are happening, a new chart can be created.
 
-Duplicate the sheet, and copy the _Reload Count_ bar chart.
+Duplicate the sheet, and copy the **Reload Count** bar chart.
 
 ![capacity_planning_system_13.png](images/capacity_planning_system_13.png)
 

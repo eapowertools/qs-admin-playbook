@@ -48,7 +48,7 @@ First and foremost, it is essential to confirm that the **Operations Monitor** i
 
 ### Gather Metrics
 
-Select the _Session Overview_ sheet.
+Select the **Session Overview** sheet.
 
 ![capacity_planning_users_11.png](images/capacity_planning_users_11.png)
 
@@ -56,11 +56,11 @@ Now, assuming this capacity plan exercise is in fact being executed quarterly, s
 
 ![capacity_planning_users_12.png](images/capacity_planning_users_12.png)
 
-While remaining on this sheet, take note of the _Max Concurrent Users_ KPI. This is the _Peak Concurrency_ KPI mentioned above, and is critical to help plan for growth from an architecture perspective.
+While remaining on this sheet, take note of the **Max Concurrent Users** KPI. This is the **Peak Concurrency** KPI mentioned above, and is critical to help plan for growth from an architecture perspective.
 
 ![capacity_planning_users_14.png](images/capacity_planning_users_14.png)
 
-Following, select the _Session Details_ sheet.
+Following, select the **Session Details** sheet.
 
 ![capacity_planning_users_3.png](images/capacity_planning_users_3.png)
 

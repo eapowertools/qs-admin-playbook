@@ -112,11 +112,11 @@ Now on this example server, the **Operations Monitor** application has been sele
 
 ![unused_private_sheets_native_3.png](images/unused_private_sheets_native_3.png)
 
-On the **Sheet Usage** table, select _Private Sheet_ under the **Sheet Type** column.
+On the **Sheet Usage** table, select **Private Sheet** under the **Sheet Type** column.
 
 ![unused_private_sheets_native_4.png](images/unused_private_sheets_native_4.png)
 
-In this scenario, the _App Usage_ sheet has not been used in over one month but less than two. Ideally, private sheets should only be removed if they have not been used in > 90 days or more, but this needs to be defined by a policy decided internally. Please refer to the **Retention Policy** section below.
+In this scenario, the **App Usage** sheet has not been used in over one month but less than two. Ideally, private sheets should only be removed if they have not been used in > 90 days or more, but this needs to be defined by a policy decided internally. Please refer to the **Retention Policy** section below.
 
 -------------------------
 
@@ -153,7 +153,7 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 </div>
 
 
-The script below will tag any private sheets with the tag _'UnusedPrivateSheet'_. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the _Sheet Usage_ table in the **Sheet Usage** sheet of the Operations Monitor.
+The script below will tag any private sheets with the tag `UnusedPrivateSheet`. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the **Sheet Usage** table in the **Sheet Usage** sheet of the Operations Monitor.
 
 ### Video Walk-Through
 
