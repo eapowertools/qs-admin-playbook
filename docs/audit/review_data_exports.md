@@ -42,6 +42,20 @@ For the majority of use cases, bulk exports to Excel signal that dashboards need
 {:toc}
 -------------------------
 
+## Operations Monitor
+
+This page leverages the **Operations Monitor**. Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+
+### Confirm Operations Monitor is Operational
+
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+
+![ops_monitor_operational.png](images/ops_monitor_operational.png)
+
+If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
+
+-------------------------
+
 ### Review Operations Monitor <i class="fas fa-dolly-flatbed fa-xs" title="Shipped | Native Capability"></i> 
 
 Open up the **Operations Monitor** application and navigate to the **Export Overview** sheet:

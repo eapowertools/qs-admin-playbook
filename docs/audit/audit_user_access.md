@@ -36,7 +36,7 @@ This activity will center around auditing what assets (e.g. apps, streams, data 
 
 ## QMC - Audit
 
-To audit access using the QMC, navigate to the `Audit` section of the QMC.
+To audit access using the QMC, navigate to the **Audit** section of the QMC.
 
 ![user_access-1.png](images/user_access-1.png)
 
@@ -59,7 +59,7 @@ From [the documentation](https://help.qlik.com/en-US/sense-admin/Subsystems/Depl
 - **Yellow**: The Security rule which (would) provide access is valid but disabled
 - **Red** The Security rule which (would) provide access is invalid
 
-In this example, Andrew has **Read** and **Publish** access to the `Monitoring Apps` stream. By selecting the cell for the action that we are interested in, we can see what rule(s) are providing access.
+In this example, Andrew has **Read** and **Publish** access to the **Monitoring Apps** stream. By selecting the cell for the action that we are interested in, we can see what rule(s) are providing access.
 
 ![user_access-4.png](images/user_access-4.png)
 
@@ -72,7 +72,7 @@ In this example, Andrew has **Read** and **Publish** access to the `Monitoring A
 ![user_access-6.png](images/user_access-6.png)
 
 - (1) : In the Upper right hand corner the administrator can select **Privileges to audit** which will allow the administrator to select which security rule actions they are auditing.
-- (2) : The list of available Privileges changes as the administrator changes the `Target Resource` since the types of action(s) which can be applied to a Qlik entity inside of a security rule varies. For example, the Export Data action is applied at the App level. That action neither exists nor makes sense at the Stream level since Streams do not contain data.
+- (2) : The list of available Privileges changes as the administrator changes the **Target Resource** since the types of action(s) which can be applied to a Qlik entity inside of a security rule varies. For example, the Export Data action is applied at the App level. That action neither exists nor makes sense at the Stream level since Streams do not contain data.
 
 ![user_access-7.png](images/user_access-7.png)
 

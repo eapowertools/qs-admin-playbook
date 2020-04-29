@@ -53,7 +53,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 ### Confirm Operations Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
 ![ops_monitor_operational.png](images/ops_monitor_operational.png)
 

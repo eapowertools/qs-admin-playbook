@@ -60,7 +60,7 @@ There are three primary goals:
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_. 
+Ensure that the **Audit Activity log level** is set to **Basic** for _every engine_. 
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -82,7 +82,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 ### Confirm Operations Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
 ![ops_monitor_operational.png](images/ops_monitor_operational.png)
 
@@ -96,7 +96,7 @@ This usage information is then surfaced inside of the **Operations Monitor** on 
 
 ![notification_unused_sheets_native_2.png](images/notification_unused_sheets_native_2.png)
 
-As an example, we'll select the Telemetry Dashboard application on one of our rarely used internal servers, and we can see that the **App Profiling** base sheet hasn't been accessed in, actually almost exactly one year.
+As an example, we'll select the **Telemetry Dashboard** application on one of our rarely used internal servers, and we can see that the **App Profiling** base sheet hasn't been accessed in, actually almost exactly one year.
 
 ![notification_unused_sheets_native_3.png](images/notification_unused_sheets_native_3.png)
 
@@ -104,7 +104,7 @@ It is suggested that the administrator would add the **App Owner** field to the 
 
 ![notification_unused_sheets_native_4.png](images/notification_unused_sheets_native_4.png)
 
-As far as the time range for sheets that are unused (or minimally used), it is suggested to select the _'> 90 days'_ value from the **Latest Activity Range** field -- though this range is ultimately up to the organization.
+As far as the time range for sheets that are unused (or minimally used), it is suggested to select the **> 90 days** value from the **Latest Activity Range** field -- though this range is ultimately up to the organization.
 
 ![notification_unused_sheets_native_5.png](images/notification_unused_sheets_native_5.png)
 

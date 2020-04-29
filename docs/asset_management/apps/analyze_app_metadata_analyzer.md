@@ -53,7 +53,7 @@ If the **App Metadata Analyzer** has not yet been imported into the site, naviga
 
 ### Confirm the App Metadata Analyzer is Operational
 
-Navigate to the **Monitoring apps** stream (or wherever the **App Metadata Analyzer** application has been published to) and select the _Details_ button (info icon) on the **App Metadata Analyzer** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** stream (or wherever the **App Metadata Analyzer** application has been published to) and select the **Details** button (info icon) on the **App Metadata Analyzer** application. Confirm that the application's data is up-to-date.
 
 ![ama_1.png](images/ama_1.png)
 
@@ -81,7 +81,7 @@ If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Met
 </div>
 </div>
 
-Navigate to the _Data load editor_ and select the **configuration** tab. On this tab, optional variables can be set to adjust the threshold settings. Ensure that these settings are set to values that the organization _does not want to exceed_. For example, if it is desired to not have a table with more than 100M records, then the `vTableRecordCountThreshold` can be set to `100000000`.
+Navigate to the **Data load editor** and select the **configuration** tab. On this tab, optional variables can be set to adjust the threshold settings. Ensure that these settings are set to values that the organization _does not want to exceed_. For example, if it is desired to not have a table with more than 100M records, then the `vTableRecordCountThreshold` can be set to `100000000`.
 
 These threshold variables will set dimensional fields so that applications that breach these thresholds can be flagged and easily selected during analysis.
 
@@ -139,7 +139,7 @@ For each large app identified above, look for fields that take a large amount of
 
 Can these fields be optimized or potentially removed if unused? For instance, are any of the fields timestamps that could be floored or split apart into multiple fields to reduce cardinality? 
 
-To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and analyze it, then provide a detailed output in the form of a Qlik application. It is a great companion tool to the App Metadata Analyzer, as the AMA allows one to spot potential applications that could use optimization, and then the App Analyzer can drill into the low-level details of that application. It has the ability to optimize the UI of the application as well, which this exercise does not cover.
+To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and analyze it, then provide a detailed output in the form of a Qlik application. It is a great companion tool to the **App Metadata Analyzer**, as the AMA allows one to spot potential applications that could use optimization, and then the **App Analyzer** can drill into the low-level details of that application. It has the ability to optimize the UI of the application as well, which this exercise does not cover.
 
 ### Identify Tables for Optimization
 
@@ -185,7 +185,7 @@ On each sheet on the bottom left, there are two tables:
 
 If there are synthetic keys, the majority of the time, it is a sign of a problem in the data model, and they should be rectified. There are of course scenarios when synthetic keys are harmless, and in fact the most optimal option, but that is typically not the case. For more information, refer to this [Qlik Design Blog: Synthetic Keys](https://community.qlik.com/t5/Qlik-Design-Blog/Synthetic-Keys/ba-p/1472634){:target="_blank"} article.
 
-If there are any synthetic keys, select _Has Synthetic Keys_, and then view the applications, tables, and fields that contain them.
+If there are any synthetic keys, select **Has Synthetic Keys**, and then view the applications, tables, and fields that contain them.
 
 ![ama_9.png](images/ama_9.png)
 

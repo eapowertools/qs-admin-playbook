@@ -53,7 +53,7 @@ This activity should not be attempted for every application, and should be prior
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_.
+Ensure that the **Audit Activity log level** is set to **Basic** for _every engine_.
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -75,7 +75,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 ### Confirm Operations Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
 ![ops_monitor_operational.png](images/ops_monitor_operational.png)
 
@@ -95,7 +95,7 @@ Open the **Session Details** sheet.
 
 ![session_details.png](images/session_details.png)
 
-In the **App Session Summary** table, sort the **Sessions** column descending.
+In the **App Session Summary** table, sort the **Sessions** column **descending**.
 
 ![optimize_sheet_order_for_adoption03.png](images/optimize_sheet_order_for_adoption03.png)
 
@@ -115,11 +115,11 @@ While keeping the five applications selected, navigate to the **Sheet Usage** sh
 
 One can now visualize the number of sheets (Base, Community, and Private) that are in each selected application.
 
-To simply the process, it is suggested to select only one application at a time. Feel free to _bookmark_ the five applications if it is more convenient. In this example, "Sample App" has been selected.
+To simply the process, it is suggested to select only one application at a time. Feel free to **bookmark** the five applications if it is more convenient. In this example, **Sample App** has been selected.
 
 ![optimize_sheet_order_for_adoption06.png](images/optimize_sheet_order_for_adoption06.png)
 
-To reorder the table by the sheet usage, sort the **Users Accessing Sheets** column descending.
+To reorder the table by the sheet usage, sort the **Users Accessing Sheets** column **descending**.
 
 At this point, it is also an option to export the **Users Accessing Sheets** table and share it with the application owner to optimize the order, as the owner of the application likely knows the content the best.
 
@@ -129,7 +129,7 @@ At this point, it is also an option to export the **Users Accessing Sheets** tab
 ![optimize_sheet_order_for_adoption07.png](images/optimize_sheet_order_for_adoption07.png)
 
 > **Protip:**
-> If there are Community Sheets with a higher quantity of sessions than base sheets, it is worth investigating the content of those sheets with the application owners and considering either promoting the sheet to base, or incorporating the content into the base app otherwise.
+> If there are community sheets with a higher quantity of sessions than base sheets, it is worth investigating the content of those sheets with the application owners and considering either promoting the sheet to base, or incorporating the content into the base app otherwise.
 
 This process should be repeated for each of the selected applications.
 
@@ -142,7 +142,7 @@ This process should be repeated for each of the selected applications.
 
 Before reordering the sheets, it is important to analyze the sheet's logical flow from one to the next combined with the sheet's usage data.
 
-In this example, the **Dashboard** sheet should remain first, even though it is not the most accessed, so that it doesn't break the application's logical flow. The _Sales Analysis_ and _Inventory_ will be moved.
+In this example, the **Dashboard** sheet should remain first, even though it is not the most accessed, so that it doesn't break the application's logical flow. The **Sales Analysis** and **Inventory** will be moved.
 
 
 ![optimize_sheet_order_for_adoption09.png](images/optimize_sheet_order_for_adoption09.png)
@@ -151,15 +151,15 @@ To change the sheets order, the administrator or application owner should clone 
 
 ![optimize_sheet_order_for_adoption10.png](images/optimize_sheet_order_for_adoption10.png)
 
-As soon as the application gets duplicated, the new duplicated application will reside in the owner's "My work" area.
+As soon as the application gets duplicated, the new duplicated application will reside in the owner's **My work** area.
 
 ![optimize_sheet_order_for_adoption11.png](images/optimize_sheet_order_for_adoption11.png)
 
-Open the application, and ensure that the _Touch screen mode_ feature is turned off.
+Open the application, and ensure that the **Touch screen mode** feature is turned off.
 
 ![optimize_sheet_order_for_adoption12.png](images/optimize_sheet_order_for_adoption12.png)
 
-Sheets can be moved by dragging and dropping them to a new position. In this case, the _Sales Analysis by Region_ will be moved to the second position.
+Sheets can be moved by dragging and dropping them to a new position. In this case, the **Sales Analysis by Region** will be moved to the second position.
 
 ![optimize_sheet_order_for_adoption13.png](images/optimize_sheet_order_for_adoption13.png)
 
@@ -171,7 +171,7 @@ The sheet order has now been optimized.
 
 ![optimize_sheet_order_for_adoption15.png](images/optimize_sheet_order_for_adoption15.png)
 
-Following, the application should now "publish and replace" the original.
+Following, the application should now **Publish and replace** the original.
 
 ![optimize_sheet_order_for_adoption16.png](images/optimize_sheet_order_for_adoption16.png)
 

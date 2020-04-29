@@ -112,7 +112,7 @@ If the data connection **Last Used (Reloaded)** date is over 90 days old (or wha
 
 ## Where are data connections being used?
 
-**Let’s say a data source is being transformed and will be moved from one database to another location. The first question one might ask is, “What applications are using that connection, so we can re-route it to the new db and make adjustments to the load scripts?”. This historically has not been easy to answer. This application allows one to select that connection and visualize apps that are using it.**
+**Let's say a data source is being transformed and will be moved from one database to another location. The first question one might ask is, "What applications are using that connection, so we can re-route it to the new db and make adjustments to the load scripts?". This historically has not been easy to answer. This application allows one to select that connection and visualize apps that are using it.**
 
 ### How-to
 {:.no_toc}
@@ -121,7 +121,7 @@ Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
-Select _True_ next to the _Connections Used_ KPI to select all used data connections.
+Select **True** next to the **Connections Used** KPI to select all used data connections.
 
 ![analyze_data_connections_13.png](images/analyze_data_connections_13.png)
 
@@ -186,7 +186,7 @@ Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
-Select the value of _True_ next to the _Connections Only Found in Script_ KPI. The _Connections by Type_ will now show all of the connections that were found in script log files, but were not found in the QRS.
+Select the value of **True** next to the **Connections Only Found in Script** KPI. The **Connections by Type** object will now show all of the connections that were found in script log files, but were not found in the QRS.
 
 ![analyze_data_connections_5.png](images/analyze_data_connections_5.png)
 
@@ -233,7 +233,7 @@ There is no direct action necessary here. Leverage as required.
 
 ## Who is using what data connections?
 
-**While “User A” might own “Data Connection A”, “User B” might also have read access to that data connection. This can of course be visualized through the audit capability of the QMC, however this application will physically reveal who is executing any reloads of those data connections, giving greater visibility and allowing a deeper level of auditing and governance.**
+**While "User A" might own "Data Connection A", "User B" might also have read access to that data connection. This can of course be visualized through the audit capability of the QMC, however this application will physically reveal who is executing any reloads of those data connections, giving greater visibility and allowing a deeper level of auditing and governance.**
 
 ### How-to
 {:.no_toc}

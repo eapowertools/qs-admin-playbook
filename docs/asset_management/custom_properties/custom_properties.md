@@ -79,7 +79,7 @@ In the upper right hand side of the screen, select the **Column selector**, and 
 
 ![check_new_custom_properties_native_5.png](images/check_new_custom_properties_native_5.png)
 
-Now select the filter icon for the **Conditions** column, and then enter the name of the custom property, prepended by the **@** symbol, which denotes the use of a custom property in a security rule, e.g. _@Department_.
+Now select the filter icon for the **Conditions** column, and then enter the name of the custom property, prepended by the `@` symbol, which denotes the use of a custom property in a security rule, e.g. `@Department`.
 
 ![check_new_custom_properties_native_6.png](images/check_new_custom_properties_native_6.png)
 

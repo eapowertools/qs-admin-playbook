@@ -58,7 +58,7 @@ Now select the filter icon for the **Created** column, and then select the filte
 
 ![check_new_apps_native_3.png](images/check_new_apps_native_3.png)
 
-Lastly, one can review the resulting table and view any new apps, noting their file sizes. If any are particularly large, it might be worthwhile to follow-up with the owner of the application, and possibly do further analysis in with the App Metadata Analyzer.
+Lastly, one can review the resulting table and view any new apps, noting their file sizes. If any are particularly large, it might be worthwhile to follow-up with the owner of the application, and possibly do further analysis in with the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md).
 
 ![check_new_apps_native_4.png](images/check_new_apps_native_4.png)
 
@@ -70,7 +70,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 ### Confirm Operations Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
 ![ops_monitor_operational.png](images/ops_monitor_operational.png)
 

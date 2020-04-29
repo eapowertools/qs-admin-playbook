@@ -102,7 +102,7 @@ In the **Column Occurrences** table on the left side of the sheet, a complete li
 
 ![screenshot - Column Search 1.png](images/screenshot - Column Search 1.png)
 
-Select a column in this table to filter the main table down, and view the details about the QVDs that contain that column name. This is critical to ensure that the same column is not being used with either different source data, or logic that produces materially different values across QVDs for the same column. When this happens, it can cause confusion amongst developers/designers/users, and it can cause inconsistencies across apps. Refer to the example below where "WorkBookName" was chosen, and the resulting QVDs that contained that column had differing numbers of unique values for that same column. This *could* be an inconsistency that should be investigated further.
+Select a column in this table to filter the main table down, and view the details about the QVDs that contain that column name. This is critical to ensure that the same column is not being used with either different source data, or logic that produces materially different values across QVDs for the same column. When this happens, it can cause confusion amongst developers/designers/users, and it can cause inconsistencies across apps. Refer to the example below where **WorkBookName** was chosen, and the resulting QVDs that contained that column had differing numbers of unique values for that same column. This *could* be an inconsistency that should be investigated further.
 
 ![Screenshot - Column Search 2.png](images/Screenshot - Column Search 2.png)
 

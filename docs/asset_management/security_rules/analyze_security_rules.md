@@ -71,7 +71,7 @@ or
 
 The second is surely far easier to read.
 
-Lastly, include a good _description_ of the security rule. It is common to simply write out the pseudocode.
+Lastly, include a good **Description** of the security rule. It is common to simply write out the pseudocode.
 
 ## Scale
 
@@ -154,7 +154,7 @@ For manually reviewing security rules, start by navigating to the QMC, and then 
 
 ![security_rules_1.png](images/security_rules_1.png)
 
-Click on the _Column selector_, and add the **Conditions** column.
+Click on the **Column selector**, and add the **Conditions** column.
 
 ![security_rules_2.png](images/security_rules_2.png)
 
@@ -162,7 +162,7 @@ Select the filter on the **Conditions** column, and then search for any of the b
 
 ![security_rules_3.png](images/security_rules_3.png)
 
-As an additional step, filter on the **Disabled** column to _No_ to only view active security rules.
+As an additional step, filter on the **Disabled** column to **No** to only view active security rules.
 
 ![security_rules_4.png](images/security_rules_4.png)
 
@@ -170,7 +170,7 @@ This is of course a very manual process, and might prove to be rather difficult 
 
 ## Security Rule Analyzer <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i>
 
-The **qs-security-rule-analyzer** application is an application supported by the Americas Enterprise Architecture team from Qlik. It is a very straight forward application that makes to calls to the QRS (repository database) that fetches metadata around custom properties and all security rule information. The application itself takes advantage of the existing `monitor_apps_REST_app` data connection, so there is no installer and it is plug and play, spare a couple of variable settings and ensuring that the user executing the reload has _RootAdmin_ rights and access to the data connection. Complete setup instructions can be found in the script.
+The **qs-security-rule-analyzer** application is an application supported by the Americas Enterprise Architecture team from Qlik. It is a very straight forward application that makes to calls to the QRS (repository database) that fetches metadata around custom properties and all security rule information. The application itself takes advantage of the existing `monitor_apps_REST_app` data connection, so there is no installer and it is plug and play, spare a couple of variable settings and ensuring that the user executing the reload has **RootAdmin** rights and access to the data connection. Complete setup instructions can be found in the script.
 
 Download it here: [qs-security-rule-analyzer](https://github.com/eapowertools/qs-security-rule-analyzer/releases)
 

@@ -64,7 +64,7 @@ It is common for customers to use the qualifications of top 5 / 10 / 15 of numbe
 
 With the list of Qlik apps which are most popular, the Qlik Administrator needs to now determine which of those app(s) are large.
 
-For the purposes of this exercise we will work off an example that we have determined that the app named `Generic DoD HR Project - 1.1M Sample Hash256()` has been determined to be sufficiently popular to investigate it's app size. This approach should be repeated for all large Qlik apps which have moderate popularity.
+For the purposes of this exercise we will work off an example that we have determined that the app named **Generic DoD HR Project - 1.1M Sample Hash256()** has been determined to be sufficiently popular to investigate it's app size. This approach should be repeated for all large Qlik apps which have moderate popularity.
 
 #### What is _Large_?
 
@@ -90,7 +90,7 @@ Repeat this process for all popular apps. If the app(s) is large, then a cache w
 
 In the previous section we used the QMC to inspect the application's size on disk. That method provided a quick and dirty metric for the size of a Qlik app in memory. In this section we will use an additional tool to provide a more accurate determination.
 
-Refer to [Cache Warming](../../tooling/app_metadata_analyzer.md) for more guidance on configuring this app.
+Refer to the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) section for more guidance on configuring this app.
 
 With a configured and reloaded app, open the app in the Hub, and open the **Dashboard** sheet.
 

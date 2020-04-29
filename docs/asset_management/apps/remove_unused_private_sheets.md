@@ -56,7 +56,7 @@ In environments where self-service is enabled, i.e. users have the ability to cr
 
 As of the February 2019 release, an improvement was added to the product to log sheet usage at default log levels. This enables the ability to measure sheet adoption as well as manage the amount of sheets in the applications--keeping them trimmed to only what is being leveraged.
 
-Ensure that the **Audit Activity log level** is set to `Basic` for _every engine_.
+Ensure that the **Audit Activity log level** is set to **Basic** for _every engine_.
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -78,7 +78,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 ### Confirm Operations Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
 ![ops_monitor_operational.png](images/ops_monitor_operational.png)
 
@@ -96,13 +96,13 @@ Navigate to the **Sheet Usage** sheet.
 
 ![unused_private_sheets_native_1.png](images/unused_private_sheets_native_1.png)
 
-Sort by **Unused Private Sheets** descending.
+Sort by **Unused Private Sheets** **descending**.
 
 ![unused_private_sheets_native_2.png](images/unused_private_sheets_native_2.png)
 
 Now ideally, any unused applications should be removed _before_ this sheet pruning activity. This will allow for bulk removal of those private sheets as the _entire_ app has been identified as unused. This example is intended to only remove private sheets from _published_ applications that are _used_. Ensure that [Remove/Quarantine Unused Apps](remove_quarantine_unused_apps.md) has been followed first.
 
-From the **App Stream** column, select _Unpublished_, and then select _Select alternative_ so that all streams are selected (all _published_ applications). Ensure that if a _Quarantine_ stream exists, that it is also deselected -- as there is no need to prune applications that are already marked for potential removal.
+From the **App Stream** column, select **Unpublished**, and then select **Select alternative** so that all streams are selected (all _published_ applications). Ensure that if a **Quarantine** stream exists, that it is also deselected -- as there is no need to prune applications that are already marked for potential removal.
 
 ![quarantine_unused_apps_native_2.png](images/quarantine_unused_apps_native_2.png)
 
@@ -153,7 +153,7 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 </div>
 
 
-The script below will tag any private sheets with the tag `UnusedPrivateSheet`. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the **Sheet Usage** table in the **Sheet Usage** sheet of the Operations Monitor.
+The script below will tag any private sheets with the tag `UnusedPrivateSheet`. It expects an Excel file (XLSX) as an input, where the name of the column with the **Sheet Id** is specified. This allows for the Qlik Administrator to export a filtered down list from the **Sheet Usage** table in the **Sheet Usage** sheet of the **Operations Monitor**.
 
 ### Video Walk-Through
 

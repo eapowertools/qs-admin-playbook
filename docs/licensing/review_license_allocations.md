@@ -39,7 +39,7 @@ This page leverages the **License Monitor**. Please refer to the [License Monito
 
 ### Confirm License Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **License Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **License Monitor** application. Confirm that the application's data is up-to-date.
 
 ![license_monitor_operational.png](images/license_monitor_operational.png)
 
@@ -49,15 +49,15 @@ If the **License Monitor** is not up-to-date, please refer to the [License Monit
 
 ## Check License Growth
 
-First check the QMC to see how many total license are available for Professional and Analyzers. Navigate to the _License Management_ section of the QMC. 
+First check the QMC to see how many total license are available for Professional and Analyzers. Navigate to the **License Management** section of the QMC. 
 
 ![Analyze_Audit_License_Allocations_QMC_License_Management.png](images/Analyze_Audit_License_Allocations_QMC_License_Management.png)
 
-Ensure _License Usage Summary_ is selected on the right, and then check the total licenses on the left for both _Professional_ and _Analyzers_.
+Ensure **License Usage Summary** is selected on the right, and then check the total licenses on the left for both **Professional** and **Analyzer**.
 
 ![Analyze_Audit_License_Allocations_QMC_License_Management_UserMaximums.png](images/Analyze_Audit_License_Allocations_QMC_License_Management_UserMaximums.png)
 
-Next, navigate to the _Monitoring Apps_ section of the QMC, which will route to the _Hub_.
+Next, navigate to the **Monitoring Apps** section of the QMC, which will route to the Hub.
 
 ![Analyze_Audit_License_Allocations_QMC_MonitoringApps.png](images/Analyze_Audit_License_Allocations_QMC_MonitoringApps.png)
 
@@ -69,17 +69,17 @@ Select the **Overview** sheet.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview.png)
 
-Click the _Duplicate_ button on the toolbar.
+Click the **Duplicate** button on the toolbar.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_Duplicate.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_Duplicate.png)
 
-Edit the _User Timeline_ Chart by selecting it and deleting the **Access Type** measure.
+Edit the **User Timeline** chart by selecting it and deleting the **Access Type** measure.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessType.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessType.png)
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessType_Delete.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessType_Delete.png)
 
-With **Access Type** removed, open the _Measures_ pane and select _Add Trend_ under the **User Accessing Apps** measure. 
+With **Access Type** removed, open the **Measures** pane and select **Add Trend** under the **User Accessing Apps** measure. 
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -93,29 +93,29 @@ With **Access Type** removed, open the _Measures_ pane and select _Add Trend_ un
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend.png)
 
-Select _Linear_ as the _Trend Type_.
+Select **Linear** as the **Trend Type**.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend_Linear.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddTrend_Linear.png)
 
-Move the **Allocation Changed in 7 days** table to the left and add a **Filter Pane** in the empty space to the left of the alterered _User Timeline_ chart.
+Move the **Allocation Changed in 7 days** table to the left and add a **Filter Pane** in the empty space to the left of the alterered **User Timeline** chart.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DragFilterPane.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DragFilterPane.png)
 
-Select _Dimension_ and choose **Access Type**.
+Select **Dimension** and choose **Access Type**.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddAccessType.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AddAccessType.png)
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessTypeAdded.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AccessTypeAdded.png)
 
-Click _Done_.
+Click **Done**.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DoneButton.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DoneButton.png)
 
-Select _Analyzer_ in the filter pane and view/analyze the growth rate in _Analyzer_ app usage. To do this, grab two points on the chart that intersect with Y axis grid lines. In the sample below these two values are '20' and '30' respectively. Since the two points are 4 months apart, one can deduce that the linear growth rate is approximately 2.5 new analyzers per month. 
+Select **Analyzer** in the filter pane and view/analyze the growth rate in analyzer app usage. To do this, grab two points on the chart that intersect with Y axis grid lines. In the sample below these two values are '20' and '30' respectively. Since the two points are 4 months apart, one can deduce that the linear growth rate is approximately 2.5 new analyzers per month. 
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AnalyzerTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AnalyzerTrend.png)
 
-Repeat for _Professional_. In this sample, the growth line is flat. 
+Repeat for **Professional**. In this sample, the growth line is flat. 
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_ProfessionalTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_ProfessionalTrend.png)
 
