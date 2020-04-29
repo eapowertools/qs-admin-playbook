@@ -209,9 +209,9 @@ Broadly speaking, there are two primary scaling methodologies -- however, do not
 
 Horizontal scaling is typically common if a Qlik environment has small to medium sized applications with many users. Meaning, applications can be loaded quickly onto many different engines with little delay, and calculations are fast -- meaning that a shared cache isn't necessarily as integral for these applications. This methodology is also common in virtual environments on-premsises where VM sizes may be restricted. For instance, if an organization caps VM sizes at 96 or 128 GB of RAM, more than likely that Qlik environment will end up with a wider footprint, and will adopt practices to allow their applications to fit it.
 
-Vertical scaling is typically common where the user base is not extensive, and the applications are quite large. Less nodes with larger capacity allows for larger applications with more users taking advantage of the same cache. These applications are usually [cache warmed](../tooling_appendix/cache_warming.md) so that they are readily available for users without delay.
+Vertical scaling is typically common where the user base is not extensive, and the applications are quite large. Less nodes with larger capacity allows for larger applications with more users taking advantage of the same cache. These applications are usually [cache warmed](../tooling/cache_warming.md) so that they are readily available for users without delay.
 
-Both of these methodologies are frequently combined when an organization has a mix of both very large apps and smaller apps with a wide user pool. It is usually common for organizations to have "small - medium app engines" and "large app engines" -- for example, maybe four of the former and two of the latter. Leveraging load balancing rules (as described above), large applications are "pinned" to the larger nodes, and vice versa.
+Both of these methodologies are frequently combined when an organization has a mix of both very large apps and smaller apps with a wide user pool. It is usually common for organizations to have "small - medium app engines" and "large app engines" -- for example, maybe four of the former and two of the latter. Leveraging load balancing rules (as described in [Review Pinning/Load Balancing](../asset_management/apps/review_pinning_load_balancing.md)), large applications are "pinned" to the larger nodes, and vice versa.
 
 ### Review Capacity Plan
 
@@ -225,7 +225,7 @@ Common questions that would have impact:
 
 3. Are there intra-day reloads running on end-user nodes that are affecting performance, therefore the end-user experience? That could warrant offloading them to dedicated schedulers (this is highly encouraged and preferred).
 
-4. Are there applications that are being considered for "application pinning" to specific engine nodes via load balancing rules? Could application optimization bring these applications down in size to avoid that, or are they simply monolithic by nature and need to be pinned? Are there enough engine nodes currently to support the segragation of assets while providing resliency (2+ nodes for each), or do more engine nodes need to be added. Is vertical growth required to support these large applications on less nodes, given the fact that there will be more user caching on less nodes potentially?
+4. Are there applications that are being considered for "application pinning" to specific engine nodes via load balancing rules? Could application optimization bring these applications down in size to avoid that, or are they simply monolithic by nature and need to be pinned? Are there enough engine nodes currently to support the segregation of assets while providing resiliency (2+ nodes for each), or do more engine nodes need to be added? Is vertical growth required to support these large applications on less nodes, given the fact that there will be more user caching on less nodes potentially?
 
 5. Is horizontal growth preferred, or is vertical growth preferred, or is there a business event driving one or the other? Is a mix of both possible? This will involve discussions with IT to see what is possible.
 
