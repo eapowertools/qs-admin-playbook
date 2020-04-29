@@ -291,6 +291,51 @@ else {
 ```
 {:.snippet}
 
+### Script to Delete Tagged Sheets
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>It is highly recommended to _backup your site and applications_ before considering taking the approach of programmatic sheet removal. This process cannot be reversed. The sheet pointers are stored in the repository database, and the sheets reside within the qvfs themselves.</p>
+</div>
+</div>
+
+In order to completely remove sheets from both an application and the repository database, the [Qlik Engine JSON API](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm) must be used. To work with this API, the sample script leverages [Enigma.js](https://help.qlik.com/en-US/sense-developer/Subsystems/APIs/Content/Sense_ClientAPIs/enigmajs/enigmajs-introduction.htm).
+
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>If it is attempted to use the QRS API to remove sheets instead of the Engine API, only the "pointers" to those sheets will be removed from the repository database--the sheet information itself stored inside of the qvf will not be removed. This is why the Engine API must be leveraged for programmatic deletion, as it purges both.</p>
+</div>
+</div>
+
+#### Prerequisites
+
+- NodeJS
+
+This process uses NodeJS to interact with the Qlik Engine JSON API. To confirm that NodeJS is installed and properly configured, run the following commands in `cmd.exe`:
+- `node --version`
+- `npm --version`
+
+#### Steps
+
+1. Download the following files from [here](https://github.com/eapowertools/qs-admin-playbook/tree/master/scripts/remove_tagged_community_sheets) and place them in a desired folder.
+  - `remove_tagged_community_sheets.js`
+  - `package.json`
+2. Edit the following mandatory variables in `remove_tagged_community_sheets.js`
+ - `host`
+ - `TAG_TO_SEARCH_FOR`
+3. Open a cmd prompt, and navigate to the folder from step 1.
+4. Enter `npm install`
+5. To execute the program, enter `node remove_tagged_community_sheets.js`
+6. Refer to both `log.txt` and `output.csv`
+
 **Tags**
 
 #monthly
