@@ -101,7 +101,7 @@ $installPath = (Get-ChildItem HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Un
 # Create backup directory if needed
 if (Test-Path $backupDir) {
 } else {
-    New-Item -ItemType directory -Path $backupDir > $null
+    New-Item -ItemType directory -Path $backupDir | Out-Null
 }
 
 # GOTO installation directory's PostgreSQL subdirectory
