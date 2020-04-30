@@ -23,7 +23,7 @@ Benefits:
 
 ## Goal
 {:.no_toc}
-The goal of this activity is to evaluate license growth and needs using the built in "License Monitor" application. 
+The goal of this activity is to evaluate license growth and needs using the built in **License Monitor** application. 
 
 ## Table of Contents
 {:.no_toc}
@@ -49,7 +49,7 @@ If the **License Monitor** is not up-to-date, please refer to the [License Monit
 
 ## Check License Growth
 
-First check the QMC to see how many total license are available for Professional and Analyzers. Navigate to the **License Management** section of the QMC. 
+First check the QMC to see how many total licenses are available for Professional and Analyzer users. Navigate to the **License Management** section of the QMC. 
 
 ![Analyze_Audit_License_Allocations_QMC_License_Management.png](images/Analyze_Audit_License_Allocations_QMC_License_Management.png)
 
@@ -111,7 +111,7 @@ Click **Done**.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DoneButton.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_DoneButton.png)
 
-Select **Analyzer** in the filter pane and view/analyze the growth rate in analyzer app usage. To do this, grab two points on the chart that intersect with Y axis grid lines. In the sample below these two values are '20' and '30' respectively. Since the two points are 4 months apart, one can deduce that the linear growth rate is approximately 2.5 new analyzers per month. 
+Select `Analyzer` in the filter pane and view/analyze the growth rate in analyzer app usage. To do this, grab two points on the chart that intersect with Y axis grid lines. In the sample below these two values are '20' and '30' respectively. Since the two points are 4 months apart, one can deduce that the linear growth rate is approximately 2.5 new analyzers per month. 
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AnalyzerTrend.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_App_Overview_AnalyzerTrend.png)
 
