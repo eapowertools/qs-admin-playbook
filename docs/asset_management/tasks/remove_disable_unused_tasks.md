@@ -39,7 +39,7 @@ The goal is to remove all unnecessary tasks from the site. This will make the si
 
 ## Suggested Actions
 
-**Ensure daily task spot-checks are followed to rectify erroring tasks. The below section assumes those have been handled and accounted for. Refer to: [Remove/Quarantine Unused Apps](..\..\system_spot_check\tasks.md)** 
+**Ensure daily task spot-checks are followed to rectify erroring tasks. The below section assumes those have been handled and accounted for. Refer to: [System Spot Check: Tasks](../../system_spot_check/tasks.md)** 
 
 ### Priority
 
