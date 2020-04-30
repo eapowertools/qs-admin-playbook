@@ -53,7 +53,7 @@ The resulting audit will highlight whether the user(s) have access to the Qlik t
 
 ![user_access-3.png](images/user_access-3.png)
 
-From [the documentation](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/audit-overview.htm), we can interpret the colors used in the audit:
+From [the documentation](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/audit-overview.htm){:target="_blank"}, we can interpret the colors used in the audit:
 
 - **Green**: The Security Rule which provides access is valid and enabled
 - **Yellow**: The Security rule which (would) provide access is valid but disabled
@@ -80,7 +80,7 @@ In this example, Andrew has **Read** and **Publish** access to the **Monitoring 
 
 ![user_access-8.png](images/user_access-8.png)
 
-- If using Session Attributes ([example](https://community.qlik.com/t5/Qlik-Design-Blog/User-Environment-What-Session-Attributes-in-Qlik-Sense/ba-p/1476590)), the administrator can _simulate_ the effect should the attribute be present. Since session attributes are not stored by Qlik Sense Enterprise, the administrator will need to type / paste in the values here.
+- If using Session Attributes ([example](https://community.qlik.com/t5/Qlik-Design-Blog/User-Environment-What-Session-Attributes-in-Qlik-Sense/ba-p/1476590){:target="_blank"}), the administrator can _simulate_ the effect should the attribute be present. Since session attributes are not stored by Qlik Sense Enterprise, the administrator will need to type / paste in the values here.
 
 ![user_access-9.png](images/user_access-9.png)
 
