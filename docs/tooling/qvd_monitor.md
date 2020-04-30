@@ -44,7 +44,7 @@ Questions answered by the app
 
 ## Download & Documentation
 
-Complete documentation can be found on the [Qlik Sense QVD Monitor GitHub page](link_here).
+Complete documentation can be found on the [Qlik Sense QVD Monitor GitHub page](https://github.com/eapowertools/qs-qvd-monitor).
 
 **Tags**
 
