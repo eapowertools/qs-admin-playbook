@@ -88,9 +88,9 @@ $virtualProxyPrefix = '/default'
 # set the number of days back for the app created date
 $daysBack = 7
 # directory for the output file
-$filePath = 'C:\'
+$filePath = 'C:\tmp\'
 # desired filename of the output file
-$fileName = 'output'
+$fileName = 'new_streams'
 # desired format of the output file (can be 'json' or 'csv')
 $outputFormat = 'json'
 
@@ -98,8 +98,15 @@ $outputFormat = 'json'
 ##### Main #####
 ################
 
+# create filePath
+
+if (Test-Path $filePath) {
+} else {
+    New-Item -ItemType directory -Path $filePath | Out-Null
+}
+
 # set the output file path
-$outFile = ($filePath + $fileName + '.' + $outputFormat)
+$outFile = ($filePath + $fileName + '_' + $(Get-Date –f "yyyy-MM-dd") + '.' + $outputFormat)
 
 # set the date to the current time minus $daysback
 $date = (Get-Date -date $(Get-Date).AddDays(-$daysBack) -UFormat '+%Y-%m-%dT%H:%M:%S.000Z').ToString()
