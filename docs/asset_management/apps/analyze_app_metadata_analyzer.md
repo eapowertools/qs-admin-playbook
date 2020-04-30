@@ -185,7 +185,7 @@ On each sheet on the bottom left, there are two tables:
 
 If there are synthetic keys, the majority of the time, it is a sign of a problem in the data model, and they should be rectified. There are of course scenarios when synthetic keys are harmless, and in fact the most optimal option, but that is typically not the case. For more information, refer to this [Qlik Design Blog: Synthetic Keys](https://community.qlik.com/t5/Qlik-Design-Blog/Synthetic-Keys/ba-p/1472634){:target="_blank"} article.
 
-If there are any synthetic keys, select **Has Synthetic Keys**, and then view the applications, tables, and fields that contain them.
+If there are any synthetic keys, select `Has Synthetic Keys`, and then view the applications, tables, and fields that contain them.
 
 ![ama_9.png](images/ama_9.png)
 
