@@ -33,7 +33,7 @@ The goal for this activity is to review the Operations Monitor in Qlik Sense Ent
 - Notify the browser that there is a file ready for download
 - Deliver that stream across the network to the end user
 
-For the majority of use cases, bulk exports to Excel signal that dashboards need to be better optimized to meet the work-flow needs of the user base. The action from this activity is for the administrator to consult with the app's owner / developer and potentially the end user(s) to discuss the data needs that they have and how the Qlik app can better support them.
+For the majority of use cases, bulk exports to Excel signal that dashboards need to be better optimized to meet the work-flow needs of the user base. The action from this activity is for the administrator to consult with the app's owner / developer and potentially the end user(s) to discuss the data needs that they have and how the Qlik app can better support them. Alternatively an upgrade to Qlik Sense Enterprise June 2019 is warranted to enable the [Copy value to clipboard functionality](https://help.qlik.com/en-US/sense/June2019/Content/Sense_Helpsites/WhatsNew/What-is-new-June2019.htm){:target="_blank"} which allows a user to copy just a cell value from Qlik.
 
 ## Table of Contents
 {:.no_toc}
