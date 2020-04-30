@@ -50,7 +50,7 @@ This page leverages the **Operations Monitor**. Please refer to the [Operations 
 
 Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
 
-![ops_monitor_operational.png](images/ops_monitor_operational.png)
+![ops_monitor_operational.png](../asset_management/apps/images/ops_monitor_operational.png)
 
 If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
