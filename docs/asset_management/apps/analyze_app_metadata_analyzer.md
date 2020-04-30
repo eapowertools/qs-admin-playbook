@@ -139,7 +139,7 @@ For each large app identified above, look for fields that take a large amount of
 
 Can these fields be optimized or potentially removed if unused? For instance, are any of the fields timestamps that could be floored or split apart into multiple fields to reduce cardinality? 
 
-To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and analyze it, then provide a detailed output in the form of a Qlik application. It is a great companion tool to the **App Metadata Analyzer**, as the AMA allows one to spot potential applications that could use optimization, and then the **App Analyzer** can drill into the low-level details of that application. It has the ability to optimize the UI of the application as well, which this exercise does not cover.
+To see if the fields are unused, it is suggested to use Rob Wunderlich's [App Analyzer](https://qlikviewcookbook.com/tools/#squelch-taas-accordion-shortcode-content-5){:target="_blank"}. This tool is used to lift a single app into RAM and analyze it, then provide a detailed output in the form of a Qlik application. It is a great companion tool to the **App Metadata Analyzer**, as the **App Metadata Analyzer** allows one to spot potential applications that could use optimization, and then the **App Analyzer** can drill into the low-level details of that application. It has the ability to optimize the UI of the application as well, which this exercise does not cover.
 
 ### Identify Tables for Optimization
 
