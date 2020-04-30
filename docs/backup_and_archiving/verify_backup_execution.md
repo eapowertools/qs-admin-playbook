@@ -25,7 +25,7 @@ Benefits:
 
 ## Goal
 {:.no_toc}
-The goal for this activity is for the administrator to verify that appropriate backups of their Qlik Sense Enterprise deployment have been made. This allows the administrator to increase the organization's fault tolerance, demonstrate preparedness, and harden out processes around backups before they are needed.
+One has backups, right? The goal for this activity is for the administrator to verify that appropriate backups of their Qlik Sense Enterprise deployment have been made. This allows the administrator to increase the organization's fault tolerance, demonstrate preparedness, and harden out processes around backups before they are needed.
 
 ## Table of Contents
 {:.no_toc}
