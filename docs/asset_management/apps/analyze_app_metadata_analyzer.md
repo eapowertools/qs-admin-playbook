@@ -20,7 +20,7 @@ nav_order: 2
 Benefits:
 
   - Anomaly detection
-  - Visibility/standardization of data models (e.g., gating mechanism to Prod)
+  - Visibility/standardization of data models (e.g. gating mechanism to Production)
   - Optimization of data models
   - Load balancing visibility/validation
   
