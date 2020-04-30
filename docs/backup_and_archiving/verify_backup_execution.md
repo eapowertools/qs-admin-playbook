@@ -208,7 +208,7 @@ D:\QSBackup\YYYY-MM-DD\Database
 ```
 {:.snippet}
 
-Using a structure like this allows for the administrator to quickly survey 
+Using a structure like this allows for the administrator to quickly survey:
 
 - whether the expected root folder exists (YYYY-MM-DD)
 - whether the files in the QlikShare, Certificates, and Database folders have non-zero file size
