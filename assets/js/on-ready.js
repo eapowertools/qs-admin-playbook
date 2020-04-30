@@ -500,7 +500,6 @@ $(document).ready(function() {
             return;
         }
     } catch (e) {
-        console.log(e);
     }
 
     // nav labels
