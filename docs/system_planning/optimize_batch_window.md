@@ -34,7 +34,7 @@ This page leverages the **Reloads Monitor**. Please refer to the [Reloads Monito
 
 ### Confirm Reloads Monitor is Operational
 
-Navigate to the **Monitoring apps** and select the _Details_ button (info icon) on the **Reloads Monitor** application. Confirm that the application's data is up-to-date.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Reloads Monitor** application. Confirm that the application's data is up-to-date.
 
 ![reloads_monitor_operational.png](images/reloads_monitor_operational.png)
 
@@ -66,15 +66,15 @@ Similarly, the second highlighted box shows that Wednesday mornings have more ac
 
 When configuring tasks, ensure that the maximum number of concurrent reloads for each scheduler is set appropriately. For those tasks that do not need to be reloaded serially, this can dramatically cut down on the total batch processing time. 
 
-Navigate to the QMC, and select _Schedulers_.
+Navigate to the QMC, and select **Schedulers**.
 
 ![batch_window_2.png](images/batch_window_2.png)
 
-For each active _Scheduler_, double-click or select **Edit**.
+For each active **Scheduler**, double-click or select **Edit**.
 
 ![batch_window_3.png](images/batch_window_3.png)
 
-Select _Advanced_ from the _Properties_ pane, and notice the **Max concurrent reloads** option. This option can be set to a maximum of _n-2_, where 'n' is the number of cores on the machine (one dedicated to the OS, and the other dedicated to the Repository). In this example, there are 6 cores available on this scheduler, so that allows for a maximum of 4 concurrent reloads.
+Select **Advanced** from the **Properties** pane, and notice the **Max concurrent reloads** option. This option can be set to a maximum of _n-2_, where 'n' is the number of cores on the machine (one dedicated to the OS, and the other dedicated to the Repository). In this example, there are 6 cores available on this scheduler, so that allows for a maximum of 4 concurrent reloads.
 
 ![batch_window_4.png](images/batch_window_4.png)
 
