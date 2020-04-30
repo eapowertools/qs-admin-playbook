@@ -18,7 +18,6 @@ parent: Backup & Archiving
 
 Benefits:
 
-  - Reduce/eliminate unsupported extensions
   - Increase stability
   - Decrease upgrade maintenance/time
   
