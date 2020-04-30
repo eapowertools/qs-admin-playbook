@@ -67,11 +67,11 @@ Rather than checking for task failures in the QMC or finding out from developers
 
 There are many ways to achieve this:
 
-  - [Qlik Alerting](https://www.qlik.com/us/products/qlik-alerting-data-alerts) (formerly known as Ping Alerting): the suggested solution, as it is built for this purpose
+  - [Qlik Alerting](https://www.qlik.com/us/products/qlik-alerting-data-alerts){:target="_blank"} (formerly known as Ping Alerting): the suggested solution, as it is built for this purpose
   
-  - [Qlik NPrinting](https://www.qlik.com/us/products/nprinting): allows for pixel perfect and highly customized emails
+  - [Qlik NPrinting](https://www.qlik.com/us/products/nprinting){:target="_blank"} : allows for pixel perfect and highly customized emails
   
-  - SMTP Appender ([more information here](https://community.qlik.com/t5/Qlik-Architecture-Deep-Dive-Blog/SMTP-appender/ba-p/1582434)): Plain text emails; limited customizability.
+  - SMTP Appender ([more information here](https://community.qlik.com/t5/Qlik-Architecture-Deep-Dive-Blog/SMTP-appender/ba-p/1582434)){:target="_blank"} : Plain text emails; limited customizability.
   
 More info to come in this section with examples.
 
