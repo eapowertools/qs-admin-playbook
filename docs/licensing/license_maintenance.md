@@ -125,8 +125,8 @@ Optionally, a license rule can be created or updated to automatically allow new 
 
 For more information on access rules consult the Qlik Sense help:
 
-- [Qlik Help - Create Professional Access Rule](https://help.qlik.com/en-US/sense-admin/February2020/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/create-professional-access-rule.htm)
-- [Qlik Help - Create Analyzer Access Rule](https://help.qlik.com/en-US/sense-admin/February2020/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/create-analyzer-access-rule.htm)
+- [Qlik Help - Create Professional Access Rule](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/create-professional-access-rule.htm){:target="_blank"}
+- [Qlik Help - Create Analyzer Access Rule](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Administer_QSEoW/Managing_QSEoW/create-analyzer-access-rule.htm){:target="_blank"}
 
 **Tags**
 
