@@ -29,7 +29,7 @@ Benefits:
 
 This page is intended to act as an example of what a high-level capacity plan could look like. It is assumed that the organization would build one themselves with some of the below considerations in mind, or would work with Qlik's Services organization to have one defined/executed.
 
-It's important for stakeholders, budgetholders, and Qlik deployment owners to have advance notice when addition resources will be needed. This exercise helps an administrator prepare for those requests and demonstrate the need. 
+It's important for stakeholders, budgetholders, and Qlik deployment owners to have advance notice when additional resources will be needed. This exercise helps an administrator prepare for those requests and demonstrate the need. 
 
 Specific areas:
 - Document current state and expected state of several asset groups, which helps for planning.
@@ -54,7 +54,7 @@ There are four primary pillars that this process covers--review each process bel
 
 ## Capacity Planning Example
 
-The below is a high-level mockup of what a capacity plan's output could look like, including the four points from the Capacity Planning Process. For details on how to locate/calculate these metrics, please refer to the associated process item above.
+The below is a high-level mockup of what a capacity plan's output could look like, including the four points from the [Capacity Planning Process](#capacity-planning-process). For details on how to locate/calculate these metrics, please refer to the associated process item above.
 
 **ACME Corp**
 
@@ -105,7 +105,7 @@ The below is a high-level mockup of what a capacity plan's output could look lik
 
 **Actions**
 
-1. Going to begin offloading intra-day reloads to an isolated scheduler.
+1. Begin offloading intra-day reloads to an isolated scheduler.
 
 ### Application
 {:.no_toc}
@@ -116,13 +116,13 @@ The below is a high-level mockup of what a capacity plan's output could look lik
 
 **Actions**
 
-1. Identified three applications for optimization and two applications for app pinning.
+1. Review three applications for optimization and two applications for app pinning.
 
 2. Review [Architecture/Scale Plan](review_architecture_scale_plan.md) to see if app pinning is possible with the current architectural footprint, or if it would require an architectural event, e.g. horizontally scaling (adding another proxy/engine node).
 
 3. Review where ODAG reloads are being processed, and if they need to be offloaded to a dedicated scheduler if not already, or if more cores are required for additional concurrent reloads.
 
-4. If NPrinting or InsightBot were in use, it would be good to validate if there were dedicated applications for each of these components that were silo'ed off from end users. I.e., there is a duplicated, stripped down version of a production app for use with either NPrinting or InsightBot.
+4. If NPrinting or InsightBot are in use, validate that there are dedicated applications for each of these components that are silo'ed off from end users. I.e., there is a duplicated, stripped down version of a production app for use with either NPrinting or InsightBot.
 
 **Tags**
 
