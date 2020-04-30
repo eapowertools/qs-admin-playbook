@@ -25,6 +25,17 @@ The _Qlik Sense Admin Playbook_ is designed and intended to be a repository of b
 
 {::options parse_block_html="true" /}
 <div class="card">
+<div class="card-header-warning">
+<i class="fas fa-exclamation-triangle fa-sm"></i> Scope
+</div>
+<div class="card-body">
+<p>Since the goal of this repository is to present best practices, it will not be effective as a <i>troubleshooting</i> guide. Practically, if a particular Qlik site is experiencing stability issues then this repository is unlikely to be effective in stabilizing the environment. That being said, faithful adherence to the guidance in this playbook will reduce the probability that a given environment will experience stability issues by reducing assets and qualifying problematic assets.
+</p>
+</div>
+</div>
+
+{::options parse_block_html="true" /}
+<div class="card">
 <div class="card-header-support">
 <i class="fas fa-hands-helping fa-sm"></i> Site Support
 </div>
