@@ -123,7 +123,7 @@ Remove-Item Env:\PGPASSWORD
 ```
 {:.snippet}
 
-As a note for this script, it is backing up all the databases used by Qlik Sense Enterprise as of **February 2020** including the optional [Centralized Logging database](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Qlik-Logging-Service.htm). Please reference documentation of the version of Qlik Sense Enterprise that is running to ensure full coverage for the databases used. The ideal page for this list is Qlik's page on [installing and configuring PostgreSQL](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Installing-configuring-postgresql.htm) which outlines the databases which are needed to be present.
+As a note for this script, it is backing up all the databases used by Qlik Sense Enterprise as of **February 2020** including the optional [Centralized Logging database](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Qlik-Logging-Service.htm){:target="_blank"}. Please reference documentation of the version of Qlik Sense Enterprise that is running to ensure full coverage for the databases used. The ideal page for this list is Qlik's page on [installing and configuring PostgreSQL](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Installing-configuring-postgresql.htm){:target="_blank"} which outlines the databases which are needed to be present.
 
 ### Certificates  <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
@@ -147,7 +147,7 @@ $pwd = 'MySuperSecretPassword'
 # Create backup directory if needed
 if (Test-Path $backupDir) {
 } else {
-    New-Item -ItemType directory -Path $backupDir > $null
+    New-Item -ItemType directory -Path $backupDir | Out-Null
 }
 
 # Get Root Certificate Thumbprint
@@ -178,7 +178,7 @@ $null = certutil -f -p $pwd -exportpfx -privatekey -user MY $clientThumb "$backu
 ```
 {:.snippet}
 
-A non-automated process is documented on Qlik's [help site](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Backing-up-certificates.htm).
+A non-automated process is documented on Qlik's [help site](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Backing-up-certificates.htm){:target="_blank"}.
 
 ### Ancillary content
 
@@ -186,7 +186,7 @@ For this section, the administrator will need to survey the other non-Qlik stuff
 
 ### Full backups
 
-With every (modern) Qlik Sense Enterprise installation, a utility is bundled with the install. This utility (`QlikSenseUtil.exe`) is placed in the install folder for Qlik Sense Enterprise in the Repository's Util directory. With a default installation path, the path to utility would be `C:\Program Files\Qlik\Sense\Repository\Util\QlikSenseUtil\QlikSenseUtil.exe`. One of the many pieces of functionality that this utility provides is the ability to do a full backup of a Qlik Sense Enterprise site via command line. There is a robust Qlik Support article located [here](https://support.qlik.com/articles/000051894) which goes over this utility in more depth, but a sample command which can be used to do a full site backup is:
+With every (modern) Qlik Sense Enterprise installation, a utility is bundled with the install. This utility (`QlikSenseUtil.exe`) is placed in the install folder for Qlik Sense Enterprise in the Repository's Util directory. With a default installation path, the path to utility would be `C:\Program Files\Qlik\Sense\Repository\Util\QlikSenseUtil\QlikSenseUtil.exe`. One of the many pieces of functionality that this utility provides is the ability to do a full backup of a Qlik Sense Enterprise site via command line. There is a robust Qlik Support article located [here](https://support.qlik.com/articles/000051894){:target="_blank"} which goes over this utility in more depth, but a sample command which can be used to do a full site backup is:
 
 ```batch
 "C:\Program Files\Qlik\Sense\Repository\Util\QlikSenseUtil\QlikSenseUtil.exe" -backup -databaseHostname="localhost" -databasePassword="MySuperSecretPassword" -path="D:\Backups" -rootPath="\\MyServer\Share"
@@ -215,7 +215,7 @@ Using a structure like this allows for the administrator to quickly survey
 
 ## Documentation
 
-- [Help.qlik.com](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Backing-up-a-site.htm)
+- [Help.qlik.com](https://help.qlik.com/en-US/sense-admin/Subsystems/DeployAdministerQSE/Content/Sense_DeployAdminister/QSEoW/Deploy_QSEoW/Backing-up-a-site.htm){:target="_blank"}
 
 **Tags**
 
