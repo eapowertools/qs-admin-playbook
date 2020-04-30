@@ -71,7 +71,7 @@ There are many ways to achieve this:
   
   - [Qlik NPrinting](https://www.qlik.com/us/products/nprinting){:target="_blank"} : allows for pixel perfect and highly customized emails
   
-  - SMTP Appender ([more information here](https://community.qlik.com/t5/Qlik-Architecture-Deep-Dive-Blog/SMTP-appender/ba-p/1582434)){:target="_blank"} : Plain text emails; limited customizability.
+  - SMTP Appender ([more information here](https://community.qlik.com/t5/Qlik-Architecture-Deep-Dive-Blog/SMTP-appender/ba-p/1582434){:target="_blank"}): Plain text emails; limited customizability.
   
 More info to come in this section with examples.
 
