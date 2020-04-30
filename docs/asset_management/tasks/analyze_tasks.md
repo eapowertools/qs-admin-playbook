@@ -39,7 +39,7 @@ Checking for new tasks regularly helps not only to curate what is necessary (cad
 
 ## Batch Time Analysis
 
-As outlined on [Optimize Batch Window](../system_planning/optimize_batch_window.md), use the Reloads Monitor app to review the peak reload hour(s). Significant deviation from previous weeks may signal 
+As outlined on [Optimize Batch Window](../../system_planning/optimize_batch_window.md), use the Reloads Monitor app to review the peak reload hour(s). Significant deviation from previous weeks may signal 
 
 - that additional resources are needed for the Qlik Sense Enterprise nodes which are performing reloads
 - Apps have hourly reload cadences which are not needed
@@ -95,7 +95,7 @@ There may be use cases for apps to have multiple tasks (e.g. run every day at 6A
 
 ## Optimize Concurrency
 
-As outlined on [Optimize Batch Window](../system_planning/optimize_batch_window.md#task-concurrency), ensure that the Scheduler service(s) have an appropriate number of **Max Concurrent Reloads** for the server(s) that the services are running on.
+As outlined on [Optimize Batch Window](../../system_planning/optimize_batch_window.md#task-concurrency), ensure that the Scheduler service(s) have an appropriate number of **Max Concurrent Reloads** for the server(s) that the services are running on.
 
 ## Reduce Task Failures
 
