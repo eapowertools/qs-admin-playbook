@@ -46,6 +46,7 @@ Leveraging the [App Metadata Analyzer](../../tooling/app_metadata_analyzer.md) e
 
 [![App Metadata Analyzer Demo](images/ama_video_screenshot.png)](https://youtu.be/M6qluodkjWQ "App Metadata Analyzer Demo"){:target="_blank" .no-modal}
 
+-------------------------
 
 ## Prerequisite
 
@@ -68,6 +69,8 @@ If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Met
 <p>As the **App Metadata Analyzer** is not imported into the QMC by default, it is suggested that it is put on a nightly reload task. The application can of course be reloaded more frequently if desired, but nightly is the suggested cadence.</p>
 </div>
 </div>
+
+-------------------------
 
 ## Set Thresholds
 
