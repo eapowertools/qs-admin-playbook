@@ -102,7 +102,7 @@ Sort by **Unused Private Sheets** **descending**.
 
 Now ideally, any unused applications should be removed _before_ this sheet pruning activity. This will allow for bulk removal of those private sheets as the _entire_ app has been identified as unused. This example is intended to only remove private sheets from _published_ applications that are _used_. Ensure that [Remove/Quarantine Unused Apps](remove_quarantine_unused_apps.md) has been followed first.
 
-From the **App Stream** column, select **Unpublished**, and then select **Select alternative** so that all streams are selected (all _published_ applications). Ensure that if a **Quarantine** stream exists, that it is also deselected -- as there is no need to prune applications that are already marked for potential removal.
+From the **App Stream** column, select `Unpublished`, and then select **Select alternative** so that all streams are selected (all _published_ applications). Ensure that if a **Quarantine** stream exists, that it is also deselected -- as there is no need to prune applications that are already marked for potential removal.
 
 ![quarantine_unused_apps_native_2.png](images/quarantine_unused_apps_native_2.png)
 
@@ -112,7 +112,7 @@ Now on this example server, the **Operations Monitor** application has been sele
 
 ![unused_private_sheets_native_3.png](images/unused_private_sheets_native_3.png)
 
-On the **Sheet Usage** table, select **Private Sheet** under the **Sheet Type** column.
+On the **Sheet Usage** table, select `Private Sheet` under the **Sheet Type** column.
 
 ![unused_private_sheets_native_4.png](images/unused_private_sheets_native_4.png)
 

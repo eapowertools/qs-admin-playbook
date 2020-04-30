@@ -104,7 +104,7 @@ It is suggested that the administrator would add the **App Owner** field to the 
 
 ![notification_unused_sheets_native_4.png](images/notification_unused_sheets_native_4.png)
 
-As far as the time range for sheets that are unused (or minimally used), it is suggested to select the **> 90 days** value from the **Latest Activity Range** field -- though this range is ultimately up to the organization.
+As far as the time range for sheets that are unused (or minimally used), it is suggested to select the `> 90 days` value from the **Latest Activity Range** field -- though this range is ultimately up to the organization.
 
 ![notification_unused_sheets_native_5.png](images/notification_unused_sheets_native_5.png)
 

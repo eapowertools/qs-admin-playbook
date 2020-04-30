@@ -57,7 +57,7 @@ To check for inactive users, go to the QMC and select the **Users** section.
 
 ![Optimize_Audit_License_Allocations_QMC_Users.png](images/Optimize_Audit_License_Allocations_QMC_Users.png)
 
-Select the filter icon above the **Inactive** column and select **Yes**. The list of users will be filtered to those who are inactive. 
+Select the filter icon above the **Inactive** column and select `Yes`. The list of users will be filtered to those who are inactive. 
 
 ![Optimize_Audit_License_Allocations_QMC_Users_Inactive.png](images/Optimize_Audit_License_Allocations_QMC_Users_Inactive.png)
 

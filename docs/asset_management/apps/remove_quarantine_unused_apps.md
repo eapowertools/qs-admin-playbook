@@ -77,7 +77,7 @@ Look for applications that are **Published** and have not been used for a long t
 	  
 ### Priority 3	
     
-Look for **Unpublished** applications that have not been used for a long time. Clear selections in the **Stream** field, and then select **Unpublished** from the same field.
+Look for **Unpublished** applications that have not been used for a long time. Clear selections in the **Stream** field, and then select `Unpublished` from the same field.
           
 ![quarantine_unused_apps_native_5.png](images/quarantine_unused_apps_native_5.png)
 	  

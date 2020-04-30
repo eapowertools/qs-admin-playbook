@@ -115,7 +115,7 @@ In the **Reload Summary Statistics** table, sort by **Failure Rate**.
   - Resource constraint due to a task reloading along side a computationally heavy task
   - Data source unavailability (e.g. due to maintenance)
 
-To aid in this analysis, in the **Reload Details table**, select the **Reload Status** of **Failed**.
+To aid in this analysis, in the **Reload Details table**, select the **Reload Status** of `Failed`.
 
 ![analyze_tasks-13.png](images/analyze_tasks-13.png)
 

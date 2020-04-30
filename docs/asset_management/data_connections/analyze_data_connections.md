@@ -121,7 +121,7 @@ Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
-Select **True** next to the **Connections Used** KPI to select all used data connections.
+Select `True` next to the **Connections Used** KPI to select all used data connections.
 
 ![analyze_data_connections_13.png](images/analyze_data_connections_13.png)
 
@@ -186,7 +186,7 @@ Navigate to the **Dashboard** sheet.
 
 ![analyze_data_connections_4.png](images/analyze_data_connections_4.png)
 
-Select the value of **True** next to the **Connections Only Found in Script** KPI. The **Connections by Type** object will now show all of the connections that were found in script log files, but were not found in the QRS.
+Select the value of `True` next to the **Connections Only Found in Script** KPI. The **Connections by Type** object will now show all of the connections that were found in script log files, but were not found in the QRS.
 
 ![analyze_data_connections_5.png](images/analyze_data_connections_5.png)
 
