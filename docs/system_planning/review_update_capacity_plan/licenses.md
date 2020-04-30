@@ -33,37 +33,31 @@ The following should be followed for the Professional and Analyzer access types:
 
 ## License Monitor
 
-Please refer to the [License Monitor](../../tooling/license_monitor.md) page for an overview and relevant documentation links.
-
--------------------------
-
-## License Usage
+This page leverages the **License Monitor**. Please refer to the [License Monitor](../../tooling/license_monitor.md) page for an overview and relevant documentation links.
 
 ### Confirm License Monitor is Operational
 
-Navigate to the **Monitoring apps** stream and open up the **License Monitor** application.
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **License Monitor** application. Confirm that the application's data is up-to-date.
 
-![capacity_planning_licenses_1.png](images/capacity_planning_licenses_1.png)
+![license_monitor_operational.png](images/license_monitor_operational.png)
 
-First and foremost, it is essential to confirm that the **License Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
+If the **License Monitor** is not up-to-date, please refer to the [License Monitor Documentation](../../tooling/license_monitor.md#documentation) for configuration details and troubleshooting steps.
 
-![capacity_planning_licenses_0.png](images/capacity_planning_licenses_0.png)
+-------------------------
 
-If the application is not operational [this support article](https://support.qlik.com/articles/000024083) is a great place to start.
+## Gather License Usage Metrics
 
-### Gather Metrics
-
-Select the **Usage Snapshot** sheet.
+Select the **Usage Snapshot** sheet in the **License Monitor**.
 
 ![capacity_planning_licenses_11.png](images/capacity_planning_licenses_11.png)
 
-The four metrics listed in the _Goals_ section can all be found in this object
+The four metrics listed in the [Goals](#goals) section can all be found in this object
 
 ![capacity_planning_licenses_10.png](images/capacity_planning_licenses_10.png)
 
 ## Example Takeaway
 
-If the _Usage Snapshot_ above was to be used as an example (obviously this is a rarely used testing box), a table that could be used for capacity planning could look like the following:
+If the usage metrics above were to be used as an example (obviously this is a rarely used testing box), a table that could be used for capacity planning could look like the following:
 
 |                  | Licenses | Licenses Allocated | Licenses Allocated Unused | Licenses Remaining |
 |------------------|----------|--------------------|---------------------------|--------------------|
