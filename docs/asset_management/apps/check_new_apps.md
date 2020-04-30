@@ -127,9 +127,9 @@ $daysBack = 7
 # set the byte size threshold for application disk size (if only large apps are desired)
 $byteSize = 0
 # directory for the output file
-$filePath = 'C:\'
+$filePath = 'C:\tmp\'
 # desired filename of the output file
-$fileName = 'output'
+$fileName = 'new_apps'
 # desired format of the output file (can be 'json' or 'csv')
 $outputFormat = 'json'
 
@@ -137,8 +137,15 @@ $outputFormat = 'json'
 ##### Main #####
 ################
 
+# create filePath
+
+if (Test-Path $filePath) {
+} else {
+    New-Item -ItemType directory -Path $filePath | Out-Null
+}
+
 # set the output file path
-$outFile = ($filePath + $fileName + '.' + $outputFormat)
+$outFile = ($filePath + $fileName + '_' + $(Get-Date –f "yyyy-MM-dd") + '.' + $outputFormat)
 
 # set the date to the current time minus $daysback
 $date = (Get-Date -date $(Get-Date).AddDays(-$daysBack) -UFormat '+%Y-%m-%dT%H:%M:%S.000Z').ToString()
@@ -147,7 +154,7 @@ $date = (Get-Date -date $(Get-Date).AddDays(-$daysBack) -UFormat '+%Y-%m-%dT%H:%
 $computerNameFull = ($computerName + $virtualProxyPrefix).ToString()
 
 # connect to Qlik
-Connect-Qlik -ComputerName $computerNameFull -UseDefaultCredentials -TrustAllCerts
+Connect-Qlik -ComputerName $computerNameFull -UseDefaultCredentials -TrustAllCerts | Out-Null
 
 # check the output format
 # GET all apps that are created >= $date and >= $byteSize
