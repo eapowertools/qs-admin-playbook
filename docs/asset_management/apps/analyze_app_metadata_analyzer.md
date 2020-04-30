@@ -104,7 +104,7 @@ This application can be used for many different purposes, depending on the envir
 **Suggested Goals per Tier**
 
 - **Dev**
-  - Use as a gating mechanism for higher tiers. Applications must conform to data modeling standards and exist below the desired thresholds unless.
+  - Use as a gating mechanism for higher tiers. Applications must conform to data modeling standards and exist below the desired thresholds unless a justification is provided for an exception.
   - Use to gain insight/clarity into what developers are doing/enforce thresholds.
   - Identify developers that might be candidates for educational data modeling courses. I.e. those that have many apps with synthetic keys, very many fields/many tables, etc. This can be relevant to organizations that have many developers.
   
