@@ -46,6 +46,16 @@ The Qlik Sense Telemetry Dashboard is a project created and maintained by the En
 
 ## Telemetry Dashboard - Details
 
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>What is considered an unacceptable threshold will vary by environment. Generally visualizations which take over 60 seconds to render or apps which take over 2 minutes to open are highly undesirable from an end-user experience perspective. These are good baselines for qualifying problematic behavior in an environment. As optimizations are applied, tackling marginally undesirable response times can be undertaken.</p>
+</div>
+</div>
+
 Open the Qlik Sense Telemetry Dashboard application and navigate to the **Details** sheet. Inside this sheet, drill to the most recent day (since this task is a daily task), select the relevant **Request Filters**, and drill to the **Process Time** values which broach the threshold that you are interested in. Example:
 
 ![telemetry-1.gif](images/telemetry-1.gif)
