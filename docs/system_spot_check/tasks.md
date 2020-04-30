@@ -26,7 +26,7 @@ Benefits:
 
 ## Goal
 {:.no_toc}
-The goal for this spot-check is to be aware of any task failures which have occurred. Unexpected task failures should be restarted insofar as this is possible due to resource availability on the Qlik Sense Enterprise server(s) as well as the constraints placed data sourced. For example, bulk queries against a Production database during the business day may be against policy / best practices for a given organization. While this administrative task is _not_ intended to be a deep dive, investigation into the causes of task failures for (a) critical tasks / task chains and/or (b) repeated failures is encouraged.
+The goal for this spot-check is to be aware of any task failures which have occurred in the past 24 hours. Unexpected task failures should be restarted insofar as this is sufficient resources are available in the environment to perform intra-day reloads. For example, bulk queries against a Production database during the business day may be against policy / best practices for a given organization. While this administrative task is _not_ intended to be a deep dive, investigation into the causes of task failures for (a) critical tasks / task chains and/or (b) repeated failures is encouraged.
 
 ## Table of Contents
 {:.no_toc}
