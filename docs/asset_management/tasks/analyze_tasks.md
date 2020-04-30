@@ -75,7 +75,7 @@ Change the label of the measure to a meaningful label like **# of Tasks**.
 
 ![analyze_tasks-7.png](images/analyze_tasks-7.png)
 
-Move the **# of Tasks** to be sorted first.
+Move the **# of Tasks** measure to be sorted first.
 
 ![analyze_tasks-8.png](images/analyze_tasks-8.png)
 
@@ -87,7 +87,7 @@ The completed table should look similar to this and will signal what apps have d
 
 ![analyze_tasks-10.png](images/analyze_tasks-10.png)
 
-Taking the example of the app named **5k Random Dat**`, navigate to the **QMC > Apps**, go into the **App**'s record and navigate to the **Tasks** section. This will show the tasks associated with a given app.
+Taking the example of the app named **5k Random Data**, navigate to the **QMC > Apps**, go into the **App**'s record and navigate to the **Tasks** section. This will show the tasks associated with a given app.
 
 ![analyze_tasks-11.png](images/analyze_tasks-11.png)
 
@@ -110,12 +110,10 @@ In the **Reload Summary Statistics** table, sort by **Failure Rate**.
 **Action**
 
 - For apps which fail at an extremely high rate. Disable the tasks and alert the app owner. In this example, reload task **Reload of Failure of an App** fails 100% of the time. There is no need to have this task enabled when it always fails to successfully reload.
-
 - For apps which fail at a modest rate, explore further in the **Task Details** sheet as to whether there are patterns (e.g. time of the day) which are correlated. Common patterns which customers face include:
-
-- Resource constraint due to multiple reloads
-- Resource constraint due to a task reloading along side a computationally heavy task
-- Data source unavailability (e.g. due to maintenance)
+  - Resource constraint due to multiple reloads
+  - Resource constraint due to a task reloading along side a computationally heavy task
+  - Data source unavailability (e.g. due to maintenance)
 
 To aid in this analysis, in the **Reload Details table**, select the **Reload Status** of **Failed**.
 
