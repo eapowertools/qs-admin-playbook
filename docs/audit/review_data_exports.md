@@ -44,7 +44,7 @@ For the majority of use cases, bulk exports to Excel signal that dashboards need
 
 ## Operations Monitor
 
-This page leverages the **Operations Monitor**. Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **Operations Monitor**. Please refer to the [Operations Monitor](../tooling/operations_monitor.md) page for an overview and relevant documentation links.
 
 ### Confirm Operations Monitor is Operational
 
