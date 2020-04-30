@@ -82,9 +82,9 @@ $computerName = 'machineName'
 # leave empty if windows auth is on default VP
 $virtualProxyPrefix = '/default'
 # directory for the output file
-$filePath = 'C:\'
+$filePath = 'C:\tmp2\'
 # desired filename of the output file
-$fileName = 'output'
+$fileName = 'empty_streams'
 # desired format of the output file (can be 'json' or 'csv')
 $outputFormat = 'json'
 
@@ -92,8 +92,15 @@ $outputFormat = 'json'
 ##### Main #####
 ################
 
+# create filePath
+
+if (Test-Path $filePath) {
+} else {
+    New-Item -ItemType directory -Path $filePath | Out-Null
+}
+
 # set the output file path
-$outFile = ($filePath + $fileName + '.' + $outputFormat)
+$outFile = ($filePath + $fileName + '_' + $(Get-Date –f "yyyy-MM-dd") + '.' + $outputFormat)
 
 # if the output file already exists, remove it
 if (Test-Path $outFile) 
@@ -105,7 +112,7 @@ if (Test-Path $outFile)
 $computerNameFull = ($computerName + $virtualProxyPrefix).ToString()
 
 # connect to Qlik
-Connect-Qlik -ComputerName $computerNameFull -UseDefaultCredentials -TrustAllCerts
+Connect-Qlik -ComputerName $computerNameFull -UseDefaultCredentials -TrustAllCerts | Out-Null
 
 # GET all streams
 $streamJson = Get-QlikStream -raw
@@ -124,7 +131,12 @@ $streamEmptyJson = $streamJson | ?{$emptyStreamIds -contains $_.id}
 
 # if there are any empty streams, write them to $outfile
 If ($emptyStreamIds.count) {
-    (&{If($outputFormat.ToLower() -eq 'csv') {$streamEmptyJson | ConvertTo-Csv -NoTypeInformation | Set-Content $outFile} Else {$streamEmptyJson | ConvertTo-Json | Set-Content $outFile}})
+    (&{If($outputFormat.ToLower() -eq 'csv') {
+		$streamEmptyJson | ConvertTo-Csv -NoTypeInformation | Set-Content $outFile
+	} Else {
+		$streamEmptyJson | ConvertTo-Json | Set-Content $outFile
+	}
+})
 }
 ```
 {:.snippet}
