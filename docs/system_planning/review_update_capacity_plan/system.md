@@ -42,23 +42,21 @@ There are a number of metrics that should be focused on, including the following
 
 ## Operations Monitor
 
-Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **Operations Monitor**. Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+
+### Confirm Operations Monitor is Operational
+
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+
+![ops_monitor_operational.png](images/ops_monitor_operational.png)
+
+If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
 -------------------------
 
-## Confirm Operations Monitor is Operational
-
-Navigate to the **Monitoring apps** stream and open up the **Operations Monitor** application.
-
-![capacity_planning_users_1.png](images/capacity_planning_users_1.png)
-
-First and foremost, it is essential to confirm that the **Operations Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
-
-![capacity_planning_users_2.png](images/capacity_planning_users_2.png)
-
 ## Gather Metrics
 
-Select the **Performance** sheet.
+Select the **Performance** sheet of the **Operations Monitor**.
 
 ![capacity_planning_system_1.png](images/capacity_planning_system_1.png)
 
@@ -68,13 +66,13 @@ Select the **Month** field and select the last three months, assuming this exerc
 
 ### CPU
 
-Now, focus on the _Qlik Sense Engine CPU_ chart for a moment. Ensure that the measure is set to _Max CPU_. Note that this chart defaults to viewing at the _Month_, however it can drill down to the day, hour, and ten-minute timeline. It is advised to look for extended durations of high CPU utilization, and to see if those events are recurring. In the below chart, we can see that these servers are not heavily utilized, as the maximum CPU does not go above 32%.
+Now, focus on the **Qlik Sense Engine CPU** chart for a moment. Ensure that the measure is set to **Max CPU**. Note that this chart defaults to viewing at the **Month**, however it can drill down to the day, hour, and ten-minute timeline. It is advised to look for extended durations of high CPU utilization, and to see if those events are recurring. In the below chart, we can see that these servers are not heavily utilized, as the maximum CPU does not go above 32%.
 
 ![capacity_planning_system_3.png](images/capacity_planning_system_3.png)
 
 ### RAM
 
-Next, focuse on the _Qlik Sense Engine RAM (GB)_ chart. This chart is of the same construct as the prior, except focusing on RAM utilization. It is important to note that this chart is showing not only the "base RAM footprint" of the applications, but also the "result set cache RAM", as well as RAM for calculations, etc. Take the time to review the chart below and look for extended periods of time of very high RAM utilization, say around 90%, where the server is continuously fighting to clear cache to make room for new result sets. It should be relatively clear if the server is over-taxed if it is flat-lining consistently. The servers in the chart below look healthy, however.
+Next, focuse on the **Qlik Sense Engine RAM (GB)** chart. This chart is of the same construct as the prior, except focusing on RAM utilization. It is important to note that this chart is showing not only the "base RAM footprint" of the applications, but also the "result set cache RAM", as well as RAM for calculations, etc. Take the time to review the chart below and look for extended periods of time of very high RAM utilization, say around 90%, where the server is continuously fighting to clear cache to make room for new result sets. It should be relatively clear if the server is over-taxed if it is flat-lining consistently. The servers in the chart below look healthy, however.
 
 ![capacity_planning_system_4.png](images/capacity_planning_system_4.png)
 
