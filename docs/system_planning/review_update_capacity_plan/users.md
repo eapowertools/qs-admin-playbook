@@ -30,29 +30,27 @@ There are a number of metrics that should be focused on, including the following
 
 ## Operations Monitor
 
-Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **Operations Monitor**. Please refer to the [Operations Monitor](../../tooling/operations_monitor.md) page for an overview and relevant documentation links.
+
+### Confirm Operations Monitor is Operational
+
+Navigate to the **Monitoring apps** and select the **Details** button (info icon) on the **Operations Monitor** application. Confirm that the application's data is up-to-date.
+
+![ops_monitor_operational.png](images/ops_monitor_operational.png)
+
+If the **Operations Monitor** is not up-to-date, please refer to the [Operations Monitor Documentation](../../tooling/operations_monitor.md#documentation) for configuration details and troubleshooting steps.
 
 -------------------------
 
 ## User Activity
 
-### Confirm License Monitor is Operational
-
-Navigate to the **Monitoring apps** stream and open up the **Operations Monitor** application.
-
-![capacity_planning_users_1.png](images/capacity_planning_users_1.png)
-
-First and foremost, it is essential to confirm that the **Operations Monitor** is operational and up to date. Ensure that it is by selecting the _Show app information_ button, and then viewing the _Data last loaded_ section of the application's description. Alternatively, one could also check the task status in the QMC.
-
-![capacity_planning_users_2.png](images/capacity_planning_users_2.png)
-
 ### Gather Metrics
 
-Select the **Session Overview** sheet.
+Select the **Session Overview** sheet from the **Operations Monitor**.
 
 ![capacity_planning_users_11.png](images/capacity_planning_users_11.png)
 
-Now, assuming this capacity plan exercise is in fact being executed quarterly, select the last three months of session data. This can easily be achieved by selecting the target months in the _User and App Count Trend_ chart in the bottom right. The _Latest Activity Measure_ field that always has one selected does not apply to this area, and only applies to sheet usage--so it can be ignored.
+Now, assuming this capacity plan exercise is in fact being executed quarterly, select the last three months of session data. This can easily be achieved by selecting the target months in the **User and App Count Trend** chart in the bottom right. The **Latest Activity Measure** field that always has one selected does not apply to this area, and only applies to sheet usage--so it can be ignored.
 
 ![capacity_planning_users_12.png](images/capacity_planning_users_12.png)
 
@@ -64,7 +62,7 @@ Following, select the **Session Details** sheet.
 
 ![capacity_planning_users_3.png](images/capacity_planning_users_3.png)
 
-Next, be sure to review the _App Session Summary_ object as well as the _User Session Summary_ objects as they display valuable information, such as how many individual sessions users have had, and against what applications. These are very useful metrics both for overall user usage and adoption, and will impact the [Applications](applications.md) section of the capacity plan.
+Next, be sure to review the **App Session Summary** object as well as the **User Session Summary** objects as they display valuable information, such as how many individual sessions users have had, and against what applications. These are very useful metrics both for overall user usage and adoption, and will impact the [Applications](applications.md) section of the capacity plan.
 
 ![capacity_planning_users_4.png](images/capacity_planning_users_4.png)
 
@@ -79,7 +77,7 @@ To add these two metrics, start by duplicating the sheet.
 
 ![capacity_planning_users_5.png](images/capacity_planning_users_5.png)
 
-Following, find space for two KPI objects. For example, shrink down the _User Session Summary_ table, and insert two KPI objects above it.
+Following, find space for two KPI objects. For example, shrink down the **User Session Summary** table, and insert two KPI objects above it.
 
 ![capacity_planning_users_6.png](images/capacity_planning_users_6.png)
 
@@ -91,13 +89,13 @@ Next, select the first KPI and add the measure:
 
 ![capacity_planning_users_8.png](images/capacity_planning_users_8.png)
 
-Name this KPI: _Active Users: 1+ Sessions_
+Name this KPI: **Active Users: 1+ Sessions**
 
 Next, repeat the process above for adding the following expression to the second KPI:
 
 `Count({<[User Name]={"=Sum([Session Count])>=5"}>}DISTINCT [User Name])`
 
-Name this KPI: _Active Users: 5+ Sessions_
+Name this KPI: **Active Users: 5+ Sessions**
 
 ![capacity_planning_users_9.png](images/capacity_planning_users_9.png)
 
