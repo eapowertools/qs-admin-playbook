@@ -59,7 +59,7 @@ Now select the filter icon for the **Created** column, and then select the filte
 
 ![check_new_rules_native_3.png](images/check_new_rules_native_3.png)
 
-Lastly, review the resulting table and view any new streams. Repeat this process for the **Last modified** column, reviewing what security rules were modified and by whom.
+Lastly, review the resulting table and view any new security rules. Repeat this process for the **Last modified** column, reviewing what security rules were modified and by whom.
 
 -------------------------
 
