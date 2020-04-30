@@ -87,7 +87,7 @@ With **Access Type** removed, open the **Measures** pane and select **Add Trend*
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This feature was introduced in the February 2020 release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm). If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463) using functions like `linest_m()` and `linest_b()` functions.</p>
+<p>This feature was introduced in the February 2020 release, and is documented [here](https://help.qlik.com/en-US/sense/Subsystems/Hub/Content/Sense_Hub/Measures/trend-lines.htm){:target="_blank"}. If the site is not on this release or later, alternative methods can be explored [here](https://community.qlik.com/t5/Qlik-Sense-Documents-Videos/Calculating-trend-lines-values-and-formulas-on-charts-and-tables/ta-p/1479463){:target="_blank"} using functions like `linest_m()` and `linest_b()` functions.</p>
 </div>
 </div>
 
