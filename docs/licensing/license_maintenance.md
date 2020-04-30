@@ -25,7 +25,7 @@ Benefits:
 {:.no_toc}
 The goal of this activity is to keep up with general license maintenance, specifically focusing on the following exercises:
 
-1. Remove license allocations for **Inactive** users
+1. Remove license allocations for inactive users
 2. Consider/review license allocations for users that are being denied access
 
 ## Table of Contents
@@ -61,7 +61,7 @@ To check for inactive users, go to the QMC and select the **Users** section.
 
 Select the filter icon above the **Inactive** column and select **Yes**. The list of users will be filtered to those who are inactive. 
 
-![Optimize_Audit_License_Allocations_QMC_Users_Inactive.png)]
+![Optimize_Audit_License_Allocations_QMC_Users_Inactive.png](images/Optimize_Audit_License_Allocations_QMC_Users_Inactive.png)
 
 A user is marked inactive when a configured **User Directory Connector (UDC)** can no longer can find the user in the 3rd party user directory (AD, LDAP etc...).  Such users are candidates for license dealloaction if they have left the company or moved to a department or group that no longer has access--the latter comes into play when there is an LDAP filter on the UDC.
 
@@ -69,7 +69,7 @@ To remove a license allocation, go to the QMC and select **License Management**
 
 ![Analyze_Audit_License_Allocations_QMC_License_Management.png](images/Analyze_Audit_License_Allocations_QMC_License_Management.png)
 
-The license allocation will be present under **Professional Allocations** or **Analyzer Allocations**. Check both sections to find the inactive user.
+The license allocation will be present under **Professional access allocations** or **Analyzer access allocations**. Check both sections to find the inactive users.
 
 ![Optimize_Audit_License_Allocations_QMC_License_Allocations.png](images/Optimize_Audit_License_Allocations_QMC_License_Allocations.png)
 
@@ -83,7 +83,7 @@ If a **License Rule** is present to allocate licenses to users automatically, ch
 
 ## Check for License Denials
 
-From the Hub select the **Monitoring Apps** stream and then select the **License Monitor** application.
+From the Hub select the **Monitoring apps** stream and then select the **License Monitor** application.
 
 ![Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png](images/Analyze_Audit_License_Allocations_QMC_MonitoringApps_LicenseMonitor.png)
 
@@ -91,13 +91,13 @@ Select the **User Detail** sheet.
 
 ![Optimize_License_Allocations_HUB_License_Monitor_Open_UserDetail_Sheet.png](images/Optimize_License_Allocations_HUB_License_Monitor_Open_UserDetail_Sheet.png)
 
-At the top, select the **Date** filter pane and select the most recent dates.  On the right, the **Denied Access** object will show a list of users who have been denied access. These users are candidates for being allocated a new license
+At the top, select the **Date** filter pane and select the most recent dates.  On the right, the **Denied Access** object will show a list of users who have been denied access. These users are candidates for being allocated a new license.
 
 ![Analyze_Audit_License_Allocations_HUB_License_Monitor_Denials.png](images/Analyze_Audit_License_Allocations_HUB_License_Monitor_Denials.png)
 
-When users are getting a denied access, it means that they have successfully authenticated to Qlik Sense and have been identified, but they have not yet been allocated a license. It may be because of a misconfiguration in the current license allocation rule, or it may be because a new group is interested in using the platform and that group is not configured in the allocation rule, as they were not anticipated.
+When users are getting a denied access, it means that they have successfully authenticated to Qlik Sense and have been identified, but they have not yet been allocated a license. It may be because of a misconfiguration in the current license allocation rule, or it may be because a new group is interested in using the platform and that group is not yet configured in the allocation rule, as they were not anticipated.
 
-If a **user directory connector** is in use, then more information about the denied user can be determined by accessing the QMC and going to the **User** section. 
+If a **User Directory Connector** is in use, then more information about the denied user can be determined by accessing the QMC and going to the **User** section. 
 
 ![Optimize_Audit_License_Allocations_QMC_Users.png](images/Optimize_Audit_License_Allocations_QMC_Users.png)
 
@@ -105,7 +105,7 @@ Click the **info** icon next to the user to bring up a pop-up set of additional 
 
 ![Optimize_Audit_License_Allocations_QMC_Users_Info.png](images/Optimize_Audit_License_Allocations_QMC_Users_Info.png)
 
-When a user directory connector is used, typically a group (IE AD Group) will be presented for additional information.
+When a user directory connector is used, typically a group (i.e. AD Group) will be presented for additional information.
 
 Depending on what is found out about the user, the follow-up action is either to simply allocate a license to the single user, or to update the licence **allocation rules** from the **License Management** section of the QMC.
 
