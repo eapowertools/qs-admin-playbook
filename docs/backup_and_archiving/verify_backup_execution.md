@@ -18,8 +18,8 @@ parent: Backup & Archiving
 
 Benefits:
 
-  - Increase stability
-  - Decrease upgrade maintenance/time
+  - Demonstrate Preparedness
+  - Increase fault tolerance
   
 -------------------------
 
