@@ -36,8 +36,6 @@ The goal of this activity is to keep up with general license maintenance, specif
 
 -------------------------
 
--------------------------
-
 ## License Monitor
 
 This page leverages the **License Monitor**. Please refer to the [License Monitor](../tooling/license_monitor.md) page for an overview and relevant documentation links.
