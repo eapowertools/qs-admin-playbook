@@ -67,7 +67,7 @@ This section will detail the uptime of each enabled service. Services with unexp
 
 ## Service Failure Notifications
 
-Some customers will go the route of monitoring the actual Windows services behind Qlik to receive email alerts if any unexpectedly fail. This article does not directly advise on that topic, as there are many ways to achieve the end result, such as [this example](https://clusteringformeremortals.com/2018/10/29/step-by-step-how-to-trigger-an-email-alert-when-a-windows-service-starts-or-stops-on-windows-server-2016/).
+Some customers will go the route of monitoring the actual Windows services behind Qlik to receive email alerts if any unexpectedly fail. This article does not directly advise on that topic, as there are many ways to achieve the end result, such as [this example](https://clusteringformeremortals.com/2018/10/29/step-by-step-how-to-trigger-an-email-alert-when-a-windows-service-starts-or-stops-on-windows-server-2016/){:target="_blank"}.
 
 Other methods could be employed, such as using the [Qlik Cli](../tooling/qlik_cli.md) or otherwise to periodically poll Qlik to check various endpoints for their health, however this could result in noisy logs and an unnecessary burden on the Qlik system.
 
