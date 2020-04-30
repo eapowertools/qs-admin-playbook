@@ -43,8 +43,8 @@ Data connections are a bit of a difficult entity to map to associated resources,
 
 There are two primary options for mapping data connections:
 - The `lineage` endpoint of an application
-  - Accessible via the [Qlik Engine REST API](https://help.qlik.com/en-US/sense-developer/APIs/QIXAPI/index.html?page=8) lineage endpoint, available as of the June 2019 release
-  - Accessible via the [Qlik Engine API](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm)
+  - Accessible via the [Qlik Engine REST API](https://help.qlik.com/en-US/sense-developer/APIs/QIXAPI/index.html?page=8){:target="_blank"} lineage endpoint, available as of the June 2019 release
+  - Accessible via the [Qlik Engine API](https://help.qlik.com/en-US/sense-developer/Subsystems/EngineAPI/Content/Sense_EngineAPI/introducing-engine-API.htm){:target="_blank"}
 - Parsing of evaluated script logs, as demonstrated by the [Data Connection Analyzer](../../tooling/data_connection_analyzer.md)
 
 Pros and cons of the `lineage` option:
