@@ -30,7 +30,7 @@ The goal of this page is to ensure visibility of reload activity within the batc
 
 ## Reloads Monitor
 
-This page leverages the **Reloads Monitor**. Please refer to the [Reloads Monitor](../../tooling/reloads_monitor.md) page for an overview and relevant documentation links.
+This page leverages the **Reloads Monitor**. Please refer to the [Reloads Monitor](../tooling/reloads_monitor.md) page for an overview and relevant documentation links.
 
 ### Confirm Reloads Monitor is Operational
 
