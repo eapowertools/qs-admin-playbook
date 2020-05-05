@@ -38,7 +38,7 @@ Navigate to the **Monitoring apps** and select the **Details** button (info icon
 
 ![reloads_monitor_operational.png](images/reloads_monitor_operational.png)
 
-If the **Reloads Monitor** is not up-to-date, please refer to the [Reloads Monitor Documentation](../../tooling/reloads_monitor.md#documentation) for configuration details and troubleshooting steps.
+If the **Reloads Monitor** is not up-to-date, please refer to the [Reloads Monitor Documentation](../tooling/reloads_monitor.md#documentation) for configuration details and troubleshooting steps.
 
 -------------------------
 
