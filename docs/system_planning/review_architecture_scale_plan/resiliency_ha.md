@@ -56,6 +56,11 @@ But for the vast majority of Enterprise deployments, **Site-wide High Availabili
 
 ![architecture-site_resilient.png](images/architecture-site_resilient-enterprise.png)
 
+As organizations need to scale out further, they can opt to horizontally scale either the compute dedicated to the front and/or back end nodes as the needs of the organization dictate:
+
+![architecture-scale_ha.png.png](images/architecture-scale_ha.png.png)
+
+
 **Tags**
 
 #architecture
