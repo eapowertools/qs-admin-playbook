@@ -50,7 +50,7 @@ A **Reload Resilient** site minimally would look like this:
 
 **Site-wide High Availability** would minimally look like this:
 
-![architecture-site_resilient.png](images/architecture-site_resilient.png)
+![architecture-site_resilient.png](images/architecture-reload_resilient.png)
 
 But for the vast majority of Enterprise deployments, **Site-wide High Availability** would minimally look like this:
 
