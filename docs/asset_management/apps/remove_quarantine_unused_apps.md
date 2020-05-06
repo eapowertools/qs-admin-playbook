@@ -59,6 +59,16 @@ In the **App Details** table object, sort by **Last Accessed** field and scroll 
 
 ![quarantine_unused_apps_native_7.png](images/quarantine_unused_apps_native_7.png)
 
+{::options parse_block_html="true" /}
+<div class="card">
+<div class="card-header">
+<i class="fas fa-exclamation-circle fa-sm"></i> Note
+</div>
+<div class="card-body">
+<p>While it is not possible to select apps which have not been accessed since this value is null, it is possible to select all apps which have been accessed by entering <code>*</code> in the <b>Last Accessed</b> column and then selecting excluded in the <b>ID</b> column.</p>
+</div>
+</div>
+
 ### Priority 1
     
 Look for applications that are **Published** but have not been accessed. This can be quickly filtered to by selecting **Unpublished** from the **Stream** column, and then by selecting **Select alternative** to view all published applications.
