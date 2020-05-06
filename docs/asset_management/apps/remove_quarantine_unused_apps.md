@@ -65,8 +65,8 @@ In the **App Details** table object, sort by **Last Accessed** field and scroll 
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>While it is not possible to select apps which have not been accessed since this value is null, it is possible to select all apps which have been accessed by entering <code>*</code> in the <b>Last Accessed</b> column and then selecting excluded in the <b>ID</b> column.<br />
-	<img src="images/quarantine_unused_apps-null.png"></img>
+<p>While it is not possible to select apps which have not been accessed since this value is null, it is possible to select all apps which have been accessed by entering <code>*</code> in the <b>Last Accessed</b> column and then selecting excluded in the <b>ID</b> column.<br /><br />
+	<img src="images/quarantine_unused_apps-null.png">
 </p>
 </div>
 </div>
