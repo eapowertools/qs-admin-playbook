@@ -95,27 +95,6 @@ Write something like this, where the resource has a hardcoded custom property va
 
 Another area to be very mindful of is the performance of the evaluation of security rules. Of course, a rule with many _and/or_ conditions is going to take longer to evaluate. One thing to be particularly keen on here is the number of values in the custom property field that the security rule is going to be evaluated on. If there are thousands of potential values in the custom property field, this will significantly increase evaluation times.
 
-## Security Rule Flagging
-
-To ensure security rule quality, the following areas are things to look out for either manually via the QMC, or programmatically with the provided application.
-
-**Do not create**
-
-1. 1:1 style rules, e.g.
-
-    - Rules that contain `.name`
-
-    - Rules that contain `.id`
-
-2. Rules that contain `*`
-
-3. Rules that contain many `and` `or` operators
-
-4. Rules that reference a custom property that has many possible values (hundreds or thousands)
-
-
-## Security Rule Performance
-
 The following guidelines can be used to aid optimization efforts if required:
 
 - Be as specific as possible--more filtered results will perform better (the lower the grain, the better).
@@ -147,6 +126,24 @@ The following guidelines can be used to aid optimization efforts if required:
 - Avoid use of `HasPrivilege`
 
     - Example: `App.Stream.HasPrivilege("read")`. This function requires additional rule engine to evaluate the read permission check on the App's Stream.
+
+## Security Rule Flagging
+
+To ensure security rule quality, the following areas are things to look out for either manually via the QMC, or programmatically with the provided application.
+
+**Do not create**
+
+1. 1:1 style rules, e.g.
+
+    - Rules that contain `.name`
+
+    - Rules that contain `.id`
+
+2. Rules that contain `*`
+
+3. Rules that contain many `and` `or` operators
+
+4. Rules that reference a custom property that has many possible values (hundreds or thousands)
 
 ## QMC - Security Rules
 
