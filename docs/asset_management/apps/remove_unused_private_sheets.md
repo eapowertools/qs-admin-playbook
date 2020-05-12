@@ -128,13 +128,27 @@ It is highly suggested to have a corporate policy in place for unused private sh
 
 **Example Policy**
 
-- Unused sheets will be purged after > 180 days, run at the start of each business quarter.
+- Unused sheets will be purged after > 90 days, run at the start of each business quarter.
 - An email will go out to all Qlik users two weeks prior to the start of the quarter, letting them know that in order retain their assets, they must ensure that they have been accessed during the next two weeks. The simplest way to do this is is with a generic email to all Qlik users, however if Qlik NPrinting is available to the corporation, NPrinting could be used to customize the emails to include the specific sheets that would be expiring sent to each specific individual.
 - A reminder email be sent one week following the initial email.
 
 **A Warning**
 
 Deleting sheets is a permanent operation. Ensure that every measure/precaution/warning has been taken so that users are well aware of the resulting action.
+
+### Process
+
+1. Within the **Operations Monitor** on the **Sheet Usage** sheet, after following process for [identifying unused sheets](#identification-of-unused-private-sheets), export the **Sheet Usage** table to Excel. This output should only contain the private sheets which have been qualified by the aforementioned activity.
+
+2. Either manually or programmatically tag the sheets with a desired tag in the QMC. Ensure that this tag is specific to this process, for example `UnusedPrivateSheet`. If programmatically tagging, follow the [Script to Tag Unused Private Sheets](#script-to-tag-unused-private-sheets) section.
+
+3. It is suggested to contact the owners of the private sheets so that they can access the sheets that they desire to retain (therefore rendering them no longer "unused"). Refer to the [Retention Policy](#retention-policy) example above.
+
+4. After a decided-upon amount of time has passed to allow users to access their content, the tag should then be removed from the sheets. The simplest way to achieve this is to delete the tag from the QMC, as that will remove it from all resources in one shot.
+
+5. Ensure that the **Operations Monitor** has been reloaded, and then repeat steps 1 and 2, re-creating the tag.
+
+6. Delete the remaining tagged sheets by following the [Script to Delete Tagged Sheets](#script-to-delete-tagged-sheets) section below.
 
 -------------------------
 
