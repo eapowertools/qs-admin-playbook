@@ -105,7 +105,7 @@ Select the top five applications.
 
 -----------------------
 
-## Analyze Aplication Sheet Adopion
+## Analyze Application Sheet Adopion
 
 After selecting the top five applications in the previous step, the next step is to take a look at the sheet usage data for each application.
 
