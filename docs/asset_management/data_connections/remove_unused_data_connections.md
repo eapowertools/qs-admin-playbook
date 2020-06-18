@@ -260,6 +260,9 @@ $dataConnectionCustomPropertyId = $dataConnectionCustomProperty.id
 if (!$dataConnectionCustomProperty) {
 	$dataConnectionCustomProperty = New-QlikCustomProperty -name "$customPropertyName" `
 	-objectType "DataConnection" -choiceValues "true" -raw
+	
+	# GET the id of the custom property
+	$dataConnectionCustomPropertyId = $dataConnectionCustomProperty.id
 }
 
 # for each data connection id
