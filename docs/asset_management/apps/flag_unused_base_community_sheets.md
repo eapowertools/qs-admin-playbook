@@ -120,7 +120,7 @@ In addition to the above, it is entirely possible that users aren't leveraging s
 
 ## Bulk Community Sheet Removal <i class="fas fa-tools fa-xs" title="Tooling | Pre-Built Solutions"></i> <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -159,7 +159,7 @@ The below script assumes that the desired **Tag** has already been created, e.g.
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = '<machine-name>'

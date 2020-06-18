@@ -73,5 +73,5 @@ This icon is used to denote that the section either requires or is a tool that h
 
 ### Script <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i> 
 
-This icon denotes that the section offers a solution that _could_ be achieved with script, marked by the asterisk, or a section that requires script. The vast majority of the sections offer solutions that can be automated with scripts, but in most cases, it is not required. The script icon frequently is found on sections where solutions involving the [Qlik Cli](tooling/qlik_cli.md) are offered. Other times, the icon may denote the use of the command line, Engine API, or otherwise.
+This icon denotes that the section offers a solution that _could_ be achieved with script, marked by the asterisk, or a section that requires script. The vast majority of the sections offer solutions that can be automated with scripts, but in most cases, it is not required. The script icon frequently is found on sections where solutions involving the [Qlik CLI for Windows](tooling/qlik_cli.md) are offered. Other times, the icon may denote the use of the command line, Engine API, or otherwise.
 

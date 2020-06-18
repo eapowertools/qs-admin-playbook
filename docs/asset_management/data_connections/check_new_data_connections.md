@@ -34,7 +34,7 @@ Checking for new data connections on a regular basis is one of the ways to help 
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik CLI for Windows script). The QMC approach is generally appropriate for most environments. The Qlik CLI for Windows approach is more appropriate for environments where automation is required.</p>
 </div>
 </div>
 
@@ -65,9 +65,9 @@ Lastly, review the resulting table and view any new data connections.
 
 -------------------------
 
-## Get List of New Data Connections (Qlik CLI) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
+## Get List of New Data Connections (Qlik CLI for Windows) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 The script will bring back any data connection with a **Created Date** that is greater than or equal to x days old. The script will then store the output into a desired location in either csv or json format.
 
@@ -79,7 +79,7 @@ The script will bring back any data connection with a **Created Date** that is g
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = '<machine-name>'

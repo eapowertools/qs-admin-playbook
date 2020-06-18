@@ -154,7 +154,7 @@ Deleting sheets is a permanent operation. Ensure that every measure/precaution/w
 
 ## Bulk Private Sheet Removal <i class="fas fa-file-code fa-xs" title="API | Script Optional"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 {::options parse_block_html="true" /}
 <div class="card">
@@ -185,7 +185,7 @@ The script below will tag any private sheets with the tag `UnusedPrivateSheet`. 
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = '<machine-name>'

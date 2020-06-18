@@ -143,7 +143,7 @@ It might not be the worst idea to take a snapshot of all data connections before
 # Script to backup data connections to json
 
 # Parameters
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 $computerName = '<machine-name>'
 # leave empty if windows auth is on default VP
@@ -186,7 +186,7 @@ It is assumed that the **Data Connection ID** column has been added to a table i
 # 	https://pscustomobject.github.io/powershell/functions/PowerShell-Validate-Guid-copy/
 
 # Parameters 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 $computerName = '<machine-name>'
 # leave empty if windows auth is on default VP

@@ -33,7 +33,7 @@ While the idea of simply checking for new applications seems relatively trivial 
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This page will outline three methods for accomplishing this activity (two using the QMC and another using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+<p>This page will outline three methods for accomplishing this activity (two using the QMC and another using a Qlik CLI for Windows script). The QMC approach is generally appropriate for most environments. The Qlik CLI for Windows approach is more appropriate for environments where automation is required.</p>
 </div>
 </div>
 
@@ -102,9 +102,9 @@ It is now possible to sort by that column to view new apps. In addition, feel fr
 
 -------------------------
 
-## Get List of New Apps (Qlik CLI) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
+## Get List of New Apps (Qlik CLI for Windows) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 The script will bring back any application that is greater than or equal to x days old _and_ greater than or equal to z bytes. The script will then store the output into a desired location in either csv or json format.
 
@@ -116,7 +116,7 @@ The script will bring back any application that is greater than or equal to x da
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = 'machineName'

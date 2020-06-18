@@ -57,13 +57,13 @@ Applications that were published to this stream will now be visible.
 
 This process should be repeated for each **Stream** to find unused streams.
 
-If there is a considerable quantity of streams, consider the [Qlik CLI method](#get-list-of-unused-streams-qlik-cli-).
+If there is a considerable quantity of streams, consider the [Qlik CLI for Windows method](#get-list-of-unused-streams-Qlik CLI for Windows-).
 
 -------------------------
 
-## Get List of Unused Streams (Qlik CLI) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
+## Get List of Unused Streams (Qlik CLI for Windows) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 **Streams should always be removed manually. The below script is only used to identify what streams are empty.**
 
@@ -75,7 +75,7 @@ The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = 'machineName'

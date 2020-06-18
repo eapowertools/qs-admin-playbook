@@ -34,7 +34,7 @@ Ensuring that security rules are tightly managed and governed is arguably the mo
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik-Cli script). The QMC approach is generally appropriate for most environments. The Qlik-Cli approach is more appropriate for environments where automation is required.</p>
+<p>This page will outline two methods for accomplishing this activity (using the QMC and using a Qlik CLI for Windows script). The QMC approach is generally appropriate for most environments. The Qlik CLI for Windows approach is more appropriate for environments where automation is required.</p>
 </div>
 </div>
 
@@ -63,9 +63,9 @@ Lastly, review the resulting table and view any new security rules. Repeat this 
 
 -------------------------
 
-## Get List of New/Modified Security Rules (Qlik CLI) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
+## Get List of New/Modified Security Rules (Qlik CLI for Windows) <i class="fas fa-file-code fa-xs" title="API | Requires Script"></i>
 
-The below script snippet requires the [Qlik CLI](../../tooling/qlik_cli.md).
+The below script snippet requires the [Qlik CLI for Windows](../../tooling/qlik_cli.md).
 
 The script will bring back any security rules with a **Created Date** or **Modified Date** that is greater than or equal to x days old. The script will then store the output into a desired location in either csv or json format.
 
@@ -77,7 +77,7 @@ The script will bring back any security rules with a **Created Date** or **Modif
 ## Parameters ##
 ################
 
-# Assumes default credentials are used for the Qlik CLI Connection
+# Assumes default credentials are used for the Qlik CLI for Windows Connection
 
 # machine name
 $computerName = '<machine-name>'
@@ -128,7 +128,7 @@ If ($outputFormat.ToLower() -eq 'csv') {
 
 ## Backup Security Rules
 
-Given the Qlik CLI script above, that script could actually be modified to pull security rules (by removing the filter) on a scheduled basis and store them out to separate files at a desired cadence, so that if an administrator wanted to "roll back" changes, they could. Refer to an example here: [Qlik Support - Exporting and Importing Security Rules](https://support.qlik.com/articles/000040012).
+Given the Qlik CLI for Windows script above, that script could actually be modified to pull security rules (by removing the filter) on a scheduled basis and store them out to separate files at a desired cadence, so that if an administrator wanted to "roll back" changes, they could. Refer to an example here: [Qlik Support - Exporting and Importing Security Rules](https://support.qlik.com/articles/000040012).
 
 **Tags**
 
