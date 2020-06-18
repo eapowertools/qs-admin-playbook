@@ -30,13 +30,13 @@ This is a widely used module in the Qlik ecosystem, by services internally to Ql
 
 ## Where to get it
 
-The Qlik CLI for Windows can be found here: [Qlik CLI for Windows](https://github.com/ahaydon/Qlik-Cli).
+The Qlik CLI for Windows can be found here: [Qlik CLI for Windows](https://github.com/ahaydon/Qlik-Cli-Windows).
 
 -------------------------
 
 ## Documentation
 
-For documentation, please visit the Wiki for the repository here: [Qlik CLI for Windows Wiki](https://github.com/ahaydon/Qlik-Cli/wiki).
+For documentation, please visit the Wiki for the repository here: [Qlik CLI for Windows Wiki](https://github.com/ahaydon/Qlik-Cli-Windows/wiki).
 
 -------------------------
 
