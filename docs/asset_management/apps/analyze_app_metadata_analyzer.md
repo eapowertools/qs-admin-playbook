@@ -100,7 +100,7 @@ These variables are defaulted to string values that if not found in the QRS will
 
 While the Qlik administrator does not have to have **Qlik Alerting** to leverage this new sheet and capability manually, i.e. the administrator would simply check the app periodically instead of being alerted on applications, a **Qlik Alerting** guide with the App Metadata Analyzer has been created with suggested workflows and examples.
 
-That guide can be found here: [Qlik Alerting with the App Metadata Analyzer for QSEoW](coming-soon).
+That guide can be found on the [App Metadata Analyzer (Windows) Qlik Community Page](https://community.qlik.com/t5/Qlik-Monitoring-Administration/App-Metadata-Analyzer-Windows/gpm-p/1592163), the file specifically here: [Qlik Alerting with the App Metadata Analyzer for QSEoW](https://community.qlik.com/t5/Qlik-Monitoring-Administration/App-Metadata-Analyzer-Windows/gpm-p/1592163?attachment-id=175083).
 
 ## Establish Goals
 
