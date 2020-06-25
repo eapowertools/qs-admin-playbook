@@ -74,33 +74,35 @@ If the **App Metadata Analyzer** is not up-to-date, please refer to the [App Met
 
 ## Set Thresholds
 
-{::options parse_block_html="true" /}
-<div class="card">
-<div class="card-header">
-<i class="fas fa-exclamation-circle fa-sm"></i> Note
-</div>
-<div class="card-body">
-<p>If this is not the first time this activity has been completed, then likely the thresholds do not need to be reset. Skip to the next action unless they require modification.</p>
-</div>
-</div>
-
 Navigate to the **Data load editor** and select the **configuration** tab. On this tab, optional variables can be set to adjust the threshold settings. Ensure that these settings are set to values that the organization _does not want to exceed_. For example, if it is desired to not have a table with more than 100M records, then the `vTableRecordCountThreshold` can be set to `100000000`.
 
 These threshold variables will set dimensional fields so that applications that breach these thresholds can be flagged and easily selected during analysis.
 
 ![ama_2.png](images/ama_2.png)
 
-## Establish Goals
+## Alerting
 
-{::options parse_block_html="true" /}
-<div class="card">
-<div class="card-header">
-<i class="fas fa-exclamation-circle fa-sm"></i> Note
-</div>
-<div class="card-body">
-<p>If this is not the first time this activity has been completed, then likely the goals do not need to be re-established. Skip to the next action unless they require modification.</p>
-</div>
-</div>
+In version 2.2.1 and forward of the App Metadata Analyzer, a new **Alerting** sheet has been added, along with two new variables in the load script. The purpose of this sheet and added capability is to make integration with [Qlik Alerting](https://www.qlik.com/us/products/qlik-alerting) as simple as possible. This new capability and view allows for a Qlik administrator to easily see what applications have breached what thresholds (as well as how many) and be quickly alerted on them. It also allows for the administrator to disable alerts for specific applications and mark others as under review, which might have a different cadence.
+
+### Configure Alerting Tags (Optional)
+
+Navigate to the **Data load editor** and select the **configuration** tab. On this tab, optional variables can be set to the names of tags in the QMC.
+
+![analyze_app_metadata_analyzer_alerting_thresholds.png](images/analyze_app_metadata_analyzer_alerting_thresholds.png)
+
+`vu_ignore_alert_tag_name`: This variable holds the tag name that a Qlik administrator would tag an application with that they do _not_ want to receive alerts on.
+
+`vu_review_alert_tag_name`: This variable holds the tag name that a Qlik administrator would tag an application with that is "currently under review", e.g. the Qlik administrator has identified a problematic app and has gotten confirmation that a developer is working on resolving the issues. This allows the administrator to not be repeatedly alerted about these tagged applications.
+
+These variables are defaulted to string values that if not found in the QRS will not impact the application. Simply put, if the tags are not used, all applications will be available for alerting (as there won't be any dimensional filters to filter them out).
+
+### Suggested Workflow & Setup Guide
+
+While the Qlik administrator does not have to have **Qlik Alerting** to leverage this new sheet and capability manually, i.e. the administrator would simply check the app periodically instead of being alerted on applications, a **Qlik Alerting** guide with the App Metadata Analyzer has been created with suggested workflows and examples.
+
+That guide can be found here: [Qlik Alerting with the App Metadata Analyzer for QSEoW](coming-soon).
+
+## Establish Goals
 
 This application can be used for many different purposes, depending on the environment it is running in (Dev, Test, Prod, etc). Decide what the overall goals should be with the application for the administrator.
 

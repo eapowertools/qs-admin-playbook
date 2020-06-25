@@ -270,7 +270,7 @@ For a demo video and information on the benefits of the application, see: [Analy
 
 ## Where to get it
 
-The application can be found in `%ProgramData%\Qlik\Sense\Repository\DefaultApps` on the Qlik Sense Enterprise Server and is titled _App Metadata Analyzer.qvf_. The latest copy of the app can also be pulled from [Qlik Community - Sense App Metadata Analyzer](https://community.qlik.com/t5/Qlik-Monitoring-Administration/Sense-App-Metadata-Analyzer/gpm-p/1592163).
+The application can be found in `%ProgramData%\Qlik\Sense\Repository\DefaultApps` on the Qlik Sense Enterprise Server and is titled _App Metadata Analyzer.qvf_. The latest copy of the app can also be pulled from [Qlik Community - App Metadata Analyzer (Windows)](https://community.qlik.com/t5/Qlik-Monitoring-Administration/App-Metadata-Analyzer-Windows/gpm-p/1592163), and is encouraged as it will always be the most recent, whereas the version shipped with the releases could end up being a few months behind. For example, if a bug is fixed in July timeframe, it might not be shipped with the product until the September release. Also, considering that clients are commonly 2 or 3 releases behind, this is best way to keep the app up to date.
 
 Either copy of the app can be implemented on a Qlik Sense Enterprise site which is June 2018 or newer. The Community page will always have the most recent version, so if for example a site is on June 2019, and a bug was fixed in Sept 2019, the application can be downloaded from the Community page and installed on the June 2019 version.
 
@@ -278,13 +278,15 @@ Either copy of the app can be implemented on a Qlik Sense Enterprise site which 
 
 ## Screenshots
 
-![sense_app_metadata_analyzer_dashboard.png](images/sense_app_metadata_analyzer_dashboard.png)
+![ama_dashboard.png](images/ama_dashboard.png)
 
-![sense_app_metadata_analyzer_threshold.png](images/sense_app_metadata_analyzer_threshold.png)
+![ama_threshold_analysis.png](images/ama_threshold_analysis.png)
 
-![sense_app_metadata_analyzer_app_analysis.png](images/sense_app_metadata_analyzer_app_analysis.png)
+![ama_app_analysis.png](images/ama_app_analysis.png)
 
-![sense_app_metadata_analyzer_app_availability.png](images/sense_app_metadata_analyzer_app_availability.png)
+![ama_alerting.png](images/ama_alerting.png)
+
+![ama_app_availability.png](images/ama_app_availability.png)
 
 -------------------------
 
