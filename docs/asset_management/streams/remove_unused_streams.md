@@ -100,7 +100,7 @@ if (Test-Path $filePath) {
 }
 
 # set the output file path
-$outFile = ($filePath + $fileName + '_' + $(Get-Date –f "yyyy-MM-dd") + '.' + $outputFormat)
+$outFile = ($filePath + $fileName + '_' + $(Get-Date -f "yyyy-MM-dd") + '.' + $outputFormat)
 
 # if the output file already exists, remove it
 if (Test-Path $outFile) 

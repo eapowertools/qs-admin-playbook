@@ -104,7 +104,7 @@ if (Test-Path $filePath) {
 }
 
 # set the output file path
-$outFile = ($filePath + $fileName + '_' + $(Get-Date –f "yyyy-MM-dd") + '.' + $outputFormat)
+$outFile = ($filePath + $fileName + '_' + $(Get-Date -f "yyyy-MM-dd") + '.' + $outputFormat)
 
 # set the date to the current time minus $daysback
 $date = (Get-Date -date $(Get-Date).AddDays(-$daysBack) -UFormat '+%Y-%m-%dT%H:%M:%S.000Z').ToString()

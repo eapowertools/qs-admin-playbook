@@ -50,7 +50,7 @@ Sheet       | Content |
  Session Overview | Provides summary information about apps, app sessions, and app users over selected periods to show which users use which apps when.|
  Session Details | Provides details about individual user and app sessions, including number, average duration, days since last session, start and end times, reasons for ending sessions, and the type of client on which the app was run.|
  Export Overview | Provides summary information about apps, app objects, and app users to show which users export which app objects when. |
- Sheet Usage | Provides summary and detailed information about users accessing sheets – and which sheets in which apps are not accessed.|
+ Sheet Usage | Provides summary and detailed information about users accessing sheets, and which sheets in which apps are not accessed.|
  Apps | Provides details about the apps in the Qlik Sense Repository Service (QRS), including name and ID of app objects, owners, publishing, and streams.|
  QMC Change Log | Displays changes made in the QMC that affect a range of factors from system performance to user access, including changes by QMC resource type, by specific QMC resources, by users who made changes, or by a type of action performed in the QMC.|
  Log Details | Provides details about reloads of the Operations Monitor, including the time of reloads, results, error messages and warnings, and log entries.|
