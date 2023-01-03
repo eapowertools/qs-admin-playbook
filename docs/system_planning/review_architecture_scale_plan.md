@@ -30,7 +30,7 @@ Benefits:
 
 The goal is to have documented Qlik architecture diagrams of n and n+1 deployments*, as well as an understanding of high-level architectural concepts within Qlik.
 
-\* n refers to the current deployment, while n+1 refers to an anticpated state of the next deployment.
+\* n refers to the current deployment, while n+1 refers to an anticipated state of the next deployment.
 
 This is integral for:
 
@@ -98,7 +98,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 
 - Knowledge of what each Qlik node is being used for
 
-- Knowledge of where the Qlik file share is and the Qlik respository database is
+- Knowledge of where the Qlik file share is and the Qlik repository database is
 
 **Nice to Haves**
 
@@ -109,7 +109,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 - Any firewall settings pertinent to Qlik
 
 
-### On-Premsises Diagram Example
+### On-Premises Diagram Example
 
 **Growth Environment**
 
@@ -167,7 +167,7 @@ Please take the time to review the below if unfamiliar before continuing on with
 <i class="fas fa-exclamation-circle fa-sm"></i> Note
 </div>
 <div class="card-body">
-<p>Please note that these cloud diagrams are intended for Qlik admins and occasionaly used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include Virtual Networks, Subnets, Resource Groups, etc, all the better -- however it goes beyond the basics of this exercise.</p>
+<p>Please note that these cloud diagrams are intended for Qlik admins and occasionally used to translate needs to supporting LOBs like IT. The examples below do not conform to the individual cloud vendor architectural diagram standards, as these aren't designed to be consumed by cloud engineers/network admins, etc. If one would like to include Virtual Networks, Subnets, Resource Groups, etc, all the better -- however it goes beyond the basics of this exercise.</p>
 </div>
 </div>
 
@@ -207,7 +207,7 @@ Broadly speaking, there are two primary scaling methodologies -- however, do not
 2. Vertical Scaling
   - Expanding current server footprints, i.e. adding additional cores/RAM.
 
-Horizontal scaling is typically common if a Qlik environment has small to medium sized applications with many users. Meaning, applications can be loaded quickly onto many different engines with little delay, and calculations are fast -- meaning that a shared cache isn't necessarily as integral for these applications. This methodology is also common in virtual environments on-premsises where VM sizes may be restricted. For instance, if an organization caps VM sizes at 96 or 128 GB of RAM, more than likely that Qlik environment will end up with a wider footprint, and will adopt practices to allow their applications to fit it.
+Horizontal scaling is typically common if a Qlik environment has small to medium sized applications with many users. Meaning, applications can be loaded quickly onto many different engines with little delay, and calculations are fast -- meaning that a shared cache isn't necessarily as integral for these applications. This methodology is also common in virtual environments on-premises where VM sizes may be restricted. For instance, if an organization caps VM sizes at 96 or 128 GB of RAM, more than likely that Qlik environment will end up with a wider footprint, and will adopt practices to allow their applications to fit it.
 
 Vertical scaling is typically common where the user base is not extensive, and the applications are quite large. Less nodes with larger capacity allows for larger applications with more users taking advantage of the same cache. These applications are usually [cache warmed](../tooling/cache_warming.md) so that they are readily available for users without delay.
 
