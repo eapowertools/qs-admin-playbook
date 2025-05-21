@@ -31,12 +31,21 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-timeago (0.13.1)
       mini_i18n (>= 0.8.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    just-the-docs (0.10.1)
+      jekyll (>= 3.8.5)
+      jekyll-include-cache
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
@@ -71,6 +80,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.2)
   jekyll-timeago (~> 0.13.1)
+  just-the-docs
 
 BUNDLED WITH
    1.17.2
