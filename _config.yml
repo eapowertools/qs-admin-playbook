@@ -12,7 +12,7 @@ kramdown:
   parse_block_html: true
   syntax_highlighter_opts:
     default_lang: html
-    css_class: 'highlight'
+    css_class: "highlight"
 aux_links:
   "Diagnostic Toolkit":
     - "//diagnostictoolkit.qlik-poc.com"
@@ -23,4 +23,4 @@ aux_links:
 assets:
   - "*"
 # Google Analytics Tracking (optional)
-ga_tracking: UA-163736805-1
+# ga_tracking: UA-163736805-1
