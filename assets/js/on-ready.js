@@ -505,14 +505,14 @@ $(document).ready(function () {
 					if ((i > 0 && entry[i] != undefined) || (i == 0 && entry[i] != undefined)) {
 						newPlaybookTableHTML += "<td>" + entry[i] + "</td>";
 					} else {
-						newPlaybookTableHTML += "<td>" + "" + "</td>";
+						newPlaybookTableHTML += "<td>" + "</td>";
 					}
 				});
 
 				newPlaybookTableHTML += "</tr>";
 			}
 
-			newPlaybookTableHTML += "</tr></tbody></table></div>";
+			newPlaybookTableHTML += "</tbody></table></div>";
 
 			// remove the old playbook table
 			$("#playbook").parent().remove();
