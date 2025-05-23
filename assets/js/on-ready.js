@@ -515,7 +515,7 @@ $(document).ready(function () {
 			newPlaybookTableHTML += "</tbody></table></div>";
 
 			// remove the old playbook table
-			$("#playbook").parent().remove();
+			$("#playbook").remove();
 
 			// insert the new playbook table
 			$("#main-content").append($.parseHTML(newPlaybookTableHTML)[0]);
