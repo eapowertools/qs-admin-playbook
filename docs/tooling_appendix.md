@@ -3,7 +3,7 @@ layout: no_toc_layout
 title: Tooling Appendix
 has_children: true
 nav_order: 7
-permalink: docs/tooling_appendix
+permalink: docs/tooling_appendix.html
 ---
 # Tooling Appendix
 

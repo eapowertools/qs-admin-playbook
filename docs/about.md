@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 8
-permalink: docs/about
+permalink: docs/about.html
 ---
 
 # About
