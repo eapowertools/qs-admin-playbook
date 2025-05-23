@@ -518,7 +518,7 @@ $(document).ready(function () {
 			$("#playbook").parent().remove();
 
 			// insert the new playbook table
-			$("#main-content").append($.parseHTML(newPlaybookTableHTML));
+			$("#main-content").append($.parseHTML(newPlaybookTableHTML)[0]);
 
 			return;
 		}
