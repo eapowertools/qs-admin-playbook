@@ -1,4 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
+remote_theme: pmarsceill.github.io/jtd-remote
 plugins:
   - jekyll-relative-links
 relative_links:
